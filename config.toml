@@ -33,7 +33,7 @@ identifier = "posts"
 [[menu.main]]
 name = "About"
 url = "/"
-identifier = "about"
+identifier = "index"
 weight = 1
 [[menu.main]]
 name = "Resume"
