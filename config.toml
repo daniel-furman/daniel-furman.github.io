@@ -1,0 +1,56 @@
+baseURL = "https://daniel-furman.github.io/"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+googleAnalytics = "" # add your tracking id
+theme = "researcher"
+title = "Daniel Furman"
+
+[params]
+author = "Daniel Furman"
+description = "The website of Daniel Furman"
+favicon = "favicon.ico" # path to a .ico to use as favicon
+logo = "" # url or path to a logo to put in the header
+math = true # enable KaTeX (https://katex.org/) globally
+
+[params.footer]
+text = "By Daniel Furman"
+[params.style] # appearance options (can be omitted)
+avatarSize = "120px"
+colorBlack = "#222222"
+colorRed = "#3f51b5"
+fontFamily = "Inconsolata"
+pageWidth = "750px"
+
+[permalinks]
+"/" = "/:filename"
+
+[menu]
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+identifier = "posts"
+[[menu.main]]
+name = "About"
+url = "/"
+identifier = "about"
+weight = 1
+[[menu.main]]
+name = "Resume"
+url = "/resume"
+weight = 3
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 4
+[[menu.main]]
+name = "Bookshelf"
+url = "/bookshelf"
+weight = 3
+
+[markup.goldmark.renderer]
+unsafe = true # allow raw HTML in markdown files
+
+[markup.highlight]
+linenos = "true"
+style = "rrt"
