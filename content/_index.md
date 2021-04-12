@@ -16,8 +16,8 @@ In my free time I enjoy surfing, camping, rock climbing, playing guitar, avidly 
 
 ## Developing:
 
-- Computer Vision & ML Surf Prediction App (TBA).
-- Statistical Modeling OSS for Kaggle and Data Science.
+- Computer Vision for Surf Prediction (TBA).
+- Statistical Modeling OSS for Kaggle and DS.
 
 ## Research Interests:
 
@@ -37,14 +37,16 @@ Year | Position
 
 ## Publications
 
-1. DR Furman and DL Goldsby, The Rheological Behavior of Ice Densification: Experimental Observations of Grain Size Sensitivity, *PennScience Journal, 19* (2), 2021.
+1. DR Furman and DL Goldsby, The Rheological Behavior of Firn: Experimental Observations of Grain Size Sensitivity and Applications to Ice Sheet Deformation, *PennScience Journal, 19*(2), 2021.
 
 ## Conference Proceedings
 
-1. DR Furman, SK Halvorsen, and SC Adolph, *Society for Integrative and Comparative Biology Meeting* (SICB), Jan 3, 2021. <br><br>
-2. DR Furman and SK Halvorsen, *Southern California Conference for Undergraduate Research Meeting* (SCCUR), Nov 23, 2019.
+1. DR Furman, SK Halvorsen, and SC Adolph, Assessing Climate Change Impacts on *Xantusia vigilis* lizards and their Joshua tree habitats, *Society for Integrative and Comparative Biology Meeting* (SICB), Jan 3, 2021. <br><br>
+2. DR Furman and SK Halvorsen, Species Distribution Modeling of *Xantusia vigilis* Lizards, *Southern California Conference for Undergraduate Research Meeting* (SCCUR), Nov 23, 2019.
 
 ---
 
+## Modeling Ethos
+
 > “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”
-> - An Anonymous Data Scientist?
+> - Anonymous (?)
