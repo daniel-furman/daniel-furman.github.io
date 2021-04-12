@@ -46,7 +46,5 @@ Year | Position
 
 ---
 
-## Modeling Ethos
-
 > “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”
 > - Anonymous (?)
