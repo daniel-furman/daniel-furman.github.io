@@ -6,18 +6,18 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-A challenge-driven data scientist primarily focused on predictive analytics via machine learning.
+A challenge-driven data scientist primarily focused on predictive analytics via machine learning and Bayesian statistics.
 
-My professional experience is mainly in Python and R, spanning the full-stack from statistical modeling to algorithm development.
+My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
-In my free time I enjoy surfing, camping, rock climbing, playing guitar, avidly reading, and building new things.  
+In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building OSS & apps.  
 
 ---
 
 ## Developing:
 
-- Computer Vision for Surf Prediction (TBA).
-- Statistical Modeling OSS for Kaggle and DS.
+- Object Detection and ML for Surf Prediction (TBA).
+- Statistical Modeling OSS for Kaggle Competitions.
 
 ## Research Interests:
 
