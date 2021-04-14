@@ -37,12 +37,12 @@ Year | Position
 
 ## Publications
 
-1. DR Furman and DL Goldsby, <ins>The Rheological Behavior of Firn: Experimental Observations of Grain Size Sensitivity and its Application to Ice Sheet Deformation</ins>, *PennScience Journal, 19*(2), 2021.
+1. DR Furman and DL Goldsby, <ins>The rheological behavior of firn: Experimental observations of grain size sensitivity and its application to ice sheet deformation</ins>, *PennScience Journal, 19*(2), 2021.
 
 ## Conference Proceedings
 
-1. DR Furman, SK Halvorsen, and SC Adolph, <ins>Assessing Climate Change Impacts on *Xantusia vigilis* lizards and their Joshua tree habitats</ins>, *Society for Integrative and Comparative Biology Meeting* (SICB), Jan 3, 2021. <br><br>
-2. DR Furman and SK Halvorsen, <ins>Species Distribution Modeling of *Xantusia vigilis* Lizards</ins>, *Southern California Conference for Undergraduate Research Meeting* (SCCUR), Nov 23, 2019.
+1. DR Furman, SK Halvorsen, and SC Adolph, <ins>Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats</ins>, *Society for Integrative and Comparative Biology Meeting* (SICB), Jan 3, 2021. <br><br>
+2. DR Furman and SK Halvorsen, <ins>Species distribution modeling of *Xantusia vigilis* lizards</ins>, *Southern California Conference for Undergraduate Research Meeting* (SCCUR), Nov 23, 2019.
 
 ---
 
