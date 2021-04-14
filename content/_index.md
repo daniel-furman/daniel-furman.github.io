@@ -37,7 +37,7 @@ Year | Position
 
 ## Publications
 
-1. DR Furman and DL Goldsby, <ins>The rheological behavior of firn: Experimental observations of grain size sensitivity and its application to ice sheet deformation</ins>, *PennScience Journal, 19*(2), 2021.
+1. DR Furman and DL Goldsby, <ins>The rheological behavior of firn: Experimental observations of grain size sensitivity and its application to ice sheet deformation</ins>, *PennScience*, 19(2), 2021.
 
 ## Conference Proceedings
 
