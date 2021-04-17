@@ -10,7 +10,7 @@ A challenge-driven data scientist primarily focused on predictive analytics. I a
 
 My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
-In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building apps and OSS.  
+In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building things.  
 
 ---
 
