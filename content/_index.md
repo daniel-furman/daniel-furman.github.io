@@ -16,13 +16,14 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 
 ## Developing:
 
-- Object Detection and ML for Surf Prediction (TBA).
-- Statistical Modeling OSS for Kaggle Competitions.
+- An app for surf crowd predictionn via computer vision and ML.
+- Statistical modeling OSS for Kaggle competitions.
+- A proof of stake Substrate blockchain for Eco Action.
 
 ## Research:
 
-- Geospatial Machine Learning for Ecological Systems (Harvey Mudd College). [**[Poster](https://drive.google.com/file/d/1jW5UdWHRNENrrShfqS_SKvMWY0Br4737/view?usp=sharing)**] [**[Code](https://github.com/daniel-furman/PySDMs)**]
-- Ice Physics Modeling and Experimentation (UPenn Ice Physics Lab). [**[Paper](https://drive.google.com/file/d/1eO1_V15OF7_nOsCQJZYziCa7rR9L49gH/view?usp=sharing)**] [**[Code](https://github.com/daniel-furman/ice-densification-research)**]
+- Geospatial machine learning frameworks for ecological systems (Harvey Mudd College). [**[Poster](https://drive.google.com/file/d/1jW5UdWHRNENrrShfqS_SKvMWY0Br4737/view?usp=sharing)**] [**[Code](https://github.com/daniel-furman/PySDMs)**]
+- Laboratory experimentation and material science modeling for ice sheet physics (UPenn Ice Physics Lab). [**[Paper](https://drive.google.com/file/d/1eO1_V15OF7_nOsCQJZYziCa7rR9L49gH/view?usp=sharing)**] [**[Code](https://github.com/daniel-furman/ice-densification-research)**]
 
 ---
 
