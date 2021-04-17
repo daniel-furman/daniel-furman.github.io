@@ -6,7 +6,7 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-A challenge-driven data scientist primarily focused on predictive analytics. I am specialized in probabalistic machine learning and geospatial modeling.  
+A challenge-driven data scientist primarily focused on predictive analytics. I am specialized in probabilistic machine learning and geospatial modeling.  
 
 My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
