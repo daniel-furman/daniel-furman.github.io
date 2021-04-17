@@ -21,7 +21,7 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 
 ## Research:
 
-- Geospatial Machine Learning for Ecological Systems (Harvey Mudd College). [**[Poster](https://drive.google.com/file/d/1jW5UdWHRNENrrShfqS_SKvMWY0Br4737/view?usp=sharing)] [[Code](https://github.com/daniel-furman/PySDMs)**]
+- Geospatial Machine Learning for Ecological Systems (Harvey Mudd College). [**[Poster](https://drive.google.com/file/d/1jW5UdWHRNENrrShfqS_SKvMWY0Br4737/view?usp=sharing)**] [**[Code](https://github.com/daniel-furman/PySDMs)**]
 - Ice Physics Modeling and Experimentation (UPenn Ice Physics Lab). [**[Paper](https://drive.google.com/file/d/1eO1_V15OF7_nOsCQJZYziCa7rR9L49gH/view?usp=sharing)**] [**[Code](https://github.com/daniel-furman/ice-densification-research)**]
 
 ---
