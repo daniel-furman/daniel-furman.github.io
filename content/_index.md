@@ -6,11 +6,11 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-A challenge-driven data scientist primarily focused on predictive analytics via machine learning and Bayesian statistics.
+A challenge-driven data scientist primarily focused on predictive analytics. I am specialized in probabalistic machine learning and geospatial modeling.  
 
 My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
-In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building OSS & apps.  
+In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building apps and OSS.  
 
 ---
 
