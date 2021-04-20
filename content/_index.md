@@ -6,9 +6,9 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-A challenge-driven data scientist primarily focused on predictive analytics. I am specialized in probabilistic machine learning and geospatial modeling.  
+A challenge-driven data scientist primarily focused on predictive analytics. I am specialized in probabilistic machine learning and building scalable modeling pipelines.  
 
-My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
+My professional experience is mainly in Python and R, spanning the full-stack from data engineering to algorithm development.
 
 In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building things.  
 
@@ -16,9 +16,9 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 
 ## Developing:
 
-- An app for surf crowd predictionn via computer vision and ML.
-- Statistical modeling OSS for Kaggle competitions.
-- A proof of stake Substrate blockchain for Eco Action.
+- An app for surf crowds prediction via computer vision and ML.
+- OSS for Kaggle competitions and my data science blog.
+- A proof of impact blockchain for the Eco Action Network.
 
 ## Research:
 
