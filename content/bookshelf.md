@@ -2,7 +2,7 @@
 Title = "Bookshelf"
 +++
 
-## An assortment of my favorite books.
+## A small (but growing) record of my favorite reads.
 
 Book | Author | Finished | Quotes
 -----|-------|-------|-------
