@@ -29,7 +29,7 @@ The approach is certainly a "brute force" method. The for loop through the permu
 
 <img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
 
-<p align="center"> <img src="static/assets-runtime.png?raw=true"/> </p>
+<p align="center"> <img src="assets-runtime.png?raw=true"/> </p>
 
 **Figure 2.** Loglog plot of the runtime versus the number of M! loops through the function. The slop of the relationship is near 1, indicating that the relationship is a linear power law (i.e., O(n) confirmed).
 
