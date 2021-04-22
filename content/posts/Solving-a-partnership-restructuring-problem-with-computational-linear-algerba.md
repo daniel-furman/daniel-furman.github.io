@@ -17,11 +17,15 @@ Linear algebra - to the rescue! First, create an NxM probability matrix encoding
 
 ### How good can this search algorithm do?
 
+---
+
 And after all that, our result many turn out to be, well, pretty bad. Consider a simplified case: 2 partners own 3 assets shared evenly, but the assets are all equivalent, and, therefore, there is no way to split up the majority ownerships.
 
 Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. For example, in the matrix multiplications above, we decided that each partner got two properties. Some intuition must go into this initial decision after examining the original ownership stakes and the value/debts of the assets. This approach forces you to test all of the reasonable arrangements, which is only feasible for smaller order problems.
 
 ### When does this approach become unwieldy?
+
+---
 
 The approach is certainly a "brute force" method. The for loop through the permutations should theoretically be O(n) time complexity. However, the M! term mushrooms quickly, and your runtime can grow with large M accordingly, even though it’s a O(n) function. Let’s confirm that runtime is linearly proportional:
 
@@ -31,6 +35,10 @@ The approach is certainly a "brute force" method. The for loop through the permu
 
 **Figure 1.** Loglog plot of the runtime versus the number of loops through the function (equivalent to M!, all permutations of the M assets). The slope indicates the data's power law exponent, which in this case, is equal to one for the second 3/4 of the data. This confirms our suspiscions about the O(n) runtime.
 
-<p align="center"> <img src="/assets-code.png"/> </p>
+### Appendix Code
+
+---
+
+<p align="center"> <img src="/assets-code.png"/ width = "550"> </p>
 
 
