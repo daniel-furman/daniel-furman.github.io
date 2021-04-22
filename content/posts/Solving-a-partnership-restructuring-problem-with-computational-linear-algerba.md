@@ -38,7 +38,7 @@ Thanks for reading about my business analytics problem. I am excited to write mo
 
 ## Appendix: Code Implementation
 
-```
+```python
 ### Libraries :
 import numpy as np
 from sympy.utilities.iterables import multiset_permutations
