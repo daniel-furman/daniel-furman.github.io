@@ -27,7 +27,7 @@ Another unattractive feature of our methodology was that we preemptively chose h
 
 ---
 
-The approach is certainly a "brute force" method. The for loop through the permutations should theoretically be O(n) time complexity. However, the M! term mushrooms quickly, and your runtime can grow with large M accordingly, even though it’s a O(n) function. Let’s confirm that runtime is linearly proportional:
+The approach is certainly a "brute force" method, as we are testing across all the possible probability matrices. The for loops should decompose roughly to a O(n) time complexity for the function; however, n can grow fast. For 11 assets, we have 11! (~40 mill) states, and the runtime is over ten minutes on google colab.
 
 <img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
 
