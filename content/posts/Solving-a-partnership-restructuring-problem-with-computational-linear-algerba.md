@@ -13,7 +13,6 @@ Let’s consider a partnership that is restructuring its assets, with N partners
 
 Linear algebra - to the rescue! First, create an NxM probability matrix encoding the ownership percentages (for example, partner N1 gets 100% of asset M1, 0% of asset M2, etc.). Multiply the NxM probability matrix with the Mx2 matrix encoding the assets' values and the debts. Subtract the result from the current ownership shares (a Nx2 matrix) (making sure that the entries match up to the correct partner). Take the absolute values and sum the entries, encoding the cumulative differences between the restructured ownership shares and the partners' original ownership shares. We then shuffle the columns up, re-run the pipeline, and record the new cumulative difference. Do this for all the different permutations of the column order and voila, find out whether or not your restructured partnership can get close to the original one.
 
-<img src="https://render.githubusercontent.com/render/math?math=\\begin{vmatrix} 1 & 1 & 0 & 0 & 0 & 0\\ 0 & 0 & 1 & 1 & 0 & 0\\ 0 & 0 & 0 & 0 & 1 & 1 \end{vmatrix} * begin{vmatrix} a & b \\ c & d \\ e & f \\ g & h \\ i & j \\k & l \end{vmatrix} - begin{vmatrix} m & n \\ o & p \\ q & r  \end{vmatrix}">
 
 **Figure 1.** A toy example of the linear algebra pipeline, it considers 6 assets shared among 3 partners. The first matrix encodes the probability matrix, where each partner is a row and each column is an asset. At each loop through the function, we shuffle the columns, assigning the partners to a different set of assets. The second matrix encodes the current value (col1) and debt owed (col2) for the assets (rows). The third matrix encodes the three partners' original ownership value (col1) and debt owed (col2) for the assets (rows).
 
@@ -29,7 +28,7 @@ The approach is certainly a "brute force" method. The for loop through the permu
 
 <img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
 
-<p align="center"> <img src="assets-runtime.png?raw=true"/ width = "300" height = "200"> </p>
+<p align="center"> <img src="assets-runtime.png"/ width = "300" height = "200"> </p>
 
 **Figure 2.** Loglog plot of the runtime versus the number of M! loops through the function. The slope of the relationship is near 1, indicating that it is a linear power law, i.e., O(n) confirmed.
 
