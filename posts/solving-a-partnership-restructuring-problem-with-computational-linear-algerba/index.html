@@ -1,0 +1,71 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Solving a partnership restructuring problem with computational linear algebra.</title><meta name=description content="The website of Daniel Furman"><meta name=author content="Daniel Furman"><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous><link rel=stylesheet href=/sass/researcher.min.css><link rel=icon type=image/ico href=https://daniel-furman.github.io/favicon.ico></head><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css integrity=sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js integrity=sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa crossorigin=anonymous onload=renderMathInElement(document.body)></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"\\[",right:"\\]",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1}]})})</script><body><div class="container mt-5"><nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0"><a class="navbar-brand mx-0 mr-sm-auto" href=https://daniel-furman.github.io/>Daniel Furman</a><div class="navbar-nav flex-row flex-wrap justify-content-center"><a class="nav-item nav-link" href=/>About</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/posts>Posts</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/bookshelf>Bookshelf</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/resume>Resume</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/contact>Contact</a></div></nav></div><hr><div id=content><div class=container><p>If you’d like to skip straight to the code, jump ahead to the end.</p><p>Lets consider a partnership that is restructuring its assets (with N partners and M assets). The partners currently share the business, for example, partner N1 owns 33% of the company, partner N2 owns 20%, and so on. Each of the M assets carries a current value and a debt owed. Our task is to re-distribute the ownerships of the assets such that each is owned outright by one of the partners. Critically, we need to divvy the assets up without altering the partners' ownership shares. In effect, we want to split up the partnership in a fair manner, preserving each partner&rsquo;s stake in the business.</p><p>Linear algebra - to the rescue! First, create an NxM probability matrix encoding the ownership percentages (for example, partner N1 gets 100% of asset M1, 0% of asset M2, etc.). Multiply the NxM probability matrix with the Mx2 matrix encoding the assets' values and the debts. Subtract the result from the current ownership shares (a Nx2 matrix) (making sure that the entries match up to the correct partner). Take the absolute values and sum the entries, encoding the cumulative differences between the restructured ownership shares and the partners' original ownership shares. We then shuffle the columns up, re-run the pipeline, and record the new cumulative difference. Do this for all the different permutations of the column order and voila, find out whether or not your restructured partnership can get close to the original one.</p><p align=center><img src="https://render.githubusercontent.com/render/math?math=\begin{vmatrix} 1 & 1 & 0 & 0 & 0 & 0\\ 0 & 0 & 1 & 1 & 0 & 0\\ 0 & 0 & 0 & 0 & 1 & 1 \end{vmatrix} * begin{vmatrix} a & b \\ c & d \\ e & f \\ g & h \\ i & j \\k & l \end{vmatrix} - begin{vmatrix} m & n \\ o & p \\ q & r  \end{vmatrix}"></p><p><strong>Figure 1.</strong> A toy example of the linear algebra pipeline, it considers 6 assets shared among 3 partners. The first matrix encodes the probability matrix, where each partner is a row and each column is an asset. At each loop through the function we shuffle the columns, assigning the partners to a different set of assets. The second matrix encodes the current value (col1) and debt owed (col2) for the assets (rows). The third matrix encodes the three partners' original ownership value (col1) and debt owed (col2) for the assets (rows).</p><h2 id=how-good-can-this-search-algorithm-do>How good can this search algorithm do?</h2><p>And after all that, our result many turn out to be, well, pretty bad. Consider a simplified case: 2 partners own 3 assets shared evenly, but the assets are all equivalent, and, therefore, there is no way to split up the majority ownerships.</p><p>Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. For example, in the matrix multiplications above, we decided that each partner got two properties. Some intuition must go into this initial decision after examining the original ownership stakes and the value/debts of the assets. This approach forces you to test all of the reasonable arrangements, which is only feasible for smaller order problems.</p><h2 id=when-does-this-approach-become-unwieldy>When does this approach become unwieldy?</h2><p>The approach is certainly a &ldquo;brute force&rdquo; method. The for loop through the permutations should theoretically be O(n) time complexity. However, the M! term mushrooms quickly, and your runtime can grow with large M accordingly, even though its a O(n) function. Lets confirm that runtime is linearly proportional (<img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">):</p><p align=center><img "center" src="static/assets-runtime.jpg?raw=true"></p><p><strong>Figure 2.</strong> Loglog plot of the runtime versus the number of M! loops through the function. The slop of the relationship is near 1, indicating that the relationship is a linear power law (i.e., O(n) confirmed).</p><p>Thanks for reading about my business analytics problem. I am excited to write more about data science projects in the future. My blog can only grow from here!!</p><h2 id=appendix-code-implementation>Appendix: Code implementation</h2><div class=highlight><div style=color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre style=color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 1
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 2
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 3
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 4
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 5
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 6
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 7
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 8
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79"> 9
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">10
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">11
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">12
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">13
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">14
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">15
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">16
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">17
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">18
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">19
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">20
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">21
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">22
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">23
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">24
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">25
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">26
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">27
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">28
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">29
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">30
+</span><span style="margin-right:.4em;padding:0 .4em;color:#7c7c79">31
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre style=color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=color:#0f0>### Libraries :</span>
+<span style=color:red>import</span> numpy <span style=color:red>as</span> np
+<span style=color:red>from</span> sympy.utilities.iterables <span style=color:red>import</span> multiset_permutations
+
+<span style=color:#0f0>### Data I/O :</span>
+assets_value_debt = np.genfromtext(...) <span style=color:#0f0>#asset value/debt df</span>
+restructure_probabilities = np.genfromtext(...) <span style=color:#0f0>#initial state df</span>
+previous_stake = np.genfromtext(...) <span style=color:#0f0>#previous asset value/debt df</span>
+num_assets = len(assets_value_debt[:,<span style=color:#f60>0</span>]) <span style=color:#0f0>#num of assets to restructure, n</span>
+n_factorial = np.math.factorial(num_assets) <span style=color:#0f0>#num of scenarios, n!</span>
+
+<span style=color:#0f0>### Search algorithm :</span>
+permutations = np.zeros((n_factorial, num_assets)) <span style=color:#0f0>#initialize df</span>
+index = np.arange(<span style=color:#f60>0</span>, num_assets) <span style=color:#0f0>#index that stands for each asset</span>
+iter = <span style=color:#f60>0</span>
+<span style=color:red>for</span> p in multiset_permutations(index):
+    permutations[iter,:] = p <span style=color:#0f0>#sympy solves for all permutations</span>
+    iter+=<span style=color:#f60>1</span>
+permutations = permutations.astype(int) <span style=color:#0f0>#make them ints (originally floats)</span>
+
+results = np.zeros(n_factorial) <span style=color:#0f0>#initialize df</span>
+<span style=color:red>for</span> iter in np.arange(<span style=color:#f60>0</span>, n_factorial):
+  <span style=color:#0f0># first grab the restructure state by reordering the features</span>
+  probabilities_looped = restructure_probabilities[:, permutations[iter,:]]
+  <span style=color:#0f0># second solve the matrix multiplication step</span>
+  results_lopped = np.matmul(probabilities_looped, assets_value_debt)
+  <span style=color:#0f0># lastly compute and sum the difference in before and after restructuring</span>
+  final_difference = np.abs(results_lopped - previous_stake)
+  results[iter] = np.sum(final_difference)
+np.min(results) <span style=color:#0f0>#the minimum difference</span>
+np.argmin(results) <span style=color:#0f0>#index of the best probability matrix</span>
+</code></pre></td></tr></table></div></div></div></div><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://daniel-furman.github.io/><small>By Daniel Furman</small></a></div></div></body></html>
