@@ -21,13 +21,13 @@ Linear algebra - to the rescue! First, create an NxM probability matrix encoding
 
 And after all that, our result many turn out to be, well, pretty bad. Consider a simplified case: 2 partners own 3 assets shared evenly, but the assets are all equivalent, and, therefore, there is no way to split up the majority ownerships.
 
-Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. For example, in the matrix multiplications above, we decided that each partner got two properties. Some intuition must go into this initial decision after examining the original ownership stakes and the value/debts of the assets. This approach forces you to test all of the reasonable arrangements, which is only feasible for smaller order problems.
+Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. Some intuition must go into this initial decision after examining the original ownership stakes and the assets' values and debts.
 
 ### When does this approach become unwieldy?
 
 ---
 
-The approach is certainly a "brute force" method, as we are testing across all the possible probability matrices. The for loops should decompose roughly to a O(n) time complexity for the function; however, n can grow fast. For 11 assets, we have 11! (~40 mill) states, and the runtime is over ten minutes on google colab.
+Relatively quickly. I wouldn't want to run this algorithm for much more than 11 assets, as the runtime would become relatively long. Our approach is certainly a "brute force" method, as we are testing across all the possible probability matrices. The for loops should decompose roughly to a O(n) time complexity for the function; however, n can grow fast. For 11 assets, we have 11! (~40 mill) states, and the runtime is over ten minutes on google colab.
 
 <img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
 
