@@ -18,7 +18,6 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 
 - An app for surf crowds prediction via computer vision and ML.
 - OSS for Kaggle competitions and my data science blog.
-- A proof of impact blockchain for the Eco Action Network.
 
 ## Research:
 
