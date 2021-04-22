@@ -25,9 +25,11 @@ Another unattractive feature of our methodology was that we preemptively chose h
 
 ### When does this approach become unwieldy?
 
-The approach is certainly a "brute force" method. The for loop through the permutations should theoretically be O(n) time complexity. However, the M! term mushrooms quickly, and your runtime can grow with large M accordingly, even though its a O(n) function. Lets confirm that runtime is linearly proportional (<img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">):
+The approach is certainly a "brute force" method. The for loop through the permutations should theoretically be O(n) time complexity. However, the M! term mushrooms quickly, and your runtime can grow with large M accordingly, even though its a O(n) function. Lets confirm that runtime is linearly proportional:
 
-<p align="center"><img src="static/assets-runtime.jpg?raw=true"/></p>
+<img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
+
+<p align="center"> <img src="static/assets-runtime.png?raw=true"/> </p>
 
 **Figure 2.** Loglog plot of the runtime versus the number of M! loops through the function. The slop of the relationship is near 1, indicating that the relationship is a linear power law (i.e., O(n) confirmed).
 
