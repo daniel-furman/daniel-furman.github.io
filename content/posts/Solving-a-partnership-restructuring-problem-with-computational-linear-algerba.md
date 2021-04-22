@@ -33,7 +33,7 @@ The approach is certainly a "brute force" method. The for loop through the permu
 
 <p align="center"> <img src="/assets-runtime.png"/ width = "450" height = "300"> </p>
 
-**Figure 1.** Loglog plot of the runtime versus the number of loops through the function (equivalent to M!, all permutations of the M assets). The slope indicates the data's power law exponent, which in this case, is equal to one for the second 3/4 of the data. This confirms our suspiscions about the O(n) runtime.
+**Figure 1.** Loglog plot of the runtime versus the number of loops through the function (i.e., for M assets we conduct M! loops). The loglog slope indicates the data’s power law exponent, which in this case, is equal to one (at least, for the second half).
 
 ### Appendix Code
 
