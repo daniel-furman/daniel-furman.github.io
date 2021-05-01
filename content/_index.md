@@ -40,7 +40,6 @@ Year | Position
 ## Conference Proceedings
 
 1. DR Furman, SK Halvorsen, and SC Adolph, Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats, *Society for Integrative and Comparative Biology Meeting* (SICB), Jan 3, 2021. <br><br>
-
 2. DR Furman and SK Halvorsen, Species distribution modeling of *Xantusia vigilis* lizards, *Southern California Conference for Undergraduate Research Meeting* (SCCUR), Nov 23, 2019. <br><br>
 
 ---
