@@ -9,7 +9,7 @@ title = "Daniel Furman"
 author = "Daniel Furman"
 description = "The website of Daniel Furman"
 favicon = "favicon.ico" # path to a .ico to use as favicon
-logo = "" # url or path to a logo to put in the header
+logo = "favicon.ico" # url or path to a logo to put in the header
 math = true # enable KaTeX (https://katex.org/) globally
 
 [params.footer]
