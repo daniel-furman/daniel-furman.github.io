@@ -6,7 +6,7 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-A challenge-driven data scientist primarily interested in predictive analytics and scalable modeling pipelines. My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
+A challenge-driven data scientist primarily interested in predictive analytics and machine learning. My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
 In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building things.  
 
@@ -14,12 +14,12 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 
 ## Development:
 
-- An app for surf forecast benchmarking and crowd detection via panoptic segmentation.
+- An app for surf forecast analytics and crowd detection via panoptic segmentation.
 - OSS for my Kaggle competitions and academic research. [[PyPi Profile](https://pypi.org/user/daniel-furman/)]
 
 ## Research:
 
-- Geospatial machine learning and ecological systems (Harvey Mudd). [[Poster](https://drive.google.com/file/d/1jW5UdWHRNENrrShfqS_SKvMWY0Br4737/view?usp=sharing)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Geospatial machine learning for ecological systems (Harvey Mudd). [[Poster](https://drive.google.com/file/d/1jW5UdWHRNENrrShfqS_SKvMWY0Br4737/view?usp=sharing)] [[Code](https://github.com/daniel-furman/PySDMs)]
 - Experimental geophysics and ice sheet rheology (UPenn, Ice Physics Lab). [[Paper](https://drive.google.com/file/d/1eO1_V15OF7_nOsCQJZYziCa7rR9L49gH/view?usp=sharing)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 
 ---
