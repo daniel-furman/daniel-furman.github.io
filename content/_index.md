@@ -15,7 +15,7 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 ## Development:
 
 - An app for surf forecast benchmarking and crowd detection via panoptic segmentation.
-- OSS for my Kaggle competitions and academic research. [PyPi Projects](https://pypi.org/user/daniel-furman/)
+- OSS for my Kaggle competitions and academic research. [[PyPi Profile](https://pypi.org/user/daniel-furman/)]
 
 ## Research:
 
