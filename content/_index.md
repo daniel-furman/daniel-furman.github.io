@@ -14,13 +14,13 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 
 ## Development:
 
-- An app for surf forecast analytics and crowd detection via panoptic segmentation.
-- OSS for my Kaggle competitions and academic research. [[PyPi Profile](https://pypi.org/user/daniel-furman/)]
+- An app for surf forecast analytics and image/video panoptic segmentation CV.
+- OSS for Kaggle competitions and research. [[PyPi Profile](https://pypi.org/user/daniel-furman/)]
 
 ## Research:
 
-- Geospatial machine learning for ecological systems (Harvey Mudd). [[Poster](https://drive.google.com/file/d/1jW5UdWHRNENrrShfqS_SKvMWY0Br4737/view?usp=sharing)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Experimental geophysics and ice sheet rheology (UPenn, Ice Physics Lab). [[Paper](https://drive.google.com/file/d/1eO1_V15OF7_nOsCQJZYziCa7rR9L49gH/view?usp=sharing)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+- Geospatial machine learning for ecological systems (Harvey Mudd). [[Poster](https://daniel-furman.github.io/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Experimental geophysics and ice sheet rheology (UPenn, Ice Physics Lab). [[Paper](https://daniel-furman.github.io/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 
 ---
 
@@ -35,12 +35,12 @@ Year | Position
 
 ## Publications
 
-1. DR Furman and DL Goldsby, The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding, *Penn Science*, 19(2), 34-43, 2021.
+1. DR Furman and DL Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-43, 2021.
 
 ## Conference Proceedings
 
-1. DR Furman, SK Halvorsen, and SC Adolph, Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats, in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), Jan 3, 2021. <br><br>
-2. DR Furman and SK Halvorsen, Species distribution modeling of *Xantusia vigilis* lizards, in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), Nov 23, 2019. <br><br>
+1. DR Furman, SK Halvorsen, and SC Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), Jan 3, 2021. <br><br>
+2. DR Furman and SK Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), Nov 23, 2019. <br><br>
 
 ---
 
