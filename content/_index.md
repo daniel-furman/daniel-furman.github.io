@@ -35,7 +35,7 @@ Year | Position
 
 ## Publications
 
-1. DR Furman and DL Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-43, 2021.
+1. DR Furman and DL Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
 
 ## Conference Proceedings
 
