@@ -6,7 +6,7 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-A challenge-driven data scientist primarily interested in predictive analytics and machine learning. My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
+A challenge-driven data scientist primarily interested in predictive analytics and probabilistic machine learning. My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
 In my free time I enjoy surfing, backpacking & camping, rock climbing, playing guitar, reading, and building things.  
 
