@@ -20,7 +20,7 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 ## Research:
 
 - Geospatial machine learning for ecological systems (Harvey Mudd). [[Poster](https://daniel-furman.github.io/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Material science modeling for experimental geophysics (UPenn, Ice Physics Lab). [[Paper](https://daniel-furman.github.io/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+- Material science modeling for geophysics (UPenn, Ice Physics Lab). [[Paper](https://daniel-furman.github.io/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 
 ---
 
