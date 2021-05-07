@@ -2,7 +2,7 @@
 title = "Contact"
 +++
 
-* Email: dryanfurman (at) gmail (replace 'at' with @)
+* Email: dryanfurman (at) gmail
 
 ---
 
