@@ -14,7 +14,7 @@ In my free time I enjoy surfing, backpacking & camping, rock climbing, playing g
 
 ## Development:
 
-- An app for surf forecast analytics and image/video panoptic segmentation CV.
+- An app for surf forecast analytics and image/video panoptic segmentation.
 - OSS for Kaggle competitions and research. [[PyPi Profile](https://pypi.org/user/daniel-furman/)]
 
 ## Research:
