@@ -29,9 +29,9 @@ Another unattractive feature of our methodology was that we preemptively chose h
 
 This approach is certainly a brute force method, as we are testing across all the possible scenarios. I wouldn't want to run these calculations for more than a dozen or so assets, as the runtime would become quite large. The for loops should decompose roughly to a [O(n) time complexity](). For example, if we have 11 assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
 
-<img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
+$$runtime \propto n$$
 
-<p align="center"> <img src="/assets_runtime.png"/ width = "550" height = "366"> </p>
+<p align="center"> <img src="/posts/assets-runtime.png"/ width = "550" height = "366"> </p>
 
 **Figure 1.** Run-time complexity analysis for the restructuring algorithm (in loglog space). The power law relationship falls on a n ~ 0.996 slope, indicating the linear O(n) complexity. This is the expected result, given the use of simple for loops within the function.
 
@@ -39,4 +39,4 @@ This approach is certainly a brute force method, as we are testing across all th
 
 ---
 
-<p align="center"> <img src="/assets-code.png"/ width = "550" height = "747"> </p>
+<p align="center"> <img src="/posts/assets-code.png"/ width = "550" height = "636"> </p>
