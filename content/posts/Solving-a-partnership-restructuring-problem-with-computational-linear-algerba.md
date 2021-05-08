@@ -7,15 +7,15 @@ markup: "mmark"
 
 <br><br>
 
-## Solving a partnership restructuring problem with linear algebra and Markov processes.
+## Solving a partnership restructuring problem with Markov processes.
 
 ---
 
-Consider a partnership restructuring its assets. The N partners currently share each of the M assets at a particular percentage stake. The assets carry both a value and a debt. Our task is to re-distribute the assets such that each is under majority ownership by a single partner. Critically, we need to divvy the assets without altering the overall value and debt under each partner's stake. In effect, we want to split up the partnership fairly so that nobody gains or loses stake in the business.
+Consider a partnership restructuring its assets. The N partners currently share each of the M assets at a particular percentage ownership. Our task is to re-distribute the assets such that each is under majority ownership by a single partner. Critically, we need to divvy the assets without altering the overall value and debt under each partner's stake. In effect, we want to split up the partnership fairly so that nobody gains or loses stake in the business.
 
-Linear algebra - to the rescue!  We can explore the restructuring possibilities by turning the problem into a system of matrix operations and permuting across all the different asset ownership scenarios.
+Linear algebra - to the rescue!  We can explore the restructuring possibilities by turning the problem into a system of matrix operations and permuting across all the different  ownership scenarios.
 
-First, create an NxM matrix encoding the restructured shares, for example, partner N1 gets 100% of asset M1, 0% of asset M2, and so on. Each row represents a partner, each column represents an asset. As expected, each column must sum to one, hence the matrix is a probability matrix. If we think of each new structuring as a state, we are very much in the realm of [Markov processes](https://en.wikipedia.org/wiki/Markov_decision_process). We then multiply the NxM probability matrix with an Mx2 matrix encoding each of the assets' values and the debts. Subtract the result from the current ownership shares (a Nx2 matrix), making sure that the rows match up to the correct partner rows in the original probability matrix. Finally, we take the absolute values and sum the entries. Our result encodes the cumulative difference between the restructured partnership and the original ownerships.
+First, create an NxM matrix encoding the restructured shares, for example, partner N1 gets 100% of asset M1, 0% of asset M2, and so on. Each row represents a partner, each column represents an asset. As expected, each column must sum to one, hence the matrix is a probability matrix. If we think of each new structuring as a state, we are very much in the realm of [Markov processes](https://en.wikipedia.org/wiki/Markov_decision_process). We then multiply the NxM probability matrix with an Mx2 matrix encoding each of the assets' values and the debts. Subtract the result from the current ownership shares (a Nx2 matrix), making sure that the rows match up to the correct partner rows in the original probability matrix. Finally, we take the absolute values and sum the entries. Our result encodes the cumulative difference between the restructured partnership and the original one.
 <br><br>
 <div>$$sum(abs(\left[\begin{array}{cccccc}1 & 0 & 0 & 1 & 0 & 0 \\0 & 1 & 0 & 0 & 1 & 0\\0 & 0 & 1 & 0 & 0 & 1\end{array}\right]\left[\begin{array}{cc}val_1 & debt_1 \\val_2 & debt_2 \\val_3 & debt_3 \\val_4 & debt_4 \\val_5 & debt_5 \\val_6 & debt_6\end{array}\right]-\left[\begin{array}{cc}N_{1val} & N_{1debt}  \\N_{2val} & N_{2debt} \\N_{3val} & N_{3debt}\end{array}\right]))$$</div>
 <br>
