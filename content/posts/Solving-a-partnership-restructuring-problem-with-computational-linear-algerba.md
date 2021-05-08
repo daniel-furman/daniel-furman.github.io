@@ -1,11 +1,11 @@
 ---
-title: "Solving a partnership restructuring problem with linear algebra."
+title: "Solving a partnership restructuring problem with linear algebra and Markov processes."
 date: 2021-04-20T21:22:42-07:00
 ---
 
 <br><br>
 
-## Solving a partnership restructuring problem with linear algebra.
+## Solving a partnership restructuring problem with linear algebra and Markov processes.
 
 ---
 
