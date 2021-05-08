@@ -1,3 +1,6 @@
+<html>
+<body> 
+
 <div id="footer" class="mb-5">
     {{ with .Site.Params.footer }}
         <hr>
@@ -6,3 +9,7 @@
         </div>
     {{ end }}
 </div>
+
+</body>
+{{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
+</html>
