@@ -27,13 +27,13 @@ Another unattractive feature of our methodology was that we preemptively chose h
 
 ---
 
-This approach is certainly a brute force method, as we are testing across all the possible scenarios. I wouldn't want to run these calculations for more than a dozen or so assets, as the runtime would become quite large. The for loops should decompose roughly to a [O(n) time complexity](). For example, if we have 11 assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
+This approach is certainly a brute force method, as we are testing across all the possible scenarios. I wouldn't want to run these calculations for more than a dozen or so assets, as the runtime would become quite large. The for loops should decompose roughly to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf). For example, if we have 11 assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
 
-$$runtime \propto n$$
+$$runtime \propto n^{0.966}$$
 
 <p align="center"> <img src="/posts/assets-runtime.png"/ width = "550" height = "366"> </p>
 
-**Figure 1.** Run-time complexity analysis for the restructuring algorithm (in loglog space). The power law relationship falls on a n ~ 0.996 slope, indicating the linear O(n) complexity. This is the expected result, given the use of simple for loops within the function.
+**Figure 1.** Run-time complexity analysis for the restructuring algorithm (in log/log space). The power law relationship exhibits a n ~ 0.996 slope, indicating the linearity in the algorithm's time complexity (i.e., O(n)).
 
 ### Code
 
