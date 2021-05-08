@@ -31,7 +31,7 @@ This approach is certainly a brute force method, as we are testing across all th
 
 <img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
 
-<p align="center"> <img src="/assets-runtime.png"/ width = "550" height = "366"> </p>
+<p align="center"> <img src="/assets_runtime.png"/ width = "550" height = "366"> </p>
 
 **Figure 1.** Run-time complexity analysis for the restructuring algorithm (in loglog space). The power law relationship falls on a n ~ 0.996 slope, indicating the linear O(n) complexity. This is the expected result, given the use of simple for loops within the function.
 
