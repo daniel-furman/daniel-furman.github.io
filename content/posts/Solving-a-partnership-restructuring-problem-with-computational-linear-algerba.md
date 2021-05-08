@@ -27,7 +27,7 @@ Another unattractive feature of our methodology was that we preemptively chose h
 
 ---
 
-Relatively quickly. I wouldn't want to run these calculations for much more than a dozen or so assets, as the runtime would become unwieldy. This approach is certainly a brute force method, as we are testing across all the possible scenarios. The for loops should decompose roughly to a [O(n) time complexity](). For example, if we have 11 assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
+Relatively quickly. I wouldn't want to run these calculations for much more than a dozen or so assets, as the runtime would become unwieldy. This approach is certainly a brute force method, as we are testing across all the possible scenarios. The for loops should decompose roughly to a [O(n) time complexity](http://pages.cs.wisc.edu/~vernon/cs367/notes/3.COMPLEXITY.html#:~:text=Since%20we%20assume%20the%20statements,is%20O(N)%20overall.&text=The%20outer%20loop%20executes%20N,inner%20loop%20executes%20M%20times.). For example, if we have 11 assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
 
 <img src="https://render.githubusercontent.com/render/math?math=\runtime \propto n">
 
