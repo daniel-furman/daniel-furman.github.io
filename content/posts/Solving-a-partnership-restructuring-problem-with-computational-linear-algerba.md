@@ -11,7 +11,7 @@ markup: "mmark"
 
 ---
 
-Consider a partnership restructuring its assets. The N partners currently share each of the M assets at a particular percentage ownership. Our task is to re-distribute the assets such that each is under majority ownership by a single partner. Critically, we need to divvy the assets without altering the overall value and debt under each partner's stake. In effect, we want to split up the partnership fairly so that nobody gains or loses stake in the business.
+Consider a partnership restructuring its assets. The N partners currently share each of the M assets at a given percentage. Our task is to re-distribute the assets such that each is under majority ownership. Critically, we need to divvy the assets without altering the overall value and debt associated with each partner. In effect, we want to split up the assets fairly.
 
 Linear algebra - to the rescue!  We can explore the restructuring possibilities by turning the problem into a system of matrix operations and permuting across all the different  ownership scenarios.
 
@@ -21,15 +21,13 @@ First, create an NxM matrix encoding the restructured shares, for example, partn
 <br>
 **Figure 1**. System of matrix operations for a partnership with 6 assets and 3 partners. The first matrix is the probability Markov matrix, the second is the values/debts of each asset, and the third is the partner's total current ownership values/debts.   
 <br><br>
-The critical step in the algorithm is to then shuffle the columns, re-run the system of matrix operations, and record the next cumulative difference. We do this for all permutations of the column indices, search for the minimum difference (which may turn up more than once, if repeated permutations exist), and voila, we have an "optimal" solution.
-
-
+The next step is to shuffle the columns by all the indices' permutations, while doing so, recording the cumulative differences for all of the possible restructurings. The best restructuring occurs at the global minimum (which may turn up more than once, if repeated permutations exist). Voila, we have an "optimal" solution.
 
 ### How close can we get to the original partnership?
 
 ---
 
-Why was optimal in quotes above? Well, after all that, our result many turn out to be, well, not so great. Consider a simplified case: 2 partners evenly share 3 assets, but the assets are all equivalent, and, therefore, there is no way to split up the assets into majority stake ownerships.
+Why was optimal in quotes above? Well, after all that, our result many turn out to be, well, not so great. Consider a simplified case: two partners evenly share three assets, but the assets are all equivalent, and, therefore, there is no way to split up the assets into majority stake ownerships.
 
 Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. Some intuition must go into this initial decision after examining the original ownership stakes and the assets' values and debts.
 
@@ -37,7 +35,7 @@ Another unattractive feature of our methodology was that we preemptively chose h
 
 ---
 
-This approach is certainly a brute force method, as we are testing across all the possible scenarios. I wouldn't want to run these calculations for more than a dozen or so assets, as the runtime would become quite large. The for loops should decompose roughly to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf). For example, if we have 11 assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
+This approach is certainly a brute force method, as we are testing across all the possible scenarios. I wouldn't want to run these calculations for more than a dozen or so assets, as the runtime would become quite large. The for loops should decompose roughly to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf). For example, if we have eleven assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
 
 $$runtime \propto n^{0.966}$$
 
