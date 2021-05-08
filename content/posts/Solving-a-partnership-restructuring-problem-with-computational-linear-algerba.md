@@ -1,5 +1,5 @@
 ---
-title: "Solving a partnership restructuring problem with linear algebra and Markov processes."
+title: "Solving a partnership restructuring problem with a Markov process."
 date: 2021-04-20T21:22:42-07:00
 katex: true
 markup: "mmark"
@@ -17,8 +17,7 @@ Linear algebra - to the rescue!  We can explore the restructuring possibilities 
 
 First, create an NxM matrix encoding the restructured shares, for example, partner N1 gets 100% of asset M1, 0% of asset M2, and so on. Each row represents a partner, each column represents an asset. As expected, each column must sum to one, hence the matrix is a probability matrix. If we think of each new structuring as a state, we are very much in the realm of [Markov processes](https://en.wikipedia.org/wiki/Markov_decision_process). We then multiply the NxM probability matrix with an Mx2 matrix encoding each of the assets' values and the debts. Subtract the result from the current ownership shares (a Nx2 matrix), making sure that the rows match up to the correct partner rows in the original probability matrix. Finally, we take the absolute values and sum the entries. Our result encodes the cumulative difference between the restructured partnership and the original ownerships.
 
-$$
-sum(abs(
+$$sum(abs(
 \left[
 \begin{array}{cccccc}
 1 & 0 & 0 & 1 & 0 & 0 \\
@@ -44,8 +43,7 @@ N_{2val} & N_{2debt} \\
 N_{3val} & N_{3debt}
 \end{array}
 \right]
-))
-$$
+))$$
 
 **Figure 1**. System of matrix operations for a partnership with 6 assets and 3 partners. The first matrix is the probability Markov matrix, the second is the values/debts of each asset, and the third is the partner's total current ownership values/debts.   
 
