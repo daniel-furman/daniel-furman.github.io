@@ -1,5 +1,5 @@
 ---
-title: "Solving a partnership restructuring problem with a Markov process."
+title: "Solving a partnership restructuring problem with Markov processes."
 date: 2021-04-20T21:22:42-07:00
 katex: true
 markup: "mmark"
