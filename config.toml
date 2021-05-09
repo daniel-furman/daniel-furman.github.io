@@ -3,6 +3,7 @@ disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 googleAnalytics = "" # add your tracking id
 theme = "researcher"
+pygmentsUseClasses = true
 title = "Daniel Furman"
 
 [params]
