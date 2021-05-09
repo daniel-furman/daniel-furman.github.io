@@ -47,8 +47,6 @@ $$runtime \propto n^{0.966}$$
 
 ---
 
-<p align="center"> <img src="/posts/assets-code.png"/ width = "550" height = "636"> </p>
-
 ```python
 ### Libraries ###
 import numpy as np
