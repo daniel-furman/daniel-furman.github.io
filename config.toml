@@ -48,8 +48,10 @@ name = "Bookshelf"
 url = "/bookshelf"
 weight = 3
 
-[markup.goldmark.renderer]
-unsafe = true # allow raw HTML in markdown files
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [markup.highlight]
 linenos = "true"
