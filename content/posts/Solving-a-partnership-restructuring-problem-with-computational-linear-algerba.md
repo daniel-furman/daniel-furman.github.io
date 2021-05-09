@@ -47,7 +47,9 @@ $$runtime \propto n^{0.966}$$
 
 ---
 
-{{< highlight go "linenos=table,hl_lines=1 4 7,linenostart=1" >}}
+<p align="center"> <img src="/posts/assets-code.png"/ width = "550" height = "636"> </p>
+
+{{< highlight python "linenos=table,hl_lines=1 4 7,linenostart=1" >}}
 // ### Libraries ###
 import numpy as np
 from sympy.utilities.iterables import multiset_permutations import time
