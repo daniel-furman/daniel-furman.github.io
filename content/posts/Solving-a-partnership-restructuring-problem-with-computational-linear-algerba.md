@@ -47,8 +47,6 @@ $$runtime \propto n^{0.966}$$
 
 ---
 
-<p align="center"> <img src="/posts/assets-code.png"/ width = "550" height = "636"> </p>
-
 {{< highlight go "linenos=table,hl_lines=1 4 7,linenostart=1" >}}
 // ### Libraries ###
 import numpy as np
