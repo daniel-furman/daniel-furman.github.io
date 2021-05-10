@@ -34,7 +34,7 @@ has decimal places that go on to infinity) and is classically denoted by the Gre
 first discovered in Ancient Greece (likely via geometric analyses). For example, by the fifth century BC, mathematicians
 determined $$phi$$ was an irrational number.
 
-* It’s worth noting, $$phi$$ is precisely the positive root of the quadratic equation $$x^2 - x - 1 = 0$$. Upon solving the equation we obtain $$x = {1 + 5^{0.5}}/2
+* It’s worth noting, $$phi$$ is precisely the positive root of the quadratic equation $$x^2 - x - 1 = 0$$. Upon solving the equation we obtain $$x = {1 + 5^{0.5}}/2$$. 
 
 Fibonacci numbers are closely related to the golden ratio, $$phi$$. The first two Fibonacci numbers are zero and one. Each consecutive term is the sum of the previous two, i.e., the third term is also one, because $$0+1=1$$. The first few terms are $$(0, 1, 1, 2, 3, 5, 8, 13, 21)$$. The ratio of consecutive terms closely mirrors $$phi$$, and the approximations get increasingly more accurate, a critical observation to our algorithm below!
 
