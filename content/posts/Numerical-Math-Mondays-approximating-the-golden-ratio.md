@@ -17,18 +17,20 @@ containing physical, mathematical, and computational algorithms implemented acro
 
 <br><br>
 
-### Introducing Fibonacci and the golden ratio
+### Introduction
 ---
 
-I will start with a favorite among math and science circles: approximating the golden ratio by taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, helping us understand the many interesting applications therein. For more reading on applications, see the appendix!
+I will start with a favorite among math and science circles: approximating the golden ratio by taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, helping us understand many interesting mathematical applications. For more reading on applications, see the Appendix.
 
-For a little background: What is the golden ratio anyways? Who was Fibonacci? The [golden ratio](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s) is a mathematical phenomenon between two numbers, say, a and b. Let a > b, if the ratio of $$\frac{a}{b}$$ is the same as $$\frac{(a+b)}{a}$$, then the ratio is $$\frac{~1.618}{1}$$. This number is irrational, i.e., its decimal places never converge, classically denoted by the Greek  letter phi, $$\varphi$$. $$\varphi$$ is the positive root of the quadratic equation x$$^2$$ - x - 1 = 0. Upon solving the equation we obtain x = $$\frac{1 + 5^{0.5}}{2}$$. $$\varphi$$ was probably first discovered in Ancient Greece (likely through geometry, which the Greeks were quite into). Greek mathematicians determined $$\varphi$$ was an irrational number all the way back in the fifth century BC. 
+For a little background: What is the golden ratio anyways? Who was Fibonacci? 
+
+The [golden ratio](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s) is a mathematical phenomenon between two numbers, say, a and b. Let a > b, if the ratio of $$\frac{a}{b}$$ is the same as $$\frac{(a+b)}{a}$$, then the ratio is $$\frac{~1.618}{1}$$. This number is irrational, i.e., its decimal places never converge, classically denoted by the Greek  letter phi, $$\varphi$$. $$\varphi$$ is the positive root of the quadratic equation x$$^2$$ - x - 1 = 0. Upon solving the equation we obtain x = $$\frac{1 + 5^{0.5}}{2}$$. $$\varphi$$ was probably first discovered in Ancient Greece (likely through geometry, which the Greeks were quite into). Greek mathematicians determined $$\varphi$$ was an irrational number all the way back in the fifth century BC. 
 
 Fibonacci numbers are closely related to the golden ratio, $$\varphi$$. The first two Fibonacci numbers are zero and one. Each consecutive term is the sum of the previous two, i.e., the third term is also one, because 0+1=1. The first few terms are (0, 1, 1, 2, 3, 5, 8, 13, 21). The ratio of consecutive terms closely mirrors $$\varphi$$, and the approximations get increasingly more accurate. Hmm, this seems like an important property if we, say, wanted to approximate the golden ratio!
 
 <br><br>
 
-### The algorithm
+### The Algorithm
 ---
 
 Lets cook up a simple sequence of operations exploiting the last feature of the Fibonacci numbers discussed above. We want to approximate $$\varphi$$ to a high degree of accuracy; thus, we will design the algorithm to run until we converge on [the computer’s epsilon error](https://en.wikipedia.org/wiki/Machine_epsilon) ($$\varepsilon$$), i.e., the last digit recorded on my 64-bit computer. Upon running the algorithm, we find that it takes 39 iterations for our approximation errors to converge to $$\varepsilon$$.
@@ -77,7 +79,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 * A visualizations/applications oriented Ted talk on [using the Fibonacci numbers in magical ways](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe).
 
-* The coolest golden ratio visualization application, IMO, is the [golden spiral](https://mathworld.wolfram.com/GoldenSpiral.html). Consider a rectangle whose length is the golden ratio $$\varphi$$ with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to $$\varphi$$. 
+* The coolest golden ratio visualization application, IMO, is the [golden spiral](https://mathworld.wolfram.com/GoldenSpiral.html) (see the first picture!). Consider a rectangle whose length is the golden ratio $$\varphi$$ with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to $$\varphi$$. 
 
 <br><br>
 
