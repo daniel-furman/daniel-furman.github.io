@@ -1,12 +1,11 @@
 ---
 title: "Numerical Math Mondays: Approximating the golden ratio."
 date: 2021-05-10
+katex: true
+markup: "mmark"
 ---
 
 ## Numerical Math Mondays: Approximating the golden ratio.
----
-
-### Introduction
 ---
 
 The first in hopefully what will be many Numerical Math Mondays. My goal for this series of posts is to dive back into my
@@ -22,7 +21,7 @@ containing physical, mathematical, and computational algorithms implemented acro
 
 
 ### Fibonacci Approximation
-—--
+---
 
 I will start with a favorite among math and science circles: approximating the golden ratio (phi) by taking ratios of
 consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the
