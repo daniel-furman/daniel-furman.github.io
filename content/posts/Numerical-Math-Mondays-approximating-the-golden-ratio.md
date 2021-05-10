@@ -20,7 +20,7 @@ that this series was in part inspired by the [Algorithm Archive](https://www.alg
 containing physical, mathematical, and computational algorithms implemented across dozens of programming languages.
 
 
-### Fibonacci Approximation
+### Introducing Fibonacci and the golden ratio
 ---
 
 I will start with a favorite among math and science circles: approximating the golden ratio (phi) by taking ratios of
@@ -30,15 +30,18 @@ reading on applications, see the appendix!
 
 For a little background: What is the golden ratio anyways? Who was Fibonacci? The [golden ratio](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s) is a mathematical phenomenon between two numbers, say, $$a$$ and $$b$$. Let $$a > b$$,
 if the ratio of $$a/b$$ is the same as $${(a+b)}/a$$, then the ratio is $${~1.618}/1$$. This number is irrational (it
-has decimal places that go on to infinity) and is classically denoted by the Greek  letter phi, $$/phi$$. It was probably
+has decimal places that go on to infinity) and is classically denoted by the Greek  letter phi, $$phi$$. It was probably
 first discovered in Ancient Greece (likely via geometric analyses). For example, by the fifth century BC, mathematicians
 determined $$phi$$ was an irrational number.
 
-* It’s worth noting, $$/phi$$ is precisely the positive root of the quadratic equation $$x^2 - x - 1 = 0$$. Upon solving the equation we obtain $$x = {1 + 5^{0.5}}/2
+* It’s worth noting, $$phi$$ is precisely the positive root of the quadratic equation $$x^2 - x - 1 = 0$$. Upon solving the equation we obtain $$x = {1 + 5^{0.5}}/2
 
-Fibonacci numbers are closely related to the golden ratio, $$/phi$$. The first two Fibonacci numbers are zero and one. Each consecutive term is the sum of the previous two, i.e., the third term is also one, because $$0+1=1$$. The first few terms are $$(0, 1, 1, 2, 3, 5, 8, 13, 21, …). The ratio of consecutive terms closely mirrors $$/phi$$, approximations which get increasingly accurate.
+Fibonacci numbers are closely related to the golden ratio, $$phi$$. The first two Fibonacci numbers are zero and one. Each consecutive term is the sum of the previous two, i.e., the third term is also one, because $$0+1=1$$. The first few terms are $$(0, 1, 1, 2, 3, 5, 8, 13, 21)$$. The ratio of consecutive terms closely mirrors $$phi$$, and the approximations get increasingly more accurate, a critical observation to our algorithm below!
 
-So, lets cook up a simple algorithm that exploits this feature of the Fibonacci numbers. We want to approximate $$/phi$$ with to a high degree of accuracy; thus, we will design the algorithm to run until we converge on [the computer’s epsilon error](https://en.wikipedia.org/wiki/Machine_epsilon), i.e., the smallest digit recorded by my 64-bit Mac.
+### The Fibonacci golden ratio algorithm
+---
+
+Lets cook up a simple sequence of operations exploiting the last feature of the Fibonacci numbers discussed above. We want to approximate $$phi$$ to a high degree of accuracy; thus, we will design the algorithm to run until we converge on [the computer’s epsilon error](https://en.wikipedia.org/wiki/Machine_epsilon), i.e., the smallest digit recorded by my 64-bit Mac.
 
 **Figure 1**.
 
