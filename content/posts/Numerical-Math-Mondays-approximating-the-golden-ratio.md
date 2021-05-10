@@ -10,12 +10,14 @@ markup: "mmark"
 
 <p align="center"> <img src="/posts/golden-spiral.png"/ width = "550" height = "347"> </p>
 
+<br>
+
 The first in hopefully what will be many Numerical Math Mondays. My goal for this series of posts is to dive back into the numerical mathematics topics I learned during my undergraduate studies. I am a huge fan of [3blue1brown] (https://www.3blue1brown.com), and so, I am looking to pay particular attention to the visual side of the mathematics, as well as the computational.
 
 I plan to repurpose my existing MATLAB programs across many different programming languages (Python, C++, R, and others). I am excited to explore the capabilities of [Facebook’s Transcoder AI software](https://ai.facebook.com/blog/deep-learning-to-translate-between-programming-languages/), which I am guessing will work great for some scripts and not so well for others. It’s worth noting that this series was in part inspired by the [Algorithm Archive](https://www.algorithm-archive.org), an open-source ebook
 containing physical, mathematical, and computational algorithms implemented across dozens of programming languages.
 
-<br><br>
+<br>
 
 ### Introduction
 ---
@@ -28,7 +30,7 @@ The [golden ratio](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd
 
 Fibonacci numbers are closely related to the golden ratio, $$\varphi$$. The first two Fibonacci numbers are zero and one. Each consecutive term is the sum of the previous two, i.e., the third term is also one, because 0+1=1. The first few terms are (0, 1, 1, 2, 3, 5, 8, 13, 21). The ratio of consecutive terms closely mirrors $$\varphi$$, and the approximations get increasingly more accurate. Hmm, this seems like an important property if we, say, wanted to approximate the golden ratio!
 
-<br><br>
+<br>
 
 ### The Algorithm
 ---
@@ -39,7 +41,7 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Figure 1**. The absolute errors between our Fibonacci ratio approximations and the golden ratio itself. Notice that the errors trend towards zero, indicating that our approximations are getting closer and closer to the true solution.
 
-<br><br>
+<br>
 
 **Python implementation**:
 
@@ -69,8 +71,7 @@ if ratio[-1] == phi:  # the golden ratio
     print('done')
 ```
 
-<br><br>
-
+<br>
 
 ### Appendix: More Reading
 ---
@@ -81,7 +82,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 * The coolest golden ratio visualization application, IMO, is the [golden spiral](https://mathworld.wolfram.com/GoldenSpiral.html) (see the first picture!). Consider a rectangle whose length is the golden ratio $$\varphi$$ with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to $$\varphi$$. 
 
-<br><br>
+<br>
 
 ### Appendix: More Code
 ---
@@ -108,4 +109,3 @@ erval = z(:,3);
 
 T = table(fib, ratio, erval)
 ```
-
