@@ -92,6 +92,7 @@ if ratio[-1] == phi:  # the golden ratio
    * The coolest golden ratio visualization application, IMO, is the [golden spiral](https://mathworld.wolfram.com/GoldenSpiral.html). Consider a rectangle
 whose length is the golden ratio $$\varphi$$ with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to $$\varphi$$. 
 
+<br><br>
 
 ### Appendix: More Code
 ---
