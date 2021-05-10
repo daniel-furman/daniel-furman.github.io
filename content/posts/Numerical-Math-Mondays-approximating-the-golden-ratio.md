@@ -29,7 +29,7 @@ Fibonacci numbers are closely related to the golden ratio, $$\varphi$$. The firs
 ### The algorithm
 ---
 
-Lets cook up a simple sequence of operations exploiting the last feature of the Fibonacci numbers discussed above. We want to approximate $$\varphi$$ to a high degree of accuracy; thus, we will design the algorithm to run until we converge on [the computer’s epsilon error](https://en.wikipedia.org/wiki/Machine_epsilon) ($$\varepsilon$$), i.e., the last (smallest) digit recorded on my 64-bit computer. Upon running the algorithm, we find that it takes 39 iterations for our approximation errors to converge to $$\varepsilon$$.
+Lets cook up a simple sequence of operations exploiting the last feature of the Fibonacci numbers discussed above. We want to approximate $$\varphi$$ to a high degree of accuracy; thus, we will design the algorithm to run until we converge on [the computer’s epsilon error](https://en.wikipedia.org/wiki/Machine_epsilon) ($$\varepsilon$$), i.e., the last digit recorded on my 64-bit computer. Upon running the algorithm, we find that it takes 39 iterations for our approximation errors to converge to $$\varepsilon$$.
 
 <p align="center"> <img src="/posts/fib-errors.png"/ width = "550" height = "431"> </p>
 
