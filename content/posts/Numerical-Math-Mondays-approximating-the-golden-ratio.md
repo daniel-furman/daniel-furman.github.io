@@ -7,7 +7,6 @@ markup: "mmark"
 
 ## Numerical Math Mondays: Approximating the golden ratio.
 ---
-<br><br>
 
 The first in hopefully what will be many Numerical Math Mondays. My goal for this series of posts is to dive back into the
 numerical mathematics topics I learned during my undergraduate studies. I am a huge fan of [3blue1brown] (https://www.3blue1brown.com),
@@ -24,8 +23,6 @@ containing physical, mathematical, and computational algorithms implemented acro
 
 ### Introducing Fibonacci and the golden ratio
 ---
-
-<br><br>
 
 I will start with a favorite among math and science circles: approximating the golden ratio by taking ratios of
 consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the
@@ -46,11 +43,13 @@ Fibonacci numbers are closely related to the golden ratio, $$\varphi$$. The firs
 ### The algorithm
 ---
 
-<br><br>
-
 Lets cook up a simple sequence of operations exploiting the last feature of the Fibonacci numbers discussed above. We want to approximate $$\varphi$$ to a high degree of accuracy; thus, we will design the algorithm to run until we converge on [the computer’s epsilon ($$\varepsilon$$) error](https://en.wikipedia.org/wiki/Machine_epsilon), i.e., the smallest digit recorded by my 64-bit Mac. Upon running the algorithm, we find that it takes 39 iterations for the approximation errors to converge to $$\varepsilon$$.
 
-<br><br>
+<p align="center"> <img src="/posts/fib-errors.png"/ width = "550" height = "431"> </p>
+
+**Figure 1**. The absolute error between our Fibonacci ratio approximation and the golden ratio itself.
+Notice that the errors trend towards zero, indicating that our approximations are getting closer and closer
+to the solution.
 
 **Python implementation**:
 
@@ -79,14 +78,6 @@ assert erval[-1] == 0.0 # absolute error equal to 0.0
 if ratio[-1] == phi:  # the golden ratio
     print('done')
 ```
-
-<br><br>
-
-<p align="center"> <img src="/posts/fib-errors.png"/ width = "550" height = "431"> </p>
-
-**Figure 1**. The absolute error between our Fibonacci ratio approximation and the golden ratio itself.
-Notice that the errors trend towards zero, indicating that our approximations are getting closer and closer
-to the solution.
 
 <br><br>
 
