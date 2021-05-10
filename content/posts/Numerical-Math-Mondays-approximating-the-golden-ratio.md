@@ -1,6 +1,6 @@
 ---
 title: "Numerical Math Mondays: Approximating the golden ratio."
-date: 2021-05-10T3:15
+date: 2021-05-10
 ---
 
 ## Numerical Math Mondays: Approximating the golden ratio.
