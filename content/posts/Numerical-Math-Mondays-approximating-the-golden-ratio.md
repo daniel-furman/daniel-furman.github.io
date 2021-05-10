@@ -35,6 +35,8 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Figure 1**. The absolute errors between our Fibonacci ratio approximations and the golden ratio itself. Notice that the errors trend towards zero, indicating that our approximations are getting closer and closer to the true solution.
 
+<br><br>
+
 **Python implementation**:
 
 ```python
@@ -82,7 +84,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 **MATLAB implementation**:
 
-```
+```python
 format long e
 clear all; clc; clf;
 phi = (1+sqrt(5))/2; % the golden ratio
@@ -102,3 +104,4 @@ erval = z(:,3);
 
 T = table(fib, ratio, erval)
 ```
+
