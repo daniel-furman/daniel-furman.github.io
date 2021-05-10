@@ -89,13 +89,14 @@ if ratio[-1] == phi:  # the golden ratio
 
    * A visualizations/applications oriented Ted talk on [using the Fibonacci numbers in magical ways](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe).
 
-   * The coolest golden ratio visualization application, IMO, is the [golden spiral](https://mathworld.wolfram.com/GoldenSpiral.html), which is obtained by ... .
+   * The coolest golden ratio visualization application, IMO, is the [golden spiral](https://mathworld.wolfram.com/GoldenSpiral.html). Consider a rectangle
+whose length is the golden ratio $$\varphi$$ with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to $$\varphi$$. 
 
 
 ### Appendix: More Code
 ---
 
-MATLAB implementation:
+**MATLAB implementation**:
 
 ```
 format long e
