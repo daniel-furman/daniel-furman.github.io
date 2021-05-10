@@ -8,7 +8,7 @@ markup: "mmark"
 ## Numerical Math Mondays: Approximating the golden ratio.
 ---
 
-<p align="center"> <img src="/posts/fib-errors.png"/ width = "550" height = "347"> </p>
+<p align="center"> <img src="/posts/golden-spiral.png"/ width = "550" height = "347"> </p>
 
 The first in hopefully what will be many Numerical Math Mondays. My goal for this series of posts is to dive back into the numerical mathematics topics I learned during my undergraduate studies. I am a huge fan of [3blue1brown] (https://www.3blue1brown.com), and so, I am looking to pay particular attention to the visual side of the mathematics, as well as the computational.
 
