@@ -9,14 +9,14 @@ markup: "mmark"
 ---
 <br><br>
 
-The first in hopefully what will be many Numerical Math Mondays. My goal for this series of posts is to dive back into my
-numerical mathematics algorithms from my undergraduate studies. I am a huge fan of [3blue1brown] (https://www.3blue1brown.com),
-and so, I am looking to pay particular attention to the visual side of the mathematics.
+The first in hopefully what will be many Numerical Math Mondays. My goal for this series of posts is to dive back into the
+numerical mathematics topics I learned during my undergraduate studies. I am a huge fan of [3blue1brown] (https://www.3blue1brown.com),
+and so, I am looking to pay particular attention to the visual side of the mathematics, as well as the computational.
 
 I plan to repurpose my existing MATLAB programs across many different programming languages (Python, C++, R, and others). I am
 excited to explore the capabilities of [Facebook’s Transcoder AI software](
 https://ai.facebook.com/blog/deep-learning-to-translate-between-programming-languages/), which I am guessing will work great for
-some scripts and horribly for others (for example, where a language-specific package is heavily employed). It’s worth noting
+some scripts and not so well for others. It’s worth noting
 that this series was in part inspired by the [Algorithm Archive](https://www.algorithm-archive.org), an open-source ebook
 containing physical, mathematical, and computational algorithms implemented across dozens of programming languages.
 
