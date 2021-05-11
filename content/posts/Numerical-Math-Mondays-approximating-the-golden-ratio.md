@@ -49,7 +49,7 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Python implementation**:
 
-Runtime = 123 $$\mu$$s (Zsh Terminal, Python)
+* 123 $$\mu$$s (Zsh Terminal, Python compiler)
 
 ```python
 ### Libraries ###
@@ -93,7 +93,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 **C++ implementation**:
 
-Runtime = 62 $$\mu$$s (Zsh terminal, g++)
+* 62 $$\mu$$s (Zsh terminal, g++ compiler)
 
 ```cpp
 //Libraries
@@ -125,7 +125,7 @@ int main(void){
     }
 
     //Tests
-    if ( ratio.back() == phi ) {
+    if (ratio.back() == phi) {
         std :: cout << "done" << std :: endl;
     }
 }
