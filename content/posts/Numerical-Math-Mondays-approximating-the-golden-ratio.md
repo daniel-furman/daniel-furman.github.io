@@ -49,7 +49,7 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Python implementation**:
 
-* 123 $$\mu$$s (Zsh Terminal, Python compiler)
+Runtime ~ 123 $$\mu$$s (Zsh Terminal, python compiler)
 
 ```python
 ### Libraries ###
@@ -93,7 +93,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 **C++ implementation**:
 
-* 62 $$\mu$$s (Zsh terminal, g++ compiler)
+Runtime ~ 62 $$\mu$$s (Zsh terminal, g++ compiler)
 
 ```cpp
 //Libraries
@@ -133,7 +133,7 @@ int main(void){
 ```
 
 **MATLAB implementation**:
-Runtime = 3202 $$\mu$$s (Octave GUI)
+Runtime ~ 3202 $$\mu$$s (Octave GUI)
 
 ```python
 % Set up
