@@ -49,7 +49,7 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Python implementation**:
 
-Runtime = 123.0 $$\mu$$s
+Runtime = 123 $$\mu$$s (Terminal)
 
 ```python
 ### Libraries ###
@@ -93,7 +93,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 **C++ implementation**:
 
-Runtime = 239.0 $$\mu$$s
+Runtime = 239 $$\mu$$s (GeeksforGeeks IDE)
 
 ```cpp
 //Libraries
@@ -128,18 +128,30 @@ int main(void){
 ```
 
 **MATLAB implementation**:
+Runtime = 129009 $$\mu$$s (Octave Online)
 
 ```python
+% Set up
 format long e
 clear all; clc; clf;
+
+%Var Init
 phi = (1+sqrt(5))/2; % the golden ratio
 tol = eps; % computer epsilon error tolerance
 z = ones(3,3);  
 n = 2; %iterator
+
+% While Loop
 while z(n,3) >= tol
   n = n+1; 
   z(n,1) = z(n-1,1)+z(n-2,1); % nth Fibonacci
   z(n,2) = z(n,1)/z(n-1,1); % consecutive terms ratio
   z(n,3) = abs(z(n,2)-phi); % absolute error
+end
+
+% Tests
+ratio = z(:,2);
+if ratio(end) == phi;
+    disp('done')
 end
 ```
