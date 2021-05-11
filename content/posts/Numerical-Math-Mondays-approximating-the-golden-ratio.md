@@ -49,6 +49,8 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Python implementation**:
 
+Runtime = 123.0 $$\upmu$$s
+
 ```python
 ### Libraries ###
 import numpy as np
@@ -91,21 +93,26 @@ if ratio[-1] == phi:  # the golden ratio
 
 **C++ implementation**:
 
+Runtime = 239.0 $$\upmu$$s
+
 ```cpp
+//Libraries
 #include <iostream>
 #include <vector>
 #include <cmath>
 using namespace std;
 
 int main(void){
+
+    //Var Init
     const double phi = ( 1 + 5 * 0.5 ) / 2;
-    const double tol = 2.2e-16;
+    const double tol = 1e-16;
     std :: vector <double> fib{ 0, 1, 1 };
     std :: vector <double> erval{ 1 };
     std :: vector <double> ratio;
-    std :: cout << "done" << std :: endl;
-
     int n = 0;
+    
+    //While Loop
     while ( erval [ n ] >= tol ) {
         fib.push_back(fib [ n + 2 ] + fib [ n + 1 ]);
         ratio.push_back(fib [ n + 3 ] / fib [ n + 2 ]);
@@ -113,6 +120,7 @@ int main(void){
         ++ n;
     }
 
+    //Tests
     if ( ratio [ - 1 ] == phi ) {
         std :: cout << "done" << std :: endl;
     }
@@ -134,10 +142,4 @@ while z(n,3) >= tol
   z(n,2) = z(n,1)/z(n-1,1); % consecutive terms ratio
   z(n,3) = abs(z(n,2)-phi); % absolute error
 end
-
-fib = z(:,1);
-ratio = z(:,2);
-erval = z(:,3);
-
-T = table(fib, ratio, erval)
 ```
