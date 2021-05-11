@@ -49,7 +49,7 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Python implementation**:
 
-Runtime = 123.0 $$\upmu$$s
+Runtime = 123.0 $$\mu$$s
 
 ```python
 ### Libraries ###
@@ -93,7 +93,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 **C++ implementation**:
 
-Runtime = 239.0 $$\upmu$$s
+Runtime = 239.0 $$\mu$$s
 
 ```cpp
 //Libraries
