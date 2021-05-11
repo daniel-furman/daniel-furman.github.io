@@ -52,7 +52,56 @@ containing physical, mathematical, and computational algorithms implemented acro
 <span class=c1>### Tests ###</span>
 <span class=k>assert</span> <span class=n>erval</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span> <span class=o>==</span> <span class=mf>0.0</span> <span class=c1># absolute error equal to 0.0</span>
 <span class=k>if</span> <span class=n>ratio</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span> <span class=o>==</span> <span class=n>phi</span><span class=p>:</span>  <span class=c1># the golden ratio</span>
-    <span class=k>print</span><span class=p>(</span><span class=s1>&#39;done&#39;</span><span class=p>)</span></code></pre></td></tr></table></div></div><p><br></p><h3 id=appendix-more-reading>Appendix: More Reading</h3><hr><ul><li>The coolest golden ratio visualization, imo, is the <a href=https://mathworld.wolfram.com/GoldenSpiral.html>golden spiral</a> (see the first picture!). Consider a rectangle whose length is the golden ratio <span class=math>\(\varphi\)</span> with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to <span class=math>\(\varphi\)</span>.</li><li>A well written Pixa article on <a href=https://www.pixpa.com/blog/golden-ratio>photography and design applications of the golden ratio</a>. Is the golden ratio the genesis of photography’s rule of thirds? How close do natural patterns adhere to the golden ratio?</li><li>A visualizations/applications oriented Ted talk on <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe">using the Fibonacci numbers in magical ways</a>.</li></ul><p><br></p><h3 id=appendix-more-code>Appendix: More Code</h3><hr><p><strong>MATLAB implementation</strong>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+    <span class=k>print</span><span class=p>(</span><span class=s1>&#39;done&#39;</span><span class=p>)</span></code></pre></td></tr></table></div></div><p><br></p><h3 id=appendix-more-reading>Appendix: More Reading</h3><hr><ul><li>The coolest golden ratio visualization, imo, is the <a href=https://mathworld.wolfram.com/GoldenSpiral.html>golden spiral</a> (see the first picture!). Consider a rectangle whose length is the golden ratio <span class=math>\(\varphi\)</span> with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to <span class=math>\(\varphi\)</span>.</li><li>A well written Pixa article on <a href=https://www.pixpa.com/blog/golden-ratio>photography and design applications of the golden ratio</a>. Is the golden ratio the genesis of photography’s rule of thirds? How close do natural patterns adhere to the golden ratio?</li><li>A visualizations/applications oriented Ted talk on <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe">using the Fibonacci numbers in magical ways</a>.</li></ul><p><br></p><h3 id=appendix-more-code>Appendix: More Code</h3><hr><p><strong>C++ implementation</strong>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-cpp data-lang=cpp><span class=cp>#include</span> <span class=cpf>&lt;iostream&gt;</span><span class=cp>
+</span><span class=cp>#include</span> <span class=cpf>&lt;vector&gt;</span><span class=cp>
+</span><span class=cp>#include</span> <span class=cpf>&lt;cmath&gt;</span><span class=cp>
+</span><span class=cp></span><span class=k>using</span> <span class=k>namespace</span> <span class=n>std</span><span class=p>;</span>
+
+<span class=kt>int</span> <span class=nf>main</span><span class=p>(</span><span class=kt>void</span><span class=p>){</span>
+    <span class=k>const</span> <span class=kt>double</span> <span class=n>phi</span> <span class=o>=</span> <span class=p>(</span> <span class=mi>1</span> <span class=o>+</span> <span class=mi>5</span> <span class=o>*</span> <span class=mf>0.5</span> <span class=p>)</span> <span class=o>/</span> <span class=mi>2</span><span class=p>;</span>
+    <span class=k>const</span> <span class=kt>double</span> <span class=n>tol</span> <span class=o>=</span> <span class=mf>2.2e-16</span><span class=p>;</span>
+    <span class=n>std</span> <span class=o>::</span> <span class=n>vector</span> <span class=o>&lt;</span><span class=kt>double</span><span class=o>&gt;</span> <span class=n>fib</span><span class=p>{</span> <span class=mi>0</span><span class=p>,</span> <span class=mi>1</span><span class=p>,</span> <span class=mi>1</span> <span class=p>};</span>
+    <span class=n>std</span> <span class=o>::</span> <span class=n>vector</span> <span class=o>&lt;</span><span class=kt>double</span><span class=o>&gt;</span> <span class=n>erval</span><span class=p>{</span> <span class=mi>1</span> <span class=p>};</span>
+    <span class=n>std</span> <span class=o>::</span> <span class=n>vector</span> <span class=o>&lt;</span><span class=kt>double</span><span class=o>&gt;</span> <span class=n>ratio</span><span class=p>;</span>
+    <span class=n>std</span> <span class=o>::</span> <span class=n>cout</span> <span class=o>&lt;&lt;</span> <span class=s>&#34;done&#34;</span> <span class=o>&lt;&lt;</span> <span class=n>std</span> <span class=o>::</span> <span class=n>endl</span><span class=p>;</span>
+
+    <span class=kt>int</span> <span class=n>n</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+    <span class=k>while</span> <span class=p>(</span> <span class=n>erval</span> <span class=p>[</span> <span class=n>n</span> <span class=p>]</span> <span class=o>&gt;=</span> <span class=n>tol</span> <span class=p>)</span> <span class=p>{</span>
+        <span class=n>fib</span><span class=p>.</span><span class=n>push_back</span><span class=p>(</span><span class=n>fib</span> <span class=p>[</span> <span class=n>n</span> <span class=o>+</span> <span class=mi>2</span> <span class=p>]</span> <span class=o>+</span> <span class=n>fib</span> <span class=p>[</span> <span class=n>n</span> <span class=o>+</span> <span class=mi>1</span> <span class=p>]);</span>
+        <span class=n>ratio</span><span class=p>.</span><span class=n>push_back</span><span class=p>(</span><span class=n>fib</span> <span class=p>[</span> <span class=n>n</span> <span class=o>+</span> <span class=mi>3</span> <span class=p>]</span> <span class=o>/</span> <span class=n>fib</span> <span class=p>[</span> <span class=n>n</span> <span class=o>+</span> <span class=mi>2</span> <span class=p>]);</span>
+        <span class=n>erval</span><span class=p>.</span><span class=n>push_back</span><span class=p>(</span><span class=n>std</span><span class=o>::</span><span class=n>abs</span> <span class=p>(</span> <span class=n>ratio</span> <span class=p>[</span> <span class=n>n</span> <span class=p>]</span> <span class=o>-</span> <span class=n>phi</span> <span class=p>));</span>
+        <span class=o>++</span> <span class=n>n</span><span class=p>;</span>
+    <span class=p>}</span>
+
+    <span class=k>if</span> <span class=p>(</span> <span class=n>ratio</span> <span class=p>[</span> <span class=o>-</span> <span class=mi>1</span> <span class=p>]</span> <span class=o>==</span> <span class=n>phi</span> <span class=p>)</span> <span class=p>{</span>
+        <span class=n>std</span> <span class=o>::</span> <span class=n>cout</span> <span class=o>&lt;&lt;</span> <span class=s>&#34;done&#34;</span> <span class=o>&lt;&lt;</span> <span class=n>std</span> <span class=o>::</span> <span class=n>endl</span><span class=p>;</span>
+    <span class=p>}</span>
+<span class=p>}</span></code></pre></td></tr></table></div></div><p><strong>MATLAB implementation</strong>:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
