@@ -135,11 +135,11 @@ Runtime = 3202 $$\mu$$s (Octave GUI)
 format long e
 clear all; clc; clf;
 
-%Var Init
+% Var Init
 phi = (1+sqrt(5))/2; % the golden ratio
 tol = eps; % computer epsilon error tolerance
 z = ones(3,3);  
-n = 2; %iterator
+n = 2; % iterator
 
 % While Loop
 while z(n,3) >= tol
