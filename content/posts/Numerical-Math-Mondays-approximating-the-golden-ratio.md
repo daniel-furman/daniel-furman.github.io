@@ -93,7 +93,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 **C++ implementation**:
 
-Runtime = 239 $$\mu$$s (GeeksforGeeks IDE)
+Runtime = 51 $$\mu$$s (GeeksforGeeks IDE)
 
 ```cpp
 //Libraries
@@ -105,26 +105,31 @@ using namespace std;
 int main(void){
 
     //Var Init
-    const double phi = ( 1 + 5 * 0.5 ) / 2;
+    const double phi = (1 + sqrt(5)) / 2;
     const double tol = 1e-16;
-    std :: vector <double> fib{ 0, 1, 1 };
-    std :: vector <double> erval{ 1 };
+    std :: vector <double> fib;
+    fib.push_back(0);
+    fib.push_back(1);
+    fib.push_back(1);
+    std :: vector <double> erval;
+    erval.push_back(1);
     std :: vector <double> ratio;
     int n = 0;
     
     //While Loop
-    while ( erval [ n ] >= tol ) {
-        fib.push_back(fib [ n + 2 ] + fib [ n + 1 ]);
-        ratio.push_back(fib [ n + 3 ] / fib [ n + 2 ]);
-        erval.push_back(std::abs ( ratio [ n ] - phi ));
+    while (erval [n] >= tol) {
+        fib.push_back(fib[n + 2] + fib[n + 1]);
+        ratio.push_back(fib[n + 3] / fib[n + 2]);
+        erval.push_back(std::abs(ratio[n] - phi));
         ++ n;
     }
 
     //Tests
-    if ( ratio [ - 1 ] == phi ) {
+    if ( ratio.back() == phi ) {
         std :: cout << "done" << std :: endl;
     }
 }
+
 ```
 
 **MATLAB implementation**:
