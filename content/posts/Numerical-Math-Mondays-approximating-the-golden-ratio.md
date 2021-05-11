@@ -89,6 +89,36 @@ if ratio[-1] == phi:  # the golden ratio
 ### Appendix: More Code
 ---
 
+**C++ implementation**:
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <cmath>
+using namespace std;
+
+int main(void){
+    const double phi = ( 1 + 5 * 0.5 ) / 2;
+    const double tol = 2.2e-16;
+    std :: vector <double> fib{ 0, 1, 1 };
+    std :: vector <double> erval{ 1 };
+    std :: vector <double> ratio;
+    std :: cout << "done" << std :: endl;
+
+    int n = 0;
+    while ( erval [ n ] >= tol ) {
+        fib.push_back(fib [ n + 2 ] + fib [ n + 1 ]);
+        ratio.push_back(fib [ n + 3 ] / fib [ n + 2 ]);
+        erval.push_back(std::abs ( ratio [ n ] - phi ));
+        ++ n;
+    }
+
+    if ( ratio [ - 1 ] == phi ) {
+        std :: cout << "done" << std :: endl;
+    }
+}
+```
+
 **MATLAB implementation**:
 
 ```python
