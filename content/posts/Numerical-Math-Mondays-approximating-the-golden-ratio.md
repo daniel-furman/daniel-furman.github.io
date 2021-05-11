@@ -128,7 +128,7 @@ int main(void){
 ```
 
 **MATLAB implementation**:
-Runtime = 129009 $$\mu$$s (Octave Online)
+Runtime = 3202 $$\mu$$s (Octave Online)
 
 ```python
 % Set up
