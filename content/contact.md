@@ -2,7 +2,7 @@
 title = "Contact"
 +++
 
-## Contact
+# Contact
 
 dryanfurman (at) gmail
 
