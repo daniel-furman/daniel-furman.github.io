@@ -12,7 +12,7 @@ title = "Coding"
 
 [`lwMCMC`](https://pypi.org/project/lwMCMC/) | [Docs](https://github.com/daniel-furman/lwMCMC)
 
-* Object-oriented Bayesian inference classes for MCMC parameter space sampling with two [Metropolis-Hastings](http://www.mit.edu/~ilkery/papers/MetropolisHastingsSampling.pdf) options: a from-scratch NumPy implementation and a PyMC3 Hamiltonian implementation. 
+* Object-oriented Bayesian inference classes for MCMC parameter space sampling with two [Metropolis-Hastings](http://www.mit.edu/~ilkery/papers/MetropolisHastingsSampling.pdf) options: a from-scratch NumPy implementation and a [PyMC3](https://docs.pymc.io/notebooks/getting_started.html) Hamiltonian implementation. 
 
 [`PySDMs`](https://github.com/daniel-furman/PySDMs) | [Docs](https://github.com/daniel-furman/PySDMs). 
 
