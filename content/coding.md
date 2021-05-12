@@ -8,7 +8,7 @@ title = "Coding"
 
 [`RecFeatureSelect`](https://pypi.org/project/RecFeatureSelect/) | [Docs](https://github.com/daniel-furman/RecFeatureSelect)
 
-* A feature selection function removing [multi-collinearity](https://en.wikipedia.org/wiki/Multicollinearity) for ML experiments, employing an upper bound correlation threshold and feature importance scores. Based on a from-scratch recursive algorithm. 
+* A feature selection function removing [multi-collinearity](https://en.wikipedia.org/wiki/Multicollinearity) for ML experiments, which employs a correlation threshold and feature importance scores. Based on a from-scratch recursive algorithm. 
 
 ---
 
@@ -18,6 +18,6 @@ title = "Coding"
 
 ---
 
-[`PySDMs`](https://github.com/daniel-furman/PySDMs) | [Docs](https://github.com/daniel-furman/PySDMs). 
+[`PySDMs`](https://github.com/daniel-furman/PySDMs) | [Docs](https://github.com/daniel-furman/PySDMs)
 
 * An object-oriented Python class for [Species Distribution Modeling](https://en.wikipedia.org/wiki/Species_distribution_modelling), which contains an AutoML pipeline comparing BRTs, NNs, and soft voter geo-classifiers. 
