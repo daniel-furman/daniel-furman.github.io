@@ -2,7 +2,7 @@
 Title = "Bookshelf"
 +++
 
-## Favorite Reads 
+# Favorite Reads 
 
 Book | Author | Finished | Quotes
 -----|-------|-------|-------
