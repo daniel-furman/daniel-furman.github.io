@@ -16,4 +16,4 @@ title = "Coding"
 
 [`PySDMs`](https://github.com/daniel-furman/PySDMs) | [Docs](https://github.com/daniel-furman/PySDMs). 
 
-* An object-oriented Python class for [Species Distribution Modeling](https://en.wikipedia.org/wiki/Species_distribution_modelling), containing an AutoML pipeline with options for comparing BRTs, NNs, and soft voter geo-classifiers. 
+* An object-oriented Python class for [Species Distribution Modeling](https://en.wikipedia.org/wiki/Species_distribution_modelling), which contains an AutoML pipeline comparing BRTs, NNs, and soft voter geo-classifiers. 
