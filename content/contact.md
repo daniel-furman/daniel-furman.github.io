@@ -2,7 +2,9 @@
 title = "Contact"
 +++
 
-## Contacts
+## Contact
+
+dryanfurman (at) gmail
 
 ### <ins>Social Profiles</ins>
 
@@ -15,6 +17,3 @@ title = "Contact"
 
 Resume available upon request. 
 
-### <ins>Email</ins>
-
-dryanfurman (at) gmail
