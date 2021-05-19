@@ -14,7 +14,7 @@ In my free time, I enjoy surfing, backpacking, climbing, playing guitar, reading
 
 ### <ins>Development</ins>
 
-- TheCrowdedSurfer: a web-app for forecast analytics and crowd panoptic segmentation CV. 
+- Surf-crowds app: forecast analytics combined with ML and vision. 
 - OSS for Kaggle competitions and research. [[PyPi](https://pypi.org/user/daniel-furman/)] [[Kaggle](https://www.kaggle.com/dryanfurman)] [[Github](https://github.com/daniel-furman)]
 
 ### <ins>Research</ins>
