@@ -12,10 +12,11 @@ In my free time, I enjoy surfing, backpacking, climbing, playing guitar, reading
 
 ---
 
-### <ins>Development</ins>
+### <ins>Coding</ins>
 
-- Surf-crowds app: forecast analytics combined with ML and vision. 
-- OSS for Kaggle competitions and research. [[PyPi](https://pypi.org/user/daniel-furman/)] [[Kaggle](https://www.kaggle.com/dryanfurman)] [[Github](https://github.com/daniel-furman)]
+- Surf Crowds: an AWS serverless ML app for swell forecast analytics and surfer crowd detection
+- Innovative solutions to Kaggle data science competitions [[Kaggle](https://www.kaggle.com/dryanfurman)]
+- Research-oriented Py/R open-source data science packages [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
 
 ### <ins>Research</ins>
 
