@@ -12,15 +12,17 @@ In my free time, I enjoy surfing, backpacking, climbing, playing guitar, reading
 
 ---
 
-### <ins>Coding</ins>
-
-- Innovative solutions to Kaggle data science competitions [[Kaggle](https://www.kaggle.com/dryanfurman)]
-- Research-oriented Py/R open-source data science packages [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
-
 ### <ins>Research</ins>
 
-- Geospatial machine learning for ecological systems (Harvey Mudd). [[Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Material science modeling for geophysics (UPenn, Ice Physics Lab). [[Paper](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+- Geospatial machine learning applied to mathematical biology (Harvey Mudd) [[Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Experimental geophysics applied to ice material science (UPenn, Ice Physics Lab) [[Paper](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+
+---
+
+### <ins>Developing</ins>
+
+- Solutions to a diversity of Kaggle competitions [[Kaggle](https://www.kaggle.com/dryanfurman)]
+- Research-oriented Py/R OSS - primarily for data science [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
 
 ---
 
