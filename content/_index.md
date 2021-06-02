@@ -14,8 +14,8 @@ In my free time, I enjoy surfing, backpacking, climbing, playing guitar, reading
 
 ### <ins>Research</ins>
 
-- Geospatial machine learning applied to mathematical biology (Harvey Mudd) [[Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Experimental geophysics applied to ice material science (UPenn, Ice Physics Lab) [[Paper](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+- Geospatial machine learning applied to mathematical biology and ecological systems (Harvey Mudd College, NSF Data Science REU) [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Experimental geophysics applied to ice sheet and glacial material science (Penn, Ice Physics Lab) [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 
 ---
 
