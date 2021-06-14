@@ -22,7 +22,7 @@ In my free time, I enjoy surfing, backpacking, climbing, playing guitar, reading
 ### <ins>Developing</ins>
 
 - Solutions to CV and ML Kaggle competitions [[Kaggle](https://www.kaggle.com/dryanfurman)]
-- Research-oriented OSS for statistical modeling and ML [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
+- Research-oriented OSS for statistical modeling [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
 
 ---
 
