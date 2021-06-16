@@ -30,10 +30,10 @@ In my free time, I enjoy surfing, backpacking, climbing, playing guitar, reading
 
 Year | Position
 -----|-------
-2021-Present | MS Information Management and Systems, UC Berkeley.
-2021 | Risk and Resillience DAT/Artathon Fellow.
-2019 | Data Science REU, Harvey Mudd College (NSF Fellow).
-2016-2020 | BA Environmental Science and Mathematics, UPenn.
+2021-Present | MS Information Management and Systems, UC Berkeley
+2021 | Risk and Resillience DAT/Artathon Fellow
+2019 | Data Science REU, Harvey Mudd College (NSF Fellow)
+2016-2020 | BA Environmental Science and Mathematics, UPenn
 
 ---
 
