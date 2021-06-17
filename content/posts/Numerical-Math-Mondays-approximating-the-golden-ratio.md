@@ -49,7 +49,7 @@ Lets cook up a simple sequence of operations exploiting the last feature of the 
 
 **Python implementation**:
 
-Runtime ~ 123 $$\mu$$s (Zsh Terminal, python compiler)
+Runtime ~ 123 $$\mu$$s (native | Zsh)
 
 ```python
 ### Libraries ###
@@ -93,7 +93,7 @@ if ratio[-1] == phi:  # the golden ratio
 
 **C++ implementation**:
 
-Runtime ~ 62 $$\mu$$s (Zsh terminal, g++ compiler)
+Runtime ~ 62 $$\mu$$s (native | Zsh, g++ compiler)
 
 ```cpp
 //Libraries
