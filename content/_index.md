@@ -6,9 +6,9 @@ title = "About"
 
 # About
 
-A challenge-driven data scientist primarily interested in predictive analytics and probabilistic machine learning. My professional and research experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
+A challenge-driven data scientist primarily interested in predictive analytics and probabilistic machine learning. My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
-I enjoy surfing, golfing, climbing, playing guitar, reading, and volunteering in my spare time.  
+In my spare time I enjoy surfing, golfing, climbing, playing guitar, reading, and volunteering.  
 
 ---
 
@@ -31,7 +31,7 @@ I enjoy surfing, golfing, climbing, playing guitar, reading, and volunteering in
 Year | Position
 -----|-------
 2021-Present | MS Information Management and Systems, UC Berkeley
-2021 | Risk and Resillience DAT/Artathon Fellow
+2021 | Risk & Resillience Fellow, DAT/Artathon
 2019 | Data Science REU, Harvey Mudd College (NSF Fellow)
 2016-2020 | BA Environmental Science and Mathematics, UPenn
 
