@@ -6,16 +6,16 @@ title = "About"
 
 # About
 
-A challenge-driven data scientist primarily interested in predictive analytics and probabilistic machine learning. My professional experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
+A challenge-driven data scientist primarily interested in predictive analytics and probabilistic machine learning. My professional and research experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development.
 
-In my free time, I enjoy surfing, backpacking, climbing, playing guitar, reading, and building things.  
+I enjoy surfing, golfing, climbing, playing guitar, reading, and volunteering in my spare time.  
 
 ---
 
 ### <ins>Research</ins>
 
-- Geospatial machine learning applied to mathematical biology and ecological systems (Harvey Mudd College, NSF Data Science REU) [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Experimental geophysics applied to ice sheet and glacial material science (Penn, Ice Physics Lab) [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+- Geospatial machine learning for predicing risks in ecological systems (DAT/Artathon Risk & Resilience Fellow '21) (Harvey Mudd College, NSF Data Science REU) [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Experimental geophysics applied to ice sheet flow (Penn, Ice Physics Lab) [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 
 ---
 
