@@ -31,8 +31,8 @@ containing physical, mathematical, and computational algorithms implemented acro
 </span><span class=lnt>22
 </span><span class=lnt>23
 </span></code></pre></td><td class=lntd><pre class=chroma><code class=language-python data-lang=python><span class=c1>### Libraries ###</span>
-<span class=kn>import</span> <span class=nn>numpy</span> <span class=kn>as</span> <span class=nn>np</span>
-<span class=kn>import</span> <span class=nn>matplotlib.pyplot</span> <span class=kn>as</span> <span class=nn>plt</span>
+<span class=kn>import</span> <span class=nn>numpy</span> <span class=k>as</span> <span class=nn>np</span>
+<span class=kn>import</span> <span class=nn>matplotlib.pyplot</span> <span class=k>as</span> <span class=nn>plt</span>
 
 <span class=c1>### Var Init ###</span>
 <span class=n>phi</span> <span class=o>=</span> <span class=p>(</span><span class=mi>1</span><span class=o>+</span><span class=mi>5</span><span class=o>**</span><span class=mf>0.5</span><span class=p>)</span><span class=o>/</span><span class=mi>2</span> <span class=c1># this is golden ratio</span>
@@ -52,7 +52,7 @@ containing physical, mathematical, and computational algorithms implemented acro
 <span class=c1>### Tests ###</span>
 <span class=k>assert</span> <span class=n>erval</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span> <span class=o>==</span> <span class=mf>0.0</span> <span class=c1># absolute error equal to 0.0</span>
 <span class=k>if</span> <span class=n>ratio</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span> <span class=o>==</span> <span class=n>phi</span><span class=p>:</span>  <span class=c1># the golden ratio</span>
-    <span class=k>print</span><span class=p>(</span><span class=s1>&#39;done&#39;</span><span class=p>)</span></code></pre></td></tr></table></div></div><p><br></p><h3 id=appendix-more-reading>Appendix: More Reading</h3><hr><ul><li>The coolest golden ratio visualization, imo, is the <a href=https://mathworld.wolfram.com/GoldenSpiral.html>golden spiral</a> (see the first picture!). Consider a rectangle whose length is the golden ratio <span class=math>\(\varphi\)</span> with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to <span class=math>\(\varphi\)</span>.</li><li>A well written Pixa article on <a href=https://www.pixpa.com/blog/golden-ratio>photography and design applications of the golden ratio</a>. Is the golden ratio the genesis of photography’s rule of thirds? How close do natural patterns adhere to the golden ratio?</li><li>A visualizations/applications oriented Ted talk on <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe">using the Fibonacci numbers in magical ways</a>.</li></ul><p><br></p><h3 id=appendix-more-code>Appendix: More Code</h3><hr><p><strong>C++ implementation</strong>:</p><p>Runtime ~ 62 <span class=math>\(\mu\)</span>s (native | Zsh, g++ compiler)</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+    <span class=nb>print</span><span class=p>(</span><span class=s1>&#39;done&#39;</span><span class=p>)</span></code></pre></td></tr></table></div></div><p><br></p><h3 id=appendix-more-reading>Appendix: More Reading</h3><hr><ul><li>The coolest golden ratio visualization, imo, is the <a href=https://mathworld.wolfram.com/GoldenSpiral.html>golden spiral</a> (see the first picture!). Consider a rectangle whose length is the golden ratio <span class=math>\(\varphi\)</span> with height 1. Successive points that divide this "golden rectangle" into perfect squares fall on a logarithmic spiral with a growth factor equal to <span class=math>\(\varphi\)</span>.</li><li>A well written Pixa article on <a href=https://www.pixpa.com/blog/golden-ratio>photography and design applications of the golden ratio</a>. Is the golden ratio the genesis of photography’s rule of thirds? How close do natural patterns adhere to the golden ratio?</li><li>A visualizations/applications oriented Ted talk on <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe">using the Fibonacci numbers in magical ways</a>.</li></ul><p><br></p><h3 id=appendix-more-code>Appendix: More Code</h3><hr><p><strong>C++ implementation</strong>:</p><p>Runtime ~ 62 <span class=math>\(\mu\)</span>s (native | Zsh, g++ compiler)</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
@@ -142,7 +142,7 @@ Runtime ~ 3202 <span class=math>\(\mu\)</span>s (Octave GUI)</p><div class=highl
 </span><span class=lnt>22
 </span><span class=lnt>23
 </span></code></pre></td><td class=lntd><pre class=chroma><code class=language-python data-lang=python><span class=o>%</span> <span class=n>Set</span> <span class=n>up</span>
-<span class=n>format</span> <span class=nb>long</span> <span class=n>e</span>
+<span class=nb>format</span> <span class=n>long</span> <span class=n>e</span>
 <span class=n>clear</span> <span class=nb>all</span><span class=p>;</span> <span class=n>clc</span><span class=p>;</span> <span class=n>clf</span><span class=p>;</span>
 
 <span class=o>%</span> <span class=n>Var</span> <span class=n>Init</span>

@@ -43,7 +43,7 @@
 </span><span class=lnt>35
 </span><span class=lnt>36
 </span></code></pre></td><td class=lntd><pre class=chroma><code class=language-python data-lang=python><span class=c1>### Libraries ###</span>
-<span class=kn>import</span> <span class=nn>numpy</span> <span class=kn>as</span> <span class=nn>np</span>
+<span class=kn>import</span> <span class=nn>numpy</span> <span class=k>as</span> <span class=nn>np</span>
 <span class=kn>from</span> <span class=nn>sympy.utilities.iterables</span> <span class=kn>import</span> <span class=n>multiset_permutations</span>
 <span class=kn>import</span> <span class=nn>time</span>
 
@@ -74,7 +74,7 @@
   <span class=n>final_differences</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>abs</span><span class=p>(</span><span class=n>results_lopped</span> <span class=o>-</span> <span class=n>previous_stake</span><span class=p>)</span>
   <span class=n>results</span><span class=p>[</span><span class=nb>iter</span><span class=p>]</span> <span class=o>=</span> <span class=n>np</span><span class=o>.</span><span class=n>sum</span><span class=p>(</span><span class=n>final_differences</span><span class=p>)</span>
 
-<span class=k>print</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>min</span><span class=p>(</span><span class=n>results</span><span class=p>))</span> <span class=c1># the optimal restructuring difference</span>
-<span class=k>print</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>argmin</span><span class=p>(</span><span class=n>results</span><span class=p>))</span>
+<span class=nb>print</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>min</span><span class=p>(</span><span class=n>results</span><span class=p>))</span> <span class=c1># the optimal restructuring difference</span>
+<span class=nb>print</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>argmin</span><span class=p>(</span><span class=n>results</span><span class=p>))</span>
 <span class=n>end</span> <span class=o>=</span> <span class=n>time</span><span class=o>.</span><span class=n>time</span><span class=p>()</span>
-<span class=k>print</span><span class=p>(</span><span class=n>f</span><span class=s2>&#34;Runtime of the program is {end - start}&#34;</span><span class=p>)</span></code></pre></td></tr></table></div></div></div></div><html><body><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://daniel-furman.github.io/><small>By Daniel Furman</small></a></div></div></body><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css integrity=sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js integrity=sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O crossorigin=anonymous></script></html></body></html>
+<span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Runtime of the program is </span><span class=si>{</span><span class=n>end</span> <span class=o>-</span> <span class=n>start</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span></code></pre></td></tr></table></div></div></div></div><html><body><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://daniel-furman.github.io/><small>By Daniel Furman</small></a></div></div></body><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css integrity=sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js integrity=sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O crossorigin=anonymous></script></html></body></html>
