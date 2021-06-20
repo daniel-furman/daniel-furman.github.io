@@ -67,16 +67,16 @@ For the real-world, a full and accurate incorporation of ecology and biogeograph
  
 **Ensembling**
  
-I bagged the probabilistic inferences to blend the models into ensembles. Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging upon blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first guess and then refinement from there, as based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
+I bagged the probabilistic inferences to blend the models into an ensemble (predict_proba). Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging upon blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first-guess and then refined from there, based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
  
  
 **Postprocessing**
  
-I then used a threshold to go from the probabilistic inferences to the final labels. If any label had a prediction above the threshold, then that species was included in the final prediction (multiple label predictions were thus possible). If no labels received a prediction greater than the threshold, it received the nocall label. I used the given “training soundscapes” as the toy test set for tuning the threshold (as well as the public LB). I did this by calculating f1 scores for different thresholds, and plotted the results in matplotlib. I then randomly tested  thresholds on either side of the optimum, recording the public LB stats as they were generated to guide further hyperparam tinkering. 
+I then used a threshold to generate the labels from the raw probabilistic inferences. If any label had a prediction above the threshold, then that species was included in the final prediction (multiple label predictions were thus possible). If no labels received a prediction greater than the threshold, it received the nocall label. I used the given “training soundscapes” as the toy test set for tuning the threshold (as well as the public LB). I did this by calculating f1 scores for different thresholds, and plotted the results in matplotlib. I then randomly tested  thresholds on either side of the optimum, recording the public LB stats as they were generated to guide further hyperparam tinkering. 
  
 * Next time: Bootstrapping of validation set
 * Next time: Geospatial limitations
 * Next time: Dynamic thresholding
 
  
-Thanks goes to LifeCLEF, Kaggle, and the competitors. Cites: kkiller, jan’s paper, 2nd place write up, 11 place write up.
+Thanks goes to LifeCLEF, Kaggle, and the competitors. Cites: kkiller, Jan’s paper, 2nd place write up, 11 place write up.
