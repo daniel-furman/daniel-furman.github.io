@@ -55,25 +55,24 @@ I trained with BCE loss using Adam optimizer and cosine annealing schedule. I sa
  
 **Metadata Classifier**
  
-In addition to the audio based neural networks, I also trained a gradient boosting learner based only on the metadata associated with each call. I incorporated nine features to predict the primary labels in the training set, leaving out secondary ones (all data used). The features included three BioClim climatic variables important to bird assemblages ([Bender et al., 2017](https://www.nature.com/articles/s41598-019-53409-6)): 
+In addition to the audio based neural networks, I also trained a gradient boosting learner based only on the metadata associated with each call. I incorporated nine features to predict the primary labels in the training set, leaving out secondary ones (all data used). The features included:
 
-* Forest type (categorical), grass cover, datetimes (e.g., 1-365), longitude, latitude, and elevation.
+* 3 BioClims pertinent for bird assemblages ([Bender et al., 2017](https://www.nature.com/articles/s41598-019-53409-6)), forest type (categorical), grass cover, datetimes (e.g., 1-365), longitude, latitude, and elevation.
  
 To extract these data I used the given coordinates to search for the associated faeture value on their raster surfaces. The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize the features. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
  
 (Figure to come)
  
-For the real-world, a full incorporation of the ecological and biogeographic constraints would be essential for the model's stability and performance over time (and domain shift). Postprocessing was then employed to further incorporate these trends, aimed at improving the incorporation of the geospatial constraints (see below).
+For the real-world, a full and accurate incorporation of ecology and biogeography would be essential for the product's stability over time (and domain shift). Postprocessing was then employed to further incorporate these trends, aimed at improving the incorporation of the geospatial constraints (see below).
  
 **Ensembling**
  
-I used bagging on the probabilistic inferences. Averaging was employed for the same type of model in the 5 folds. I then used weighted averaging upon blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first guess and then refinement from there, as based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
+I bagged the probabilistic inferences to blend the models into ensembles. Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging upon blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first guess and then refinement from there, as based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
  
  
 **Postprocessing**
  
-I then used a threshold to go from the probabilistic inferences to the final labels. If any label had a prediction above the threshold, then that species was included in the final prediction (multiple label predictions were thus possible). If no labels received a prediction greater than the threshold, it received the nocall label. I used the given “training soundscapes” as the toy test set for tuning the threshold (as well as the public LB). I did this by calculating f1 scores for different thresholds, and plotted the results in matplotlib. I then played around with thresholds near the optimum, recording the public LB stats as they were generated. 
- 
+I then used a threshold to go from the probabilistic inferences to the final labels. If any label had a prediction above the threshold, then that species was included in the final prediction (multiple label predictions were thus possible). If no labels received a prediction greater than the threshold, it received the nocall label. I used the given “training soundscapes” as the toy test set for tuning the threshold (as well as the public LB). I did this by calculating f1 scores for different thresholds, and plotted the results in matplotlib. I then randomly tested  thresholds on either side of the optimum, recording the public LB stats as they were generated to guide further hyperparam tinkering. 
  
 * Next time: Bootstrapping of validation set
 * Next time: Geospatial limitations
