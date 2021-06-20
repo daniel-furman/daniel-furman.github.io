@@ -49,7 +49,7 @@ I trained with BCE loss using Adam optimizer and cosine annealing schedule. I sa
  
 * Augmentations. Power transformation (random int between 0.5 and 3) so to randomly vary the contrast of the images for each batch. Striping vertically and horizontally across the images (for 80% of the samples). Mixup between images and updating the labels accordingly, using the standard FB Cifar10 params (for 50-100% of the samples, depending on the run).  
 * Label smoothing. I used label smoothing to account for noisy annotations and absence of birds in “unlucky” 7sec crops. I used 0.0025 for zeros, 0.3 for secondary labels, and 0.995 for the primary label. 
-* Next time: record rating as weight on loss, with rating/max(ratings).
+* Next time: quality rating as weight on loss, with rating/max(ratings).
 * Next time: add background pink noise
 * Next time: consider other normalization methods for training. 
  
