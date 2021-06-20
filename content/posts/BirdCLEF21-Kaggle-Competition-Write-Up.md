@@ -39,7 +39,7 @@ I used Google Drive for code storage, Neptune.ai for experiment tracking, and Go
   
 My models were trained on the train_short clips and evaluated with the given Public LB soundscapes. They were all trained on 7-sec crops of the train_short data, with up to ten spectrograms taken at the beginning of the files (x% of the clips had the max ten). Taking 30 second clips would likely have been a better strategy (used by many of the top scorers), because longer snippets are superior among the weakly labeled data (unsure where the bird is calling). To account for the 5sec snippet format of test data, I padded the 5-sec clips at model inference to 7-sec. 
  
-Backbones: resnest50 (striping), efficientnet-B3 (mixup)
+Backbones: [resnest50](https://www.kaggle.com/ttahara/resnest50-fast-package) (striping), [efficientnet-B3](https://www.kaggle.com/tunguz/efficientnet-pytorch-071) (mixup)
  
 Model training in Colab for the resnests was ~2.5 hours (12 epochs), while training for the effnets was ~5.5 hours (55 epochs).
  
@@ -47,10 +47,11 @@ Model training in Colab for the resnests was ~2.5 hours (12 epochs), while train
  
 I trained with BCE loss using Adam optimizer and cosine annealing schedule. I saw improvements using the following tricks:
  
-Augmentations. Power transformation (random int between 0.5 and 3) so to randomly vary the contrast of the images for each batch. Striping vertically and horizontally across the images (for 80% of the samples). Mixup between images and updating the labels accordingly, using the standard FB Cifar10 params (for 50-100% of the samples, depending on the run).  
-Label smoothing. I used label smoothing to account for noisy annotations and absence of birds in “unlucky” 7sec crops. I used 0.0025 for zeros, 0.3 for secondary labels, and 0.995 for the primary label. 
-Next time: record rating as weight on loss, with rating/max(ratings).
-Next time: add background pink noise
+* Augmentations. Power transformation (random int between 0.5 and 3) so to randomly vary the contrast of the images for each batch. Striping vertically and horizontally across the images (for 80% of the samples). Mixup between images and updating the labels accordingly, using the standard FB Cifar10 params (for 50-100% of the samples, depending on the run).  
+* Label smoothing. I used label smoothing to account for noisy annotations and absence of birds in “unlucky” 7sec crops. I used 0.0025 for zeros, 0.3 for secondary labels, and 0.995 for the primary label. 
+* Next time: record rating as weight on loss, with rating/max(ratings).
+* Next time: add background pink noise
+* Next time: consider other normalization methods for training. 
  
 **Metadata Classifier**
  
