@@ -55,13 +55,15 @@ I trained with BCE loss using Adam optimizer and cosine annealing schedule. I sa
  
 **Metadata Classifier**
  
-In addition to the audio based neural networks, I also trained a gradient boosting learner based only on the metadata associated with each call. Ideally, this gradient booster will add a new flavor to the ensemble, picking out certain trends that the raw audio CNNs might miss. 
+In addition to the audio based neural networks, I also trained a gradient boosting learner based only on the metadata associated with each call. I incorporated nine features to predict the primary labels in the training set, leaving out secondary ones (all data used). The features included three BioClim climatic variables important to bird assemblages ([Bender et al., 2017](https://www.nature.com/articles/s41598-019-53409-6)): 
+
+* Forest type (categorical), grass cover, datetimes (e.g., 1-365), longitude, latitude, and elevation.
  
-I incorporated nine metadata features to predict the primary labels in the training set, leaving out secondary ones (all data used, 397 classes). The features included three BioClim climatic variables proven to be important to bird assemblages ([Bender et al., 2017](https://www.nature.com/articles/s41598-019-53409-6)), forest type (categorical), grass cover, datetimes (e.g., 1-365), longitude, latitude, and elevation. To extract these features I employed the given coordinates to back out the values on the features’ raster surfaces. The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize the features. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
+To extract these data I used the given coordinates to search for the associated faeture value on their raster surfaces. The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize the features. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
  
 (Figure to come)
  
-For model deployment in the real-world for actionable ecological outcomes, a robust incorporation of the pertinent ecological and biogeographic constraints is essential for model stability/performance over time (and domain shift). Postprocessing was then employed to further incorporate these trends, aimed at improving the incorporation of the geospatial constraints (see below).
+For the real-world, a full incorporation of the ecological and biogeographic constraints would be essential for the model's stability and performance over time (and domain shift). Postprocessing was then employed to further incorporate these trends, aimed at improving the incorporation of the geospatial constraints (see below).
  
 **Ensembling**
  
