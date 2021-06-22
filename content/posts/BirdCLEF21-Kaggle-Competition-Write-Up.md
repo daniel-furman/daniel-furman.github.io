@@ -78,6 +78,8 @@ Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kk
 
 **PS, Ecological Contexts**
 
-After reading up on LifeCLEF's BirdCLEF competition, I quickly realized that my notes from Prof. William's Community Ecology course (I took while abroad at JCU, Aus) were quite pertinent to the task. BirdCLEF cites its main goal as generating actionable biodiversity outcomes, a goal that is necessarily related to the underlying ecology. 
+After reading up on LifeCLEF's BirdCLEF competition, I quickly realized that my notes from Prof. William's Community Ecology course (taken while abroad at JCU in Queensland, Aus) were quite pertinent to both the Kaggl competition and the associated LifeCLEF conference. 
+
+BirdCLEF cites its main goal as generating actionable biodiversity outcomes, a goal that is necessarily related to the underlying ecology. 
 
 
