@@ -8,7 +8,7 @@ markup: "mmark"
 ## BirdCLEF21 Kaggle Competition Write Up.
 ---
 
-Bird song recognition is essential for detecting changes in biodiversity within ecological systems, better equipping scientists with knowledge into environmental risks. The BirdCLEF21 Kaggle challenge was classification on bird calls, with 397 target bird species as the training classes. BirdCLEF21's goal for bird call recognition AI is to semi-automate the monitoring of bird assemblages in natural settings. The competition's focus on actionable results was particularly intriguing to me (given my interestes in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). As a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
+Bird song recognition is essential for detecting changes in biodiversity within ecological systems, better equipping scientists with knowledge into environmental risks. The BirdCLEF21 Kaggle challenge was classification on bird calls, with 397 target bird species as the training classes. BirdCLEF21's goal for bird call recognition AI is to semi-automate the monitoring of bird assemblages in natural settings. The competition's focus on actionable results was particularly intriguing to me (given my interest in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). As a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
  
 **Solution TLDR**
 
@@ -73,7 +73,7 @@ I then used a threshold to generate the labels from the raw probabilistic infere
  
 * Next time: Bootstrapping of validation set for robust validation
 * Next time: Geospatial limitations as a postprocessing step for each site
-* Next time: Dynamic thresholding for higher predicted probabilities per file
+* Next time: Dynamic thresholding per test clip for any species at a high predicted probability
 
 **Bibliography**
 
