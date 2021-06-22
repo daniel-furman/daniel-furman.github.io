@@ -14,9 +14,8 @@ In my spare time I enjoy surfing, golfing, climbing, playing guitar, reading, an
 
 ### <ins>Research</ins>
 
-- Geospatial ML applied to risk analytics in ecological systems (DAT/Artathon Risk & Resilience Fellow '21) (Harvey Mudd College Data Science REU '19) [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Experimental geophysics applied to ice sheet flow (Penn, Ice Physics Lab) [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
-
+- Geospatial ML applied to ecological risk analytics [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)] (DAT/Artathon Risk & Resilience Fellow '21) (Harvey Mudd College Data Science REU '19) 
+- Material science experimentation of grain-size-sensitivty during ice sheet flow [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)] (Penn, Ice Physics Lab) 
 ---
 
 ### <ins>Developing</ins>
