@@ -14,7 +14,7 @@ The BirdCLEF21 Kaggle challenge tasked competitors to classify bird calls by spe
 
 My solution achieved a top 9% result (for solo bronze :)), moving up 8 spots relative to the competition from the public leaderboard (f1 = 0.68) to the private leaderboard (f1 = 0.61).
  
-I blended several audio to spectogram CNNs by taking 7-sec spectrogram representations of the bird calls (.ogg files). I employed stripe augmentations and mixup to improve the CNNs’ generalization to out-of-training domains. For inference, I predicted on 5-sec snippets (padded to 7-sec) and refined the result with a metadata gradient boosting classifier, as well as with postprocessing. The shift from the training set, composed of short bird call recordings (train_short), to the test-set, composed of passively recorded natural soundscapes, resulted in a significant drop off in the models' f1 performance. For example, 1st place f1 decreased between the publice and private leaderboards by ~10%, 2nd place decreased by ~14%, and my solution decreased by ~10%. My instincts leads me to believe that deployment to natural settings (beyond the context of Kaggle) may result in even further f1 performance drop offs, a reality which is partially related to the shear number of bird species worldwide ([possibly 20k+](https://www.amnh.org/about/press-center/new-study-doubles-the-estimate-of-bird-species-in-the-world#:~:text=Birds%20are%20traditionally%20thought%20of,and%2010%2C000%20species%20of%20birds.).  
+I blended several audio to spectogram CNNs by taking 7-sec spectrogram representations of the bird calls (.ogg files). I employed stripe augmentations and mixup to improve the CNNs’ generalization to out-of-training domains. For inference, I predicted on 5-sec snippets (padded to 7-sec) and refined the result with a metadata gradient boosting classifier, as well as with postprocessing. The shift from the training set, composed of short bird call recordings (train_short), to the test-set, composed of passively recorded natural soundscapes, resulted in a significant drop off in the models' f1 performance. For example, 1st place f1 decreased between the publice and private leaderboards by ~10%, 2nd place decreased by ~14%, and my solution decreased by ~10%. My instincts leads me to believe that deployment to natural settings (beyond the context of Kaggle) may result in even further f1 performance drop offs, a reality which is partially related to the shear number of bird species worldwide ([possibly 20k+](https://www.amnh.org/about/press-center/new-study-doubles-the-estimate-of-bird-species-in-the-world#:~:text=Birds%20are%20traditionally%20thought%20of,and%2010%2C000%20species%20of%20birds.)).  
  
 **Validation**
  
@@ -74,4 +74,10 @@ I then used a threshold to generate the labels from the raw probabilistic infere
 * Next time: Dynamic thresholding
 
  
-Thanks goes to LifeCLEF, Kaggle, and the competitors. Cites: kkiller, Jan’s paper, 2nd place write up, 11 place write up.
+Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectograms](), Jan’s paper, 2nd place write up, 11 place write up.
+
+**PS, Ecological Contexts**
+
+After reading up on LifeCLEF's BirdCLEF competition, I quickly realized that my notes from Prof. William's Community Ecology course (I took while abroad at JCU, Aus) were quite pertinent to the task. BirdCLEF cites its main goal as generating actionable biodiversity outcomes, a goal that is necessarily related to the underlying ecology. 
+
+
