@@ -14,7 +14,7 @@ The BirdCLEF21 Kaggle challenge tasked competitors to classify bird calls by the
  
 For BirdCLEF21, I blended several CNNs taking 7-sec spectrogram representations of audio bird call files. I employed stripe augmentations and mixup to improve the CNNs’ generalization to out-of-training domains. For inference, I predict on 5-sec snippets padded to 7-sec and refine the result with a metadata gradient boosting classifier and postprocessing. The domain shift from the training set, composed of short bird call recordings (train_short) to the test-set, composed of passively recorded natural soundscapes, resulted in a significant drop off in performance upon inference to the hidden test set. 
  
-My solution achieved a top 9% result (solo bronze) and moved up 8 spots from the public LB (f1 = 0.68) to the private LB (f1 = 0.61).
+My solution achieved a top 9% result (solo bronze) and moved up 8 spots (relative to the competition) from the public LB (f1 = 0.68) to the hidden LB (f1 = 0.61).
  
 **Validation**
  
@@ -33,7 +33,7 @@ I used `Google Drive` for code storage, `Neptune.ai` for experiment tracking, an
  
 **Bird Call CNNs**
   
-My models were trained on the train_short clips and evaluated with the Public LB soundscapes. They were all trained on 7-sec crops of the train_short data, with up to ten spectrograms taken at the beginning of the files (35% of the clips had the max ten 7-sec crops). Taking longer 30 second clips would likely have been a better strategy (used by many of the top scorers), because longer snippets are superior among the weakly labeled data (unsure where the bird is calling). To account for the 5sec snippet format of test data, I padded the 5-sec clips at model inference to 7-sec. 
+My models were trained on the train_short clips and evaluated with the Public LB soundscapes. They were all trained on 7-sec crops of the train_short data, with up to ten spectrograms taken at the beginning of the files (35% of the clips had the max ten 7-sec crops). Taking ~30-sec clips would have been a better strategy (used by many of the top scorers), because longer snippets are superior among the weakly labeled data (unsure where the bird is calling). To account for the 5sec snippet format of test data, I padded the 5-sec clips at model inference to 7-sec. 
  
 Backbones: [resnest50](https://www.kaggle.com/ttahara/resnest50-fast-package) (striping), [efficientnet-B3](https://www.kaggle.com/tunguz/efficientnet-pytorch-071) (mixup). Transfer weights from ImageNet. 
  
