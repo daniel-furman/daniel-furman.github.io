@@ -60,8 +60,8 @@ To extract these data, I used the raster surface value at the given location (lo
  
 (Figure to come)
  
-For real-world deployment, an accurate incorporation of the ecology and biogeography would be essential for the product's stability over time (and domain shift). Postprocessing was then employed to further incorporate these trends, aimed at improving the incorporation of the geospatial constraints (see below).
- 
+For real-world deployment, an accurate incorporation of the ecology and biogeography would be essential for the product's stability over time (and domain shift).
+
 **Ensembling**
  
 I bagged the probabilistic inferences to blend the models into an ensemble (predict_proba). Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging upon blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first-guess and then refined from there, based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
