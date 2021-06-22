@@ -8,7 +8,7 @@ markup: "mmark"
 ## BirdCLEF21 Kaggle Competition Write Up.
 ---
 
-The BirdCLEF21 Kaggle challenge tasked competitors to classify bird calls by species, with 397 target bird species as training classes. BirdCLEF21's goal fir bird call recognition AI is to streamline (by semi-automating) the monitoring of bird assemblages in natural settings. The competition's focus on actionable biodiversity outcomes was particularly intriguing to me (fitting into my interestes in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)]), and, as a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
+The BirdCLEF21 Kaggle challenge tasked competitors to classify bird calls by species, with 397 target bird species as training classes. BirdCLEF21's goal fir bird call recognition AI is to streamline (by semi-automating) the monitoring of bird assemblages in natural settings. The competition's focus on actionable biodiversity outcomes was particularly intriguing to me (fitting into my interestes in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). As a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
  
 **Solution TLDR**
 
