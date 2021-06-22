@@ -12,13 +12,9 @@ The BirdCLEF21 Kaggle competition task was to classify bird calls by their speci
  
 **TLDR**
  
-I blended several CNNs taking 7-second spectrogram representations of .ogg bird call files. I employed stripe augmentations and mixup to improve the CNNs’ generalization to out of training domains. For inference, we predict on padded 5 sec snippets and refine the result with a metadata gradient boosting classifier and postprocessing. 
-
-The domain shift from the training set, composed of short bird call recordings (train_short) to the test-set, composed of passively recorded natural soundscapes, resulted in a significant drop off in model performance at inference to the hidden test set. 
+I blended several CNNs taking 7-second spectrogram representations of .ogg bird call files. I employed stripe augmentations and mixup to improve the CNNs’ generalization to out-of-training domains. For inference, we predict on 5-sec snippets padded to 7 second and refine the result with a metadata gradient boosting classifier and postprocessing. The domain shift from the training set, composed of short bird call recordings (train_short) to the test-set, composed of passively recorded natural soundscapes, resulted in a significant drop off in model performance at inference to the hidden test set. 
  
-My solution achieved a top 9% result (solo bronze) and moved up 8 spots from the public LB (f1 = 0.68) to the private LB (f1 = 0.61).
-
-I believe that fully incorporating the underlying ecological constraints at play is essential to accomplish the goal of this data product, namely, generating actionable biodiversity outcomes. 
+My solution achieved a top 9% result (solo bronze) and moved up 8 spots from the public LB (f1 = 0.68) to the private LB (f1 = 0.61). I believe that fully incorporating the underlying ecological constraints at play is essential to best generate actionable biodiversity outcomes from bird call recognition with AI. 
  
 **Validation**
  
