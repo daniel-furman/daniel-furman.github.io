@@ -8,7 +8,7 @@ markup: "mmark"
 ## BirdCLEF21 Kaggle Competition Write Up.
 ---
 
-The BirdCLEF21 Kaggle challenge tasked competitors to classify bird calls by species, with 397 target bird species as training classes. BirdCLEF21's goal fir bird call recognition AI is to streamline (by semi-automating) the monitoring of bird assemblages in natural settings. The competition's focus on actionable biodiversity outcomes was particularly intriguing to me (fitting into my interestes in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). As a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
+Bird song recognition is essential for detecting changes in biodiversity worldwide, better equipping scientists with insights into environmental risks. The BirdCLEF21 Kaggle challenge tasked competitors to classify bird calls by species, with 397 target bird species as training classes. BirdCLEF21's goal fir bird call recognition AI is to streamline (by semi-automating) the monitoring of bird assemblages in natural settings. The competition's focus on actionable biodiversity outcomes was particularly intriguing to me (fitting into my interestes in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). As a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
  
 **Solution TLDR**
 
@@ -69,9 +69,9 @@ I bagged the probabilistic inferences to blend the models into an ensemble (pred
  
 I then used a threshold to generate the labels from the raw probabilistic inferences. If any label had a prediction above the threshold, then that species was included in the final prediction (multiple label predictions were thus possible). If no labels received a prediction greater than the threshold, it received the nocall label. I used the given training soundscapes as the toy test set for tuning the threshold against the public LB performance. I did this by calculating f1 scores for different thresholds, and plotted the results in matplotlib. I then randomly tested thresholds on either side of the maximum. 
  
-* Next time: Bootstrapping of validation set
-* Next time: Geospatial limitations
-* Next time: Dynamic thresholding
+* Next time: Bootstrapping of validation set for robust validation
+* Next time: Geospatial limitations as a postprocessing step for each site
+* Next time: Dynamic thresholding for higher predicted probabilities per file
 
  
 Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021), Jan’s paper, [2nd place write up](https://www.kaggle.com/c/birdclef-2021/discussion/229995), [11 place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243360).
