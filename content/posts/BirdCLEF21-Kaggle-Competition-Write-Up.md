@@ -8,11 +8,11 @@ markup: "mmark"
 ## BirdCLEF21 Kaggle Competition Write Up.
 ---
 
-The BirdCLEF21 Kaggle competition task was to classify bird calls by their species (397 target classes). These bird call recognition models were aimed at streamlining and semi-automating ecosystem monitoring for bird assemblages.
+The BirdCLEF21 Kaggle challenge tasked competitors to classify bird calls by their species (397 target classes). Overall, bird call recognition models are aimed at streamlining (semi-automating) ecosystem monitoring of bird assemblages. The competition's focus on actionable outcomes that help the planet was particularly intriguing to me, and I thoroughly enjoyed the time I put into these efforts. 
  
 **TLDR**
  
-I blended several CNNs taking 7-second spectrogram representations of .ogg bird call files. I employed stripe augmentations and mixup to improve the CNNs’ generalization to out-of-training domains. For inference, we predict on 5-sec snippets padded to 7 second and refine the result with a metadata gradient boosting classifier and postprocessing. The domain shift from the training set, composed of short bird call recordings (train_short) to the test-set, composed of passively recorded natural soundscapes, resulted in a significant drop off in model performance at inference to the hidden test set. 
+For the BirdCLEF21 Kaggle competition, I blended several CNNs taking 7-second spectrogram representations of .ogg bird call files. I employed stripe augmentations and mixup to improve the CNNs’ generalization to out-of-training domains. For inference, I predict on 5-sec snippets padded to 7 second and refine the result with a metadata gradient boosting classifier and postprocessing. The domain shift from the training set, composed of short bird call recordings (train_short) to the test-set, composed of passively recorded natural soundscapes, resulted in a significant drop off in model performance at inference to the hidden test set. 
  
 My solution achieved a top 9% result (solo bronze) and moved up 8 spots from the public LB (f1 = 0.68) to the private LB (f1 = 0.61).
  
