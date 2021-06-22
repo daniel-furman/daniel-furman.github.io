@@ -74,7 +74,7 @@ I then used a threshold to generate the labels from the raw probabilistic infere
 * Next time: Dynamic thresholding
 
  
-Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectograms](), Jan’s paper, 2nd place write up, 11 place write up.
+Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021), Jan’s paper, [2nd place write up](https://www.kaggle.com/c/birdclef-2021/discussion/229995), [11 place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243360).
 
 **PS, Ecological Contexts**
 
