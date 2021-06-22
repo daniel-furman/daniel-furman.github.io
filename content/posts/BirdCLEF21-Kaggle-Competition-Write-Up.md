@@ -28,7 +28,7 @@ Because folding is somewhat redundant relative to the train/test shift in BirdCL
  
 **Code and Data Pipeline**
  
-I used `Google Drive` for code storage, `Neptune.ai` for experiment tracking, and `Google Colab` for model fitting in a high-RAM & GPU enabled environment. For the CNNs I used `PyTorch` with Resnest and EfficientNet backbones and for the Metadata classifier I used `Catboost`. Since I used [pre-computed mel-spectrograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021) for the CNNs there was no need for data versioning (Github for future storage with versioning). Additionally, the spectrograms were cached to memory before training to speed up CNN fitting. I performed the CNN augmentations (mixup, striping) on the GPU per batch to reduce CPU bottlenecking. 
+I used `Google Drive` for code storage, `Neptune.ai` for experiment tracking, and `Google Colab` for model fitting in a high-RAM & GPU enabled environment. For the CNNs I used PyTorch with Resnest and EfficientNet backbones and for the Metadata classifier I used Catboost, both trained on GPU. Since I used [pre-computed mel-spectrograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021) for the CNNs there was no need for data versioning (Github for future storage with versioning). Additionally, the spectrograms were cached to memory before training to speed up CNN fitting. I performed the CNN augmentations (mixup, striping) on the GPU per batch to reduce CPU bottlenecking. 
  
 **Bird Call CNNs**
   
@@ -73,10 +73,11 @@ I then used a threshold to generate the labels from the raw probabilistic infere
 * Next time: Geospatial limitations as a postprocessing step for each site
 * Next time: Dynamic thresholding for higher predicted probabilities per file
 
- 
+**Bibliography**
+
 Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021), Jan’s paper, [2nd place write up](https://www.kaggle.com/c/birdclef-2021/discussion/229995), [11 place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243360).
 
-**PS, Ecological Contexts**
+**P.S. Ecological Contexts**
 
 After reading up on LifeCLEF's BirdCLEF competition, I quickly realized that my notes from Prof. William's Community Ecology course (taken while abroad at JCU in Queensland, Aus) were quite pertinent to both the Kaggl competition and the associated LifeCLEF conference. 
 
