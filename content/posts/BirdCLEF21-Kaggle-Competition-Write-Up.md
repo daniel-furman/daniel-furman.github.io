@@ -5,10 +5,9 @@ katex: true
 markup: "mmark"
 ---
 
-## BirdCLEF21 Kaggle Competition Write Up.
+## BirdCLEF21 Kaggle Competition Write Up. [[Code](https://nbviewer.jupyter.org/github/daniel-furman/RandomDS/blob/main/BirdCLEF21_Training.ipynb)]
 ---
 
-[[Code](https://nbviewer.jupyter.org/github/daniel-furman/RandomDS/blob/main/BirdCLEF21_Training.ipynb)]
 
 Bird song recognition with AI has the potential to semi-automate bird assemblage monitoring, equipping scientists, land managers, and policy makers with a better understanding of environmental risks. The BirdCLEF21 Kaggle challenge involved species classification on bird calls, with 397 target species for training classes. The competition's focus on actionable biodiversity outcomes was particularly exciting (given my interest in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). As a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
  
