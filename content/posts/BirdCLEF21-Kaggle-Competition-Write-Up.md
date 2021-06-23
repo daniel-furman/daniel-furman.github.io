@@ -23,7 +23,7 @@ In addition, many of the species were underrepresented in the training-set (roug
 
 In an attempt to account for some of the spatial correlations in the bird song records, I implemented 5-fold cross validation using a block technique. The [blockCV](https://cran.r-project.org/web/packages/blockCV/vignettes/BlockCV_for_SDM.html) strategy I employed split the data into geospatial grids for each quarter of the year. Due to the density of surveys within the training set, I considered three large areas for the gridding scheme (North America, South America, and Europe), the regions which had a high density of recordings, and otherwise randomly assigned folds for the regions with a low density of recordings. This gridding forced the models to learn how to extrapolate in space from training folds to the the validation fold. Furthermore, the temporal splitting into yearly quarters ensured the 80/20 train/test split was preserved across time periods, so that seasonal patterns in the bird calls were captured in a representative manner. 
 
-Due to the fact that cross-validation folding is partially redundant here (relative to the train/test shift in BirdCLEF21), I selected the best performing models across different seeds and subtly changing hyper-parameters, resulting in a bagged model with each of the 5 folds represented at least once and at most twice (I should have bagged with more random seeds, tip to myself for next time). Despite the redundancies in folding the training set, my cross-validation scheme was preferred to a random splitting scheme in respect to spatial auto-correlation, biases which are common to ecological survey data.
+Since cross-validation folding is somewhat redundant relative to the train/test shift in BirdCLEF21, I selected the best models from different seeds and (subtly altered) hyper-parameters, resulting in a bagged model with each of the 5 folds represented at least once and at most twice (I should have bagged with more random seeds, tip to myself for next time). Despite the redundancies in folding the training set, my cross-validation scheme was preferred to a random splitting scheme in respect to spatial auto-correlation, biases which are common to ecological survey data.
  
 <p align="center"> <img src="/posts/birdclefBlockCV.png"/ width = "550" height = "710"> </p>
  
@@ -78,8 +78,6 @@ Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kk
 
 **P.S. Ecological Contexts**
 
-After reading up on LifeCLEF's BirdCLEF competition, I quickly realized that my notes from Prof. William's Community Ecology course (taken while abroad at JCU in Queensland, Aus) were quite pertinent to both the Kaggl competition and the associated LifeCLEF conference. 
-
-BirdCLEF cites its main goal as generating actionable biodiversity outcomes, a goal that is necessarily related to the underlying ecology. 
+BirdCLEF cites its main goal as generating actionable biodiversity outcomes, a goal that is necessarily related to the underlying ecology and biogeopgraphy at play. 
 
 
