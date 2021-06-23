@@ -54,7 +54,7 @@ In addition to the audio based neural networks, I also trained a gradient boosti
  
 To extract these data, I used the raster surface value at the given location (long/lat coordinates associated with each bird call instance). The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize the features. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
  
-<p align="center"> <img src="/posts/birdclef_shap.png"/ width = "600" height = "340"> </p>
+<p align="center"> <img src="/posts/birdclef_shap.png"/ width = "650" height = "380"> </p>
  
 For real-world deployment, an accurate incorporation of the ecology and biogeography would be essential for the product's stability over time (and domain shift).
 
