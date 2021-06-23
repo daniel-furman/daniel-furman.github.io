@@ -10,9 +10,7 @@ markup: "mmark"
 ---
 
 
-Bird song recognition with AI has the potential to greatly streamline (by semi-automating) scientific monitoring of bird assemblages. The streamlined identification of bird species in natural settings equips land managers and policy-makers with a stronger understanding of environmental risks pervading ecological systems. 
-
-The BirdCLEF21 Kaggle challenge involved species classification on bird calls, with 397 target species for training classes. The competition's focus on actionable biodiversity outcomes was particularly exciting (given my interest in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4) and the environment). As a result, I very thoroughly enjoyed the competition :).
+Bird song recognition with AI has the potential to greatly streamline (by semi-automating) scientific monitoring of bird assemblages. The streamlined identification of bird species in natural settings then equips land managers and policy-makers with a much stronger understanding of environmental risks pervading ecological systems. In an effort to bring state of the art to bird song models, the BirdCLEF21 Kaggle challenge tasked competitors to classify species from bird calls, with 397 target species as training classes. The competition's focus on actionable biodiversity outcomes was particularly exciting (given my interest in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4) and the environment). 
  
 **Solution TLDR**
 
