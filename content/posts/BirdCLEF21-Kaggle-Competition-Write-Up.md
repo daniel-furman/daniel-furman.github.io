@@ -25,7 +25,7 @@ In an attempt to account for some of the spatial correlations in the bird song r
 
 Due to the fact that cross-validation folding is partially redundant here (relative to the train/test shift in BirdCLEF21), I selected the best performing models across different seeds and subtly changing hyper-parameters, resulting in a bagged model with each of the 5 folds represented at least once and at most twice (I should have bagged with more random seeds, tip to myself for next time). Despite the redundancies in folding the training set, my cross-validation scheme was preferred to a random splitting scheme in respect to spatial auto-correlation, biases which are common to ecological survey data.
  
-<p align="center"> <img src="/posts/birdclefBlockCV.png"/ width = "550" height = "725"> </p>
+<p align="center"> <img src="/posts/birdclefBlockCV.png"/ width = "550" height = "710"> </p>
  
 **Code and Data Pipeline**
  
