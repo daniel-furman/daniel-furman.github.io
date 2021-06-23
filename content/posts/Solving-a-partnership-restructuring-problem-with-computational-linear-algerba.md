@@ -5,8 +5,6 @@ katex: true
 markup: "mmark"
 ---
 
-<br><br>
-
 ## Solving a partnership restructuring problem with Markov processes.
 
 ---
