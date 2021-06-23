@@ -24,7 +24,7 @@ In an attempt to account for some of the spatial correlations in the bird song r
 
 Due to the fact that cross-validation folding is partially redundant here (relative to the train/test shift in BirdCLEF21), I selected the best performing models across different seeds and subtly changing hyper-parameters, resulting in a bagged model with each of the 5 folds represented at least once and at most twice (I should have bagged with more random seeds, tip to myself for next time). Despite the redundancies in folding the training set, my cross-validation scheme was preferred to a random splitting scheme in respect to spatial auto-correlation, biases which are common to ecological survey data.
  
-(Figure to come)
+<p align="center"> <img src="/posts/birdclefBlockCV.png"/ width = "450" height = "538"> </p>
  
 **Code and Data Pipeline**
  
@@ -37,9 +37,7 @@ My models were trained on the train_short clips and evaluated with the Public LB
 Backbones: [resnest50](https://www.kaggle.com/ttahara/resnest50-fast-package) (striping), [efficientnet-B3](https://www.kaggle.com/tunguz/efficientnet-pytorch-071) (mixup). Transfer weights from ImageNet. 
  
 Model training in Colab for the resnests was ~2.5 hours (12 epochs), while training for the effnets was ~5.5 hours (55 epochs).
- 
-(Figure to come)
- 
+  
 I trained with BCE loss using Adam optimizer and cosine annealing schedule. I saw improvements using the following tricks:
  
 * Augmentations. Power transformation (random int between 0.5 and 3) so to randomly vary the contrast of the images for each batch. Striping vertically and horizontally across the images (for 80% of the samples). Mixup between images and updating the labels accordingly, using the standard FB Cifar10 params (for 50-100% of the samples, depending on the run).  
@@ -56,7 +54,7 @@ In addition to the audio based neural networks, I also trained a gradient boosti
  
 To extract these data, I used the raster surface value at the given location (long/lat coordinates associated with each bird call instance). The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize the features. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
  
-(Figure to come)
+<p align="center"> <img src="/posts/birdclef_shap.png"/ width = "450" height = "260"> </p>
  
 For real-world deployment, an accurate incorporation of the ecology and biogeography would be essential for the product's stability over time (and domain shift).
 
