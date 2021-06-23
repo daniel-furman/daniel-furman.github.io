@@ -14,7 +14,7 @@ Bird song recognition with AI has the potential to greatly streamline (by semi-a
  
 **Solution TLDR**
 
-My solution achieved a top 9% result (solo bronze), improving 8 spots between the public (f1 = 0.68) and private (f1 = 0.61) leaderboards. Not bad for my first go at a feature competition! 
+My solution achieved a top 9% result (solo bronze), improving 8 spots relative to the competition between the public (f1 = 0.68) and private (f1 = 0.61) leaderboards. Not bad for my first go at a feature competition! 
 
 I blended several audio-based Convolutional Neural Networks (CNNs) taking up to 10 spectogram representations of 7-sec segments per bird call file (raw .ogg's). I employed striping and mixup to improve the CNNs’ generalization to out-of-training domains. I then used the network for inference on the test-set on 5-sec snippets (padded to 7-sec), refining the results by blending a metadata gradient boosting classifier. The shift from the training set (short bird call recordings, train_short) to the test-set (passively recorded natural soundscapes) resulted in performance drop off: 1st place's f1 score decreased by ~10%, 2nd place decreased by ~14%, while my solution decreased by ~10% (from the public to private leaderboards).
 
