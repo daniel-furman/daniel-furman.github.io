@@ -8,6 +8,8 @@ markup: "mmark"
 ## BirdCLEF21 Kaggle Competition Write Up.
 ---
 
+[Code](https://nbviewer.jupyter.org/github/daniel-furman/RandomDS/blob/main/BirdCLEF21_Training.ipynb)
+
 Bird song recognition with AI has the potential to semi-automate bird assemblage monitoring, equipping scientists, land managers, and policy makers with a better understanding of environmental risks. The BirdCLEF21 Kaggle challenge involved species classification on bird calls, with 397 target species for training classes. The competition's focus on actionable biodiversity outcomes was particularly exciting (given my interest in [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). As a result, I very thoroughly enjoyed the time I put into BirdCLEF21. 
  
 **Solution TLDR**
@@ -34,7 +36,7 @@ I used `Google Drive` for code storage, `Neptune.ai` for experiment tracking, an
   
 My models were trained on the train_short clips and evaluated with the Public LB soundscapes. They were all trained on 7-sec crops of the train_short data, with up to ten spectrograms taken at the beginning of the files (35% of the clips had the max ten 7-sec crops). Taking ~30-sec clips would have been a better strategy (used by many of the top scorers), because longer snippets are superior among the weakly labeled data (unsure where the bird is calling). To account for the 5sec snippet format of test data, I padded the 5-sec clips at model inference to 7-sec. 
  
-Backbones: [resnest50](https://www.kaggle.com/ttahara/resnest50-fast-package) (striping), [efficientnet-B3](https://www.kaggle.com/tunguz/efficientnet-pytorch-071) (mixup). Transfer weights from ImageNet. 
+Backbones: [resnest50](https://www.kaggle.com/ttahara/resnest50-fast-package) (striping), [efficientnet-B3](https://www.kaggle.com/tunguz/efficientnet-pytorch-071) (mixup), both with transfer learning weights set from ImageNet.  
  
 Model training in Colab for the resnests was ~2.5 hours (12 epochs), while training for the effnets was ~5.5 hours (55 epochs).
   
@@ -73,7 +75,7 @@ I then used a threshold to generate the labels from the raw probabilistic infere
 
 **Bibliography**
 
-Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021), Jan’s paper, [2nd place write up](https://www.kaggle.com/c/birdclef-2021/discussion/229995), [11 place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243360).
+Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021), [Paper 181 BirdCLEF2018](http://ceur-ws.org/Vol-2125/paper_181.pdf), [2nd place write up](https://www.kaggle.com/c/birdclef-2021/discussion/229995), [11 place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243360).
 
 **P.S. Ecological Contexts**
 
