@@ -5,7 +5,8 @@ katex: true
 markup: "mmark"
 ---
 
-## BirdCLEF21 Kaggle Competition Write Up. [[Code](https://nbviewer.jupyter.org/github/daniel-furman/RandomDS/blob/main/BirdCLEF21_Training.ipynb)]
+## BirdCLEF21 Kaggle Competition Write Up. 
+### [[Code](https://nbviewer.jupyter.org/github/daniel-furman/RandomDS/blob/main/BirdCLEF21_Training.ipynb)]
 ---
 
 
@@ -55,7 +56,7 @@ In addition to the audio based neural networks, I also trained a gradient boosti
  
 To extract these data, I used the raster surface value at the given location (long/lat coordinates associated with each bird call instance). The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize the features. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
  
-<p align="center"> <img src="/posts/birdclef_shap.png"/ width = "650" height = "380"> </p>
+<p align="center"> <img src="/posts/birdclef_shap.png"/ width = "625" height = "3620"> </p>
  
 For real-world deployment, an accurate incorporation of the ecology and biogeography would be essential for the product's stability over time (and domain shift).
 
@@ -66,7 +67,7 @@ I bagged the probabilistic inferences to blend the models into an ensemble (pred
  
 **Postprocessing**
  
-I then used a threshold to generate the labels from the raw probabilistic inferences. If any label had a prediction above the threshold, then that species was included in the final prediction (multiple label predictions were thus possible). If no labels received a prediction greater than the threshold, it received the nocall label. I used the given training soundscapes as the toy test set for tuning the threshold against the public LB performance. I did this by calculating f1 scores for different thresholds, and plotted the results in matplotlib. I then randomly tested thresholds on either side of the maximum. 
+I used a postprocessing threshold to generate the species labels from the tensors of probabilistic inferences. If a class had a probability above this threshold, then the species was included in the prediction (multi-labeling enabled). If none of the labels received a probability greater than the threshold, the instance received the nocall label. More postprocessing to come in BirdCLEF22 (which has already been confirmed)!
  
 * Next time: Bootstrapping of validation set for robust validation
 * Next time: Geospatial limitations as a postprocessing step for each site
