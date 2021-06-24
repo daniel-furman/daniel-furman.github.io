@@ -41,17 +41,17 @@ My models were trained on the train_short clips and evaluated with the Public LB
 
 I saw improvements using the following tricks:
  
- * Augmentations. Power transformation (random int between 0.5 and 3 per batch) varies the contrast of the spectrograms. Striping vertically and horizontally across the images (for a random 80% of the samples). Mixup between images (and updating the labels accordingly) using the standard FB Cifar10 params.
- * Label smoothing. I used label smoothing to account for noisy annotations and absence of birds in “unlucky” 7-sec crops. I used 0.0025 for zeros, 0.3 for secondary labels, and 0.995 for the primary label. 
- * Next time: Quality rating as weight on loss, with rating/max(ratings).
- * Next time: Add background pink noise
- * Next time: Consider other normalization methods for training. 
+ - Augmentations. Power transformation (random int between 0.5 and 3 per batch) varies the contrast of the spectrograms. Striping vertically and horizontally across the images (for a random 80% of the samples). Mixup between images (and updating the labels accordingly) using the standard FB Cifar10 params.
+ - Label smoothing. I used label smoothing to account for noisy annotations and absence of birds in “unlucky” 7-sec crops. I used 0.0025 for zeros, 0.3 for secondary labels, and 0.995 for the primary label. 
+ - Next time: Quality rating as weight on loss, with rating/max(ratings).
+ - Next time: Add background pink noise
+ - Next time: Consider other normalization methods for training. 
  
 **Metadata Classifier**
  
 In addition to the audio based neural networks, I also trained a gradient boosting learner based only on the metadata associated with each call. I incorporated nine features to predict the primary labels in the training set, leaving out secondary ones (all data used). The features included:
 
- * 3 BioClims pertinent for bird assemblages ([Bender et al., 2017](https://www.nature.com/articles/s41598-019-53409-6)), forest type (categorical), grass cover, datetimes (e.g., 1-365), longitude, latitude, and elevation. [[raster .tif modeling features](https://www.kaggle.com/dryanfurman/geospatialdatabirdclef)] 
+ - 3 BioClims pertinent for bird assemblages ([Bender et al., 2017](https://www.nature.com/articles/s41598-019-53409-6)), forest type (categorical), grass cover, datetimes (e.g., 1-365), longitude, latitude, and elevation. [[raster .tif modeling features](https://www.kaggle.com/dryanfurman/geospatialdatabirdclef)] 
  
 To extract these data, I used the raster surface value at the given location (long/lat coordinates associated with each bird call instance). The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
  
@@ -68,9 +68,9 @@ I bagged the probabilistic inferences to blend the models into an ensemble. Un-w
  
 I used a postprocessing threshold to generate the species labels from the probabilistic inference tensors. If a class had a probability above this threshold, then the species was included in the prediction (multi-labeling enabled). If none of the labels received a probability greater than the threshold, the instance received the nocall label. More postprocessing to come in BirdCLEF22 (which has already been confirmed)!
  
- * Next time: Bootstrapping of validation set for robust validation
- * Next time: Geospatial limitations as a postprocessing step for each site
- * Next time: Dynamic thresholding per test clip for any species at a high predicted probability
+ - Next time: Bootstrapping of validation set for robust validation
+ - Next time: Geospatial limitations as a postprocessing step for each site
+ - Next time: Dynamic thresholding per test clip for any species at a high predicted probability
 
 **Bibliography**
 
@@ -80,11 +80,9 @@ Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kk
 
 BirdCLEF cites its main objective as generating actionable biodiversity outcomes, which is necessarily related to the underlying ecology and biogeography at play. 
 
- * The goal of ecology is to describe species communities in natural settings, at various temporal and geospatial scales, ultimately across the entire biosphere.
- * Biogeographic barriers constrain species distributions and abundance in ecological systems. 
- * Describing community structures is difficult due to the complexity of multispecies assemblages. 
- * The retrieval of ecological survey data includes many biases: observer, species detectability, technique, habitat, weather, and sampling representation. For BirdCLEF21's Xeno-Canto bird song data, species detectability biases (certain birds have softer calls, not as recorded), habitat & weather biases (can't retrieve data from certain areas), and sampling representation biases (1/3 of the classes had less than 100 instances) played a role. 
+ - The goal of ecology is to describe species communities in natural settings, at various temporal and geospatial scales, ultimately across the entire biosphere.
+ - Biogeographic barriers constrain species distributions and abundance in ecological systems. 
+ - Describing community structures is difficult due to the complexity of multispecies assemblages. 
+ - The retrieval of ecological survey data includes many biases: observer, species detectability, technique, habitat, weather, and sampling representation. For BirdCLEF21's Xeno-Canto bird song data, species detectability biases (certain birds have softer calls, not as recorded), habitat & weather biases (can't retrieve data from certain areas), and sampling representation biases (1/3 of the classes had less than 100 instances) played a role. 
  
 Overall, ecological models contain a trade-off between their specificity and generality, either capable of predicting species distributions/abundance at current conditions (specific model) or under changing conditions (generalizable model). For bird call recognition real-world deployment, the specificity/generality of the model would probably vary by site and vary by objective. That being said, the repeated nature of the (annual) BirdCLEF competition is a huge plus in terms of updating the models to generalize under domain shifts due to changing environmental conditions. 
-
-
