@@ -51,7 +51,7 @@ In addition to the audio based neural networks, I also trained a gradient boosti
 
  * 3 BioClims pertinent for bird assemblages ([Bender et al., 2017](https://www.nature.com/articles/s41598-019-53409-6)), forest type (categorical), grass cover, datetimes (e.g., 1-365), longitude, latitude, and elevation. [[raster .tif modeling features](https://www.kaggle.com/dryanfurman/geospatialdatabirdclef)] 
  
-To extract these data, I used the raster surface value at the given location (long/lat coordinates associated with each bird call instance). The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize the features. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
+To extract these data, I used the raster surface value at the given location (long/lat coordinates associated with each bird call instance). The BioClim rasters had a 5-arcmin resolution, while the land cover features were aggregated to match the BioClims. The numerical features were then subtracted by their mean and divided by their std so to z-score normalize. The Catboost model took approximately 1 hour to complete 1208 iterations on the GPU, with use-best-iteration enabled, yielding a f1 score of 0.18 on the randomly selected 20% validation set.  
  
 <p align="center"> <img src="/posts/birdclef_shap.png"/ width = "625" height = "362"> </p>
  
