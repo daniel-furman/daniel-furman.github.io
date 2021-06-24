@@ -40,7 +40,7 @@ My models were trained on the train_short clips and evaluated with the Public LB
 I saw improvements using the following tricks:
  
  * Augmentations. Power transformation (random int between 0.5 and 3 per batch) varies the contrast of the spectrograms. Striping vertically and horizontally across the images (for a random 80% of the samples). Mixup between images (and updating the labels accordingly) using the standard FB Cifar10 params.
- * Label smoothing. I used label smoothing to account for noisy annotations and absence of birds in “unlucky” 7sec crops. I used 0.0025 for zeros, 0.3 for secondary labels, and 0.995 for the primary label. 
+ * Label smoothing. I used label smoothing to account for noisy annotations and absence of birds in “unlucky” 7-sec crops. I used 0.0025 for zeros, 0.3 for secondary labels, and 0.995 for the primary label. 
  * Next time: Quality rating as weight on loss, with rating/max(ratings).
  * Next time: Add background pink noise
  * Next time: Consider other normalization methods for training. 
@@ -59,12 +59,12 @@ For real-world deployment, an accurate incorporation of the ecology and biogeogr
 
 **Ensembling**
  
-I bagged the probabilistic inferences to blend the models into an ensemble (predict_proba). Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging upon blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first-guess and then refined from there, based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
+I bagged the probabilistic inferences to blend the models into an ensemble. Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging for blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first-guess and then refined from there, based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
  
  
 **Postprocessing**
  
-I used a postprocessing threshold to generate the species labels from the tensors of probabilistic inferences. If a class had a probability above this threshold, then the species was included in the prediction (multi-labeling enabled). If none of the labels received a probability greater than the threshold, the instance received the nocall label. More postprocessing to come in BirdCLEF22 (which has already been confirmed)!
+I used a postprocessing threshold to generate the species labels from the probabilistic inference tensors. If a class had a probability above this threshold, then the species was included in the prediction (multi-labeling enabled). If none of the labels received a probability greater than the threshold, the instance received the nocall label. More postprocessing to come in BirdCLEF22 (which has already been confirmed)!
  
  * Next time: Bootstrapping of validation set for robust validation
  * Next time: Geospatial limitations as a postprocessing step for each site
@@ -76,7 +76,7 @@ Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kk
 
 **P.S. Ecological Contexts**
 
-BirdCLEF cites its main goal as generating actionable biodiversity outcomes, a goal that is necessarily related to the underlying ecology and biogeography at play. 
+BirdCLEF cites its main objective as generating actionable biodiversity outcomes, which is necessarily related to the underlying ecology and biogeography at play. 
 
  * The goal of ecology is to describe species communities in natural settings, at various temporal and geospatial scales, ultimately across the entire biosphere.
  * Biogeographic barriers constrain species distributions and abundance in ecological systems. 
