@@ -82,9 +82,11 @@ Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kk
 
 BirdCLEF cites its main goal as generating actionable biodiversity outcomes, a goal that is necessarily related to the underlying ecology and biogeography at play. 
 
+ * The goal of ecology is to describe species communities in natural settings, at various temporal and geospatial scales, ultimately across the entire biosphere.
+ * Biogeographic barriers constrain species distributions and abundance in ecological systems. 
  * Describing community structures is difficult due to the complexity of multispecies assemblages. 
  * The retrieval of ecological survey data includes many biases: observer, species detectability, technique, habitat, weather, and sampling representation. For BirdCLEF21's Xeno-Canto bird song data, certainly species detectability biases (certain birds have softer calls, not as recorded), habitat & weather biases (can't retrieve data from certain areas), and sampling representation biases (1/3 of the classes had less than 100 instances). 
 
-There is a trade-off between specificity and generality in modeling ecological systems, often mapped onto models of distribution and abundance at current conditions (specific) or under changing conditions (generalizable) For bird call recognition deployment, the specificity/generality of the model would probably vary by site and vary by objective in the real-world. The repeated nature of the (annual) BirdCLEF competition is a huge plus in terms of updating the models to generalize under domain shifts due to changing environmental conditions. 
+Ultimately, there is a critical trade-off between specificity and generality in ecological models, either capable of predicting species distributions/abundance at current conditions (specific model) or under changing conditions (generalizable model). For bird call recognition real-world deployment, the specificity/generality of the model would probably vary by site and vary by objective. The repeated nature of the (annual) BirdCLEF competition is a huge plus in terms of updating the models to generalize under domain shifts due to changing environmental conditions. 
 
 
