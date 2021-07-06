@@ -32,8 +32,8 @@ Year | Position
 -----|-------
 2021-Present | MS Information Management and Systems, UC Berkeley
 2021 | Risk & Resilience Fellow, DAT/Artathon
-2019 | NSF Data Science REU, Harvey Mudd College
-2016-2020 | BA Environmental Science and Mathematics, UPenn
+2019 | Data Science REU, Harvey Mudd College
+2016-2020 | BA Environmental Science and Mathematics, Penn
 
 ---
 
