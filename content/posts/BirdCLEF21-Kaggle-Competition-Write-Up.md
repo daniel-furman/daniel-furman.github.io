@@ -74,7 +74,7 @@ I used a postprocessing threshold to generate the species labels from the probab
 
 **Bibliography**
 
-Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectrograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021), [Paper 181 BirdCLEF2018](http://ceur-ws.org/Vol-2125/paper_181.pdf), [2nd place write up](https://www.kaggle.com/c/birdclef-2021/discussion/229995), [11 place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243360).
+Thanks goes to LifeCLEF, Kaggle, and all the other (815) competitors. Cites: [kkiller's spectrograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021), [Paper 181 BirdCLEF2018](http://ceur-ws.org/Vol-2125/paper_181.pdf), [2nd place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243463), [11 place write up](https://www.kaggle.com/c/birdclef-2021/discussion/243360).
 
 **P.S. Ecological Contexts**
 
