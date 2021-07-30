@@ -8,7 +8,7 @@ title = "About"
 
 A challenge-driven data scientist primarily interested data analytics, machine learning, and insights-driven research. My programming experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development. I am currently enrolled as a graduate student at UC Berkeley, studying information systems with a focus on applied data science and machine learning. I also love reading, environmental science, and telling stories with data!
 
-In my spare time I enjoy surfing, golfing, climbing, playing guitar, and volunteering.  
+In my spare time I enjoy surfing, reading, making ceramics, traveling, and building things.
 
 ---
 
@@ -20,9 +20,9 @@ In my spare time I enjoy surfing, golfing, climbing, playing guitar, and volunte
 
 ### <ins>Developing</ins>
 
-- Solutions to CV and ML Kaggle competitions [[Kaggle](https://www.kaggle.com/dryanfurman)]
-- Research-oriented OSS for statistical modeling [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
-- A serverless app for CA surf crowd prediction via CV/ML.
+- Solutions to CV/ML Kaggle competitions [[Kaggle](https://www.kaggle.com/dryanfurman)]
+- Research-oriented Python libraries for statistical modeling [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
+- An AWS serverless web-app for SoCal surf crowd prediction.
 
 ---
 
