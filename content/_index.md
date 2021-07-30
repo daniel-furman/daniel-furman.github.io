@@ -22,7 +22,7 @@ In my spare time I enjoy surfing, reading, making ceramics, traveling, and build
 
 - Solutions to CV/ML Kaggle competitions [[Kaggle](https://www.kaggle.com/dryanfurman)]
 - Research-oriented Python libraries for statistical modeling [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
-- An AWS serverless web-app for SoCal surf crowd prediction.
+- An AWS serverless web-app for SoCal surf crowd prediction
 
 ---
 
