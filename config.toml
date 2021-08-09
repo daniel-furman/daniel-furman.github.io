@@ -24,7 +24,6 @@ pageWidth = "750px"
 
 [permalinks]
 "/" = "/:filename"
-"/datartathon" = "/:dataartathon"
 
 [menu]
 [[menu.main]]
