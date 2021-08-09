@@ -12,15 +12,15 @@ A challenge-driven data scientist primarily interested data analytics, machine l
 
 ### <ins>Research</ins>
 
-- Geospatial ML applied to ecological risk analytics [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Material science experimentation on ice sheet flow [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+- Geospatial ML frameworks for ecological risk analytics [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Material science lab experimentation on ice sheet flow [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 ---
 
 ### <ins>Developing</ins>
 
 - Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle](https://www.kaggle.com/dryanfurman)]
 - Research-oriented Python libraries for statistical modeling [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
-- An AWS serverless web-app for SoCal surf crowd prediction
+- A CV/ML serverless web-app for SoCal surf crowd prediction
 
 ---
 
