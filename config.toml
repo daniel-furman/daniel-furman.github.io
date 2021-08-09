@@ -24,6 +24,7 @@ pageWidth = "750px"
 
 [permalinks]
 "/" = "/:filename"
+"/" = "/:dataartathon"
 
 [menu]
 [[menu.main]]
@@ -51,7 +52,6 @@ name = "Contact"
 url = "/contact"
 weight = 5
 identifier = "contact"
-
 
 [markup]
   [markup.goldmark]
