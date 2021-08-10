@@ -26,12 +26,17 @@ A challenge-driven data scientist primarily interested in applied science and in
 
 ### <ins>Timeline</ins>
 
-Year | Position
+Year | Education
 -----|-------
 2021-Present | MS Information Management and Systems, UC Berkeley
+2016-2020 | BA Environmental Science and Mathematics, Penn
+
+Year | Research
+-----|-------
 2021 | Risk & Resilience Fellow, DAT/Artathon
 2019 | Data Science REU, Harvey Mudd College
-2016-2020 | BA Environmental Science and Mathematics, Penn
+2017-2020 | Penn Ice Physics Lab
+
 
 ---
 
