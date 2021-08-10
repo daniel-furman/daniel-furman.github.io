@@ -55,15 +55,15 @@ Contact
 <tbody>
 <tr>
 <td><a href=https://pypi.org/project/RecFeatureSelect/>RecFeatureSelect</a></td>
-<td>Functions for feature selection (1) using <a href=https://quantifyinghealth.com/stepwise-selection/>Forward Stepwise Selection</a> with hyper-param optimized random forest using rankings from feature correlations to the target (2) using spearman multi-collinearity and a feature importance rankings, recursively starting with the most correlated pairs and proceeding to a threshold.</td>
+<td>Functions for feature selection (1) using rankings from feature correlation to the target with FSS on a hyper-param optimized sklearn ensemble tree-based learner (2) using spearman multi-collinearity and pre-calculated feature importances as the rankings, recursively starting with the most correlated pair and proceeding to the spearman threshold.</td>
 </tr>
 <tr>
 <td><a href=https://pypi.org/project/lwMCMC/>lwMCMC</a></td>
-<td>An object-oriented class for MCMC parameter space sampling with two <a href=http://www.mit.edu/~ilkery/papers/MetropolisHastingsSampling.pdf>Metropolis-Hastings</a> options: a from-scratch NumPy implementation and a <a href=https://docs.pymc.io/notebooks/getting_started.html>PyMC3</a> Hamiltonian wrapper.</td>
+<td>An object-oriented class for MCMC parameter space sampling for Bayesian Inference, with Metropolis-Hastings running on a from-scratch NumPy implementation.</td>
 </tr>
 <tr>
 <td><a href=https://github.com/daniel-furman/PySDMs>PySDMs</a></td>
-<td>An object-oriented class for <a href=https://en.wikipedia.org/wiki/Species_distribution_modelling>Species Distribution Modeling</a>, which contains a semi-AutoML pipeline comparing BRT, NN, and soft voters for geo-classification.</td>
+<td>An object-oriented Python class for semi-auto ML geo-classification (running on PyCaret). Compares gradient boosted tree algorithms by default, with options to include soft voters and NNs. Designed for Species Distribution Modeling applications.</td>
 </tr>
 </tbody>
 </table>
