@@ -1,5 +1,5 @@
 ---
-title: "DAT/Artathon Ecological Risk Zoo Visualization."
+title: "DAT/Artathon EcoRisk Forecasts - California DataViz."
 date: 2021-08-09
 katex: true
 markup: "mmark"
