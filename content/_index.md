@@ -6,7 +6,7 @@ title = "About"
 
 # About
 
-A challenge-driven data scientist primarily interested data analytics, machine learning, and insights-driven research. My programming experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development. I am currently enrolled as a graduate student at UC Berkeley, studying information systems with a focus on applied data science and machine learning. I also love reading, environmental science, and telling stories with data! 
+A challenge-driven data scientist primarily interested in applied science and insights-driven research. My programming experience is mainly in Python and R, spanning the full-stack from data mining to algorithm development. I am currently enrolled as a graduate student at UC Berkeley, studying information systems with a focus on applied data science and machine learning. I also love reading, environmental science, and telling stories with data! 
 
 ---
 
