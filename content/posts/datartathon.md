@@ -21,7 +21,7 @@ Made with the support of the 2021 [Risk & Resilience DAT/Artathon](https://datar
 
 **Sources:**
 
-* [New York Times CA Fires](https://www.nytimes.com/interactive/2020/12/09/climate/redwood-sequoia-tree-fire.html?)<br>
+* [NYT CA Fires](https://www.nytimes.com/interactive/2020/12/09/climate/redwood-sequoia-tree-fire.html?)<br>
 * [IPCC AR6 Report](https://www.ipcc.ch/report/ar6/wg1/)
 * [WorldClim2.1](https://www.worldclim.org/data/worldclim21.html)<br>
 * [CMIP6 Global Climate Models](https://www.worldclim.org/data/cmip6/cmip6climate.html#)<br>
@@ -29,9 +29,9 @@ Made with the support of the 2021 [Risk & Resilience DAT/Artathon](https://datar
   
 **Data Citations:**
   
-* Coast redwood citation: GBIF.org (2 August 2021) GBIF Occurrence / https://doi.org/10.15468/dl.4qgr62)
-* Giant sequoia: GBIF.org (2 August 2021) GBIF Occurrence / https://doi.org/10.15468/dl.baww96)
-* Joshua tree citation: GBIF.org (01 November 2020) GBIF Occurrence / https://doi.org/10.15468/dl.g6swrm)
+* Coast redwood citation: GBIF.org (2 August 2021) GBIF Occurrence https://doi.org/10.15468/dl.4qgr62
+* Giant sequoia: GBIF.org (2 August 2021) GBIF Occurrence https://doi.org/10.15468/dl.baww96
+* Joshua tree citation: GBIF.org (01 November 2020) GBIF Occurrence https://doi.org/10.15468/dl.g6swrm
 
 
 
