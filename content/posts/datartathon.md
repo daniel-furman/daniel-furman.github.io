@@ -11,16 +11,16 @@ markup: "mmark"
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-zoo-vertical-3-faster.gif" style="border:0px;margin:0px" alt="vertical 3"/><!--
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-zoo-vertical-4.png" style="border:0px;margin:0px" alt="vertical 4"/><!--
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-zoo-vertical-5.png" style="border:0px;margin:0px" alt="vertical 5"/>
+
 <br>
-A data-driven story about ecological risks in California forecasting temperature rise (particularly for Giant sequoias) and worsening drought (particularly for Joshua trees).
-These trends are likely to intensify wildfire, resource depletion, and other types of habitat degredation across the West Coast, a major problem for flora and fauna alike. 
-Lastly, it's important to note that the modeling predictions contain several uncertainties and are to be taken as an educated guess and not rigidly.
-
-Sources: NYT article, IPCC Report, Research
-
-Data Sources: WorldClim, CMIP6, GBIF
-
 **[[Code Repo](https://github.com/daniel-furman/PySDMs)]**
+
+A data-driven story about California ecorisk, with forecasts of severe temperature warming (particularly for Giant sequoias) and increasing drought severity (particularly for Joshua trees). These trends are likely to intensify wildfire, resource depletion, and other types of habitat degredation in the state and across the West Coast. However, it's important to note that the above predictions contain several uncertainties and are to be taken as an educated guess and not rigidly.
+
+Sources: [NYT](https://www.nytimes.com/interactive/2020/12/09/climate/redwood-sequoia-tree-fire.html?), [IPCC](https://www.ipcc.ch/report/ar6/wg1/)
+
+Data Sources: [WorldClim](https://www.worldclim.org/data/worldclim21.html), [CMIP6](https://www.worldclim.org/data/cmip6/cmip6climate.html#), [GBIF](https://www.gbif.org)
+
 
 
 
