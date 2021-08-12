@@ -18,7 +18,9 @@ These bioclimate trends will potentially intensify wildfire and resource depleti
 It's important to note that the modeling predictions contain uncertainties and are to be taken more as an educated guess than any kind of rigid prediction.
 
 Sources: NYT article, IPCC Report, Research
+
 Data Sources: WorldClim, CMIP6, GBIF
+
 **[[Code Repo](https://github.com/daniel-furman/PySDMs)]**
 
 
