@@ -17,6 +17,7 @@ markup: "mmark"
 A data-driven story about California ecorisk, with forecasts of severe temperature warming (particularly for Giant sequoias) and increasing drought severity (particularly for Joshua trees). These trends are likely to intensify wildfire, resource depletion, and other types of habitat degradation in the state and across the West Coast. However, it's important to note that the above predictions contain several uncertainties and are to be taken as an educated guess and not rigidly.
 
 Made with the support of the Risk & Resilience [DAT/Artathon](https://datartathon.com).
+
 **Code:**
 
 * [Git Repo](https://github.com/daniel-furman/PySDMs)
