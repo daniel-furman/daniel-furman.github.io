@@ -29,9 +29,12 @@ Made with the support of the 2021 [Risk & Resilience DAT/Artathon](https://datar
 * [WorldClim2.1](https://www.worldclim.org/data/worldclim21.html)<br>
 * [CMIP6 Global Climate Models](https://www.worldclim.org/data/cmip6/cmip6climate.html#)<br>
 * [Global Biodiversity Information Facility](https://www.gbif.org)<br>
-  * Coast redwood citation: GBIF.org (2 August 2021) GBIF Occurrence / [Download](https://doi.org/10.15468/dl.4qgr62)
-  * Giant sequoia: GBIF.org (2 August 2021) GBIF Occurrence / [Download](https://doi.org/10.15468/dl.baww96)
-  * Joshua tree citation: GBIF.org (01 November 2020) GBIF Occurrence / [Download](https://doi.org/10.15468/dl.g6swrm)
+  
+**Data Citations:**
+  
+* Coast redwood citation: GBIF.org (2 August 2021) GBIF Occurrence / [Download](https://doi.org/10.15468/dl.4qgr62)
+* Giant sequoia: GBIF.org (2 August 2021) GBIF Occurrence / [Download](https://doi.org/10.15468/dl.baww96)
+* Joshua tree citation: GBIF.org (01 November 2020) GBIF Occurrence / [Download](https://doi.org/10.15468/dl.g6swrm)
 
 
 
