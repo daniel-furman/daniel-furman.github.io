@@ -15,7 +15,7 @@ markup: "mmark"
 A data-driven story about ecological risks in California and across the American west. 
 The Species Distribution Models forecast temperature rise (particularly for Giant sequoias) and worsening drought (particularly for Joshua trees).
 These bioclimate trends will potentially intensify wildfire and resource depletion across the west coast, a major problem for these and other species. 
-It's important to note that the modeling predictions contain uncertainties and are to be taken as an educated guess and not rigidly.
+It's important to note that the modeling predictions contain several uncertainties and are to be taken as an educated guess and not rigidly.
 
 Sources: NYT article, IPCC Report, Research
 
