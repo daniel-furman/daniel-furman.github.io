@@ -14,7 +14,7 @@ markup: "mmark"
 
 **[[Code Repo](https://github.com/daniel-furman/PySDMs)]**
 
-A data-driven story about ecological risk across California exposeing large amounts of climatic change in the American west. Add larger than average temperature rises and worsening drought to the list of risks faced by the three iconic US species, a list which also includes wildfire, logging, pollution, resource depletion,  and urban expansion across the west coast. 
+A data-driven story about ecological risk across California that highlights large amounts of climatic change in the American west. Add temperature rise () and worsening drought () to the list of risks faced by the three iconic species, which also include wildfire, logging, pollution, resource depletion,  and urban expansion across the west coast. 
 
 Sources: NYT article, IPCC Report, Research
 Data Sources: WorldClim, CMIP6, GBIF
