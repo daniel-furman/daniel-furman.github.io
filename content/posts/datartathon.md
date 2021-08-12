@@ -24,7 +24,7 @@ Made with the support of the 2021 [Risk & Resilience DAT/Artathon](https://datar
 
 **Sources:**
 
-* [NYT 2020 CA Fires](https://www.nytimes.com/interactive/2020/12/09/climate/redwood-sequoia-tree-fire.html?)<br>
+* [New York Times CA Fires](https://www.nytimes.com/interactive/2020/12/09/climate/redwood-sequoia-tree-fire.html?)<br>
 * [IPCC AR6 Report](https://www.ipcc.ch/report/ar6/wg1/)
 
 **Data:**
