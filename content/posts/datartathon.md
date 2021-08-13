@@ -29,9 +29,9 @@ Made with the support of the [Risk & Resilience DAT/Artathon 2021](https://datar
   
 **Data Citations:**
   
-* Coast redwood citation: GBIF.org (2 August 2021) GBIF Occurrence https://doi.org/10.15468/dl.4qgr62
+* Coast redwood: GBIF.org (2 August 2021) GBIF Occurrence https://doi.org/10.15468/dl.4qgr62
 * Giant sequoia: GBIF.org (2 August 2021) GBIF Occurrence https://doi.org/10.15468/dl.baww96
-* Joshua tree citation: GBIF.org (01 November 2020) GBIF Occurrence https://doi.org/10.15468/dl.g6swrm
+* Joshua tree: GBIF.org (01 November 2020) GBIF Occurrence https://doi.org/10.15468/dl.g6swrm
 
 
 
