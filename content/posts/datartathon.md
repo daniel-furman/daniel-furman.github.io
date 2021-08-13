@@ -11,7 +11,7 @@ markup: "mmark"
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-3.png" style="border:0px;margin:0px" alt="vertical 3"/>
 <br>
 
-A data-driven story about the climate future for California, indicating worrisome levels of temperature warming, particularly in the Sierra Nevadas (Giant sequoias), and precipitation decline, particularly in the Mojave Desert (Joshua trees). These alarming climatic trends are likely to intensify environmental risks including wildfire, drought, ecological resource depletion, and, ultimately, biodiversity decline.  
+A data-driven story about California's uncertain climate future, indicating worrisome levels of temperature warming, particularly in the Sierra Nevadas (Giant sequoias), and precipitation decline, particularly in the Mojave Desert (Joshua trees). These climatic trends are likely to intensify environmental risks including wildfire, drought, ecological resource depletion, and, ultimately, biodiversity decline.  
 
 Made with the support of the [Risk & Resilience DAT/Artathon 2021](https://datartathon.com).
 
