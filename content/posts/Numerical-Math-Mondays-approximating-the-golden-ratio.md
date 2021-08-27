@@ -14,17 +14,10 @@ markup: "mmark"
 
 <br>
 
-The first in hopefully what will be many Numerical Math Mondays. My goal for this series of posts is to dive back into the numerical mathematics topics I learned during my undergraduate studies. I am a huge fan of [3blue1brown] (https://www.3blue1brown.com), and so, I am looking to pay particular attention to the visual side of the mathematics, as well as the computational.
-
-I plan to repurpose my existing MATLAB programs across many different programming languages (Python, C++, R, and others). I am excited to explore the capabilities of [Facebook’s Transcoder AI software](https://ai.facebook.com/blog/deep-learning-to-translate-between-programming-languages/), which I am guessing will work great for some scripts and not so well for others. It’s worth noting that this series was in part inspired by the [Algorithm Archive](https://www.algorithm-archive.org), an open-source ebook
-containing physical, mathematical, and computational algorithms implemented across dozens of programming languages.
-
-<br>
-
 ### Introduction and historical context
 ---
 
-I will start with a favorite among math and science circles: approximating the golden ratio by taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, helping us understand many interesting mathematical applications. For more reading on applications, see the Appendix.
+I am going to approximate the golden ratio with numerical methods, by iteratively taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, helping us understand many interesting mathematical applications. For more reading on applications, see the Appendix.
 
 For a little background: What is the golden ratio anyways? And, Who was Fibonacci? The [golden ratio](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s) is a mathematical phenomenon between two numbers, say, a and b. Let a > b, if the ratio of $$\frac{a}{b}$$ is the same as $$\frac{(a+b)}{a}$$, then the ratio is ~$$\frac{1.618}{1}$$. This number is irrational, i.e., its decimal places never converge, classically denoted by the Greek  letter phi, $$\varphi$$. $$\varphi$$ is the positive root of the quadratic equation x$$^2$$ - x - 1 = 0. Upon solving the equation we obtain x = $$\frac{1 + 5^{0.5}}{2}$$. The golden ratio was (probably) first discovered in Ancient Greece through applications in geometry, which the Greeks emphasized. Greek mathematicians determined $$\varphi$$ was an irrational number all the way back in the fifth century BC (woa). 
 
