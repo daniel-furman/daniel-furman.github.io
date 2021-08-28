@@ -12,7 +12,7 @@ A challenge-driven data scientist primarily interested in applied science and in
 
 ### <ins>Research</ins>
 
-- Geospatial ML frameworks for ecorisk analytics [[D/A '21](https://daniel-furman.github.io/posts/datartathon/)] [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Geospatial ML frameworks for ecorisk analytics [[D/A '21](https://datartathon.com/projects/2021-daniel-ecorisk-california)] [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
 - Material science lab experiments on ice sheet flow [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 ---
 
