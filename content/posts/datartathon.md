@@ -5,6 +5,7 @@ katex: true
 markup: "mmark"
 ---
 
+As featured in D/A's gallery: [https://datartathon.com/projects/2021-daniel-ecorisk-california](https://datartathon.com/projects/2021-daniel-ecorisk-california)
 
 <img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-1.png" style="border:0px;margin:0px" alt="vertical 1"/><!--
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-2.gif" style="border:0px;margin:0px" alt="vertical 2"/><!--
