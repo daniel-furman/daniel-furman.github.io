@@ -5,7 +5,11 @@ katex: true
 markup: "mmark"
 ---
 
+# DAT/Artathon EcoRisk Forecasts - California DataViz
+
 As featured in D/A's gallery: [https://datartathon.com/projects/2021-daniel-ecorisk-california](https://datartathon.com/projects/2021-daniel-ecorisk-california)
+
+---
 
 “EcoRisk California” visualizes climate change impacts for three of the West Coast’s most beloved tree species during the 21st century. The motion-graphics storyboard visualizes shifts within three species distributions across spatial and climate dimensions, exploring relationships between ecological risk and habitat suitability. To facilitate future experiments, the study is accompanied by an open-sourced Python package containing the class for semi-automated machine learning used in the visualization. 
 
@@ -20,8 +24,6 @@ Equipped with rapidly expanding databases and computational tools, scientists ha
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-2.gif" style="border:0px;margin:0px" alt="vertical 2"/><!--
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-3.png" style="border:0px;margin:0px" alt="vertical 3"/>
 <br>
-
-A data-driven story about California's uncertain climate future, indicating worrisome levels of temperature warming and precipitation decline, particularly in the Sierra Nevadas (Giant sequoias) and Mojave Desert (Joshua trees) respectively. These climatic trends unfortunately have the potential to intensify wildfire, drought, and biodiversity decline across the West Coast.
 
 Made with the support of the [Risk & Resilience DAT/Artathon 2021](https://datartathon.com).
 
