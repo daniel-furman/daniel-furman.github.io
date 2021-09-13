@@ -9,9 +9,17 @@ markup: "mmark"
 
 As featured in D/A's gallery: [https://datartathon.com/projects/2021-daniel-ecorisk-california](https://datartathon.com/projects/2021-daniel-ecorisk-california)
 
+Made with the support of the [Risk & Resilience DAT/Artathon 2021](https://datartathon.com).
+
 ---
 
 “EcoRisk California” visualizes climate change impacts for three of the West Coast’s most beloved tree species during the 21st century. The motion-graphics storyboard visualizes shifts within three species distributions across spatial and climate dimensions, exploring relationships between ecological risk and habitat suitability. To facilitate future experiments, the study is accompanied by an open-sourced Python package containing the class for semi-automated machine learning used in the visualization. 
+
+<img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-1.png" style="border:0px;margin:0px" alt="vertical 1"/><!--
+--><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-2.gif" style="border:0px;margin:0px" alt="vertical 2"/><!--
+--><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-3.png" style="border:0px;margin:0px" alt="vertical 3"/>
+<br>
+
 
 Prior work reveals that species distributions have the potential to shift dramatically across the landscape due to environmental conditions. In this study, a species distribution is defined as the natural range that a species occupies in space at a given time, spanning its realized suitable habitat. Climate change was measured across nineteen bioclimatic features, which together approximate the climatic envelope of relevance to ecological species at a given location within the study area. Climate change impacts may prove to significantly harm California’s ecosystems across the 21st century, threatening to decrease biodiversity in its rich natural corridors. Furthermore, the severity of climate change will likely vary across the state, both due to climatic differences and biophysical ecosystem variation. For example, past and ongoing shifts in the Joshua tree distribution inferred from fossil records reveal that their late Pleistocene distribution (20,000–13,000 BC) was significantly larger than their natural range today. This habitat loss is likely a result of many environmental conditions, including changes in climate, inter-species interactions, and resource availability, as well as discrete instances of natural disasters. Another worrisome impact from a warmer, drier climate is the heightened risk of wildfire. Fire ecologists have shown that Giant sequoia strands have endured more wildfires in the last five years than the entire proceeding century, evidence that climate change has a more severe impact on climate extremes compared to climate averages. 
 
@@ -20,12 +28,6 @@ In this research, I argue that better understanding ecosystem risks facilitates 
 Equipped with rapidly expanding databases and computational tools, scientists have the potential to integrate accessible and communicable insights in biodiversity conservation, ultimately improving land management strategy and decision-making.
 
 
-<img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-1.png" style="border:0px;margin:0px" alt="vertical 1"/><!--
---><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-2.gif" style="border:0px;margin:0px" alt="vertical 2"/><!--
---><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-3.png" style="border:0px;margin:0px" alt="vertical 3"/>
-<br>
-
-Made with the support of the [Risk & Resilience DAT/Artathon 2021](https://datartathon.com).
 
 **Code:**
 
