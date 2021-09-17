@@ -6,7 +6,9 @@ title = "About"
 
 # About
 
-A challenge-driven data scientist primarily interested in applied science and insights-oriented research. My programming experience is mainly in Python, R, and MATLAB, spanning the full-stack from data mining to algorithm development. I am currently enrolled as a graduate student at UC Berkeley's School of Information (MIMS '23), focusing on applied data science and machine learning in the technology sector. I also love reading, environmental science, and telling stories with data!
+A challenge-driven data scientist primarily interested in applied modeling and insights-oriented analytics. My programming experience is robust in Python and R, spanning the full-DS-stack from unsupervised mining to algorithm development in the cloud. 
+
+I specialize in applied data science and machine learning at UC Berkeley's School of Information (MIMS '23). Previously, I studied geophysics and mathematics at the University of Pennsylvania (BA '20). I also love reading about all things science, promoting environmental conservation, and telling engaging stories with data!
 
 ---
 
