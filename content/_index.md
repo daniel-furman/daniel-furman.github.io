@@ -14,7 +14,7 @@ I specialize in applied data science and machine learning at UC Berkeley's Schoo
 
 ### <ins>Research</ins>
 
-- Geospatial ML applied to environmental risk analytics [[D/A '21](https://datartathon.com/projects/2021-daniel-ecorisk-california)] [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Geospatial ML for environmental risk insights [[D/A '21](https://datartathon.com/projects/2021-daniel-ecorisk-california)] [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
 - Ice sheet and glacial material science [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 ---
 
