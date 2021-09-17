@@ -18,9 +18,9 @@ A challenge-driven data scientist primarily interested in applied science and in
 
 ### <ins>Developing</ins>
 
-- Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle](https://www.kaggle.com/dryanfurman)]
-- Research-oriented Python libraries for statistical modeling [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
-- A CV/ML serverless web-app for SoCal surf crowd prediction
+- Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
+- Research-oriented Python libraries for statistical modeling [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
+- A CV/ML serverless web-app for California surf crowd forecasting
 
 ---
 
