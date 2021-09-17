@@ -42,10 +42,10 @@ Year | Research
 
 ### <ins>Publications</ins>
 
-* DR Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
-* DR Furman and DL Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
-* DR Furman, SK Halvorsen, and SC Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
-* DR Furman and SK Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019. <br><br>
+1. Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
+2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
+3. Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
+4. Daniel R Furman and Sarah K Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019. <br><br>
 
 
 ---
