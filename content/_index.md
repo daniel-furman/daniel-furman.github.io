@@ -42,12 +42,11 @@ Year | Research
 
 ### <ins>Publications</ins>
 
-1. DR Furman and DL Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
+* DR Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
+* DR Furman and DL Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
+* DR Furman, SK Halvorsen, and SC Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
+* DR Furman and SK Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019. <br><br>
 
-### <ins>Conference Proceedings</ins>
-
-1. DR Furman, SK Halvorsen, and SC Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), Jan 3, 2021. <br><br>
-2. DR Furman and SK Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), Nov 23, 2019. <br><br>
 
 ---
 
