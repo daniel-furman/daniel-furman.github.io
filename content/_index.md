@@ -21,8 +21,8 @@ I specialize in applied data science and machine learning at UC Berkeley's Schoo
 ### <ins>Developing</ins>
 
 - Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
-- Research-oriented Python libraries for statistical modeling [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
-- A CV/ML serverless web-app for California surf crowd forecasting
+- Python packages aiding statistical modeling [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
+- A serverless web-app for surf crowd forecasting across California
 
 ---
 
