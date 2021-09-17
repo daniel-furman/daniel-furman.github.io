@@ -12,8 +12,8 @@ A challenge-driven data scientist primarily interested in applied science and in
 
 ### <ins>Research</ins>
 
-- Geospatial ML frameworks for ecorisk analytics [[D/A '21](https://datartathon.com/projects/2021-daniel-ecorisk-california)] [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Material science lab experiments on ice sheet flow [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
+- Geospatial ML applied to environmental risk analytics [[D/A '21](https://datartathon.com/projects/2021-daniel-ecorisk-california)] [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
+- Ice sheet and glacial material science (experimental geophysics) [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
 ---
 
 ### <ins>Developing</ins>
@@ -21,6 +21,16 @@ A challenge-driven data scientist primarily interested in applied science and in
 - Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle](https://www.kaggle.com/dryanfurman)]
 - Research-oriented Python libraries for statistical modeling [[PyPi](https://pypi.org/user/daniel-furman/)]  [[Github](https://github.com/daniel-furman)]
 - A CV/ML serverless web-app for SoCal surf crowd prediction
+
+---
+
+### <ins>Publications</ins>
+
+1. Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
+2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
+3. Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
+4. Daniel R Furman and Sarah K Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019. <br><br>
+
 
 ---
 
@@ -36,17 +46,6 @@ Year | Research
 2021 | Risk & Resilience Fellow, DAT/Artathon
 2019 | Data Science REU, Harvey Mudd College
 2017-2020 | Penn Ice Physics Lab
-
-
----
-
-### <ins>Publications</ins>
-
-1. Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
-2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
-3. Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
-4. Daniel R Furman and Sarah K Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019. <br><br>
-
 
 ---
 
