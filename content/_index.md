@@ -14,7 +14,7 @@ My programming experience is primarily in Python, SQL, and R, spanning the full-
 
 ### <ins>Product Interests</ins>
 
-* Semi-AutoML for applied science at scale (deep & shallow learning). 
+* AutoML for applied science at scale (Tabular/CV/NLP). 
 * Large-scale environmental risk forecasting & related data challenges.
 * Data analytics for insights into business strategy & decision-making. 
 
