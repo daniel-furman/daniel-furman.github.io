@@ -16,7 +16,21 @@ My programming experience is primarily in Python, SQL, and R, spanning the full-
 
 * AutoML for applied science at scale (Tabular/CV/NLP). 
 * Large-scale environmental risk forecasting & related data challenges.
-* Data analytics for insights into business strategy & decision-making. 
+
+---
+
+### <ins>Timeline</ins>
+
+Year | Education
+-----|-------
+2021-2023 | MS Information Management and Systems, UC Berkeley. Graduate Certificate in Applied Data Science. 
+2016-2020 | BA with Distinction in Earth Science, University of Pennsylvania. Minor: Mathematics.
+
+Year | Position
+-----|-------
+2019 | Data Science REU, Harvey Mudd College (NSF Award #1757952).
+2017-2020 | Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
+Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Captain. 
 
 ---
 
@@ -29,21 +43,6 @@ My programming experience is primarily in Python, SQL, and R, spanning the full-
 
 ---
 
-### <ins>Timeline</ins>
-
-Year | Education
------|-------
-2021-Present | MS Information Management and Systems, UC Berkeley. Graduate Certificate in Applied Data Science. 
-2016-2020 | BA with Distinction in Earth Science, University of Pennsylvania. Minor: Mathematics.
-
-Year | Position
------|-------
-2019 | Data Science REU, Harvey Mudd College (NSF Award #1757952).
-2017-2020 | Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
-Earlier | Penn NCAA D1 Golf Team, Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Captain. 
-
----
-
 ### <ins>Coding Dev</ivns>
 
 - Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
@@ -51,5 +50,5 @@ Earlier | Penn NCAA D1 Golf Team, Intern at Wildlife Works Carbon, Harvard-Westl
 
 ---
 
-> “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.” <br>
+> “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.” <br><br>
 > “Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization.” Ben Weber. "Data Science in Production"
