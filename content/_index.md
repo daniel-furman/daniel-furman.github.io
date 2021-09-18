@@ -51,5 +51,5 @@ Earlier | Penn NCAA D1 Golf Team, Intern at Wildlife Works Carbon, Harvard-Westl
 
 ---
 
-> “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”
+> “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.” <br>
 > “Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization.” Ben Weber. "Data Science in Production"
