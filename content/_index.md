@@ -12,9 +12,9 @@ My programming experience is primarily in Python, SQL, and R, spanning the full-
 
 ---
 
-### <ins>Product Interests</ins>
+### <ins>Research and Product Interests</ins>
 
-* AutoML for applied science at scale (Tabular/CV/NLP/Audio). 
+* AutoML & applied science for product insights (Tabular/CV/NLP/Audio). 
 * Large-scale environmental risk forecasting & related data challenges.
 
 ---
