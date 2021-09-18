@@ -4,29 +4,23 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-# About
+### About Me
 
-A challenge-driven data scientist primarily interested in applied modeling and insights-oriented analytics. My programming experience is robust in Python and R, spanning the full-DS-stack from unsupervised mining to algorithm development in the cloud. 
+A challenge-driven data scientist employing applied modeling and insights-oriented analytics to help organizations make better decisions. Portfolio{ https://daniel-furman.github.io }
 
-I specialize in applied data science and machine learning at UC Berkeley's School of Information (MIMS '23). Previously, I studied geophysics and mathematics at the University of Pennsylvania (BA '20). I also love reading about all things science, promoting environmental conservation, and telling engaging stories with data!
-
----
-
-### <ins>Research</ins>
-
-- Geospatial ML for environmental risk insights [[D/A '21](https://datartathon.com/projects/2021-daniel-ecorisk-california)] [[SICB '21 Poster](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg)] [[Code](https://github.com/daniel-furman/PySDMs)]
-- Ice sheet and glacial material science [[Penn Science '21 Publication](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf)] [[Code](https://github.com/daniel-furman/ice-densification-research)]
----
-
-### <ins>Developing</ins>
-
-- Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
-- Python packages aiding statistical modeling [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
-- A serverless web-app for surf crowd forecasting across California
+My programming experience is primarily in Python, SQL, and R, spanning the full-DS-stack from data mining to algorithm development. I am currently studying applied data science and machine learning at UC Berkeley's School of Information (MIMS '23). As an undergraduate, I studied geophysics and mathematics at the University of Pennsylvania (BA '20). In my spare time, I love reading about science, promoting environmental conservation, and telling communicative stories with data!
 
 ---
 
-### <ins>Publications</ins>
+### Product Interests
+
+* Semi-AutoML for applied science at scale (deep & shallow learning). 
+* Large-scale environmental risk forecasting & related data challenges.
+* Data analytics for information-driven insights into business strategy & decision-making . 
+
+---
+
+### <ins>Research Publications</ins>
 
 1. Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
 2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
@@ -40,15 +34,23 @@ I specialize in applied data science and machine learning at UC Berkeley's Schoo
 
 Year | Education
 -----|-------
-2021-Present | MS Information Management and Systems, UC Berkeley
-2016-2020 | BA Environmental Science and Mathematics, Penn
+2021-Present | MS Information Management and Systems, UC Berkeley. Graduate Certificate in Applied Data Science. 
+2016-2020 | BA with Distinction in Earth Science, University of Pennsylvania. Minor: Mathematics.
 
-Year | Research
+Year | Position
 -----|-------
-2021 | Risk & Resilience Fellow, DAT/Artathon
-2019 | Data Science REU, Harvey Mudd College
-2017-2020 | Penn Ice Physics Lab
+2019 | Data Science REU, Harvey Mudd College (NSF Award #1757952).
+2017-2020 | Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
+Earlier | Penn NCAA D1 Golf Team, Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Captain. 
+
+---
+
+### <ins>Coding Dev</ivns>
+
+- Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
+- OSS Python packages for ML [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
 
 ---
 
 > “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”
+> “Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization.” Ben Weber. "Data Science in Production"
