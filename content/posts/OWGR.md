@@ -9,7 +9,7 @@ markup: "mmark"
 
 ---
 
-Does the Official World Golf Rankings Ltd. (OWGR) fairly rank professional golfers? I approached this question through data mining and unsupervised learning methods equipped with over two decades worth of OWGR proprietary data (hence no visualizations here). Ultimately, my co-authored report helped the OWGR ship ranking system updates at scale in Q3 2022 to more accurately capture athletic performance and field strength worldwide. 
+Does the Official World Golf Rankings Ltd. (OWGR) fairly rank professional golfers? I approached this question through data mining and unsupervised learning methods with over two decades worth of OWGR proprietary data. Ultimately, the OWGR decided to ship ranking system updates at scale in Q3 2022 that more accurately capture athletic performance and tournament field strength worldwide. 
 
 My background in competitive golf was well-suited to this problem domain, helping me think about ways to extend the research questions beyond the three stake-holder perscribed objectives. Here, we define the rankings as "fair" if they accurately capture relative athletic performance across professional golf tournaments worldwide, whereas "bias" is any deviation from accuracy. A problem with the current (soon to be previous) iteration of the rankings was that the system of allocating points was designed when there were significantly fewer tours included. Now there are over 20 tours with roughly 1900 athletes ranked, and the ranking system was clearly in need of a re-boot. 
 
