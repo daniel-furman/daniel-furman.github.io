@@ -29,7 +29,7 @@ I then multiplied this NxM probability matrix with an Mx2 matrix encoding each a
 
 ### Model Flexibility
 
-The Markov model approach is by nature a brute force method, as I was testing across a massive number of possible scenarios. The for loops decompose to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf), yet the runtime can become large becuase as I was looping over M! states. Consider a simplified case of our Markov model: two partners share three assets evently, and the assets value/debt are equivalent. Therefore, there is no way to split up the assets into majority ownerships fairly, and we can say that our model is unhelpful in this case. 
+The Markov model approach is by nature a brute force method, as I was testing across a massive number of possible scenarios. The for loops decompose to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf), yet the runtime can become because the program looped over M! states. Furthermore, the model is certainly not flexible to any scenario. For example, consider a simplified case: two partners share three assets evenly yet the assets' values (and debts) are equivalent. Therefore, there is no way to split up the assets into majority ownerships with minimal stake change.
 
 For the real-world application, I ran our Markov model across several initial ownership scenarios, changing the total number of assets each partner recieved. For example, the optimal state was found by giving 4 properties to partner 1, 3 to partner 2, and 4 to partner 3, which was the fifth such scenario tested.
 
