@@ -1,7 +1,7 @@
 <!doctype html><html><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title></title>
+<title>Using Data Science to Improve the Official World Golf Rankings.</title>
 <meta name=description content="Daniel Furman's Portfolio and Blog">
 <meta name=author content="Daniel Furman">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet>
@@ -40,9 +40,10 @@ Contact
 <hr>
 <div id=content>
 <div class=container>
-<p>Does the Official World Golf Rankings (OGWR) company fairly rank professional golfers? I cultivated valuable insights analyzing this question during my Junior year of college, tasked to employ the data science techniques I had learned in my undergraduate coursework at the University of Pennsylvania. My background in competitive golf was well-suited for ensuring accuracy in the OGWR data, as well as for investigating the underlying fairness (University of Pennsylvania Varsity golf team ‘16-17, Harvard-Westlake School team captain ‘15-16).</p>
-<p>To solve the information question, I employed unsupervised learning methods in Python, corresponding to issues of interest to OGWR’s stake-holders. My application of unsupervised learning highlighted traces of bias in the allocation of the ranking points. Critically, I first found and corrected dozens of errors across the decades of poorly schemed data, errors which would have compromised our statistical analyses. I then compared discrete instances of athletic performance to broader trends in the Principal Component space, with biplots categorized by the over twenty tours and decades of seasons. These visualizations corroborated a multitude of discrete examples of bias towards American-based tours, favoring a particular set of others.</p>
-<p>Many information-based systems beyond the OGWR also require creative innovations to best capture and address today’s trends. With this knowledge, I more clearly envision my career of scaling data-driven policies and systems as an information scientist, across a wide range of industry and non-profit sectors.</p>
+<p>Does the Official World Golf Rankings Ltd. (OWGR) fairly rank professional golfers? I approached this question analytically through data mining and unsupervised learning methods, equipped with over two decades worth of OWGR proprietary data (hence no visualizations here). Ultimately, my co-authored report helped the OWGR ship ranking system updates at scale in Q3 2022 to more accurately capture athletic performance and field strength worldwide.</p>
+<p>My background in competitive golf was well-suited to this problem domain, helping me think about ways to extend the research questions beyond the three stake-holder perscribed objectives. Here, we define the rankings as "fair" if they accurately capture relative athletic performance across professional golf tournaments worldwide, whereas "bias" is any deviation from accuracy. A problem with the current (soon to be previous) iteration of the rankings was that the system of allocating points was designed when there were significantly fewer tours included. Now there are over 20 tours with roughly 1900 athletes ranked, and the ranking system was clearly in need of a re-boot.</p>
+<p>Given general professional golf trends over the last two decades, I hypothesized that the rankings tended to be more biased towards premier tours relative to sub-tier tours. To explore this question, I searched for associations within the OWGR database of tournament results (16 features x 3400 obs). I first found and corrected dozens of errors across the poorly schemed relational database, issues which may have compromised our statistics. While its clear that no one can shoot "20" for 18 holes (likely a withdraw or disqualification that was incorrrectly reported), its less clear if a "58" is also an error or if it was a true tournament result, and therefore care was taken when cleaning the data.</p>
+<p>Many systems beyond the OGWR also require creative innovations to address today’s product questions. With this knowledge, I more clearly envision my career of scaling data-driven desicion-making as a data scientist.</p>
 </div>
 </div><html>
 <body>
@@ -53,6 +54,8 @@ Contact
 </div>
 </div>
 </body>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css integrity=sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv crossorigin=anonymous>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js integrity=sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O crossorigin=anonymous></script>
 </html>
 </body>
 </html>
