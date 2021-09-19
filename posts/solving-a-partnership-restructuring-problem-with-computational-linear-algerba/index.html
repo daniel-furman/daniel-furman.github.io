@@ -54,7 +54,6 @@ Contact
 <br><br>
 The next step is to shuffle the columns by all the indices' permutations, while doing so, recording the cumulative differences for all of the possible restructurings. The best restructuring occurs at the minimum stake change (which may turn up more than once, if repeated permutations exist).</p>
 <h3 id=model-flexibility>Model Flexibility</h3>
-<hr>
 <p>Why was optimal in quotes above? Well, after all that, our result many turn out to be, well, not so great. Consider a simplified case: two partners evenly share three assets, but the assets are all equivalent, and, therefore, there is no way to split up the assets into majority stake ownerships.</p>
 <p>Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. Some intuition must go into this initial decision after examining the original ownership stakes and the assets' values and debts.</p>
 <p>This approach is by nature a brute force method, as we are testing across all the possible scenarios (hence an exhaustive search). The for loops decompose to a <a href=http://web.mit.edu/16.070/www/lecture/big_o.pdf>O(n) time complexity</a>, yet the runtime can become large becuase we we are looping over M! states. For example, if we have eleven assets (11! ~40 mill states), the runtime is approximately ten minutes on CPU.</p>
@@ -142,6 +141,7 @@ The next step is to shuffle the columns by all the indices' permutations, while 
 <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Runtime of the program is </span><span class=si>{</span><span class=n>end</span> <span class=o>-</span> <span class=n>start</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span></code></pre></td></tr></table>
 </div>
 </div>
+<hr>
 </div>
 </div><html>
 <body>
