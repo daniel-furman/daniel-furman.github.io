@@ -9,7 +9,13 @@ markup: "mmark"
 
 ---
 
-Consider a partnership restructuring its assets into majority ownerships, with N partners currently sharing all the business’s M assets at uneven stake. To minimize possible restructuring tax, I aim to re-distribute the assets without altering each partner's overall value and debt stake. In application, we used a Markov model to exhaustively search for solutions to a three partner/eleven asset case, testing over 200 million potential restructuring states. The optimal solution incurred a 2.9mm cumulative stake change against 159mm in total business assets, an acceptably small magnitude of change (<2%) that allows the client to effectively avoid large restructuring taxes.
+### Intro
+
+Consider a partnership restructuring its assets into majority ownerships, with N partners that currently share M assets at uneven percentage stake. To minimize possible restructuring tax levied if the partnership significantly changes, I aim to re-distribute the assets without altering each partner's overall value and debt stake in the company. 
+
+In application, we used a Markov model to exhaustively search for solutions to a three partner/eleven asset case, testing over 200 million potential restructuring states. The optimal solution incurred a 2.9mm cumulative stake change against 159mm in total business assets, an acceptably small magnitude of change (<2%) that allows the client to effectively avoid large restructuring taxes.
+
+### Markov Algorithm
 
 We can explore the restructuring possibilities by turning the problem into a system of matrix operations and permuting across all the different  ownership scenarios. First, create an NxM matrix encoding the restructured shares, for example, partner N1 gets 100% of asset M1, 0% of asset M2, and so on. Each row represents a partner, each column represents an asset. As expected, each column must sum to one, hence the matrix is a probability matrix. If we think of each new structuring as a state, we are very much in the realm of [Markov processes](https://en.wikipedia.org/wiki/Markov_decision_process). We then multiply the NxM probability matrix with an Mx2 matrix encoding each of the assets' values and the debts. Subtract the result from the current ownership shares (a Nx2 matrix), making sure that the rows match up to the correct partner rows in the original probability matrix. Finally, we take the absolute values and sum the entries. Our result encodes the cumulative difference between the restructured partnership and the original one.
 <br><br>
@@ -17,9 +23,9 @@ We can explore the restructuring possibilities by turning the problem into a sys
 <br>
 **Figure 1**. System of matrix operations for a partnership with 6 assets and 3 partners. The first matrix is the probability Markov matrix, the second is the values/debts of each asset, and the third is the partner's total current ownership values/debts.   
 <br><br>
-The next step is to shuffle the columns by all the indices' permutations, while doing so, recording the cumulative differences for all of the possible restructurings. The best restructuring occurs at the global minimum (which may turn up more than once, if repeated permutations exist). Voila, we have an "optimal" solution.
+The next step is to shuffle the columns by all the indices' permutations, while doing so, recording the cumulative differences for all of the possible restructurings. The best restructuring occurs at the minimum stake change (which may turn up more than once, if repeated permutations exist).
 
-### How close can we get to the original partnership?
+### Model Flexibility
 
 ---
 
@@ -27,11 +33,7 @@ Why was optimal in quotes above? Well, after all that, our result many turn out 
 
 Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. Some intuition must go into this initial decision after examining the original ownership stakes and the assets' values and debts.
 
-### When does this function's run-time become unwieldy?
-
----
-
-This approach is certainly a brute force method, as we are testing across all the possible scenarios. I wouldn't want to run these calculations for more than a dozen or so assets, as the runtime would become quite large. The for loops should decompose roughly to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf). For example, if we have eleven assets (11! ~40 mill states), the runtime is approximately ten minutes on Google Colab's CPU.
+This approach is by nature a brute force method, as we are testing across all the possible scenarios (hence an exhaustive search). The for loops decompose to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf), yet the runtime can become large becuase we we are looping over M! states. For example, if we have eleven assets (11! ~40 mill states), the runtime is approximately ten minutes on CPU. 
 
 $$runtime \propto n^{0.966}$$
 
