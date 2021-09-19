@@ -11,9 +11,9 @@ markup: "mmark"
 
 ### Intro
 
-Consider a partnership restructuring its assets into majority ownerships, with N partners that currently share M assets at uneven percentage stake. To minimize possible restructuring tax levied if the partnership significantly changes, I aim to re-distribute the assets without altering each partner's overall value and debt stake in the company. 
+Consider a partnership restructuring its assets into majority ownerships, with N partners currently sharing M assets (debt + value) at uneven percentage stake. I aim to re-distribute the assets without altering each partner's stake, minimizing restructuring taxes levied if the partnership structure significantly changed. 
 
-In application, we used a Markov model to exhaustively search for solutions to a three partner/eleven asset case, testing over 200 million potential restructuring states. The optimal solution incurred a 2.9mm cumulative stake change against 159mm in total business assets, an acceptably small magnitude of change (<2%) that allows the client to effectively avoid large restructuring taxes.
+In application, we used a Markov model to exhaustively search for solutions to a three partner/eleven asset case, testing over 200 million potential restructuring states. The optimal solution incurred a 2.9mm cumulative stake change against 159mm in total business assets, an acceptably small magnitude of change (<2%) that allows the client to effectively avoid significant restructuring taxes.
 
 ### Markov Algorithm
 
