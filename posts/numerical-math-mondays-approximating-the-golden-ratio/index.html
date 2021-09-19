@@ -1,7 +1,7 @@
 <!doctype html><html><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Numerical Math Mondays: Approximating the golden ratio.</title>
+<title>Using Numerical Mathematics to Approximate the Golden Ratio.</title>
 <meta name=description content="Daniel Furman's Portfolio and Blog">
 <meta name=author content="Daniel Furman">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet>
@@ -40,15 +40,15 @@ Contact
 <hr>
 <div id=content>
 <div class=container>
-<h2 id=numerical-math-mondays-approximating-the-golden-ratio>Numerical Math Mondays: Approximating the golden ratio.</h2>
+<h2 id=using-numerical-mathematics-to-approximate-the-golden-ratio>Using Numerical Mathematics to Approximate the Golden Ratio</h2>
 <hr>
 <p><br></p>
 <p align=center> <img src=/posts/golden-spiral.png / width=550 height=347> </p>
 <p><br></p>
 <h3 id=introduction-and-historical-context>Introduction and historical context</h3>
 <hr>
-<p>I am going to approximate the golden ratio with numerical methods, by iteratively taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, helping us understand many interesting mathematical applications. For more reading on applications, see the Appendix.</p>
-<p>For a little background: What is the golden ratio anyways? And, Who was Fibonacci? The <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s">golden ratio</a> is a mathematical phenomenon between two numbers, say, a and b. Let a > b, if the ratio of <span class=math>\(\frac{a}{b}\)</span> is the same as <span class=math>\(\frac{(a+b)}{a}\)</span>, then the ratio is ~<span class=math>\(\frac{1.618}{1}\)</span>. This number is irrational, i.e., its decimal places never converge, classically denoted by the Greek letter phi, <span class=math>\(\varphi\)</span>. <span class=math>\(\varphi\)</span> is the positive root of the quadratic equation x<span class=math>\(^2\)</span> - x - 1 = 0. Upon solving the equation we obtain x = <span class=math>\(\frac{1 + 5^{0.5}}{2}\)</span>. The golden ratio was (probably) first discovered in Ancient Greece through applications in geometry, which the Greeks emphasized. Greek mathematicians determined <span class=math>\(\varphi\)</span> was an irrational number all the way back in the fifth century BC (woa).</p>
+<p>I will approximate the golden ratio by iteratively taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, illuminating a number of interesting patterns.</p>
+<p>The <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s">golden ratio</a> is a mathematical phenomenon between two numbers, say, a and b. Let a > b, if the ratio of <span class=math>\(\frac{a}{b}\)</span> is the same as <span class=math>\(\frac{(a+b)}{a}\)</span>, then the ratio is ~<span class=math>\(\frac{1.618}{1}\)</span>. This number is irrational, i.e., its decimal places never converge, classically denoted by the Greek letter phi, <span class=math>\(\varphi\)</span>. <span class=math>\(\varphi\)</span> is the positive root of the quadratic equation x<span class=math>\(^2\)</span> - x - 1 = 0. Upon solving the equation we obtain x = <span class=math>\(\frac{1 + 5^{0.5}}{2}\)</span>. The golden ratio was (probably) first discovered in Ancient Greece through applications in geometry, which the Greeks emphasized. Greek mathematicians determined <span class=math>\(\varphi\)</span> was an irrational number all the way back in the fifth century BC (woa).</p>
 <p>Fibonacci numbers are closely related to the golden ratio.</p>
 <blockquote>
 <p>"[Fibonacci] was an Italian mathematician from the Republic of Pisa, considered to be 'the most talented Western mathematician of the Middle Ages'". [<a href=https://en.m.wikipedia.org/wiki/Fibonacci>Wikipedia</a>]</p>
