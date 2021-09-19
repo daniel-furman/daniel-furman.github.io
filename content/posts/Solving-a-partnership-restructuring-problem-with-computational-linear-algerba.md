@@ -27,8 +27,6 @@ The next step is to shuffle the columns by all the indices' permutations, while 
 
 ### Model Flexibility
 
----
-
 Why was optimal in quotes above? Well, after all that, our result many turn out to be, well, not so great. Consider a simplified case: two partners evenly share three assets, but the assets are all equivalent, and, therefore, there is no way to split up the assets into majority stake ownerships.
 
 Another unattractive feature of our methodology was that we preemptively chose how many assets in total went to each partner, a step in the analytics pipeline that requires experimenting with. Some intuition must go into this initial decision after examining the original ownership stakes and the assets' values and debts.
@@ -83,4 +81,6 @@ print(np.argmin(results))
 end = time.time()
 print(f"Runtime of the program is {end - start}")
 ```
+
+---
 
