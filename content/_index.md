@@ -30,7 +30,7 @@ Year | Position
 -----|-------
 2019-2021 | Data Science REU, Harvey Mudd College (NSF Award #1757952).
 2017-2020 | Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
-Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Captain. 
+Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Co-Captain. 
 
 ---
 
