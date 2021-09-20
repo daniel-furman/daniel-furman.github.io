@@ -16,7 +16,7 @@ math = true # enable KaTeX (https://katex.org/) globally
 [params.footer]
 text = "By Daniel Furman"
 [params.style] # appearance options (can be omitted)
-avatarSize = "200px"
+avatarSize = "230px"
 colorBlack = "#222222"
 colorRed = "#3f51b5"
 fontFamily = "Inconsolata"
