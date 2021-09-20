@@ -6,9 +6,9 @@ title = "About"
 
 # About Me
 
-A challenge-driven data scientist employing applied modeling and data analytics to help organizations make better decisions.
+A challenge-driven data scientist interested in applied modeling and analytics.
 
-My programming experience is primarily in Python, SQL, and R, spanning the full-DS-stack from data mining to algorithm development. I am currently studying applied data science and machine learning at UC Berkeley's School of Information (MIMS '23). As an undergraduate, I studied geophysics and mathematics at the University of Pennsylvania (BA '20). In my spare time, I love reading about science, promoting environmental conservation, and telling communicative stories with data!
+I am passionate about turning data into insights that help organizations make better decisions. My programming experience is deep in Python and R, spanning the full-DS-stack from data mining to algorithm development. I am currently studying applied data science and machine learning at UC Berkeley's School of Information (MIMS '23). As an undergraduate, I studied geophysics and mathematics at the University of Pennsylvania (BA '20). In my spare time, I love reading about science, promoting environmental conservation, and telling communicative stories with data!
 
 ---
 
