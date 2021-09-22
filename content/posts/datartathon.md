@@ -13,7 +13,7 @@ Made with the support of the [Risk & Resilience DAT/Artathon 2021](https://datar
 
 ---
 
-“EcoRisk California” visualizes climate change impacts for three of the West Coast’s most beloved tree species during the 21st century. The motion-graphics storyboard visualizes shifts within three species distributions across spatial and climate dimensions, exploring relationships between ecological risk and habitat suitability. To facilitate future experiments, the study is accompanied by an open-sourced Python package containing the class for semi-automated machine learning used in the visualization. 
+“EcoRisk California” explores climate change impacts for three of the West Coast’s most beloved tree species during the 21st century. The motion-graphics storyboard visualizes shifts within three species distributions across spatial and climate dimensions, exploring relationships between ecological risk and habitat suitability. To facilitate future experiments, the study is accompanied by an open-sourced Python package containing the class for semi-automated machine learning used in the visualization. 
 
 <img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-1.png" style="border:0px;margin:0px" alt="vertical 1"/><!--
 --><img src="/research-outputs/datartathon/knitted-files/ecorisk-vertical-2.gif" style="border:0px;margin:0px" alt="vertical 2"/><!--
