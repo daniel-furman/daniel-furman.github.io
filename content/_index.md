@@ -36,8 +36,6 @@ Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harv
 
 ### <ins>Research Publications</ins>
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=phb-R4cAAAAJ&view_op=list_works&gmla=AJsN-F6C1I4RZCwFP0WBF5h-biY9pV7x9aQJIB87G7h5gMouD2Ete0h1f5pDotAJRBXdSmHzHkrTm7eLuYeyHvyFHjZJJuzx-0lDQbpwQtptKyY09iydNy4)
-
 1. Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
 2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
 3. Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
