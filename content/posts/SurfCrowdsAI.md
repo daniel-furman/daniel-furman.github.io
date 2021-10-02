@@ -1,6 +1,6 @@
 ---
 title: "Forecasting Surf Crowds in Malibu with a Web-App UI."
-date: 2021-10-2
+date: 2021-10-02
 katex: true
 markup: "mmark"
 ---
