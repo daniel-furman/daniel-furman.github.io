@@ -1,11 +1,11 @@
 ---
-title: "Solving a partnership restructuring problem with Markov processes."
+title: "Solving a Partnership Restructuring Problem with a Markov Model."
 date: 2021-04-20T21:22:42-07:00
 katex: true
 markup: "mmark"
 ---
 
-## Solving a partnership restructuring problem with Markov processes.
+## Solving a Partnership Restructuring Problem with a Markov Model.
 
 ---
 
