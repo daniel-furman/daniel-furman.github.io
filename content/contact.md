@@ -16,4 +16,4 @@ dryanfurman (at) gmail
 
 ### <ins>Resume</ins>
 
-* [Resume](https://daniel-furman.github.io//research-outputs/Daniel_Furman_Resume.pdf)
+1. [Resume](https://daniel-furman.github.io//research-outputs/Daniel_Furman_Resume.pdf)
