@@ -14,8 +14,8 @@ My programming experience is deep in Python and R across the full-DS-stack, from
 
 ### <ins>Research and Product Interests</ins>
 
-* AutoML for e-commerce trend forecasting & related product insights. 
-* Large-scale environmental risk analytics & related data challenges.
+* Large-scale ecological risk modeling & related big geospatial data challenges.
+* Data-driven insights for product growth with positive social impact. 
 
 ---
 
