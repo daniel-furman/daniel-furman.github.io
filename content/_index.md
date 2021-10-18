@@ -12,13 +12,6 @@ My programming experience is deep in Python and R across the full-DS-stack, from
 
 ---
 
-### <ins>Research and Product Interests</ins>
-
-* Large-scale ecological risk modeling & related big geospatial data challenges.
-* Product growth experimentation and commercial sustainability analytics. 
-
----
-
 ### <ins>Timeline</ins>
 
 Year | Education
@@ -28,8 +21,8 @@ Year | Education
 
 Year | Position
 -----|-------
-2019-2021 | Researcher @ Data Science REU, Harvey Mudd College (NSF Award #1757952).
-2017-2020 | Researcher @ Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
+2019 | Summer Researcher @ Data Science REU, Harvey Mudd College (NSF Award #1757952).
+2017-2020 | Undergraduate Researcher @ Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
 Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Co-Captain. 
 
 ---
@@ -43,10 +36,12 @@ Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harv
 
 ---
 
-### <ins>Coding Dev</ivns>
+### <ins>Interests</ivns>
 
-- Solutions to CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
-- OSS Python packages for ML [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
+* Large-scale ecological risk modeling & related big geospatial data challenges.
+* Product growth experimentation and commercial sustainability analytics. 
+* CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
+* OSS for Python and R [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
 
 ---
 
