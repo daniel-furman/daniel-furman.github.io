@@ -15,7 +15,7 @@ My programming experience is deep in Python and R across the full-DS-stack, from
 ### <ins>Research and Product Interests</ins>
 
 * Large-scale ecological risk modeling & related big geospatial data challenges.
-* Product growth experimentation and sustainable commercial analytics. 
+* Product growth experimentation and commercial sustainability analytics. 
 
 ---
 
@@ -28,8 +28,8 @@ Year | Education
 
 Year | Position
 -----|-------
-2019-2021 | Data Science REU, Harvey Mudd College (NSF Award #1757952).
-2017-2020 | Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
+2019-2021 | Researcher @ Data Science REU, Harvey Mudd College (NSF Award #1757952).
+2017-2020 | Researcher @ Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
 Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Co-Captain. 
 
 ---
