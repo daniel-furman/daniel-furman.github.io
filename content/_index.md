@@ -12,14 +12,23 @@ My programming experience is deep in Python and R across the full-DS-stack, from
 
 ---
 
+### <ins>Interests</ivns>
+
+* Large-scale ecological risk modeling & related big geospatial data challenges.
+* Product growth experimentation and commercial sustainability analytics. 
+* CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
+* OSS for Python and R [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
+
+---
+
 ### <ins>Timeline</ins>
 
 Year | Education
 -----|-------
-2021-2023 | MS Information Management and Systems, UC Berkeley. Graduate Certificate in Applied Data Science. 
+2021-2023 | MS Information Management and Systems, UC Berkeley. Applied Data Science & Machine Learning. 
 2016-2020 | BA with Distinction in Earth Science, University of Pennsylvania. Minor: Mathematics.
 
-Year | Position
+Year | Experience
 -----|-------
 2019 | Summer Researcher @ Data Science REU, Harvey Mudd College (NSF Award #1757952).
 2017-2020 | Undergraduate Researcher @ Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
@@ -33,15 +42,6 @@ Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harv
 2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
 3. Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
 4. Daniel R Furman and Sarah K Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019. <br>
-
----
-
-### <ins>Interests</ivns>
-
-* Large-scale ecological risk modeling & related big geospatial data challenges.
-* Product growth experimentation and commercial sustainability analytics. 
-* CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
-* OSS for Python and R [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
 
 ---
 
