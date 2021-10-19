@@ -43,9 +43,14 @@ url = "/bookshelf"
 weight = 3
 identifier = "bookshelf"
 [[menu.main]]
+name = "Resume"
+url = "//research-outputs/Daniel_Furman_Resume.pdf"
+weight = 4
+identifier = "resume"
+[[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 4
+weight = 5
 identifier = "contact"
 
 [markup]
