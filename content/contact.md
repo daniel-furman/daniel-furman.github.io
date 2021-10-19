@@ -13,4 +13,3 @@ dryanfurman (at) gmail
 3. [Github](https://github.com/daniel-furman)
 4. [PyPi](https://pypi.org/user/daniel-furman/)
 5. [Kaggle](https://www.kaggle.com/dryanfurman)
-6. [Resume](https://daniel-furman.github.io//research-outputs/Daniel_Furman_Resume.pdf)
