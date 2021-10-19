@@ -44,7 +44,7 @@ weight = 3
 identifier = "bookshelf"
 [[menu.main]]
 name = "Resume"
-url = "//research-outputs/Daniel_Furman_Resume.pdf"
+url = "/resume"
 weight = 4
 identifier = "resume"
 [[menu.main]]
