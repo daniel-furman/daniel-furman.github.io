@@ -30,9 +30,10 @@ Year | Education
 
 Year | Experience
 -----|-------
-2019 | Summer Researcher @ Data Science REU, Harvey Mudd College (NSF Award #1757952).
-2017-2020 | Undergraduate Researcher @ Ice Physics Lab, University of Pennsylvania (CURF Rose Research Award).
-Earlier | Penn NCAA D1 Golf Team, Strategy Intern at Wildlife Works Carbon, Harvard-Westlake Golf Team Co-Captain. 
+2021-Present | ML Engineering Intern @ Comon Solutions
+2019 | Summer Researcher @ Harvey Mudd College, Data Science REU (NSF Award #1757952).
+2017-2020 | Undergraduate Geophysics Researcher @ University of Pennsylvania, Ice Physics Lab (CURF Rose Award).
+Earlier | Penn NCAA D1 Golf Team, Strategy Intern @ Wildlife Works Carbon, Harvard-Westlake School Golf Team Co-Captain. 
 
 ---
 
