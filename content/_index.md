@@ -31,7 +31,6 @@ Year | Education
 Year | Experience
 -----|-------
 2021-Present | ML Engineering Intern @ <a href="https://www.comon.solutions" target="_blank" rel="noopener noreferrer">Comon Solutions</a>
-
 2019 | Summer Researcher @ <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College, Data Science REU</a> (NSF Award #1757952).
 2017-2020 | Geophysics Researcher @ <a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania, Ice Physics Lab</a> (CURF Rose Award).
 Earlier | Strategy Intern @ <a href="https://www.wildlifeworks.com" target="_blank" rel="noopener noreferrer">Wildlife Works Carbon</a>, Penn NCAA D1 Golf Team, Harvard-Westlake School Golf Team Co-Captain. 
