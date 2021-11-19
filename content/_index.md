@@ -14,8 +14,8 @@ I have experience leading initiatives to automate and optimize data mining and m
 
 ### <ins>Interests</ivns>
 
+* Product growth experimentation & information understanding.
 * Large-scale ecological risk modeling & related big geospatial data challenges.
-* Product growth experimentation and commercial sustainability analytics. 
 * CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
 * OSS for Python and R [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
 
