@@ -6,6 +6,7 @@ Title = "Bookshelf"
 
 Book | Author | Finished | Quotes
 -----|-------|-------|-------
+<a target="_blank" rel="noopener noreferrer" href="https://books.google.com/books/about/Storytelling_with_Data.html?id=retRCgAAQBAJ">Storytelling with Data: A Data Visualization Guide for Business Professionals</a> | Cole Nussbaumer Knafic | 2021 | "Exploratory analysis is what you do to understand the data and figure out what might be noteworthy or interesting to highlight to others."
 <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/165206463X/ref=cm_sw_PHC7JT1PJEDM834AGJYE">Data Science in Production: Building Scalable Model Pipelines with Python</a> | Ben Weber | 2021 | "Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization."
 <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/41795733-range">Range: Why Generalists Triumph in a Specialized World</a> | David Epstein | 2021 | "Seeing small pieces of a larger jigsaw puzzle in isolation, no matter how hi-def the picture, is insufficient to grapple with humanity's greatest challenges."
 <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/23995360-superforecasting">Superforecasting: The Art and Science of Prediction</a> | Philip E. Tetlock and Dan Gardner | 2021 | "For scientists, not knowing is exciting. It’s an opportunity to discover; the more that is unknown, the greater the opportunity."
