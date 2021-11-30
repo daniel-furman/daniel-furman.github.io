@@ -8,7 +8,7 @@ title = "About"
 
 I’m a UC Berkeley data scientist looking to apply my mathematics background towards democratizing decision-making driven by data.
 
-My experience includes leading initiatives to automate and optimize data mining and modeling pipelines for software products and research experiments. My work has resulted in actionable business insights, academic publications, and productionized code. I’m comfortable using Git for version control and have exposure to Python, R, SQL and cloud data technologies. As a former co-captain of the Harvard-Westlake golf team and former member of UPenn’s NCAA D1 golf team, I have a deep appreciation for high performance teams and what it takes to make them function efficiently. I'm also passionate about all things science and telling stories with data.
+My experience includes leading initiatives to automate and optimize data mining and modeling pipelines for software products and research experiments. My work has resulted in actionable business insights, academic publications, and productionized code. I’m comfortable using Git for version control and have deep exposure to Python, R, and SQL, as well as cloud data technologies such as AWS and GCP. As a former co-captain of the Harvard-Westlake golf team and former member of UPenn’s NCAA D1 golf team, I have a deep appreciation for high performance teams and what it takes to make them function efficiently. I'm also passionate about all things science and telling stories with data.
 
 ---
 
