@@ -1,5 +1,5 @@
 ---
-title: "A highly scientific visualization of 40k+ celebrity Twitter, Instagram & Facebook posts."
+title: "A visualization of 40,000+ celebrity social media captions."
 date: 2021-12-04
 katex: true
 markup: "mmark"
