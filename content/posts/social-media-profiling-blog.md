@@ -1,6 +1,6 @@
 ---
 title: "Extracting metadata from social media captions with machine learning."
-date: 2021-09-28
+date: 2021-12-18
 katex: true
 markup: "mmark"
 ---
