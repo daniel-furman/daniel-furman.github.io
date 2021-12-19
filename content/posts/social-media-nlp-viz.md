@@ -1,5 +1,5 @@
 ---
-title: "A visualization of 40,000+ celebrity social media captions."
+title: "Visualizing 40,000+ celebrity Tweets, IG captions & FB posts with RShiny."
 date: 2021-12-04
 katex: true
 markup: "mmark"
