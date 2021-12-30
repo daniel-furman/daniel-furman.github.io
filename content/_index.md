@@ -14,8 +14,8 @@ I’m a UC Berkeley data scientist looking to apply my mathematics background to
 
 * Product growth experimentation & information understanding.
 * Large-scale ecological risk modeling & related big geospatial data challenges.
-* CV/ML Kaggle challenges (competitions contributor) [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
-* OSS for Python and R [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
+* ML Kaggle challenges. [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
+* OSS Dev with Python and R. [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
 
 ---
 
