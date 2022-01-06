@@ -6,9 +6,10 @@ title = "About"
 
 # About Me
 
-I’m a UC Berkeley data scientist looking to apply my mathematics background towards democratizing data analytics and applied modeling for businesses of all sizes. In short, I’m passionate about extracting and communicating insights that help organizations make smarter decisions. 
+I’m a UC Berkeley data scientist looking to apply my mathematics background towards democratizing data analytics and applied modeling for businesses of all sizes. My experience includes leading initiatives in business intelligence, software development, and academic research. These projects have resulted in actionable insights into business strategy, productionized code for machine learning software, and academic publications in mathematical biology and geophysics. As far as my tech stack, I’m comfortable using Git for version control and have a deep understanding of Python, R, and SQL. I also have exposure to cloud data technologies such as AWS and GCP. In addition, as a former co-captain of the Harvard-Westlake golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently. Overall, I believe I add value to an engineering team because my technical capabilities are matched by my excellent communication skills and aptitude for hypothesis-driven research. 
 
-My experience includes leading initiatives in business analytics, software development, and academic research. These projects have resulted in actionable business strategy insights, productionized code for ML software, and academic publications in mathematical biology and geophysics. I’m comfortable using Git for version control and have a deep understanding of Python, R, and SQL. I also have exposure to cloud data technologies such as AWS and GCP. Additionally, as a former co-captain of the Harvard-Westlake golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently. Overall, I believe I add value to any engineering team because my technical capabilities are matched by my excellent communication skills and capability to independently conduct hypothesis-driven research. 
+Portfolio: https://daniel-furman.github.io
+GitHub: https://github.com/daniel-furman
 
 ---
 
