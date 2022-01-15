@@ -51,18 +51,18 @@ Contact
 <p>In application, I used a Markov model to exhaustively search for solutions to a three partner vs. eleven asset case, testing over 200 million potential restructuring states in Python. The optimal solution incurred a 2.9mm cumulative stake change against 159mm in total business assets, an acceptably small magnitude of change (&lt;2%) that allows the client to effectively avoid significant restructuring taxes.</p>
 <h3 id=markov-algorithm>Markov Algorithm</h3>
 <p>I explored restructuring scenarios by transforming the problem into a system of matrix operations, using computational methods to permute across majority ownership scenarios. First, I took an NxM matrix encoding the restructured shares; for example, partner N1 gets 100% of asset M1, 0% of asset M2, and so on. I ran the Markov model over several of these initial splits, attempting to locate a optimal state near the global stake change minimum. Each row in this matrix represents a partner, whereas each column represents an asset. As expected, each column sums to one, hence the matrix is a Markov matrix.</p>
-<p>I then multiplied this NxM probability matrix with an Mx2 matrix encoding each asset's total value and debt. I subtracted the result from the current ownership stakes (a Nx2 matrix), ensuring that the rows matched up to the correct partner in the NxM probability matrix. Finally, I took the absolute values of the difference matrix (direction of change wasn't important) and summed the entries. Our result encoded the cumulative difference between the restructured partnership and the original structure. The for loop then iterated through all possible scenarios by shuffling the columns, recording cumulative stake changes across the M! potential restructurings. The best option occured at the minimum stake change, which turned up more than once because permutation repeats existed.</p>
-<p><br><br>
-<div><span class=math>\(sum(abs(\left[\begin{array}{cccccc}1 & 0 & 0 & 1 & 0 & 0 \\0 & 1 & 0 & 0 & 1 & 0\\0 & 0 & 1 & 0 & 0 & 1\end{array}\right]\left[\begin{array}{cc}val_1 & debt_1 \\val_2 & debt_2 \\val_3 & debt_3 \\val_4 & debt_4 \\val_5 & debt_5 \\val_6 & debt_6\end{array}\right]-\left[\begin{array}{cc}N_{1val} & N_{1debt}  \\N_{2val} & N_{2debt} \\N_{3val} & N_{3debt}\end{array}\right]))\)</span></div>
+<p>I then multiplied this NxM probability matrix with an Mx2 matrix encoding each asset&rsquo;s total value and debt. I subtracted the result from the current ownership stakes (a Nx2 matrix), ensuring that the rows matched up to the correct partner in the NxM probability matrix. Finally, I took the absolute values of the difference matrix (direction of change wasn&rsquo;t important) and summed the entries. Our result encoded the cumulative difference between the restructured partnership and the original structure. The for loop then iterated through all possible scenarios by shuffling the columns, recording cumulative stake changes across the M! potential restructurings. The best option occured at the minimum stake change, which turned up more than once because permutation repeats existed.</p>
+<p><br><br></p>
+<div>$$sum(abs(\left[\begin{array}{cccccc}1 & 0 & 0 & 1 & 0 & 0 \\0 & 1 & 0 & 0 & 1 & 0\\0 & 0 & 1 & 0 & 0 & 1\end{array}\right]\left[\begin{array}{cc}val_1 & debt_1 \\val_2 & debt_2 \\val_3 & debt_3 \\val_4 & debt_4 \\val_5 & debt_5 \\val_6 & debt_6\end{array}\right]-\left[\begin{array}{cc}N_{1val} & N_{1debt}  \\N_{2val} & N_{2debt} \\N_{3val} & N_{3debt}\end{array}\right]))$$</div>
 <br>
-<strong>Figure 1</strong>. System of matrix operations for a partnership with 6 assets and 3 partners. The first matrix is the probability Markov matrix, the second is the values/debts of each asset, and the third is the partner's total current ownership values/debts.<br>
-<br><br></p>
+**Figure 1**. System of matrix operations for a partnership with 6 assets and 3 partners. The first matrix is the probability Markov matrix, the second is the values/debts of each asset, and the third is the partner's total current ownership values/debts.
+<br><br>
 <h3 id=model-flexibility>Model Flexibility</h3>
 <p>The Markov model approach is by nature a brute force method, as I was testing across a massive number of possible scenarios. The for loops decompose to a <a href=http://web.mit.edu/16.070/www/lecture/big_o.pdf>O(n) time complexity</a>, yet the runtime can become because the program looped over M! states. Furthermore, the model is certainly not flexible to any scenario. For example, consider a simplified case: two partners share three assets evenly yet the assets' values (and debts) are equivalent. Therefore, there is no way to split up the assets into majority ownerships with minimal stake change.</p>
 <p>For the real-world application, I ran our Markov model across several initial ownership scenarios, changing the total number of assets each partner recieved. For example, the optimal state was found by giving 4 properties to partner 1, 3 to partner 2, and 4 to partner 3, which was the fifth such scenario tested.</p>
-<p><span class=math>\[runtime \propto n^{0.966}\]</span></p>
+<p>$$runtime \propto n^{0.966}$$</p>
 <p align=center> <img src=/posts/assets-runtime.png / width=550 height=366> </p>
-<p><strong>Figure 2</strong>. Run-time complexity analysis for the restructuring algorithm (in log/log space). The power law relationship exhibits a n ~ 0.996 slope, indicating the linearity in the algorithm's time complexity (i.e., O(n)).
+<p><strong>Figure 2</strong>. Run-time complexity analysis for the restructuring algorithm (in log/log space). The power law relationship exhibits a n ~ 0.996 slope, indicating the linearity in the algorithm&rsquo;s time complexity (i.e., O(n)).
 <br><br></p>
 <h3 id=code>Code</h3>
 <hr>
@@ -141,10 +141,10 @@ Contact
 <span class=nb>print</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>min</span><span class=p>(</span><span class=n>results</span><span class=p>))</span> <span class=c1># the optimal restructuring difference</span>
 <span class=nb>print</span><span class=p>(</span><span class=n>np</span><span class=o>.</span><span class=n>argmin</span><span class=p>(</span><span class=n>results</span><span class=p>))</span>
 <span class=n>end</span> <span class=o>=</span> <span class=n>time</span><span class=o>.</span><span class=n>time</span><span class=p>()</span>
-<span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Runtime of the program is </span><span class=si>{</span><span class=n>end</span> <span class=o>-</span> <span class=n>start</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span></code></pre></td></tr></table>
+<span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Runtime of the program is </span><span class=si>{</span><span class=n>end</span> <span class=o>-</span> <span class=n>start</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
+</code></pre></td></tr></table>
 </div>
-</div>
-<hr>
+</div><hr>
 </div>
 </div><html>
 <body>
