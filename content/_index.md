@@ -13,28 +13,19 @@ I’m a UC Berkeley data scientist looking to apply my mathematics background to
 
 ---
 
-### <ins>Interests</ivns>
-
-* Product growth experimentation & information understanding.
-* Large-scale ecological risk modeling & related big geospatial data challenges.
-* ML Kaggle challenges. [[Kaggle Profile](https://www.kaggle.com/dryanfurman)]
-* OSS Dev with Python and R. [[PyPi Profile](https://pypi.org/user/daniel-furman/)]  [[Github Profile](https://github.com/daniel-furman)]
-
----
-
 ### <ins>Timeline</ins>
 
 Year | Education
 -----|-------
-2021-2023 | MS Information Management and Systems, UC Berkeley. Applied Data Science & Machine Learning. 
+2021-2023 | MS Information Management and Systems, University of California, Berkeley. Applied Data Science. 
 2016-2020 | BA with Distinction in Earth Science, University of Pennsylvania. Minor: Mathematics.
 
 Year | Experience
 -----|-------
-2021-Present | ML Engineering Intern @ <a href="https://www.comon.solutions" target="_blank" rel="noopener noreferrer">Comon Solutions</a>. 
-2019 | Summer Researcher @ Harvey Mudd College, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Data Science REU</a> (NSF Award #1757952).
+2021-Present | Machine Learning Intern @ <a href="https://www.comon.solutions" target="_blank" rel="noopener noreferrer">Understory.AI</a>. 
+2019 | Data Science Researcher @ Harvey Mudd College, <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Data Science REU</a> (NSF Award #1757952).
 2017-2020 | Geophysics Researcher @ University of Pennsylvania, <a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">Ice Physics Lab</a> (CURF Rose Award).
-Earlier | Strategy Intern @ <a href="https://www.wildlifeworks.com" target="_blank" rel="noopener noreferrer">Wildlife Works Carbon</a>, Penn NCAA D1 Golf Team, Harvard-Westlake School Golf Team Co-Captain. 
+Earlier | Business Strategy Intern @ <a href="https://www.wildlifeworks.com" target="_blank" rel="noopener noreferrer">Wildlife Works Carbon</a>, Penn NCAA D1 Golf Team, Harvard-Westlake School Golf Team Co-Captain. 
 
 ---
 
