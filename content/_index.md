@@ -23,9 +23,9 @@ Year | Education
 Year | Experience
 -----|-------
 2021-Present | Machine Learning Intern @ <a href="https://www.comon.solutions" target="_blank" rel="noopener noreferrer">Understory.AI</a>. Developing computer vision software for next-generation land management. 
-2021 | Lead Teaching Assistant @ <a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business, Data Mining </a> (MBA247.11). Teaching assistant under Prof Luyi Yang, Fall 2021: Descriptive & Predictive Data Mining. 
-2019 | Data Science Researcher @ <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College, Data Science (REU) </a>. Researcher in mathematical biology under Profs Stephen Adolph & Tanja Srebotnjack (see recommendation below). NSF Award #1757952. Published in Proceedings of the Society for Integrative and Comparative Biology Meeting '21.
-2017-2020 | Geophysics Researcher @ <a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania, Ice Physics Lab</a>. Project lead in the Experimental Geophysics Lab under Prof David Goldsby. Rose Undergraduate Research Award '20. CURF Climate Action Grant '19. Published in Penn Science '21.
+2021 | Lead Teaching Assistant @ <a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business, Data Mining </a>. Teaching assistant under Prof Luyi Yang, Fall 2021: Descriptive & Predictive Data Mining (MBA247.11). 
+2019 | Data Science Researcher @ <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College</a>. Researcher in mathematical biology under Profs Stephen Adolph & Tanja Srebotnjack. NSF Award #1757952. Published in Proceedings of the Society for Integrative and Comparative Biology Meeting '21.
+2017-2020 | Geophysics Researcher @ <a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania</a>. Project lead in the Experimental Geophysics Lab under Prof David Goldsby. Rose Undergraduate Research Award '20. CURF Climate Action Grant '19. Published in Penn Science '21.
 Earlier | Business Strategy Intern @ <a href="https://www.wildlifeworks.com" target="_blank" rel="noopener noreferrer">Wildlife Works Carbon</a>, Penn NCAA D1 Golf Team, Harvard-Westlake School Golf Team Co-Captain. 
 
 ---
