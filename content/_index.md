@@ -26,7 +26,6 @@ Year | Experience
 2021 | Lead TA @ <a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business, Data Mining </a>. Teaching with Prof Luyi Yang, Fall 2021: Descriptive & Predictive Data Mining (MBA247.11). 
 2017-2020 | Geophysics Researcher @ <a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania</a>. Project lead in the Experimental Geophysics Lab with Prof David Goldsby. Rose Undergraduate Research Award '20. CURF Climate Action Grant '19. Published in Penn Science '21.
 2019 | Data Science Researcher @ <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College</a>. Researcher with Profs Stephen Adolph & Tanja Srebotnjack applying geospatial ML in mathematical biology. Published in Proceedings of the Society for Integrative and Comparative Biology Meeting '21. NSF Award #1757952. 
-Earlier | Business Strategy Intern @ <a href="https://www.wildlifeworks.com" target="_blank" rel="noopener noreferrer">Wildlife Works Carbon</a>, Penn NCAA D1 Golf Team, Harvard-Westlake School Golf Team Co-Captain. 
 
 ---
 
