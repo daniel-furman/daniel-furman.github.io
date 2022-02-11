@@ -6,7 +6,9 @@ title = "About"
 
 # About Me
 
-I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading initiatives in business intelligence, machine learning research, and software development. These have resulted in actionable insights into organizational and product strategy, production development for computer vision and data engineering pipelines, and  first-author academic publications in mathematical biology and geophysics. As far as my tech stack, I’m comfortable using Git for version control and have a deep understanding of Python, R, and SQL as well as cloud data technologies such as AWS and GCP. Lastly, here's a fun fact about me: as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently. 
+I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. 
+
+My experience includes leading initiatives in business intelligence, machine learning research, and software development. These have resulted in actionable insights into organizational and product strategy, production development for computer vision and data engineering pipelines, and first-author academic publications in mathematical biology and geophysics. I’m comfortable using Git for version control and have a deep understanding of Python, R, and SQL as well as cloud data technologies such as AWS and GCP. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
 
 * [[LinkedIn Profile](https://www.linkedin.com/in/daniel-ryan-furman/)]
 * [[GitHub Profile](https://github.com/daniel-furman)]
