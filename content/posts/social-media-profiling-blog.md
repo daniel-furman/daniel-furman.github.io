@@ -7,7 +7,7 @@ markup: "mmark"
 
 # A blog post & Web-App exploring social media profiling with machine learning.
 
-Web-app on Heroku: [https://social-media-profiler.herokuapp.com](https://social-media-profiler.herokuapp.com)
+Web-app on Heroku: [https://social-media-profiler.herokuapp.com](https://social-media-profiler.herokuapp.com) (models are de-activated due to prohibitive GCP Natural Language AutoML costs). 
 
 **Overview:** This design doc’s purpose is to provide a write-up for the corresponding web-application above. Profiling metadata is valuable for a range of purposes, such as for creating better personalized advertisements online. However, this is clearly a sensitive topic, because people have a range of both positive and negative opinions about internet privacy. Despite existing concerns, companies across the world gather information about people (often customers of the given company) and their personalities as they browse the web, post content on social media platforms, and leave countless other trails of data that reveal features about their identity. To extract such information from social media posts in particular, I propose a solution herein where machine learning models automatically predict personality labels from social media (natural language) posts. The desired final outcome is a system that can label 100’s of metadata labels for a given input that yield an understanding of a person's personality. In the “proof-of-concept” implementation provided, two such labels are predicted: Gender & Platform. The final predictions would be saved and served online within a metadata repository software, preferably a solution that manages such metadata in useful & convenient ways (such as clustering customers with similar personalities, for example). 
 
