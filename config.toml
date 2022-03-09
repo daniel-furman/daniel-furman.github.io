@@ -36,7 +36,6 @@ name = "Posts"
 url = "/posts"
 weight = 2
 identifier = "posts"
-identifier = "coding"
 [[menu.main]]
 name = "Bookshelf"
 url = "/bookshelf"
