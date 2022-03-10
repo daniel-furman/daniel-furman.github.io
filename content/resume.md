@@ -4,4 +4,4 @@ title = "Resume"
 
 # Resume
 
-1. Available upon request. 
+1. [Link to PDF](https://daniel-furman.github.io//research-outputs/Daniel_Furman_Resume.pdf)
