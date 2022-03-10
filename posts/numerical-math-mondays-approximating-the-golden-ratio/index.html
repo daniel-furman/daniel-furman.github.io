@@ -1,55 +1,14 @@
-<!doctype html><html><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Using Numerical Mathematics to Approximate the Golden Ratio.</title><meta name=description content="Daniel Furman's Portfolio and Blog">
-<meta name=author content="Daniel Furman">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous>
-<link rel=stylesheet href=/sass/researcher.min.css>
-<link rel=icon type=image/ico href=https://daniel-furman.github.io/favicon.ico>
-</head><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css integrity=sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X crossorigin=anonymous>
-<script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin=anonymous></script>
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Using Numerical Mathematics to Approximate the Golden Ratio.</title><meta name=description content="Daniel Furman's Portfolio and Blog"><meta name=author content="Daniel Furman"><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous><link rel=stylesheet href=/sass/researcher.min.css><link rel=icon type=image/ico href=https://daniel-furman.github.io/favicon.ico></head><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css integrity=sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin=anonymous></script>
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js integrity=sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa crossorigin=anonymous onload=renderMathInElement(document.body)></script>
-<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"\\[",right:"\\]",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1}]})})</script>
-<body><div class="container mt-5">
-<nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-<a class="navbar-brand mx-0 mr-sm-auto" href=https://daniel-furman.github.io/>
-Daniel Furman
-</a>
-<div class="navbar-nav flex-row flex-wrap justify-content-center">
-<a class="nav-item nav-link" href=/>
-About
-</a>
+<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"\\[",right:"\\]",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1}]})})</script><body><div class="container mt-5"><nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0"><a class="navbar-brand mx-0 mr-sm-auto" href=https://daniel-furman.github.io/>Daniel Furman</a><div class="navbar-nav flex-row flex-wrap justify-content-center"><a class="nav-item nav-link" href=/>About</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/posts>
-Posts
-</a>
+<a class="nav-item nav-link" href=/posts>Posts</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/bookshelf>
-Bookshelf
-</a>
+<a class="nav-item nav-link" href=/bookshelf>Bookshelf</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/resume>
-Resume
-</a>
+<a class="nav-item nav-link" href=/resume>Resume</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/contact>
-Contact
-</a>
-</div></nav></div><hr>
-<div id=content>
-<div class=container>
-<h2 id=using-numerical-mathematics-to-approximate-the-golden-ratio>Using Numerical Mathematics to Approximate the Golden Ratio</h2><hr>
-<br>
-<p align=center> <img src=/posts/golden-spiral.png / width=550 height=347> </p><br>
-<h3 id=introduction-and-historical-context>Introduction and historical context</h3><hr>
-<p>I will approximate the golden ratio by iteratively taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, illuminating a number of interesting patterns.</p><p>The <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s">golden ratio</a> is a mathematical phenomenon between two numbers, say, a and b. Let a > b, if the ratio of $$\frac{a}{b}$$ is the same as $$\frac{(a+b)}{a}$$, then the ratio is ~$$\frac{1.618}{1}$$. This number is irrational, i.e., its decimal places never converge, classically denoted by the Greek letter phi, $$\varphi$$. $$\varphi$$ is the positive root of the quadratic equation x$$^2$$ - x - 1 = 0. Upon solving the equation we obtain x = $$\frac{1 + 5^{0.5}}{2}$$. The golden ratio was (probably) first discovered in Ancient Greece through applications in geometry, which the Greeks emphasized. Greek mathematicians determined $$\varphi$$ was an irrational number all the way back in the fifth century BC (woa).</p><p>Fibonacci numbers are closely related to the golden ratio.</p><blockquote>
-<p>&ldquo;[Fibonacci] was an Italian mathematician from the Republic of Pisa, considered to be &rsquo;the most talented Western mathematician of the Middle Ages&rsquo;&rdquo;. [<a href=https://en.m.wikipedia.org/wiki/Fibonacci>Wikipedia</a>]</p></blockquote><p>The first two Fibonacci numbers are zero and one. Each consecutive term is the sum of the previous two, i.e., the third term is also one, because 0+1=1. The first few terms are (0, 1, 1, 2, 3, 5, 8, 13, 21). The ratio of consecutive terms closely mirrors $$\varphi$$, and the approximations get increasingly more accurate. Hmm, this seems like an important property if we, say, wanted to approximate the golden ratio!</p><br>
-<h3 id=approximating-the-golden-ratio-with-fibonacci-numbers>Approximating the golden ratio with Fibonacci numbers</h3><hr>
-<p>Lets cook up a simple sequence of operations exploiting the last feature of the Fibonacci numbers discussed above. We want to approximate $$\varphi$$ to a high degree of accuracy; thus, we will design the algorithm to run until we converge on <a href=https://en.wikipedia.org/wiki/Machine_epsilon>the computer’s epsilon error</a> ($$\varepsilon$$), i.e., the last digit recorded on my 64-bit computer. Upon running the algorithm, we find that it takes 39 iterations for our approximation errors to converge to $$\varepsilon$$.</p><p align=center> <img src=/posts/fib-errors.png / width=550 height=431> </p><p><strong>Figure 1</strong>. The absolute errors between our Fibonacci ratio approximations and the golden ratio itself. Notice that the errors trend towards zero, indicating that our approximations are getting closer and closer to the true solution.</p><br>
-<p><strong>Python implementation</strong>:</p><p>Runtime ~ 123 $$\mu$$s (native | Zsh)</p><div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt> 1
+<a class="nav-item nav-link" href=/contact>Contact</a></div></nav></div><hr><div id=content><div class=container><h2 id=using-numerical-mathematics-to-approximate-the-golden-ratio>Using Numerical Mathematics to Approximate the Golden Ratio</h2><hr><br><p align=center><img src=/posts/golden-spiral.png / width=550 height=347></p><br><h3 id=introduction-and-historical-context>Introduction and historical context</h3><hr><p>I will approximate the golden ratio by iteratively taking ratios of consecutive terms in the Fibonacci sequence. This algorithm lets us peer into the underlying relationship between the Fibonacci sequence and the golden ratio, illuminating a number of interesting patterns.</p><p>The <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjVsumck77wAhVFLX0KHdj1Di0QFjAJegQIAxAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGolden_ratio&usg=AOvVaw2xWnjTV-SdFz2WkhAdaL-s">golden ratio</a> is a mathematical phenomenon between two numbers, say, a and b. Let a > b, if the ratio of $$\frac{a}{b}$$ is the same as $$\frac{(a+b)}{a}$$, then the ratio is ~$$\frac{1.618}{1}$$. This number is irrational, i.e., its decimal places never converge, classically denoted by the Greek letter phi, $$\varphi$$. $$\varphi$$ is the positive root of the quadratic equation x$$^2$$ - x - 1 = 0. Upon solving the equation we obtain x = $$\frac{1 + 5^{0.5}}{2}$$. The golden ratio was (probably) first discovered in Ancient Greece through applications in geometry, which the Greeks emphasized. Greek mathematicians determined $$\varphi$$ was an irrational number all the way back in the fifth century BC (woa).</p><p>Fibonacci numbers are closely related to the golden ratio.</p><blockquote><p>&ldquo;[Fibonacci] was an Italian mathematician from the Republic of Pisa, considered to be &rsquo;the most talented Western mathematician of the Middle Ages&rsquo;&rdquo;. [<a href=https://en.m.wikipedia.org/wiki/Fibonacci>Wikipedia</a>]</p></blockquote><p>The first two Fibonacci numbers are zero and one. Each consecutive term is the sum of the previous two, i.e., the third term is also one, because 0+1=1. The first few terms are (0, 1, 1, 2, 3, 5, 8, 13, 21). The ratio of consecutive terms closely mirrors $$\varphi$$, and the approximations get increasingly more accurate. Hmm, this seems like an important property if we, say, wanted to approximate the golden ratio!</p><br><h3 id=approximating-the-golden-ratio-with-fibonacci-numbers>Approximating the golden ratio with Fibonacci numbers</h3><hr><p>Lets cook up a simple sequence of operations exploiting the last feature of the Fibonacci numbers discussed above. We want to approximate $$\varphi$$ to a high degree of accuracy; thus, we will design the algorithm to run until we converge on <a href=https://en.wikipedia.org/wiki/Machine_epsilon>the computer’s epsilon error</a> ($$\varepsilon$$), i.e., the last digit recorded on my 64-bit computer. Upon running the algorithm, we find that it takes 39 iterations for our approximation errors to converge to $$\varepsilon$$.</p><p align=center><img src=/posts/fib-errors.png / width=550 height=431></p><p><strong>Figure 1</strong>. The absolute errors between our Fibonacci ratio approximations and the golden ratio itself. Notice that the errors trend towards zero, indicating that our approximations are getting closer and closer to the true solution.</p><br><p><strong>Python implementation</strong>:</p><p>Runtime ~ 123 $$\mu$$s (native | Zsh)</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
@@ -72,8 +31,7 @@ Contact
 </span><span class=lnt>21
 </span><span class=lnt>22
 </span><span class=lnt>23
-</span></code></pre></td><td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1>### Libraries ###</span>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1>### Libraries ###</span>
 </span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>numpy</span> <span class=k>as</span> <span class=nn>np</span>
 </span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>matplotlib.pyplot</span> <span class=k>as</span> <span class=nn>plt</span>
 </span></span><span class=line><span class=cl>
@@ -96,14 +54,7 @@ Contact
 </span></span><span class=line><span class=cl><span class=k>assert</span> <span class=n>erval</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span> <span class=o>==</span> <span class=mf>0.0</span> <span class=c1># absolute error equal to 0.0</span>
 </span></span><span class=line><span class=cl><span class=k>if</span> <span class=n>ratio</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span> <span class=o>==</span> <span class=n>phi</span><span class=p>:</span>  <span class=c1># the golden ratio</span>
 </span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=s1>&#39;done&#39;</span><span class=p>)</span>
-</span></span></code></pre></td></tr></table></div></div><br>
-<h3 id=appendix-more-reading>Appendix: More Reading</h3><hr>
-<ul>
-<li>The coolest golden ratio visualization, imo, is the <a href=https://mathworld.wolfram.com/GoldenSpiral.html>golden spiral</a> (see the first picture!). Consider a rectangle whose length is the golden ratio $$\varphi$$ with height 1. Successive points that divide this &ldquo;golden rectangle&rdquo; into perfect squares fall on a logarithmic spiral with a growth factor equal to $$\varphi$$.</li><li>A well written Pixa article on <a href=https://www.pixpa.com/blog/golden-ratio>photography and design applications of the golden ratio</a>. Is the golden ratio the genesis of photography’s rule of thirds? How close do natural patterns adhere to the golden ratio?</li><li>A visualizations/applications oriented Ted talk on <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe">using the Fibonacci numbers in magical ways</a>.</li></ul><br>
-<h3 id=appendix-more-code>Appendix: More Code</h3><hr>
-<p><strong>C++ implementation</strong>:</p><p>Runtime ~ 62 $$\mu$$s (native | Zsh, g++ compiler)</p><div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span></span></code></pre></td></tr></table></div></div><br><h3 id=appendix-more-reading>Appendix: More Reading</h3><hr><ul><li>The coolest golden ratio visualization, imo, is the <a href=https://mathworld.wolfram.com/GoldenSpiral.html>golden spiral</a> (see the first picture!). Consider a rectangle whose length is the golden ratio $$\varphi$$ with height 1. Successive points that divide this &ldquo;golden rectangle&rdquo; into perfect squares fall on a logarithmic spiral with a growth factor equal to $$\varphi$$.</li><li>A well written Pixa article on <a href=https://www.pixpa.com/blog/golden-ratio>photography and design applications of the golden ratio</a>. Is the golden ratio the genesis of photography’s rule of thirds? How close do natural patterns adhere to the golden ratio?</li><li>A visualizations/applications oriented Ted talk on <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjoi6TiiL7wAhUzFTQIHb2TAdgQtwIwA3oECAQQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DSjSHVDfXHQ4&usg=AOvVaw2LofPkoDFw8s3EFUlOPdbe">using the Fibonacci numbers in magical ways</a>.</li></ul><br><h3 id=appendix-more-code>Appendix: More Code</h3><hr><p><strong>C++ implementation</strong>:</p><p>Runtime ~ 62 $$\mu$$s (native | Zsh, g++ compiler)</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
@@ -136,8 +87,7 @@ Contact
 </span><span class=lnt>31
 </span><span class=lnt>32
 </span><span class=lnt>33
-</span></code></pre></td><td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=line><span class=cl><span class=c1>//Libraries
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=line><span class=cl><span class=c1>//Libraries
 </span></span></span><span class=line><span class=cl><span class=c1></span><span class=cp>#include</span> <span class=cpf>&lt;iostream&gt;</span><span class=cp>
 </span></span></span><span class=line><span class=cl><span class=cp>#include</span> <span class=cpf>&lt;vector&gt;</span><span class=cp>
 </span></span></span><span class=line><span class=cl><span class=cp>#include</span> <span class=cpf>&lt;cmath&gt;</span><span class=cp>
@@ -171,9 +121,7 @@ Contact
 </span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span></code></pre></td></tr></table></div></div><p><strong>MATLAB implementation</strong>:
-Runtime ~ 3202 $$\mu$$s (Octave GUI)</p><div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt> 1
+Runtime ~ 3202 $$\mu$$s (Octave GUI)</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
@@ -196,8 +144,7 @@ Runtime ~ 3202 $$\mu$$s (Octave GUI)</p><div class=highlight><div class=chroma>
 </span><span class=lnt>21
 </span><span class=lnt>22
 </span><span class=lnt>23
-</span></code></pre></td><td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=o>%</span> <span class=n>Set</span> <span class=n>up</span>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=o>%</span> <span class=n>Set</span> <span class=n>up</span>
 </span></span><span class=line><span class=cl><span class=nb>format</span> <span class=n>long</span> <span class=n>e</span>
 </span></span><span class=line><span class=cl><span class=n>clear</span> <span class=nb>all</span><span class=p>;</span> <span class=n>clc</span><span class=p>;</span> <span class=n>clf</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
@@ -220,12 +167,4 @@ Runtime ~ 3202 $$\mu$$s (Octave GUI)</p><div class=highlight><div class=chroma>
 </span></span><span class=line><span class=cl><span class=k>if</span> <span class=n>ratio</span><span class=p>(</span><span class=n>end</span><span class=p>)</span> <span class=o>==</span> <span class=n>phi</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>    <span class=n>disp</span><span class=p>(</span><span class=s1>&#39;done&#39;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl><span class=n>end</span>
-</span></span></code></pre></td></tr></table></div></div></div></div><html>
-<body>
-<div id=footer class=mb-5>
-<hr>
-<div class="container text-center">
-<a href=https://daniel-furman.github.io/><small>By Daniel Furman</small></a>
-</div></div></body><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css integrity=sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv crossorigin=anonymous>
-<script defer src=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js integrity=sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O crossorigin=anonymous></script>
-</html></body></html>
+</span></span></code></pre></td></tr></table></div></div></div></div><html><body><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://daniel-furman.github.io/><small>By Daniel Furman</small></a></div></div></body><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css integrity=sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js integrity=sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O crossorigin=anonymous></script></html></body></html>
