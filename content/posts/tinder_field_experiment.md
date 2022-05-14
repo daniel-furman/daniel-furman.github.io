@@ -5,7 +5,7 @@ katex: true
 markup: "mmark"
 ---
 
-# Field experiment on dating attitudes towards academic prestige in the Bay Area
+## Field experiment on dating attitudes towards academic prestige in The Bay Area
 
 By Daniel Furman, Forrest Brandt, and Jackie Hu
 
