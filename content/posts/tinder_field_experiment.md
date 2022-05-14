@@ -9,7 +9,7 @@ markup: "mmark"
 
 ### By Daniel Furman, Forrest Brandt, and Jackie Hu
 
-* Berkeley Spring 2022, Causual Inference with Prof. Josue Martinez
+* Berkeley Spring 2022, Causal Inference with Prof. Josue Martinez
 
 ---
 
