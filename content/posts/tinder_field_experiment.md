@@ -1,11 +1,11 @@
 ---
-title: "Field experiment on dating attitudes towards academic prestige"
+title: "Field experiment on dating attitudes towards academic prestige."
 date: 2022-05-09
 katex: true
 markup: "mmark"
 ---
 
-# Field experiment on dating attitudes towards academic prestige in the Bay Area
+# Field experiment on dating attitudes towards academic prestige in the Bay Area.
 
 ### By Daniel Furman, Forrest Brandt, and Jackie Hu
 
