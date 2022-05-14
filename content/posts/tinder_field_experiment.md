@@ -21,7 +21,8 @@ The widespread adoption of online dating apps enables social scientists to perfo
 
 ## Treatment Design
 
-To investigate how social desirability differs between men and women we performed simple field experiments on Tinder for both homosexual and heterosexual profiles.
+To investigate how social desirability differs between men and women we performed simple field experiments on Tinder.
+
 * Profile 1: Went to Princeton, male (Treatment)
 * Profile 2: Went to Rutgers, male (Control)
 * Profile 3: Went to Princeton, female (Treatment)
