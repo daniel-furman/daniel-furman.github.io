@@ -6,8 +6,10 @@ markup: "mmark"
 ---
 
 # Field experiment on dating attitudes towards academic prestige in the Bay Area
-## Berkeley Spring '22, Causual Inference with Prof Josue Martinez
 ### By Daniel Furman, Forrest Brandt, and Jackie Hu
+
+* Berkeley Spring '22, Causual Inference with Prof Josue Martinez
+
 ---
 
 ## Objective
