@@ -1,14 +1,15 @@
 ---
-title: "Field experiment on dating attitudes towards academic prestige in the Bay Area"
+title: "Field experiment on dating attitudes towards academic prestige"
 date: 2022-05-09
 katex: true
 markup: "mmark"
 ---
 
 # Field experiment on dating attitudes towards academic prestige in the Bay Area
-### By Daniel Furman, Forrest Brandt, and Jackie Hu
 
-* Berkeley Spring '22, Causual Inference with Prof Josue Martinez
+By Daniel Furman, Forrest Brandt, and Jackie Hu
+
+* Berkeley Spring 2022, Causual Inference with Prof. Josue Martinez
 
 ---
 
@@ -46,10 +47,8 @@ We ran a pilot a week before the actual experiment and recorded measurements as 
 
 The covariates we chose to collect for our linear model are:
 * Age
-* School - whether a profile has information about the school that person attended (binary
-variable)
-* Work - whether a profile has information about the person’s place or work or industry
-(binary variable)
+* School - whether a profile has information about the school that person attended 
+* Work - whether a profile has information about the person’s place or work
 
 These variables were found in the profile’s metadata. We discussed including other variables such as ethnicity, but Tinder does not include that information and a subjective guess on our part could be problematic and misrepresent users; therefore, we decided not to include that information. We also discussed extracting certain information from the user’s bio since it is a free-form text entry. However, during the pilot, we found high variation within the free-form text entry. Some profiles had extensive information, some non-relevant information, and others chose to leave that field blank. In the end we decided not to extract information from the bio and stayed with the four variables listed above.
 
