@@ -5,9 +5,9 @@ katex: true
 markup: "mmark"
 ---
 
-## Field experiment on dating attitudes towards academic prestige in The Bay Area
+# Field experiment on dating attitudes towards academic prestige in the Bay Area
 
-By Daniel Furman, Forrest Brandt, and Jackie Hu
+### By Daniel Furman, Forrest Brandt, and Jackie Hu
 
 * Berkeley Spring 2022, Causual Inference with Prof. Josue Martinez
 
