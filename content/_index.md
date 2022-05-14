@@ -32,7 +32,7 @@ Earlier | Business Strategy Intern @ <a href="https://www.wildlifeworks.com" tar
 
 ---
 
-### <ins>Research Publications</ins>
+### <ins>Open-Source Research Outputs</ins>
 
 1. Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
 2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
