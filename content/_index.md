@@ -19,7 +19,7 @@ My experience includes leading initiatives in business intelligence, machine lea
 
 Year | Education
 -----|-------
-2021-2023 | MS Information Management and Systems, University of California, Berkeley. Applied Data Science. 
+2021-2023 | MS Information Management & Systems, University of California, Berkeley. Specialization: Applied Data Science. 
 2016-2020 | BA with Distinction in Earth Science, University of Pennsylvania. Minor: Mathematics.
 
 Year | Experience
