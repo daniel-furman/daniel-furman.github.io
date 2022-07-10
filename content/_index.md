@@ -6,7 +6,7 @@ title = "About"
 
 ---
 
-## <ins>Hi there. I'm Daniel 👋 </ins>
+# Hi there. I'm Daniel 👋 
 
 ⚡️ I love data science (AI/ML) & software development. <br>
 🌱 I’m interested in geospatial data & natural language. <br>
@@ -16,14 +16,14 @@ title = "About"
 
 ---
 
-### <ins>Bio </ins>
+## <ins>Bio </ins>
 
 I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading initiatives in business intelligence, machine learning research, and software development. I’m comfortable using Git and have a deep understanding of Python, R, and SQL as well as cloud data technologies such as AWS and GCP. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
 
 
 ---
 
-### <ins>Timeline</ins>
+## <ins>Timeline</ins>
 
 Year | Education
 -----|-------
@@ -40,7 +40,7 @@ Summer 2022 | Data Science Intern at <a href="https://www.westmonroe.com/service
 
 ---
 
-### <ins>Open-Source Research Outputs</ins>
+## <ins>Research Outputs</ins>
 
 * Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. 
 * Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
