@@ -6,6 +6,14 @@ title = "About"
 
 # About Me
 
+Hi there. I'm Daniel 👋
+
+* ⚡️ I love data science (AI/ML), software development, and building MVPs.
+* 🌱 I’m intellectually stimulated by geospatial analytics and natural language processing.
+* 🌍 Connect with me on:
+  * 🏢 LinkedIn
+
+### 
 I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. 
 
 My experience includes leading initiatives in business intelligence, machine learning research, and software development. I’m comfortable using Git and have a deep understanding of Python, R, and SQL as well as cloud data technologies such as AWS and GCP. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
@@ -26,19 +34,18 @@ Year | Experience
 -----|-------
 Summer 2022 | Data Science Intern at <a href="https://www.westmonroe.com/services/digital/analytics-artificial-intelligence" target="_blank" rel="noopener noreferrer">West Monroe</a>.
 2021-2022 | Machine Learning Intern at <a href="https://www.understory.ai" target="_blank" rel="noopener noreferrer">Understory.AI</a>.
-2021 | Lead TA at <a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business, Data Mining </a>.
-2017-2020 | Researcher at <a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania, Geophysics</a>. 
-2019 | Researcher at <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College, Data Science</a>.
-Earlier | Business Strategy Intern at <a href="https://www.wildlifeworks.com" target="_blank" rel="noopener noreferrer">Wildlife Works Carbon</a>, Penn NCAA D1 Golf Team, Harvard-Westlake School Golf Team Co-Captain. 
+2021 | Graduate Teaching Assistant at <a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business, Data Mining</a>.
+2017-2020 | Physics Researcher at <a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania, Experimental Geophysics Lab</a>. 
+2019 | Data Science Researcher at <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College / NSF</a>.
 
 ---
 
 ### <ins>Open-Source Research Outputs</ins>
 
-1. Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. <br><br>
-2. Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021. <br><br>
-3. Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. <br><br>
-4. Daniel R Furman and Sarah K Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019. <br>
+* Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. 
+* Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
+* Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. 
+* Daniel R Furman and Sarah K Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019.
 
 ---
 
