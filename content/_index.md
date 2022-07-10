@@ -11,15 +11,15 @@ Hi there. I'm Daniel 👋
 * ⚡️ I love data science (AI/ML), software development, and building MVPs.
 * 🌱 I’m intellectually stimulated by geospatial analytics and natural language processing.
 * 🌍 Connect with me on:
-  * 🏢 LinkedIn
+  * 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)]
+  * 👨‍💻 [[GitHub](https://github.com/daniel-furman)]
 
-### 
-I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. 
+---
 
-My experience includes leading initiatives in business intelligence, machine learning research, and software development. I’m comfortable using Git and have a deep understanding of Python, R, and SQL as well as cloud data technologies such as AWS and GCP. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
+### <ins>Bio </ins>
 
-* [[LinkedIn Profile](https://www.linkedin.com/in/daniel-ryan-furman/)]
-* [[GitHub Profile](https://github.com/daniel-furman)]
+I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading initiatives in business intelligence, machine learning research, and software development. I’m comfortable using Git and have a deep understanding of Python, R, and SQL as well as cloud data technologies such as AWS and GCP. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
+
 
 ---
 
