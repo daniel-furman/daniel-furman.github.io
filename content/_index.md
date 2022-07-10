@@ -6,11 +6,11 @@ title = "About"
 
 ## Hi there. I'm Daniel 👋
 
-⚡️ I love data science (AI/ML) & software development.
-🌱 I’m interested in geospatial data and natural language.
-🌍 Connect with me on:
-  * 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)]
-  * 👨‍💻 [[GitHub](https://github.com/daniel-furman)]
+⚡️ I love data science (AI/ML) & software development. <br>
+🌱 I’m interested in geospatial data & natural language. <br>
+🌍 Connect with me on: <br>
+  * 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
+  * 👨‍💻 [[GitHub](https://github.com/daniel-furman)] <br>
 
 ---
 
