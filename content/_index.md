@@ -4,13 +4,11 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-# About Me
+## Hi there. I'm Daniel 👋
 
-Hi there. I'm Daniel 👋
-
-* ⚡️ I love data science (AI/ML), software development, and building MVPs.
-* 🌱 I’m intellectually stimulated by geospatial analytics and natural language processing.
-* 🌍 Connect with me on:
+⚡️ I love data science (AI/ML) & software development.
+🌱 I’m interested in geospatial data and natural language.
+🌍 Connect with me on:
   * 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)]
   * 👨‍💻 [[GitHub](https://github.com/daniel-furman)]
 
