@@ -4,7 +4,9 @@ title = "About"
 
 {{< figure class="avatar" src="/avatar.jpg" >}}
 
-## Hi there. I'm Daniel 👋
+---
+
+## <ins>Hi there. I'm Daniel 👋 </ins>
 
 ⚡️ I love data science (AI/ML) & software development. <br>
 🌱 I’m interested in geospatial data & natural language. <br>
