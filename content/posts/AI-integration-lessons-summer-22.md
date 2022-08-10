@@ -18,9 +18,9 @@ As Palumbo puts it, the Smart Integrator find “competitive advantage by orches
 <br><br>
 Basically, everyone outside of MAMAA/FAANG should strive to be a Smart Integrator.
 <br><br>
-What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the world – along with Academia (think UC Berkeley or MIT) – represent the primary researchers. They are responsible for developing the innovative tools that power today’s AI technologies. Fortuitously, many of these tools are open-sourced (such as Apache Spark, Airflow, PyTorch) or productized as services (such as AWS, Databricks, Snowflake), ripe for integration in your organization. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to apply in commercial use-cases. 
+What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the world – along with Academia (think UC Berkeley or MIT) – represent the primary researchers. They are responsible for developing the innovative tools that power today’s AI technologies. Fortuitously, many of these tools are open-sourced (such as Apache Spark, Airflow, PyTorch) or productized as services (such as AWS, Databricks, Snowflake), ripe for integration in your organization. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to apply. 
 <br><br>
-In a tooling-enabled world, integrating AI well in commercial settings largely comes down to the communication and execution of the right strategy, one with sound “Smart Integration” fundamentals. Here are a few lessons I’ve learned applying these ideas in an attempt to develop AI/ML solutions that people love. 
+In a tooling-enabled world, integrating AI well in commercial use-cases largely comes down to the communication and execution of the "Smart Integration" strategy, one with sound fundamentals and with buy-in across the board. Here are a few lessons I’ve learned applying these ideas in an attempt to develop AI/ML solutions that people love. 
 <br><br>
 
 ## Lesson 1: Prioritize use-cases [that can easily] deliver value to the most people
