@@ -1,6 +1,6 @@
 ---
-title: "Field experiment on dating attitudes towards academic prestige 2."
-date: 2022-05-09
+title: "5 lessons learned applying the fundamentals of 'Smart Integration' in an AI project "
+date: 2022-08-10
 katex: true
 markup: "mmark"
 ---
