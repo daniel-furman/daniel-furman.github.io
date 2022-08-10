@@ -11,6 +11,7 @@ markup: "mmark"
 
 <br><br>
 In April 2022, Silvio Palumbo wrote a blog post about “Smart Integration” – a playbook of sorts on how to nail organizational AI strategy. The playbook is tailored to companies vying to rise to the cream of the crop as integrators of AI. 
+<br><br>
 * Definitions: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for a certain predictive task. Here, we will refer to AI/ML interchangeably and synonymously.  
 <br><br>
 As Palumbo puts it, the Smart Integrator find “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
