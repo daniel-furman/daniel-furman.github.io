@@ -23,12 +23,11 @@ What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the w
 In a tooling-enabled world, integrating AI well in commercial use-cases largely comes down to the communication and execution of the "Smart Integration" strategy, one with sound fundamentals and with buy-in across the board. Here are a few lessons I’ve learned applying these ideas in an attempt to develop AI/ML solutions that people love. 
 <br><br>
 
-## Lesson 1: Prioritize use-cases [that can easily] deliver value to the most people
+## Lesson 1: Prioritize use-cases that deliver value widely 
 
 ---
 <br><br>
-
-You don't want to get trapped searching for use-cases where the primary value proposition is how proprietary your models could be. Google will always beat your organization's model in the end, what is far more important is finding the workstreams that can seamlessly plug into the AI solution, regardless if your model is 87 or 93 percent accurate. 
+It's true, AI solutions can yield outsized returns for your business, when models are working for you. AI is working for you when it's delivering value to the most people in your organization. Machine learning models should be automating tasks, augmenting workstreams, or otherwise creating value. If sitting ideal in research mode, they aren't of much use to your digital transformation. And, a key difference between integrating AI versus research is that your commercial model only needs to be performant enough to the given threshold of product "success", no higher. You don't want to get trapped searching for use-cases where the primary value proposition is how proprietary or accurate a model could be. You also don't want to get trapped developing models for unproven use-cases where reaching the requisite performance threshold may be difficult. If you're crafting a vanilla sentiment analysis tool, it may not matter so much whether your model is 92% or 94% accurate. What matters is whether or not it's able to be plugged into your workstreams well or not. 
 
 <br><br>
 ## Lesson 2: Spread the “multi-disciplinary” mantra to every level of your team
