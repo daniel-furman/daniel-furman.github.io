@@ -14,7 +14,7 @@ In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferre
 <br><br>
 * ** Definitions: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for certain predictive tasks. These include predicting the next word in a text, recognizing hate speech or misinformation online, translating between languages, etc., the list of use-cases is steadily growing. Here, we will refer to AI and ML, or AI/ML, interchangeably and synonymously.  
 <br><br>
-As Palumbo puts it, the Smart Integrator find “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
+As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
 <br><br>
 Basically, everyone outside of MAMAA/FAANG should strive to be a Smart Integrator.
 <br><br>
