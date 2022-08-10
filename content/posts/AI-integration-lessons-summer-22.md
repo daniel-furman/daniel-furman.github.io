@@ -10,7 +10,7 @@ markup: "mmark"
 <br><br>
 # **Under Construction**
 <br><br>
-In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI/ML** strategy. The Smart Integration playbook is tailored to companies vying to rise to the cream of the crop in the business of applying AI. And, if your organization is looking to embrace AI, the Smart Integration ideas are relavent to the business executive, the data scientist, and, yes, just about everybody else too. 
+In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI/ML** strategy. The Smart Integration playbook is tailored to companies vying to rise to the cream of the crop in the business of applying AI. And, if your business is looking to embrace AI, the Smart Integration ideas are relavent to your executives, eningeers, managers, and, yes, just about everybody else too. 
 <br><br>
 * ** Definitions: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models to certain predictive tasks (predicting the next word in a text, recognizing hate speech and misinfromation in tweets, translating between langauges, etc., the list of use-cases is steadily growing). Here, we will refer to AI and ML, or AI/ML, interchangeably and synonymously.  
 <br><br>
