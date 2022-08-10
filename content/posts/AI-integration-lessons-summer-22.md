@@ -7,12 +7,10 @@ markup: "mmark"
 
 # 5 lessons learned applying 'Smart Integration' in AI/ML development.
 ---
-
-
 <br><br>
-In April 2022, Silvio Palumbo wrote a BCG Gamma blog about “Smart Integration” – a playbook of sorts on how to nail commercial AI strategy. The playbook is tailored to companies vying to rise to the cream of the crop in the business of applying AI. And, these Smart Integration ideas are relavent to the data scientist, the business executive, the engineering manager, and just about everybody else attached to an AI project. 
+In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI/ML** strategy. The playbook is tailored to companies vying to rise to the cream of the crop in the business of applying AI. If you're working on AI applications, the Smart Integration ideas are relavent to you, whether you are a data scientist, business executive, manager, or just about everybody else adjacent. 
 <br><br>
-* Definitions: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for a certain predictive task. Here, we will refer to AI/ML interchangeably and synonymously.  
+* ** Definitions: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for a certain predictive task. Here, we will refer to AI/ML interchangeably and synonymously.  
 <br><br>
 As Palumbo puts it, the Smart Integrator find “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
 <br><br>
