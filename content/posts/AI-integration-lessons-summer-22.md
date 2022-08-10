@@ -8,6 +8,8 @@ markup: "mmark"
 # 5 lessons learned applying 'Smart Integration' in AI/ML development.
 ---
 <br><br>
+**Under Construction**
+<br><br>
 In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI/ML** strategy. The playbook is tailored to companies vying to rise to the cream of the crop in the business of applying AI. If you're working on AI applications, the Smart Integration ideas are relavent to you, whether you are a data scientist, business executive, manager, or just about everybody else adjacent. 
 <br><br>
 * ** Definitions: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for a certain predictive task. Here, we will refer to AI/ML interchangeably and synonymously.  
@@ -23,11 +25,11 @@ In a tooling enabled world, integrating AI well in commercial settings laregly c
 
 ## Lesson 1: Prioritize use-cases that deliver value to the most people
 
-Scope the commercial value of plugging AI into your commercial context. You don't want to get trapped searching for use-cases where the primary value is  how proprietary the models would be. Google will always beat your organizations model in the end, what's more important for most businesses is finding workstrams that can seamlessly and widely plug into AI, regardless if your model is 87 or 93 percent accurate. 
 ---
 <br><br>
 
-Choose those that are poised to have outsized returns , those that are applicable across workstreams and disciplines, and those that are proven to be viable from a technical standpoint.
+Scope the commercial value of plugging AI into your commercial context. You don't want to get trapped searching for use-cases where the primary value is  how proprietary the models would be. Google will always beat your organizations model in the end, what's more important for most businesses is finding workstrams that can seamlessly and widely plug into AI, regardless if your model is 87 or 93 percent accurate. Choose those that are poised to have outsized returns , those that are applicable across workstreams and disciplines, and those that are proven to be viable from a technical standpoint.
+
 <br><br>
 ## Lesson 2: Spread the “multi-disciplinary” mantra to every level of your team
 ---
