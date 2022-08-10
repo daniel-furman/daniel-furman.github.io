@@ -25,11 +25,6 @@ In a tooling enabled world, integrating AI well in commercial settings comes dow
 ---
 <br><br>
 
-The  in an “NLP Accelerator” project during the summer of 2022. 
-
-* Definitions: NLP is an acronym for Natural Language Processing, the domain of AI concerned with all manners of natural language predictive tasks. While gleaned through the lens of NLP development, these 5 lessons are designed to generalize across the AI landscape, whether your given problem concerns tabular Machine Learning, Computer Vision, Speech + Audio Recognition, or any other flavor of AI. 
-<br><br>
-
 ## Lesson 1: Scope use-cases with the right kind of commercial viability
 ---
 <br><br>
