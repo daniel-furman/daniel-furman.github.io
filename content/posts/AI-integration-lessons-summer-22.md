@@ -22,7 +22,9 @@ What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the w
 In a tooling enabled world, integrating AI well in commercial settings laregly comes down to the communication and execution of the right strategy, one with sound “Smart Integration” fundamentals. Here’s a few lessons I’ve learned so far as a data scientist applying these ideas to develop AI/ML products for commercial use-cases. 
 <br><br>
 
-## Lesson 1: Scope use-cases with the right kind of commercial viability
+## Lesson 1: Prioritize use-cases that deliver value to the most people
+
+Scope the commercial value of plugging AI into your commercial context. You don't want to get trapped searching for use-cases where the primary value is  how proprietary the models would be. Google will always beat your organizations model in the end, what's more important for most businesses is finding workstrams that can seamlessly and widely plug into AI, regardless if your model is 87 or 93 percent accurate. 
 ---
 <br><br>
 
