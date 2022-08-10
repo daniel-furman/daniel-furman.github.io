@@ -8,7 +8,7 @@ markup: "mmark"
 # 5 lessons learned applying 'Smart Integration' in AI/ML development.
 ---
 <br><br>
-**Under Construction**
+# **Under Construction**
 <br><br>
 In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI/ML** strategy. The playbook is tailored to companies vying to rise to the cream of the crop in the business of applying AI. If you're working on AI applications, the Smart Integration ideas are relavent to you, whether you are a data scientist, business executive, manager, or just about everybody else adjacent. 
 <br><br>
