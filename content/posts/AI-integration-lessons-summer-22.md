@@ -10,7 +10,7 @@ markup: "mmark"
 <br><br>
 In April of 2022, Silvio Palumbo wrote a blog post about “Smart Integration” – a playbook of sorts on how to nail your organization’s AI strategy. The strategies detailed within are tailored for companies vying to become cream of the crop adopters of AI. 
 <br><br>
-* As Palumbo puts it, these players find “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
+As Palumbo puts it, these players find “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
 <br><br>
 Basically, everyone outside of MAMAA/FAANG. 
 <br><br>
