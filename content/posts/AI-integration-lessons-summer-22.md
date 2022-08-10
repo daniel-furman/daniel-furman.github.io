@@ -5,24 +5,35 @@ katex: true
 markup: "mmark"
 ---
 
-# 5 lessons learned applying the fundamentals of “Smart Integration” in an AI project 
+# 5 lessons learned applying 'Smart Integration' in an AI project.
 ---
+
+
 <br><br>
-In April 2022, Silvio Palumbo wrote a blog post about “Smart Integration” – a playbook of sorts on how to nail your organization’s AI strategy. The strategies detailed within are tailored for companies vying to become cream of the crop adopters of AI. 
+In April 2022, Silvio Palumbo wrote a blog post about “Smart Integration” – a playbook of sorts on how to nail organizational AI strategy. The playbook is tailored to companies vying on becoming the cream of the crop integrators of AI technologies. 
 <br><br>
-As Palumbo puts it, these players find “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
+As Palumbo puts it, the Smart Integrator find “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
 <br><br>
-Basically, everyone outside of MAMAA/FAANG. 
+Basically, everyone outside of MAMAA/FAANG should strive to be a Smart Integrator. 
 <br><br>
-What differentiates MAMAA/FAANG? In contrast to Smart Integrators, the Googles of the world – along with Academia (think UC Berkeley or MIT) – represent the primary researchers responsible for developing the innovative, next-generation tools that power AI technology. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to apply. These recent advances have opened the flood gates for AI adoption. And, MAMAA/FAANG players are in a league of their own when it comes to state-of-the-art innovation. Fortuitously, many of these tools are open-sourced (Apache Spark, Airflow, PyTorch) or productized as services (AWS, Databricks, Snowflake), ripe for integration in your organization. And, while advances in tooling certainly help, integrating AI in commercial settings requires a well-communicated strategy with sound fundamentals.  
+What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the world – along with Academia (think UC Berkeley or MIT) – represent the primary researchers. They are responsible for developing the innovative tools that power today’s AI technologies. Fortuitously, many of these tools are open-sourced (such as Apache Spark, Airflow, PyTorch) or productized as services (such as AWS, Databricks, Snowflake), ripe for integration in your organization. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to apply in commercial use-cases. 
 <br><br>
-Here’s what I learned as a data scientist applying Smart Integration in our “NLP Accelerator” project this summer at West Monroe. 
+In a tooling enabled world, integrating AI well in commercial settings comes down to executing a well-communicated strategy of sound fundamentals. Here’s what I learned as a data scientist applying Smart Integration fundamentals on an AI project. 
+<br><br>
+## Lesson 1: Scope use-cases with the right kind of commercial viability
+---
 <br><br>
 
-## Lesson 1: Scope use-cases with the right kind of commercial promise
+ in an “NLP Accelerator” project during the summer of 2022. 
+
+•	Definitions: NLP is an acronym for Natural Language Processing, the domain of AI concerned with all manners of natural language predictive tasks. While gleaned through the lens of NLP development, these 5 lessons are designed to generalize across the AI landscape, whether your given problem concerns tabular Machine Learning, Computer Vision, Speech + Audio Recognition, or any other flavor of AI. 
+<br><br>
+
+## Lesson 1: Scope use-cases with the right kind of commercial viability
 ---
 <br><br>
-Choose those that are poised to have outsized returns, those that are applicable across workstreams and disciplines, and those that are proven to be viable from a technical standpoint.
+
+Choose those that are poised to have outsized returns , those that are applicable across workstreams and disciplines, and those that are proven to be viable from a technical standpoint.
 <br><br>
 ## Lesson 2: Spread the “multi-disciplinary” mantra to every level of your team
 ---
