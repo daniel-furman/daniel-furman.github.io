@@ -19,10 +19,7 @@ Basically, everyone outside of MAMAA/FAANG should strive to be a Smart Integrato
 <br><br>
 What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the world – along with Academia (think UC Berkeley or MIT) – represent the primary researchers. They are responsible for developing the innovative tools that power today’s AI technologies. Fortuitously, many of these tools are open-sourced (such as Apache Spark, Airflow, PyTorch) or productized as services (such as AWS, Databricks, Snowflake), ripe for integration in your organization. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to apply in commercial use-cases. 
 <br><br>
-In a tooling enabled world, integrating AI well in commercial settings comes down to executing a well-communicated strategy, one with sound “Smart Integration” fundamentals. Here’s a few lessons I’ve learned so far as a data scientist applying these ideas to develop AI products. 
-<br><br>
-## Lesson 1: Scope use-cases with the right kind of commercial viability
----
+In a tooling enabled world, integrating AI well in commercial settings laregly comes down to the communication and execution of the right strategy, one with sound “Smart Integration” fundamentals. Here’s a few lessons I’ve learned so far as a data scientist applying these ideas to develop AI/ML products for commercial use-cases. 
 <br><br>
 
 ## Lesson 1: Scope use-cases with the right kind of commercial viability
