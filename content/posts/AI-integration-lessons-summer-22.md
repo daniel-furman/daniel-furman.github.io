@@ -36,10 +36,10 @@ Given these rules, at first, go for tools that are more “low-hanging fruit” 
 Another key to use-case scoping is finding ideas that can permeate across your company's different workstreams. A product that can deliver value for more engagements is working for more people in your organization. The most valuable tools are the often ones that have the potential to generalize across your business functions. But it’s not simply about finding a diversity of plug-ins. Does your business do 150 deals of workstream A, and an AI tool can deliver greenfield value to each engagement? Probably a better avenue to pursue than a product that is only relevant to workstreams B, C, and D that would perhaps go unused because those particular workstreams didn’t occur as frequently as workstream A. In short, it pays to be methodical and incorporate all voices across your team when scoping commercial value and viability. It can make or break any AI project. 
 <br><br>
 
-## Lesson 2: Spread the “multi-disciplinary” mantra to every level of your team
+## Lesson 2: Data quality over everything else
 ---
 <br><br>
-## Lesson 3: Evolve in waves with a culture of experimentation
+## Lesson 3: Spread the “multi-disciplinary” mantra to every level of your team
 ---
 <br><br>
 ## Lesson 4: Build trusted products 
