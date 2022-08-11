@@ -27,7 +27,7 @@ In a tooling-enabled world, integrating AI well in commercial use-cases largely 
 
 ---
 <br><br>
-AI solutions can yield outsized returns, yes – when models are in deployment. AI is working for you when it's plugged into commercial use-cases. AI models should be automating tasks, augmenting analyses, or otherwise creating value. If sitting ideal in research mode, you’re not quite there yet. 
+AI solutions can yield outsized returns, yes – when models are in deployment. AI is working for you when it's plugged into commercial use-cases. AI models should be automating tasks, augmenting analyses, or otherwise creating value. If sitting idol in research mode, you’re not quite there yet. 
 <br><br>
 Luckily, it’s easier to integrate solutions than innovate them. 
 <br><br>
