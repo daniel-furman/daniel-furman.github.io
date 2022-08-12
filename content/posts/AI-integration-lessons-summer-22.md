@@ -10,13 +10,11 @@ markup: "mmark"
 <br><br>
 # **Under Construction**
 <br><br>
-In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI strategy. It’s tailored to companies in the business of applying AI. 
+In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI strategy. It’s tailored to companies in the business of applying AI. Basically, everyone outside of MAMAA/FAANG should strive to be a Smart Integrator.
 <br><br>
 As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
 <br><br>
-Basically, everyone outside of MAMAA/FAANG should strive to be a Smart Integrator.
-<br><br>
-What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the world – along with Academia (think UC Berkeley or MIT) – are primary research players. They are responsible for developing innovative tools that power AI technologies. Fortuitously, many of these tools are open-sourced (such as Apache Spark, Airflow, PyTorch) or productized as services (such as AWS, Databricks, Snowflake), ripe for integration in your organization. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to apply. 
+What differentiates MAMAA/FAANG from the Smart Integrators, one might ask? The "Googles" of the world – along with Academia (think UC Berkeley or MIT) – are primary research players. They are responsible for developing innovative tools that power AI technologies. Fortuitously, many of these tools are open-sourced (such as Apache Spark, Airflow, PyTorch) or productized as services (such as AWS, Databricks, Snowflake), ripe for integration in your organization. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to apply. 
 <br><br>
 In a tooling-enabled world, integrating AI well in commercial use-cases largely comes down to the communication and execution of the right strategy. Here are a few lessons I’ve learned applying Smart Integration to develop AI solutions that people love.
 <br><br>
