@@ -25,7 +25,7 @@ In contrast to the Smart Integrators, the Googles and MITs of the world are the 
 <br><br>
 * Definitions: AI (Artificial Intelligence) is a sub-field of computer/data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera.
 <br><br>
-### 1. On scoping: Know when AI is right (or wrong) for you, pre-development
+## 1. On scoping: Know when AI is right (or wrong) for you, pre-development
 ---
 <br><br>
 AI is working well for your business when it's plugged into workstreams and generating bottom-line returns. You’ll know your AI integration is going particularly well if you can easily envision your tools generating value in five, ten years – i.e., you can credibly link your positioning of AI/ML tools to increased future cash flow.
@@ -38,7 +38,7 @@ With the right use-case in hand, integrating AI tools that people use (and love)
 <br><br>
 Look for AI/ML solutions that can deliver the most business value in the near-to-medium-term future. Does your organization consistently do 250 deals of workstream A per year, and an AI tool can deliver insights in each engagement? Probably a good avenue to pursue. Oh, and perhaps it can plug into workstreams B and C as well in the not-so-distant future? Even better! Development in the “tooling-enabled age” is about finding the most valuable attach-points for AI in your business, whether they’re applied to your most important business workstream or relevant across multiple workstreams. Don’t overly concern yourself with the novelty of your AI/ML models. Instead, obsess over how to best productize tools by searching near and far for the most valuable attach-points for AI within your business. Once found, pounce.  
 <br><br>
-### 2. On ideation: AI and data analytics pair well
+## 2. On ideation: AI and data analytics pair well
 ---
 <br><br>
 Not all companies’ workstreams lend themselves to automation. In lieu of fully automatable prediction tasks, aim to augment existing analytics with AI. Look for sources of alternative data.  
@@ -46,7 +46,7 @@ Not all companies’ workstreams lend themselves to automation. In lieu of fully
 ## 3. On collaboration: Spread the “multi-disciplinary” mantra to every dimension of your project
 ---
 <br><br>
-### 4. On productizing: Focus on trust and great user experiences
+## 4. On productizing: Focus on trust and great user experiences
 ---
 <br><br>
 Even at the v0 prototype stage, make sure to share your “final product” vision with beta users. And, for your v0 product, ensure enough energy and attention were given to the user experience. Build trusted products
