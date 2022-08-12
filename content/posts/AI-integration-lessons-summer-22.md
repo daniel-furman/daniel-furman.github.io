@@ -46,4 +46,4 @@ In lieu of fully automatable workstreams, aim to augment existing analytics with
 Even at the v0 prototype stage, make sure to share your “final product” vision with beta users. And, for your v0 product, ensure enough energy and attention were given to the user experience.
 <br><br>
 Build trusted products
-![image](https://user-images.githubusercontent.com/67394384/184272416-7ea3b8c2-0609-4d06-af49-1f9763991600.png)
+
