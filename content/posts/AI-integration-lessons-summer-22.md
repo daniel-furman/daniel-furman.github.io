@@ -12,9 +12,9 @@ markup: "mmark"
 
 <br><br>
 
-In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial settings. Most companies outside of MAMAA/FAANG should strive to become Smart Integrators.
+In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial settings. Most companies outside of MAMAA/FAANG should strive to become Smart Integrators. Good news for you! - It’s never been easier to be a Smart Integrator. 
 <br><br>
-Good news for you! - It’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for 4 key tips I've learned as a data science consultant on acing AI/ML strategy, for the "non-Googles of the world" - along with links to the original resources (mostly blog posts) from which I came across the idea.  
+In a tooling-enabled world, integrating AI/ML largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for key tips on acing AI strategy, for the "non-Googles of the world" - along with links to resources (mostly other blog posts) from which I first came across each idea. The 4 tips within are my personal "cream-of-the-crop" selection of important mantras/lessons-learned in AI strategy, as battle-tested by my work productizing AI/ML solutions as a data scientist in management and strategy consulting. 
 <br><br>
 ## Intro
 ---
