@@ -11,13 +11,11 @@ markup: "mmark"
 
 <p align="center"> <img src="/posts/birds.png"/ width = "450" height = "300"> </p>
 
-Bird song recognition with AI has the potential to streamline (by semi-automating) scientific monitoring of bird assemblages. Faster identification of bird species in natural settings, as a result, equips land managers and policy-makers with a stronger understanding of environmental risks in ecological systems. 
-
 The BirdCLEF21 Kaggle challenge brought state of the art in computer vision to bird song recognition, tasking competitors to classify species from bird calls into 397 target classes. The competition's focus on actionable biodiversity outcomes was particularly exciting (given my interest in the environment and [drive-train deployment](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi0jMKQqKzxAhUDuZ4KHVvtDWQQFjAAegQIBRAD&url=https%3A%2F%2Fwww.oreilly.com%2Fradar%2Fdrivetrain-approach-data-products%2F&usg=AOvVaw2sfgvY74DrpoZ0EhghEGH4)). 
  
 ### Intro
 
-I blended several audio-based Convolutional Neural Networks (CNNs) taking up to 10 spectrogram representations of 7-sec segments per bird call file. I employed black-out striping and mixup to improve the models' generalization to out-of-training data. I then used the CNN for inference on the test-set (5-sec snippets padded to 7-sec), refining the predictions by blending a metadata gradient boosting classifier through weighted averaging. 
+I blended several audio-based Neural Network Models (RNNs) taking up to 10 spectrogram representations of 7-sec segments per bird call file. I employed black-out striping and mixup to improve the models' generalization to out-of-training data. I then used the NN for inference on the test-set (5-sec snippets padded to 7-sec), refining the predictions by blending a metadata gradient boosting classifier through weighted averaging. 
 
 My solution achieved a top 9% result (solo bronze), improving 8 spots relative to the competition between the public (f1 = 0.68) and private (f1 = 0.61) leaderboards. Not bad for my first go at a feature competition! 
 
@@ -37,9 +35,9 @@ The gridding forced the models to extrapolate in space between the training and 
   
 ### Code and Data Pipeline
  
-I used `Google Drive` for code storage, `Neptune.ai` for experiment tracking, and `Google Colab` for model fitting in a high-RAM & GPU enabled environment. For the CNNs I used PyTorch with Resnest and EfficientNet backbones, and I used Catboost for the metadata classifier, both trained on GPU. Since I used [pre-computed mel-spectrograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021) for the CNNs there was no need for data versioning. Additionally, the spectrograms were cached to memory before training to speed up CNN fitting. I performed the CNN augmentations (mixup, striping) on the GPU per batch to reduce CPU bottlenecking. 
+I used `Google Drive` for code storage, `Neptune.ai` for experiment tracking, and `Google Colab` for model fitting in a high-RAM & GPU enabled environment. For the NNs I used PyTorch with Resnest and EfficientNet backbones, and I used Catboost for the metadata classifier, both trained on GPU. Since I used [pre-computed mel-spectrograms](https://www.kaggle.com/kneroma/kkiller-birdclef-2021) for the NNs there was no need for data versioning. Additionally, the spectrograms were cached to memory before training to speed up NN fitting. I performed the NN augmentations (mixup, striping) on the GPU per batch to reduce CPU bottlenecking. 
  
-### Birdcall CNNs
+### Birdcall NNs
   
 My models were trained on the train_short clips and evaluated with the Public LB soundscapes. They were all trained on 7-sec crops of the train_short data, with up to ten spectrograms taken at the beginning of the files (35% of the clips had the max ten 7-sec crops). To account for the 5sec snippet format of test data, I padded the 5-sec clips at model inference to 7-sec. Backbones: [resnest50](https://www.kaggle.com/ttahara/resnest50-fast-package) (striping), [efficientnet-B3](https://www.kaggle.com/tunguz/efficientnet-pytorch-071) (mixup), both with transfer learning weights set from ImageNet. Model training in Colab for the resnests was ~2.5 hours (12 epochs), while training for the effnets was ~5.5 hours (55 epochs). I trained with BCE loss using Adam optimizer and cosine annealing schedule. 
 
@@ -65,7 +63,7 @@ For real-world deployment, an accurate incorporation of the ecology and biogeogr
 
 ### Ensembling
  
-I bagged the probabilistic inferences to blend the models into an ensemble. Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging for blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first-guess and then refined from there, based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the CNNs (with weight 1). 
+I bagged the probabilistic inferences to blend the models into an ensemble. Un-weighted averaging was employed for the same type of model in the 5 folds. I then used weighted averaging for blending multiple models (aka both the stripe and mixup augmentations, as well as the metadata classifier). I could have used hyperparam tuning with hyperopt, but instead I opted for common sense first-guess and then refined from there, based on the public LB. In the end, I blended the metadata classifier at a 0.14 weight relative to the NNs (with weight 1). 
  
 ### Postprocessing
  
