@@ -14,7 +14,10 @@ markup: "mmark"
 
 In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial settings. Most companies outside of MAMAA/FAANG should strive to become Smart Integrators.
 <br><br>
-It’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for 4 tips I've learned as a data science consultant on acing AI/ML strategy (for the "non-Googles of the world") - as well as for the original resources (mostly blog posts) from which I came across each idea.  
+It’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for 4 tips I've learned as a data science consultant on acing AI/ML strategy, for the "non-Googles of the world" - along with links to the original resources (mostly blog posts) from which I came across each idea.  
+<br><br>
+## Intro
+---
 <br><br>
 As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” Why should you care? When done correctly, the Smart Integrator reaps "outsized returns" on their AI/ML investment.
 <br><br>
