@@ -10,7 +10,7 @@ markup: "mmark"
 <br><br>
 # **Under Construction**
 <br><br>
-In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI ** strategy. The Smart Integration strategy is tailored to companies vying to become the cream of the crop in the business of applying AI. 
+In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI strategy. It’s tailored to companies in the business of applying AI. 
 <br><br>
 As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” 
 <br><br>
@@ -20,7 +20,7 @@ What differentiates MAMAA/FAANG from the Smart Integrators? The Googles of the w
 <br><br>
 In a tooling-enabled world, integrating AI well in commercial use-cases largely comes down to the communication and execution of the right strategy. Here are a few lessons I’ve learned applying Smart Integration to develop AI solutions that people love.
 <br><br>
-* ** Definitions: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for certain predictive tasks. These include predicting the next word in a text, recommending friends on a social media platform, recognizing hate speech or misinformation online, translating between languages, etc., the list of use-cases is steadily growing. Here, we will refer to AI and ML interchangeably and synonymously. Often they are combined: AI/ML.
+* **Definitions**: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for certain predictive tasks. These include predicting the next word in a text, recommending friends on a social media platform, recognizing hate speech or misinformation online, translating between languages, etc., the list of use-cases is steadily growing. Here, we will refer to AI and ML interchangeably and synonymously. Often they are combined: AI/ML.
 
 
 ## Lesson 1: On scoping use-cases: Know when AI is right (or wrong) pre-development
@@ -43,7 +43,4 @@ In lieu of fully automatable workstreams, aim to augment existing analytics with
 ## Lesson 4: On product development: Focus on great user experiences
 ---
 <br><br>
-Even at the v0 prototype stage, make sure to share your “final product” vision with beta users. And, for your v0 product, ensure enough energy and attention were given to the user experience.
-<br><br>
-Build trusted products
-
+Even at the v0 prototype stage, make sure to share your “final product” vision with beta users. And, for your v0 product, ensure enough energy and attention were given to the user experience. Build trusted products
