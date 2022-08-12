@@ -8,11 +8,7 @@ markup: "mmark"
 # 4 tips on integrating AI/ML in commercial contexts
 ---
 
-<p align="center"> <img src="/posts/blog_AI_image.png"/ width = "600" height = "333"> </p>
-
-<br><br>
-
-# **Under Construction**
+<p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "500" height = "250"> </p>
 
 <br><br>
 
