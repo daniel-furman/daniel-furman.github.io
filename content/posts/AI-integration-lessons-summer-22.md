@@ -5,7 +5,7 @@ katex: true
 markup: "mmark"
 ---
 # Commercial AI Strategy 101
-## 4 tips on integrating AI/ML in business contexts
+## 4 key tips on integrating AI/ML in business contexts
 ---
 
 <p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "475" height = "225"> </p>
@@ -35,7 +35,7 @@ With the right use-case in hand, integrating AI tools that people use (and love)
 <br><br>
 Look for AI/ML solutions that can deliver the most business value in the near-to-medium-term future. Does your organization consistently do 250 deals of workstream A per year, and an AI tool can deliver insights in each engagement? Probably a good avenue to pursue. Oh, and perhaps it can plug into workstreams B and C as well in the not-so-distant future? Even better! Development in the “tooling-enabled age” is about finding the most valuable attach-points for AI in your business, whether they’re applied to your most important business workstream or relevant across multiple workstreams. Don’t overly concern yourself with the novelty of your AI/ML models. Instead, obsess over how to best productize tools by searching near and far for the most valuable attach-points for AI within your business. Once found, pounce.  
 <br><br>
-## 2. On ideation: AI and data analytics can pair well
+## 2. On ideation: AI and data analytics pair well
 ---
 <br><br>
 Not all companies’ workstreams lend themselves to automation. In lieu of fully automatable prediction tasks, aim to augment existing analytics with AI. Look for sources of alternative data.  
