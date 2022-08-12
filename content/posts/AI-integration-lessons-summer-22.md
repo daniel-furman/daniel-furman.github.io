@@ -5,7 +5,7 @@ katex: true
 markup: "mmark"
 ---
 
-# Lessons on integrating AI/ML tools in commercial contexts”
+# Lessons on integrating AI/ML tools in commercial contexts
 ---
 <br><br>
 
