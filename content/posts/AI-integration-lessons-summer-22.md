@@ -1,14 +1,14 @@
 ---
-title: "Tips on integrating AI/ML in commercial contexts"
+title: "4 tips on integrating AI/ML in commercial contexts"
 date: 2022-08-10
 katex: true
 markup: "mmark"
 ---
 
-# Tips on integrating AI/ML in commercial contexts
+# 4 tips on integrating AI/ML in commercial contexts
 ---
 
-<p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "450" height = "250"> </p>
+<p align="center"> <img src="/posts/blog_AI_image.png"/ width = "600" height = "333"> </p>
 
 <br><br>
 
