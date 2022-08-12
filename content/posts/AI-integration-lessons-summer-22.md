@@ -1,5 +1,5 @@
 ---
-title: "Lessons on integrating AI/ML tools in commercial contexts
+title: "Lessons on integrating AI/ML tools in commercial contexts"
 date: 2022-08-10
 katex: true
 markup: "mmark"
