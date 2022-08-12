@@ -18,9 +18,8 @@ What differentiates MAMAA/FAANG from the Smart Integrators, one might ask? The "
 <br><br>
 In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy**. Here are a few lessons I’ve learned applying Smart Integration to develop productized AI solutions.
 <br><br>
-* **Definitions**: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for certain predictive tasks. These include predicting the next word in a text, recommending friends on a social media platform, recognizing hate speech or misinformation online, translating between languages, etc., the list of use-cases is steadily growing. Here, we will refer to AI and ML interchangeably and synonymously. Often they are combined: AI/ML.
-
-
+* **Definitions**: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for certain predictive tasks. These include predicting the next word in a text, recommending friends on a social media platform, recognizing hate speech or misinformation online, translating between languages, etc., the list of use-cases is steadily growing. Here, we will refer to AI and ML interchangeably and synonymously. 
+<br><br>
 ## Lesson 1: On scoping use-cases: Know when AI is right (or wrong) pre-development
 
 ---
@@ -34,6 +33,8 @@ With the right use-case, integrating AI into a tool that people love (and use) b
 Look for AI solutions that can deliver the most value (sounds obvious, right?). Eyeing the opportunities with ***high-value proposition is more important than trying to build “cool” products**. Does your business do 150 deals of workstream A, and an AI tool can deliver greenfield value to each engagement? Oh, and perhaps we can plug it into workstreams B and C as well? Probably a good avenue to pursue development for. It’s certainly a better avenue to pursue compared with a “fancier”  tool that is tailored specifically to workstream D, which occurs less frequently than the other workstreams. Yes, this holds true despite whether or not there’s a difference in the IP value of the underlying machine learning models. Better to go with a tool that plugs in well across your company’s business in most cases. 
 <br><br>
 ## Lesson 2: On ideating solutions: AI and data analytics pair like fine wine and cheese
+---
+<br><br>
 In lieu of fully automatable workstreams, aim to augment existing analytics with alternative data and machine learning. Data quality over data quantity, most of the time.
 <br><br>
 ## Lesson 3: On team structure: Spread the “multi-disciplinary” mantra to every dimension of your project
@@ -43,3 +44,4 @@ In lieu of fully automatable workstreams, aim to augment existing analytics with
 ---
 <br><br>
 Even at the v0 prototype stage, make sure to share your “final product” vision with beta users. And, for your v0 product, ensure enough energy and attention were given to the user experience. Build trusted products
+![image](https://user-images.githubusercontent.com/67394384/184274400-5b4c3b41-163b-49a6-a926-7e0c9f8ec18c.png)
