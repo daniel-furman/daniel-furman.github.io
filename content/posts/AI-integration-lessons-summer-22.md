@@ -27,12 +27,12 @@ It thus pays to be methodical when scoping the viability of an AI project, parti
 <br><br>
 With the right use-case in hand, integrating AI tools that people use (and love) becomes far more straightforward. To facilitate getting on this track, go with “low-hanging fruit” options at first, both in terms of commercial applicability and technical viability. You don't want users’ “first awesome experience” to be tarnished by poor-quality predictions. By going with a low-hanging fruit, you’re guaranteeing that the model can reach the “product success” threshold without too much fuss. You are therefore free to think diligently about how to best plug in the tool in the commercial context. 
 <br><br>
-Above all else, look for AI solutions that can deliver the most business value. Does your organization do 250 deals of workstream A per year, and an AI tool can deliver greenfield value to each engagement? Oh, and perhaps it can plug it into workstreams B and C as well? Probably a good avenue to pursue development for. Development in the “tooling-enabled age” is about finding the most valuable attach-points for AI in your commercial workstreams. Don’t overly concern yourself with the novelty of your models. Instead, obsess over how to best productize your tool. Search near and far for the most valuable AI attach-points within your business. Once found, pounce.  
+Above all else, look for AI solutions that can deliver the most business value. Does your organization do 250 deals of workstream A per year, and an AI tool can deliver value solidly to each engagement? Oh, and perhaps it can plug it into workstreams B and C as well? Probably a good avenue to pursue. Development in the “tooling-enabled age” is about finding the most valuable attach-points for AI in your commercial workstreams. Don’t overly concern yourself with the novelty of your models. Instead, obsess over how to best productize your tool. Search near and far for the most valuable attach-points within your business. Once found, pounce.  
 <br><br>
 ## Lesson 2: On ideating solutions: AI and data analytics pair well
 ---
 <br><br>
-In lieu of fully automatable workstreams, aim to augment existing analytics with alternative data and machine learning. Data quality over data quantity, most of the time.
+Not all companies’ workstreams lend themselves to automation. In lieu of fully automatable prediction tasks, aim to augment existing analytics with AI. Look for sources of alternative data.  
 <br><br>
 ## Lesson 3: On team structure: Spread the “multi-disciplinary” mantra to every dimension of your project
 ---
