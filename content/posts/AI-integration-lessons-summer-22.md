@@ -12,7 +12,7 @@ markup: "mmark"
 
 <br><br>
 
-In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial contexts. Most companies outside of MAMAA/FAANG should strive to become Smart Integrators.
+In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial settings. Most companies outside of MAMAA/FAANG should strive to become Smart Integrators.
 <br><br>
 As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” When done correctly, the Smart Integrator reaps "outsized returns" on their AI investment. In contrast to the Smart Integrators, the Googles and MITs of the world are the players responsible for researching and developing innovative AI tools (they’re very good at doing this). Fortuitously, many of these tools are open-sourced or productized as services, **ripe for integration in your organization**. And, over the last five to ten years, AI/ML tools have become far more performant, scalable, diversified, and economical to apply. 
 
