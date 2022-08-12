@@ -14,9 +14,9 @@ markup: "mmark"
 
 In April 2022, Silvio Palumbo of BCG Gamma wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial settings. The key take-away: most companies outside of MAMAA/FAANG should strive to become Smart AI Integrators. Good news for you! - It’s never been easier to do so. 
 <br><br>
-In a tooling-enabled world, integrating AI/ML largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for key tips on acing AI strategy, for the "non-Googles of the world" - along with links to resources (mostly other blog posts) from which I first came across each idea. The 4 tips within are my personal "cream-of-the-crop" selection of mantras / lessons-learned in applying AI, as battle-testet in my work productizing AI/ML tools as a data scientist in strategy consulting. 
+In a tooling-enabled world, integrating AI/ML largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for key tips on acing AI strategy, for the "non-Googles of the world" - along with links to resources (mostly other blog posts) from which I first came across each idea. The 4 tips within are my personal "cream-of-the-crop" selection of mantras and lessons-learned in applying AI, battle-tested productizing AI/ML tools as a data scientist in a digital strategy consulting firm. 
 <br><br>
-## Intro
+### Intro
 ---
 <br><br>
 What's "Smart Integration"? As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” Why should you care? When done correctly, the Smart Integrator reaps "outsized returns" on their AI/ML investment.
@@ -25,7 +25,7 @@ In contrast to the Smart Integrators, the Googles and MITs of the world are the 
 <br><br>
 * Definitions: AI (Artificial Intelligence) is a sub-field of computer/data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera.
 <br><br>
-## 1. On scoping: Know when AI is right (or wrong) for you pre-development
+### 1. On scoping: Know when AI is right (or wrong) for you, pre-development
 ---
 <br><br>
 AI is working well for your business when it's plugged into workstreams and generating bottom-line returns. You’ll know your AI integration is going particularly well if you can easily envision your tools generating value in five, ten years – i.e., you can credibly link your positioning of AI/ML tools to increased future cash flow.
@@ -38,7 +38,7 @@ With the right use-case in hand, integrating AI tools that people use (and love)
 <br><br>
 Look for AI/ML solutions that can deliver the most business value in the near-to-medium-term future. Does your organization consistently do 250 deals of workstream A per year, and an AI tool can deliver insights in each engagement? Probably a good avenue to pursue. Oh, and perhaps it can plug into workstreams B and C as well in the not-so-distant future? Even better! Development in the “tooling-enabled age” is about finding the most valuable attach-points for AI in your business, whether they’re applied to your most important business workstream or relevant across multiple workstreams. Don’t overly concern yourself with the novelty of your AI/ML models. Instead, obsess over how to best productize tools by searching near and far for the most valuable attach-points for AI within your business. Once found, pounce.  
 <br><br>
-## 2. On ideation: AI and data analytics pair well
+### 2. On ideation: AI and data analytics pair well
 ---
 <br><br>
 Not all companies’ workstreams lend themselves to automation. In lieu of fully automatable prediction tasks, aim to augment existing analytics with AI. Look for sources of alternative data.  
@@ -46,7 +46,7 @@ Not all companies’ workstreams lend themselves to automation. In lieu of fully
 ## 3. On collaboration: Spread the “multi-disciplinary” mantra to every dimension of your project
 ---
 <br><br>
-## 4. On productizing: Focus on trust and great user experiences
+### 4. On productizing: Focus on trust and great user experiences
 ---
 <br><br>
 Even at the v0 prototype stage, make sure to share your “final product” vision with beta users. And, for your v0 product, ensure enough energy and attention were given to the user experience. Build trusted products
