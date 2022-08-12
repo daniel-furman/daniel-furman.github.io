@@ -14,7 +14,7 @@ In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferre
 <br><br>
 As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” In contrast to these Smart Integrators, the Googles and MITs of the world are responsible for developing innovative AI tools (they’re very good at doing this). Fortuitously, many of these tools are open-sourced or productized as services, **ripe for integration in your organization**. And, over the last five to ten years, these tools have become far more performant, scalable, diversified, and economical. 
 
-So, it’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy**. Here are 4 lessons I’ve learned on AI strategy. 
+So, it’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy**. 
 <br><br>
 * Definitions: AI (Artificial Intelligence) is a sub-field of computer science / data science that largely concerns the application of machine learning (ML) models for prediction tasks. Here, I refer to AI and ML synomously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera.
 <br><br>
