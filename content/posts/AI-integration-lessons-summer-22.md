@@ -23,9 +23,9 @@ So, it’s never been easier to be a Smart Integrator. In a tooling-enabled worl
 ## 1: On scoping: Know when AI is right or wrong for you (pre-development)
 ---
 <br><br>
-AI is working well for your business when it's plugged into workstreams and generating bottom-line returns. You’ll know your AI integration is going particularly well if you can easily envision your tools working for your business in five, ten years – i.e., you can credibly link your AI integration strategy and/or implementation today to increased repositories of cash flow in the future.
+AI is working well for your business when it's plugged into workstreams and generating bottom-line returns. You’ll know your AI integration is going particularly well if you can easily envision your tools generating value in five, ten years – i.e., you can credibly link your positioning of AI/ML tools to increased future cash flow.
 
-How to get there? Machine learning models should be busy automating tasks, augmenting analyses, surfacing information, or be otherwise actively engaged. If models are sitting idle, you’re not quite there yet. And, frequently, one of the reasons they are sitting idle is that the given use-case wasn’t truly viable (Cassie K., steps to an AI project).
+How to get there? Machine learning models should be automating tasks, augmenting analyses, surfacing information, or be otherwise actively plugged in. If models are sitting idle, you’re not quite there yet. And, frequently, one of the reasons they are sitting idle is that the given use-case wasn’t truly viable (Cassie K., steps to an AI project).
 <br><br>
 It thus pays to be methodical when scoping the viability of an AI project, particularly of where it attaches within your business. You want to incorporate all voices across your team and think slowly about how well the tool “plugs in” to a given space. 
 <br><br>
