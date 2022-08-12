@@ -10,13 +10,13 @@ markup: "mmark"
 <br><br>
 # **Under Construction**
 <br><br>
-In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to nail commercial AI strategy. It’s tailored to companies that are in the business of applying AI solutions. Basically, everyone outside of MAMAA/FAANG should strive to be a Smart Integrator.
+In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a playbook of sorts on how to ace commercial AI strategy. It’s tailored to companies that are in the business of applying AI solutions. Everyone outside of MAMAA/FAANG should strive to be a Smart Integrator.
 <br><br>
 As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” In contrast, the Googles of the world are the primary research players – along with Academia (think UC Berkeley or MIT). These are the types of companies and institutions that are responsible for developing innovative tools across the AI landscape. Fortuitously, many of these tools are open-sourced or productized as services, **ripe for integration in your organization**. And, over the last five to ten years, such tools have become far more performant, scalable, diversified, and economical to use. 
 <br><br>
-It’s never been easier to be a Smart Integrator. Thus, in a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy**.
+* Definitions: AI (Artificial Intelligence) is a sub-field of computer science / data science that largely concerns the application of machine learning (ML) models for prediction tasks. Machine learning tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, and many other tasks that we interact with on a daily basis.
 <br><br>
-* **Definitions**: AI refers to Artificial Intelligence, a sub-field of computer science and data science that concerns the crafting of machine learning (ML) models for certain predictive tasks. These include predicting the next word in a text, recommending friends on a social media platform, recognizing hate speech or misinformation online, translating between languages, etc., the list of use-cases is steadily growing. Here, we will refer to AI and ML interchangeably and synonymously. 
+It’s never been easier to be a Smart Integrator. Thus, in a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy**. Here's 4 lessons learned on how to nail AI strategy. 
 <br><br>
 ## Lesson 1: On scoping use-cases: Know when AI is right (or wrong) pre-development
 ---
