@@ -4,8 +4,8 @@ date: 2022-08-10
 katex: true
 markup: "mmark"
 ---
-
-# 4 tips on integrating AI/ML in commercial contexts
+# Commercial AI Strategy 101
+## 4 tips on integrating AI/ML in business contexts
 ---
 
 <p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "475" height = "225"> </p>
@@ -18,7 +18,7 @@ As Palumbo puts it, the Smart Integrator finds “competitive advantage by orche
 <br><br>
 In contrast to the Smart Integrators, the Googles and MITs of the world are the players responsible for researching and developing innovative AI tools (they’re very good at doing this). Fortuitously, many of these tools are open-sourced or productized as services, **ripe for integration in your organization**. And, over the last five to ten years, AI/ML tools have become far more performant, scalable, diversified, and economical to apply. 
 <br><br>
-So, it’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for 4 tips, or lessons I've learned, on acing AI strategy.  
+So, it’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for 4 tips, or lessons I've learned, on acing AI strategy for the "non-Googles of the world".  
 <br><br>
 * Definitions: AI (Artificial Intelligence) is a sub-field of computer/data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera.
 <br><br>
