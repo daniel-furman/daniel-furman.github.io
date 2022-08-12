@@ -1,10 +1,10 @@
 ---
-title: "4 tips on integrating AI/ML in commercial contexts."
+title: "4 key tips on integrating AI/ML in business contexts."
 date: 2022-08-10
 katex: true
 markup: "mmark"
 ---
-# Commercial AI Strategy 101
+# Commercial AI “Strategy 101” 
 ## 4 key tips on integrating AI/ML in business contexts
 ---
 
@@ -14,7 +14,7 @@ markup: "mmark"
 
 In April 2022, Silvio Palumbo of BCG Gamma wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial settings. The key take-away: most companies outside of MAMAA/FAANG should strive to become Smart AI Integrators. Good news for you! - It’s never been easier to do so. 
 <br><br>
-In a tooling-enabled world, integrating AI/ML largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for key tips on acing AI strategy, for the "non-Googles of the world" - along with links to resources (mostly other blog posts) from which I first came across each idea. The 4 tips within are my personal "cream-of-the-crop" selection of mantras and lessons-learned in applying AI, battle-tested productizing AI/ML tools as a data scientist in a digital strategy consulting firm. 
+In a tooling-enabled world, integrating AI/ML largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for key tips on acing AI strategy, for the "non-Googles of the world" - along with links to resources (mostly other blog posts) from which I first came across each idea. The 4 tips within are my personal "cream-of-the-crop" selection of mantras and lessons-learned in applying AI successfully in a business context – as battle-tested from my work productizing AI/ML tools as a data science consultant.  
 <br><br>
 ### Intro
 ---
