@@ -14,11 +14,11 @@ In April 2022, Silvio Palumbo wrote a <a target="_blank" rel="noopener noreferre
 <br><br>
 As Palumbo puts it, the Smart Integrator finds “competitive advantage by orchestrating tools and AI applications that have been developed by other specialized organizations, and then directing the tools to fit their specific data, technology, and talent context.” When done correctly, the Smart Integrator reaps "outsized returns" on their AI investment. In contrast to the Smart Integrators, the Googles and MITs of the world are the players responsible for researching and developing innovative AI tools (they’re very good at doing this). Fortuitously, many of these tools are open-sourced or productized as services, **ripe for integration in your organization**. And, over the last five to ten years, AI/ML tools have become far more performant, scalable, diversified, and economical to apply. 
 
-So, it’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy** amongst an effective data science team, one that's lean, talent-diversified, and collaborative. 
+So, it’s never been easier to be a Smart Integrator. In a tooling-enabled world, integrating AI largely comes down to the **communication and execution of the right strategy** amongst an effective data science team (one that's lean, talent-diversified, and collaborative). Read on for 4 high-level tips, or lessons, on acing AI strategy.  
 <br><br>
 * Definitions: AI (Artificial Intelligence) is a sub-field of computer/data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera.
 <br><br>
-## Lesson 1: On use-case scoping: Know when AI is right (or wrong) pre-development
+## Lesson 1: On use-case scoping: Know when AI is right or wrong for you (pre-development)
 ---
 <br><br>
 AI is working well for your business when it's plugged into workstreams and generating bottom-line returns. You’ll know your AI integration is going particularly well if you can easily envision your tools working for your business in five, ten years – i.e., you can credibly link your AI integration strategy and/or implementation today to increased repositories of cash flow in the future.
