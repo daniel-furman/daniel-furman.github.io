@@ -19,7 +19,7 @@ markup: "mmark"
 
 <br><br>
 
-In his book Zero to One, Peter Thiel explores the fundamentals that successful technology startups share in common. The key takeaway: technology startups should exude seven business fundamentals – otherwise, red flags. Here's why these fundamentals are also relevant to productizing Artificial intelligence (AI) solutions in businesses of all shapes and sizes, lessons learned through the perspective of a data scientist in strategy consulting.
+In his book Zero to One, Peter Thiel explores the strategies that successful technology startups share in common. The key takeaway: technology startups should exude seven business fundamentals – otherwise, red flags. Here's why these mentalities are also relevant to productizing AI solutions in businesses of all shapes and sizes, via lessons learned from the perspective of a data scientist in strategy consulting.
 
 <br><br>
 
