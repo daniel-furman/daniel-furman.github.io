@@ -26,8 +26,14 @@ In his book Zero to One, Peter Thiel shares the fundamentals that he believes mo
 ## Introduction
 ---
 
+<br><br>
+
 According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the integration of AI tools. While recent advances in tooling indeed enable AI-powered transformation, you need more than tools to succeed. The lifeline of a commercial AI project is its potential for value creation. Models should be automating tasks, augmenting analyses, enabling features, surfacing information, or otherwise creating value. If models are sitting idle, your company is not quite there yet. And, frequently, the given use-case wasn’t a viable match for AI in the first place (Cassie K., steps to an AI project). 
 
+<br><br>
+
 How to find viable AI use-cases? It turns out that staying faithful to startup fundamentals ensures that your AI strategy adequately attends to value creation, the key to a successful AI integration. 
+
+<br><br>
 
 * Definitions: AI (Artificial Intelligence) is a sub-field of computer/data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera. 
