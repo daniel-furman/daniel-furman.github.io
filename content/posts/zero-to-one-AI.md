@@ -41,7 +41,6 @@ The salient question then becomes: How to find the promising AI use-cases given 
 
 <br><br>
 
-In this blog post, I argue that applying Thiel's startup fundamentals to AI integration yields adequate attention to the value creation component of an AI project, its lifeline to commercial success and overall buy-in from business executives.
+In this blog post, I argue that applying Thiel's startup fundamentals to AI integration yields adequate attention to the value creation component of the project, its lifeline to commercial success and buy-in from business executives.
 
 <br><br>
-
