@@ -28,9 +28,9 @@ In his book Zero to One, Peter Thiel explores the fundamentals that successful t
 
 <br><br>
 
-It's not difficult to see the parallels between founding a technology startup and investing in digital transformation, which AI is a part of. In both situations, you're setting out to create value in new ways. Just how Airbnb created a market for in-home vacation stays, a company's digital transformation is aimed at creating new ways of doing things. For example, say a company is seeking to upgrade its legacy data system to a modern data stack, in this case, the business is looking to capture business data in novel ways (in the cloud, in real-time, in a more accessible way, etc.). 
+It's not difficult to see the parallels between founding a technology startup and kickstarting a digital transformation. In both situations, you're setting out to create value in new ways. Just how Airbnb created a market for in-home vacation stays, a company's digital transformation is aimed at creating new ways of doing things. 
 
-According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the “smart integration” of AI tools (insert Silvio Palumbo citation). While recent advances in tooling enable AI-powered digital transformation, you need more than access to Python packages and cloud data services to generate outsized returns on an AI investment.  
+According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the “smart integration” of AI tools, which can be viewed as a piece of the digital transformation puzzle (insert Silvio Palumbo citation). While recent advances in tooling enable AI-powered digital transformation, you need more than access to Python packages and cloud data services to generate outsized returns on an AI investment.  
 
 The success of commercial AI often hinges on the tools' ability to generate untapped value (or lack thereof). Models can create value by automating tasks, powering features, augmenting analyses, surfacing information, or by otherwise making predictions in the wild. If models are idle, you’re not quite there yet. And, frequently projects fail because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
 
