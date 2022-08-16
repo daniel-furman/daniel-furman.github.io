@@ -10,6 +10,11 @@ markup: "mmark"
 
 <p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "475" height = "225"> </p>
 
+
+## Blog Post Currently Under Construction 
+
+---
+
 <br><br>
 
 In April 2022, Silvio Palumbo of BCG Gamma wrote a <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">blog</a> about “Smart Integration” – a roadmap of sorts on how to best apply AI solutions in commercial settings. The key take-away: most companies outside of MAMAA/FAANG should strive to become Smart AI Integrators. Good news for you! - It’s never been easier to do so. 
