@@ -19,7 +19,7 @@ markup: "mmark"
 
 <br><br>
 
-In his book Zero to One, Peter Thiel shares the fundamentals that he believes most succesful technology companies share in common. The key takeaway: startups should exude these fundamentals - otherwise, red flags. Here's why startup fundamentals are also relevant to productizing Artificial intelligence (AI) solutions in businesses of all shapes and sizes, lessons learned from the perspective of a data scientist in strategy consulting.
+In his book Zero to One, Peter Thiel explores the fundamentals that successful technology startups share in common. The key takeaway: technology startups should exude seven business fundamentals – otherwise, red flags. Here's why these fundamentals are also relevant to productizing Artificial intelligence (AI) solutions in businesses of all shapes and sizes, lessons learned through the perspective of a data scientist in strategy consulting.
 
 <br><br>
 
@@ -28,8 +28,12 @@ In his book Zero to One, Peter Thiel shares the fundamentals that he believes mo
 
 <br><br>
 
-According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the integration of AI tools. While recent advances in tooling indeed enable AI-powered transformation, you need more than access to Python packages to succeed. The lifeline of a commercial AI project is its potential for value creation. Models should be automating tasks, augmenting analyses, enabling features, surfacing information, or otherwise creating value to important workstreams. If models are sitting idle, your company is not quite there yet. And, frequently, the use-case wasn’t a viable match for AI in the first place (Cassie K., steps to an AI project). How to find viable AI use-cases? It turns out that staying true to Thiel's startup fundamentals goes a long way in ensuring that your AI integration adequately attends to value creation potential. 
+According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the integration of AI tools. While recent advances in tooling indeed enable AI-powered transformation, you need more than access to Python packages and cloud data services to generate outsized returns on your AI investment.  
+
+The most important component of a commercial AI project is its potential to create untapped business value (in terms of future cash flow). Models should be automating tasks, augmenting analyses, enabling features, surfacing information, or be otherwise poised to create value for important business workstreams. If models are sitting idle, you’re not quite there yet. And, frequently, models are idle because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
+
+The salient question: how to find the best AI use-cases in your business? It turns out that staying true to Thiel's startup fundamentals goes a long way in ensuring that your AI strategy adequately attends to the potential for value creation, the lifeline to commercial success (and to making your business executives happy). 
 
 <br><br>
 
-* Definitions: AI (Artificial Intelligence) is a sub-field of computer/data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera. 
+* Definitions: AI (Artificial Intelligence) is a sub-field of computer/data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera.
