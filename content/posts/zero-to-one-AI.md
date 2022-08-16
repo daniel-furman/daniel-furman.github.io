@@ -1,10 +1,10 @@
 ---
-title: "Using a startup mentality to productize AI solutions."
+title: "Use a startup mentality to productize AI solutions."
 date: 2022-16-10
 katex: true
 markup: "mmark"
 ---
-# Using a startup mentality to productize AI solutions
+# Use a startup mentality to productize AI solutions
 ## Why sound business fundamentals is all you need to succesfully integrate AI in commercial contexts
 ---
 
@@ -20,7 +20,7 @@ markup: "mmark"
 
 
 
-In his book Zero to One, Peter Thiel loooks at the key fundamentals that succesful technology startups share in common. The key take-away: startups should adequately answer seven questions about their business - otherwise, red flags. Here's why these startup fundamentals are equally applicable to productizing AI solutions, and digital transformation more generally, in companies of all shapes and sizes. 
+In his book Zero to One, Peter Thiel explores the key fundamentals that succesful technology startups share in common. The take-away: startups should adequately answer seven questions about their business - otherwise, red flags. Here's why a startup mentality is equally important to productizing AI solutions, and to digital transformation more generally, in companies of all shapes and sizes. 
 
 ## Introduction
 ---
