@@ -41,8 +41,7 @@ The salient question becomes: How to find the best AI use-cases given your comme
 
 <br><br>
 
-In this blog post, I argue that applying Thiel's startup fundamentals to AI integration enables you to adequately attend to the value creation component of your AI project, the lifeline to commercial success and overall buy-in from business executives.
+In this blog post, I argue that applying Thiel's startup fundamentals to AI integration fosters adequate attention to the value creation component of an AI project, its lifeline to commercial success and overall buy-in from business executives.
 
 <br><br>
 
-* Definitions: AI (Artificial Intelligence) is a sub-field of data science that largely concerns itself with the application of machine learning (ML) models for predictive tasks. Here, I refer to AI and ML synonymously. Common AI/ML tasks include auto-completing the next phrase in a text, recommending friends on social media, recognizing misinformation online, tailoring online ads, translating between languages, etcetera.
