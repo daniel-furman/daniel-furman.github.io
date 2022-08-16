@@ -28,19 +28,19 @@ In his book Zero to One, Peter Thiel explores the fundamentals that most success
 
 <br><br>
 
-According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the “smart integration” of AI tools. While recent advances in tooling indeed enable AI-powered transformation, you need much more than access to Python packages and cloud data services to generate outsized returns on your AI investment.  
+According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the “smart integration” of AI tools (insert Silvio Palumbo citation). While recent advances in tooling enable AI-powered transformation, you need more than access to Python packages and cloud data services to generate outsized returns on an AI investment.  
 
 <br><br>
 
 
-One of the most important components to the commercial success of an AI project? – its potential to create untapped value (in terms of future cash flow). Models can create value by automating tasks, powering features, augmenting analyses, surfacing information, or by otherwise making predictions in the wild. If models are idle, you’re not quite there yet. And, frequently projects fail because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
+The success of commercial AI solutions often hinges on their ability to create untapped value (or lack thereof). Models can create value by automating tasks, powering features, augmenting analyses, surfacing information, or by otherwise making predictions in the wild. If models are idle, you’re not quite there yet. And, frequently projects fail because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
 
 <br><br>
 
-The salient question then becomes: How to find the promising AI use-cases given your commercial context? 
+The salient question becomes: How to find the right AI use-cases given the commercial context. 
 
 <br><br>
 
-In this blog post, I argue that applying Thiel's startup fundamentals to AI integration yields adequate attention to the value creation component of the project, its lifeline to commercial success and buy-in from business executives.
+In this blog post, I argue that applying Thiel's startup fundamentals to AI integration yields adequate attention to the value creation component of a project, its lifeline to commercial success and buy-in from business executives.
 
 <br><br>
