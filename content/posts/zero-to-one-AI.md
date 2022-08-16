@@ -9,7 +9,7 @@ markup: "mmark"
 ## Why sound business fundamentals are all you need to integrate AI solutions in commercial contexts
 ---
 
-<p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "475" height = "225"> </p>
+<p align="center"> <img src="/posts/blog_AI_image_2.jpeg"/ width = "475" height = "225"> </p>
 
 <br><br>
 
