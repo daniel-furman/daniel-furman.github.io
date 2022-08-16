@@ -1,10 +1,10 @@
 ---
-title: "Deploy machine learning models with sound business fundamentals."
+title: "Productize AI/ML solutions with sound business fundamentals."
 date: 2022-16-10
 katex: true
 markup: "mmark"
 ---
-# Deploy machine learning models with sound business fundamentals
+# Productize AI/ML solutions with sound business fundamentals
 ## Why startup thinking is all you need to succesfully integrate AI/ML into commercial contexts
 ---
 
