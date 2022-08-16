@@ -1,12 +1,12 @@
 ---
-title: "Use a startup mentality to productize AI solutions."
+title: "Use a startup mentality to succesfully productize AI solutions."
 date: 2022-16-10
 katex: true
 markup: "mmark"
 ---
-# Use a startup mentality to productize AI solutions
+# Use a startup mentality to succesfully productize AI solutions
 
-## Why sound business fundamentals is all you need to succesfully integrate AI solutions in commercial contexts
+## Why sound business fundamentals is all you need to integrate AI solutions in commercial contexts
 ---
 
 <p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "475" height = "225"> </p>
