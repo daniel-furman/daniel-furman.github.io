@@ -19,7 +19,7 @@ markup: "mmark"
 
 <br><br>
 
-In his book Zero to One, Peter Thiel explores the fundamentals that most successful startups share in common. The key takeaway: technology startups should exude seven business fundamentals – otherwise, there are red flags. Here's why the startup mentality is also relevant to productizing AI solutions in businesses of all shapes and sizes, from the perspective of a data scientist in strategy consulting.
+In his book Zero to One, Peter Thiel explores the fundamentals that most successful startups share in common. The key takeaway: technology startups should exude seven pivotal business fundamentals – otherwise, red flags. Here's why the startup mentality is also relevant to productizing AI solutions in businesses of all shapes and sizes, from the perspective of a data scientist in strategy consulting.
 
 <br><br>
 
@@ -33,15 +33,15 @@ According to Silvio Palumbo of BCG Gamma, most companies today are poised to fin
 <br><br>
 
 
-One of the most important components to the commercial success of an AI project? – its potential to create untapped value (in terms of future cash flow). Models should automate tasks, power features, augment analyses, surface information, or be otherwise positioned to create value. If models are sitting idle, you’re not quite there yet. And, frequently, models are idle because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
+One of the most important components to the commercial success of an AI project? – its potential to create untapped value (in terms of future cash flow). Models can create value by automating tasks, powering features, augmenting analyses, surfacing information, or by otherwise making predictions in the wild. If models are idle, you’re not quite there yet. And, frequently projects fail because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
 
 <br><br>
 
-The salient question becomes: How to find the best AI use-cases given your commercial context? 
+The salient question then becomes: How to find the promising AI use-cases given your commercial context? 
 
 <br><br>
 
-In this blog post, I argue that applying Thiel's startup fundamentals to AI integration fosters adequate attention to the value creation component of an AI project, its lifeline to commercial success and overall buy-in from business executives.
+In this blog post, I argue that applying Thiel's startup fundamentals to AI integration yields adequate attention to the value creation component of an AI project, its lifeline to commercial success and overall buy-in from business executives.
 
 <br><br>
 
