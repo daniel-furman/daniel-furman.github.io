@@ -1,6 +1,6 @@
 ---
 title: "Use a startup mentality to successfully productize AI solutions."
-date: 2022-10-16
+date: 2022-08-16
 katex: true
 markup: "mmark"
 ---
