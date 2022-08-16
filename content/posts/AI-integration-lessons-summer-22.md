@@ -10,6 +10,7 @@ markup: "mmark"
 
 <p align="center"> <img src="/posts/blog_AI_image.jpeg"/ width = "475" height = "225"> </p>
 
+<br><br>
 
 ## Blog Post Currently Under Construction 
 
