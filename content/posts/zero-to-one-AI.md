@@ -4,7 +4,7 @@ date: 2022-08-16
 katex: true
 markup: "mmark"
 ---
-# Using a "startup mentality" to succsefully productize AI tools
+# Using a startup mentality to succsefully productize AI tools
 
 ## Why sound business fundamentals are all you need to best integrate AI solutions in commercial contexts
 ---
