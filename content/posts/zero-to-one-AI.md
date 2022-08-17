@@ -37,7 +37,7 @@ The salient question thus becomes: What are the most valuable opportunities for 
 In this blog post, I argue that applying Thiel's technology startup fundamentals to AI projects enables your team to answer that critical question. Ultimately, developing AI tools with these seven startup fundamentals in mind results in stronger and more conistent value creation opportunities, which is the lifeline to commercial success (and, usually, buy-in from executives).
 
 <br><br>
-## What's AI?
+## A primer on AI products
 ---
 <br><br>
 They can be automating tasks at scale, powering new features, augmenting analyses, surfacing important information, or otherwise making predictions in the wild that are useful to workstreams. If models sit idle, you’re AI integration is not quite there yet. And, frequently AI projects fail because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
