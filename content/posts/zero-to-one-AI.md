@@ -6,7 +6,7 @@ markup: "mmark"
 ---
 # Using a startup mentality to succsefully productize AI tools
 
-## Why sound business fundamentals are all you need to integrate AI solutions in commercial contexts
+## Why sound business fundamentals are all you need to best integrate AI solutions in commercial contexts
 ---
 
 <p align="center"> <img src="/posts/blog_AI_image_2.jpeg"/ width = "475" height = "225"> </p>
