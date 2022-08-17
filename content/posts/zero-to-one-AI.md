@@ -30,11 +30,11 @@ In his book Zero to One, Peter Thiel explores the fundamentals that successful t
 
 It's not difficult to see the parallels between founding a technology startup and a digital transformation. In both cases, you're setting out to generate untapped value through the application of technology. Today, integrating AI tools is more frequently an aspect of digital transformation (developing or buying solutions). According to Silvio Palumbo, a data science consultant at BCG Gamma, most companies today are poised to find a "competitive advantage" through the “smart integration” of AI tools (insert Silvio Palumbo citation). 
 
-Indeed, the significant advances in AI and machine learning (AI/ML) tooling have enabled the rise of these "smart integrators". And, while enabled by tooling, the bottom-line commercial success of AI integration hinges on the product(s)'s ability to generate untapped value for the business. Just because you're able to integrate an AI tool with state-of-the-art features doesn't mean it's the best tool to develop for your business context. AI models create far more greenfield value when plugged into the "unicorn" use-case for your business. 
+Indeed, the significant advances in AI and machine learning (AI/ML) tooling have enabled the rise of these "smart integrators". And, while enabled by tooling, the bottom-line commercial success of AI integration hinges on the product(s)'s ability to generate untapped value for the business. Just because you're able to integrate an AI tool with state-of-the-art features doesn't mean it's the most valuable tool to develop in the commercial context. AI models create far more untapped value when plugged into the "unicorn" use-case. 
 
 The salient question thus becomes: What are the most valuable opportunities for AI integration given the commercial context? 
 
-In this blog post, I argue that applying Thiel's startup fundamentals to AI integration projects goes a long way in enabling your team to answer that critical question well. Ultimately, developing AI tools with these seven startup fundamentals in mind results in more value creation for your business, an AI projects' lifeline to commercial success (and, usually, buy-in from executives).
+In this blog post, I argue that applying Thiel's startup fundamentals to AI integration projects enables your team to answer that critical question well. Ultimately, developing AI tools with these seven startup fundamentals in mind results in stronger and more conistent value creation opportunity, an AI projects' lifeline to commercial success (and, usually, buy-in from executives).
 
 <br><br>
 
