@@ -28,14 +28,12 @@ In his book Zero to One, Peter Thiel explores the fundamentals that successful t
 
 <br><br>
 
-It's not difficult to see the parallels between founding a technology startup and kickstarting a digital transformation. In both situations, you're setting out to create value in new ways. Just how Airbnb created a market for in-home vacation stays, a company's digital transformation is aimed at creating new ways of doing things. 
+It's not difficult to see the parallels between founding a technology startup and a digital transformation. In both, you're setting out to generate untapped value with technology. For many companies, integrating AI tools can be a powerful aspect of digital transformation (through developing or buying tools). According to Silvio Palumbo, a data science consultant at BCG Gamma, most companies today are poised to find a "competitive advantage" through the “smart integration” of AI tools (insert Silvio Palumbo citation). 
 
-According to Silvio Palumbo of BCG Gamma, most companies today are poised to find a "competitive advantage" through the “smart integration” of AI tools, which can be viewed as a piece of the digital transformation puzzle (insert Silvio Palumbo citation). While recent advances in tooling enable AI-powered digital transformation, you need more than access to Python packages and cloud data services to generate outsized returns on an AI investment.  
+Recent advances in tooling have enabled integration of AI tools into most business digital transformations. While enabled by advances in tooling, the commercial success of AI integration often hinges on tools' ability to generate untapped value for the business. This is akin to the goals of a technology startup on a high-level, to create products that revolutionize our ways of doing things (i.e., generating untapped value in the world). 
 
-The success of commercial AI often hinges on the tools' ability to generate untapped value (or lack thereof). Models can create value by automating tasks, powering features, augmenting analyses, surfacing information, or by otherwise making predictions in the wild. If models are idle, you’re not quite there yet. And, frequently projects fail because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
+AI models can create value by automating tasks, powering features, augmenting analyses, surfacing information, or by otherwise making predictions in the wild (see Figure 1 for a schematic of common AI use-cases). If models sit idle, you’re AI integration is not quite there yet. And, frequently AI projects fail because the use-case wasn’t a good match for AI in the first place (insert Cassie K. citation). 
 
-The salient question becomes: How to find the right AI use-cases given the commercial context. 
-
-In this blog post, I argue that applying Thiel's startup fundamentals to AI integration yields adequate attention to the value creation component of a project, its lifeline to commercial success and buy-in from business executives.
+The salient question for your AI integration becomes: How to find the most valuable tools to integrate given the commercial context? In this blog post, I argue that applying Thiel's startup fundamentals to AI integration projects goes a long way in helping your team answer this critical question. Ultimately, developing AI tools with the seven fundamentals in mind results in more succesful projects because the value creation component of productizing technology is given adequate attention, AI projects' lifeline to commercial success (and buy-in from business executives).
 
 <br><br>
