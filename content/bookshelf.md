@@ -6,6 +6,7 @@ Title = "Bookshelf"
 
 Book | Author | Finished | Quotes
 -----|-------|-------|-------
+<a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/18050143-zero-to-one">Zero to One: Notes on Startups, or How to Build the Future</a> | Peter Thiel| 2022 | "Monopoly is the condition of every successful business."
 <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/books/edition/Becoming_Wild/O3CVDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover">Becoming Wild: How Animal Cultures Raise Families, Create Beauty, and Achieve Peace</a> | Carl Safina | 2022 | "The philosopher Immanuel Kant asserted, "Man is the only being who needs education." But if he'd said, "not the only being," he'd have been correct."
 <a target="_blank" rel="noopener noreferrer" href="https://books.google.com/books/about/Storytelling_with_Data.html?id=retRCgAAQBAJ">Storytelling with Data: A Data Visualization Guide for Business Professionals</a> | Cole Nussbaumer Knafic | 2021 | "Exploratory analysis is what you do to understand the data and figure out what might be noteworthy or interesting to highlight to others."
 <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/165206463X/ref=cm_sw_PHC7JT1PJEDM834AGJYE">Data Science in Production: Building Scalable Model Pipelines with Python</a> | Ben Weber | 2021 | "Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization."
