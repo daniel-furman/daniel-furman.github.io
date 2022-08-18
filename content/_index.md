@@ -8,7 +8,7 @@ title = "About"
 
 # Hi there. I'm Daniel 👋 
 
-⚡️ I love data science (AI/ML) & software development. <br>
+⚡️ I love data science & software development. <br>
 🌍 Connect with me on: <br>
   * 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
   * 👨‍💻 [[GitHub](https://github.com/daniel-furman)] <br>
