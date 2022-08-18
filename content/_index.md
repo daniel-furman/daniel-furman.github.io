@@ -8,7 +8,6 @@ title = "About"
 
 # Hi there. I'm Daniel 👋 
 
-⚡️ I love data science & software development <br>
 🌍 Connect with me on: <br>
   * 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
   * ⭐️ [[GitHub](https://github.com/daniel-furman)] <br>
@@ -19,8 +18,11 @@ title = "About"
 
 I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading data science projects in digital strategy consulting, AI technology startups, and academic research labs. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
 
+<br><br>
+
 Skills & Interests: 
-- 👨‍💻 Deep understanding of Python, R, and SQL as well as cloud services such as AWS and GCP
+
+- 👨‍💻 Deep understanding of Python, R, and SQL as well as cloud services such as AWS/GCP
 - 🚀 Passionate about building MVPs collaboratively (Git, system design, reproducibility)
 - 🌱 Interested in geospatial data, natural language, and digital transformation
 
