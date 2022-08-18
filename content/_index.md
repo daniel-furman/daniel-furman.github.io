@@ -17,7 +17,7 @@ title = "About"
 
 ## <ins>Bio </ins>
 
-I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading data science development in digital strategy consulting, AI technology startups, and academic research. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
+I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading data science development in digital strategy consulting, AI technology startups, and academic research labs. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
 
 Skills & Interests: 
 - 👨‍💻 Deep understanding of Python, R, and SQL as well as cloud services such as AWS and GCP
