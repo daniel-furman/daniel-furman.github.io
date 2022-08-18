@@ -9,7 +9,6 @@ title = "About"
 # Hi there. I'm Daniel 👋 
 
 ⚡️ I love data science (AI/ML) & software development. <br>
-🌱 I’m interested in geospatial data & natural language. <br>
 🌍 Connect with me on: <br>
   * 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
   * 👨‍💻 [[GitHub](https://github.com/daniel-furman)] <br>
@@ -18,7 +17,12 @@ title = "About"
 
 ## <ins>Bio </ins>
 
-I’m a data science consultant harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading applied data science development in strategy consulting, tech startups, and academic research settings. I’m passionate about building MVPs collaboratively and am adept at employing the tools to do so reproducibly (Git, Packaging, Productizing, System Design). I have a deep understanding of Python, R, and SQL as well as cloud services such as AWS and GCP. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
+I’m a data scientist harnessing my mathematics background to democratize computational statistics and machine learning solutions in businesses of all shapes and sizes. My experience includes leading applied data science development in strategy consulting, AI startups, and academic research. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
+
+Skills & Interests: 
+- 👨‍💻 Deep understanding of Python, R, and SQL as well as cloud services such as AWS and GCP.
+- 🚀 Passionate about building MVPs collaboratively (Git, system design, reproducibility). 
+- 🌱 Interested in geospatial data, natural language, and digital transformation.
 
 
 ---
