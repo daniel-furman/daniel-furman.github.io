@@ -28,7 +28,7 @@ In his book Zero to One, Peter Thiel explores the fundamentals that successful t
 
 <br><br>
 
-It's not difficult to see the parallels between technology startups and digital transformation. In both cases, the goal is to generate untapped value through the application of technology. And, today, integrating AI tools is more frequently a piece of digital transformation. According to Silvio Palumbo, a data science consultant at BCG Gamma, most companies in the 2020's are poised to find a "competitive advantage" through the “smart integration” of AI tools (insert Silvio Palumbo citation). 
+It's not difficult to see the parallels between technology startups and digital transformation. In both cases, the goal is to generate untapped value through the application of technology. And, today, integrating AI tools is more frequently a piece of digital transformation. According to Silvio Palumbo, a data science consultant at BCG Gamma, most companies in the 2020's are posed to find a "competitive advantage" through the “smart integration” of AI tools (insert Silvio Palumbo citation). 
 
 Indeed, advances in AI and machine learning (AI/ML) have enabled the rise of the "smart integrator". And, while enabled by better tooling, the bottom-line commercial success of an AI project hinges on its ability to generate untapped value (whether the project was undertaken ten years ago or today). Just because you're able to integrate an AI solution with today's state-of-the-art models doesn't mean it's the most valuable tool to develop in the commercial context. AI tools generate exponentially more untapped value when plugged into a "unicorn" use-case, just as the "unicorn" startup in a VC fund is more valuable than all others combined. 
 
