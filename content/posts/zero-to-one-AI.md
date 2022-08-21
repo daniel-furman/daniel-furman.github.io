@@ -5,7 +5,7 @@ katex: true
 markup: "mmark"
 ---
 
-# Why startup fundamentals are relevant to your data science innovations team
+# Why startup fundamentals are relevant to your data science team
 
 ## Using the mentality of a technology startup to integrate AI/ML solutions more seamlessly in commercial contexts
 ---
