@@ -1,12 +1,13 @@
 ---
-title: "Using a startup mentality to successfully productize AI tools."
+title: "Why startup fundamentals are relavent to your data science team."
 date: 2022-08-16
 katex: true
 markup: "mmark"
 ---
-# Using a startup mentality to successfully productize AI tools
 
-## Why sound business fundamentals are all you need to integrate AI solutions in commercial contexts
+# Why startup fundamentals are relavent to your data science team
+
+## Using the mentality of a technology startup to easily integrate AI/ML solutions in commercial contexts
 ---
 
 <p align="center"> <img src="/posts/blog_AI_image_2.jpeg"/ width = "475" height = "225"> </p>
