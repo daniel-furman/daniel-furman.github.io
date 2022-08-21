@@ -7,7 +7,7 @@ markup: "mmark"
 
 # Why startup fundamentals are relavent to your data science team
 
-## Using the mentality of a technology startup to easily integrate AI/ML solutions in commercial contexts
+## Using the mentality of a technology startup to integrate AI/ML solutions succesfully in commercial contexts
 ---
 
 <p align="center"> <img src="/posts/blog_AI_image_2.jpeg"/ width = "475" height = "225"> </p>
