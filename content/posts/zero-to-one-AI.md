@@ -1,5 +1,5 @@
 ---
-title: "Why startup fundamentals are relevant to your data science innovations team."
+title: "Why startup fundamentals are relevant to your data science team."
 date: 2022-08-16
 katex: true
 markup: "mmark"
