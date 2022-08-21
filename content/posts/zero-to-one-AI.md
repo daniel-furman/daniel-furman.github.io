@@ -33,7 +33,7 @@ It's not difficult to see parallels between technology startups and digital tran
 
 While enabled by better tooling, the bottom-line commercial success of AI/ML innovation still hinges on value creation fundamentals. The AI/ML tool plugged into a "unicorn" use-case often follows a value creation power law: the "unicorn" application creates more value than all other potential solutions combined, just as the "unicorn" startup in a VC fund is more valuable than all others combined. 
 
-The salient question for your data science innovations team becomes: What is the most promising opportunity for AI integration given the commercial context, one with a large potential for value creation? 
+The salient question for your data science team becomes: What is the most promising opportunity for AI/ML integration given the commercial context, one with potential for value creation? 
 
 In this blog post, I argue that applying Thiel's startup fundamentals to AI/ML development enables your team to answer that question early on and throughout a project. Ultimately, developing tools with these seven startup fundamentals in mind results in stronger and more consistent opportunities for value creation, the lifeline to commercial success in digital transformation (and, usually, buy-in from executives).
 
