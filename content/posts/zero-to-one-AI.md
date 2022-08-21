@@ -20,7 +20,7 @@ markup: "mmark"
 
 <br><br>
 
-In his book Zero to One, Peter Thiel explores seven core fundamentals that successful technology startups have in common. The key takeaway: startups should exude these seven pivotal traits – otherwise, red flags. Here's why your data science innovations teams should also exude the mentality of a technology startup, from the perspective of a data scientist in digital strategy consulting.
+In his book Zero to One, Peter Thiel explores seven core fundamentals that successful technology startups have in common. The key takeaway: startups should exude these seven pivotal traits – otherwise, red flags. Here's why your data science team should also exude the mentality of a technology startup to empower innovation, from the perspective of a data scientist in digital strategy consulting.
 
 <br><br>
 
