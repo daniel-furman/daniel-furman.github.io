@@ -16,7 +16,7 @@ title = "About"
 
 ## <ins>Bio </ins>
 
-I’m a data science consultant applying commercial analytics and machine learning solutions to create value in businesses of all shapes and sizes. My experience includes leading data science projects in digital strategy consulting, AI technology startups, and academic research labs. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
+I’m a data scientist developing commercial analytics and machine learning solutions that create value in businesses of all shapes and sizes. My experience includes leading data science projects in digital strategy consulting, AI technology startups, and academic research labs. Additionally, as a former co-captain of my high school golf team and former member of UPenn’s NCAA D1 golf team, I have a strong appreciation for high performance teams and what it takes to make them function efficiently.
 
 <br>
 
