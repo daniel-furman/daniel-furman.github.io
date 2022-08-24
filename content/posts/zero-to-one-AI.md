@@ -5,6 +5,7 @@ katex: true
 markup: "mmark"
 ---
 
+
 # Why startup fundamentals are key to AI strategy
 
 ## Using the mentality of a technology startup to integrate AI more seamlessly in commercial contexts
@@ -43,11 +44,11 @@ In this blog post, I explore how the application of Thiel's startup fundamentals
 <br><br>
 Firstly, what’s AI? Yes, the term is well-known. And, while you’ve probably heard of Artificial Intelligence, let’s clearly define its practical meaning for digital transformation and innovation. Loosely speaking, AI refers to computer programs that automate predictive tasks, types of tasks that were previously confined to human intuition (hence “Artificial” Intelligence). Such tools, in the words of Google’s Cassie Kozykrov, are essentially scalable data labelers. What’s the sentiment of this tweet? What’s contained in this image? What’s the meaning of this phrase in a different language? These are the kinds of data labeling tasks AI tools can automate. 
 
-And, for such tasks, there often isn’t a good set of pre-defined rules a computer program can use to make predictions. Instead, most of today’s AI tools rely on machine learning models to make predictions. Such models make predictions based on correlative patterns in historical data that influenced an outcome, or label. Cassie Kozykrov, in her well-known course “Making Friends with Machine Learning”, likens training a machine learning model to a chef learning a recipe. In the case of a Twitter sentiment model, the model is attending to a recipe it has “learned” about positivity versus negativity on Twitter, a recipe that is solely based on factors that drove sentiment in the historical tweets it was trained on. As follows, a machine learning model is only capable of making sound predictions in the wild on data that closely resembles its training data, one of the most powerful constraints of AI and machine learning technologies. 
+For such tasks, there often isn’t a good set of pre-defined rules a computer program can use to make predictions. Instead, most of today’s AI tools rely on machine learning models to make predictions. Such models make predictions based on patterns in historical data that correlate to an outcome, or label. Cassie Kozykrov, in her well-known course “Making Friends with Machine Learning”, likens training a machine learning model to a chef learning a recipe. In the case of a Twitter sentiment model, the model is attending to a recipe it has “learned” about positivity versus negativity in tweets, a recipe that is solely based on factors that drove sentiment in the historical tweets it was trained on. Therefore, a machine learning model is only capable of making sound predictions on data in the wild that closely resembles its training data, one of the most powerful constraints of AI and machine learning. Long story short, AI has a generalization problem due to how models are trained. 
 
-The importance of training data for AI and machine learning cannot be understated. This is why data governance, data engineering, and data analytics are often pre-cursors to AI development. You need great datasets to develop good AI tools (or even half-decent AI tools, depending on the domain). In our tooling-enabled world, everyone has access to the same XGBoost model (a common architecture for tabular data). The leaders of AI integration are rather differentiated by the quality of their training data. The old adage “more data beats better models, but better data beats more data” is perhaps the core technical aspect of AI and machine learning. 
+Thus, the importance of quality training data for AI development cannot be understated. You need great datasets to develop good AI tools. In our tooling-enabled world, everyone has access to XGBoost (a common architecture for tabular machine learning) and Transformers (a common architecture for natural language processing, computer vision, and reinforcement learning). As follows, the leaders of AI integration are almost solely differentiated from the pack due to their higher-quality training data. The old adage “more data beats better models, but better data beats more data” is a core tenant of AI and machine learning. 
 
-With the basics under our belt, let’s dive into why startup fundamentals are key to AI strategy. 
+With the basics under our belt, let’s dive into how startup fundamentals inform AI strategy. 
 
 <br><br>
 ## Mapping startup fundamentals to AI strategy
