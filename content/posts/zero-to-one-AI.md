@@ -32,9 +32,9 @@ This post will explore the similarities (and some of the differences) between te
 
 <br><br>
 
-The parallels between technology startups and digital transformation are numerous. In both, the overarching goal is to create value through new applications of technology. And, today, integrating AI tools is more frequently a component of digital transformation (and, as it turns out, technology startups). According to Silvio Palumbo of BCG Gamma, companies of all shapes and sizes are posed to find a "competitive advantage" through the “Smart Integration” of AI tools today (insert Silvio Palumbo citation). And, while this trend is largely enabled by improvements in the open-source and subscription-tools AI landscape, the commercial viability of AI innovation continues to hinge on value creation fundamentals. This is also the case for digital transformation more broadly, whether or not it includes AI tooling. 
+The parallels between technology startups and digital transformation are numerous. In both, the overarching goal is to create value through new applications of technology. And, today, integrating AI tools is more frequently a component of digital transformation (and, as it turns out, technology startups). According to Silvio Palumbo of BCG Gamma, companies of all shapes and sizes are posed to find a "competitive advantage" through the “Smart Integration” of AI tools today (insert Silvio Palumbo citation). And, while this trend is largely enabled by improvements in the open-source and subscription-tools landscape, the commercial viability of AI innovation continues to hinge on value creation fundamentals.
 
-Just as the "unicorn" startup in a VC fund is more valuable than all others in the fund combined, **AI plugged into the "unicorn" use-case creates more value than all other use-cases combined**. 
+* Just as the "unicorn" startup in a VC fund is more valuable than all others in the fund combined, **AI plugged into the "unicorn" use-case creates more value than all other use-cases combined**. 
 
 The salient question becomes: What is the most promising opportunity for AI integration given the commercial context? 
 
