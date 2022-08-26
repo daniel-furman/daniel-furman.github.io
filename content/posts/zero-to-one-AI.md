@@ -23,7 +23,9 @@ In his book Zero to One, Peter Thiel explores the core fundamentals that success
 
 <br><br>
 
-This post will explore the similarities (and some of the differences) between technology startups and AI-powered digital transformation. The audience is aimed to include data practitioners (DS, DE, etc.) and business executives, both technical and non-technical roles touch AI strategy. Read on for my thoughts on why AI innovation teams should exude the mentality of a technology startup, from the perspective of a data scientist in digital strategy consulting. 
+This post will explore the similarities (and some of the differences) between technology startups and AI-powered digital transformation. The intended audience includes data practitioners (DS, DE, etc.), technologists, and business executives - as both technical and non-technical roles touch AI strategy. 
+
+Here's why AI innovation teams should exude the mentality of a technology startup, from the perspective of a Bay Area data scientist in strategy consulting.  
 
 <br><br>
 
