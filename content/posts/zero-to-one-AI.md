@@ -173,6 +173,8 @@ An ML model is really only capable of making sound predictions on new data when 
 
 So, model algorithms don’t differentiate integrators of AI/ML. The leaders of AI integration are rather differentiated by their datasets (quality, scope, signal, commercial value, governance, importance/relevance to important business functions, etc.). The old adage “more data beats better models, but better data beats more data” is a core tenant of enterprise AI. For example, if you wanted to develop an AI/ML tool that predicts customer health dynamics (like churn), you’d first need to invest in the data stack that can collect such customer datasets specific to your business in the first place (see “Timing Question” above).  
 
+[X] N. Name, Title with link (Year), Source
+
 [x] A. Pesah, A. Wehenkel and G. Louppe, Recurrent Machines for Likelihood-Free Inference (2018), NeurIPS 2018 Workshop on Meta-Learning
 
 [1] BCG
