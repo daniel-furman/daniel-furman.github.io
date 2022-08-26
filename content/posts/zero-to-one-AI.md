@@ -67,6 +67,7 @@ For more background on AI/ML, see the appendix section.
  
 Executives will be far more excited about investing in your AI/ML integration if you can make breakthrough progress on important problems for the business.  
 
+<br><br>
 
 **2 - The Timing Question**
 
@@ -76,6 +77,7 @@ Executives will be far more excited about investing in your AI/ML integration if
 
 Infrastructure readiness, social norms, government regulations, established platforms and ecosystems all play a role in the timing question.
 
+<br><br>
 
 **3 - The Monopoly Question**
 
@@ -93,6 +95,8 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 “*You can’t dominate a submarket if it’s fictional, and huge markets are highly competitive, not highly attainable.*” 
 
+<br><br>
+
 **4 - The People Question**
 
 “*Do you have the right team?*”
@@ -106,6 +110,8 @@ Reference HBS article.
 It’s not just enough to gather a diverse array of data talent. You’re leaders and managers need to eat and breathe the right kind of execution framework – which enables your team to productize effectively. 
 
 Ask the right questions, get the right data, train models on the data, evaluate models on new data, productize the solution, make sure launching is a good idea, keep production system reliable over time
+
+<br><br>
 
 **5 - The Distribution Question**
 
@@ -121,6 +127,8 @@ When considering the timing question for any AI/ML product, consider the custome
 
 “You might think your technology speaks for itself, but it most probably doesn’t. You still need an effective distribution channel. Primarily a way to get close to the customer, so they can experience the superior advantage you can bring.”
 
+<br><br>
+
 **6 - The Durability Question**
 
 “*Will your market position be defensible 10 and 20 years into the future?*”
@@ -131,6 +139,8 @@ When considering the timing question for any AI/ML product, consider the custome
 
 “*What will stop [x] from wiping out my business?*”
 
+
+<br><br>
 
 **7 - The Secret Question**
 
@@ -148,4 +158,3 @@ Today’s state-of-the-art machine learning models make predictions based on pat
 An ML model is really only capable of making sound predictions on new data when things closely resemble the dataset it was trained on. This "generalization problem" is one of the most impactful, pervasive, and talked about constraints of AI and machine learning today. The ramifications: the importance of training datasets cannot be exaggerated. You need great datasets to develop AI tools. In our tooling-enabled world, everyone mostly has access to the same types of models. Common ones include XGBoost, a tree-based architecture for tabular data, and Transformers, a Neural Net architecture for natural language and computer vision. Both of these models are used by practically every player in enterprise data science. Interestingly, most of the state-of-the-art, truly massive models developed by the Microsofts of the world (the ones that are on the top of benchmark leaderboards such as SUPERGLUE) are **not** efficient enough in terms of latency to deploy in most commercial settings. So, even though these proprietary models may appear superior if you glace at benchmark leaderboards, they aren’t efficient enough to scale in the wild. 
 
 So, model algorithms don’t differentiate integrators of AI/ML. The leaders of AI integration are rather differentiated by their datasets (quality, scope, signal, commercial value, governance, importance/relevance to important business functions, etc.). The old adage “more data beats better models, but better data beats more data” is a core tenant of enterprise AI. For example, if you wanted to develop an AI/ML tool that predicts customer health dynamics (like churn), you’d first need to invest in the data stack that can collect such customer datasets specific to your business in the first place (see “Timing Question” above).  
-![image](https://user-images.githubusercontent.com/67394384/186981127-6c5be8aa-9eae-4c42-becd-fe6b170141fc.png)
