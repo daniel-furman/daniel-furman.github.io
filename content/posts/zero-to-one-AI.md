@@ -1,5 +1,3 @@
-
-
 ---
 title: "Why startup fundamentals are key to AI strategy"
 date: 2022-08-16
