@@ -169,20 +169,26 @@ Conclude and link to relevant articles
 ---
 <br><br>
 
-Today’s state-of-the-art machine learning models make predictions based on patterns in historical data. These patterns correspond to correlations between model features (the dataset) and the outcome (the label prediction) and are specific to the training dataset employed. Google’s Cassie Kozykrov likens training a machine learning model to a chef learning a recipe. [4] This is a great analogy: in the case of a Twitter sentiment model, the model is following a recipe that it “learned” about positivity versus negativity in tweets, one that is based on the factors that drove sentiment in the historical tweets at hand. TL;DR: it’s following a recipe.
+Today’s state-of-the-art machine learning models make predictions based on patterns in historical data. These patterns correspond to correlations between model features (the dataset) and the outcome (the label prediction) and are specific to the training dataset employed. Google’s Cassie Kozykrov likens training a machine learning model to a chef learning a recipe. This is a great analogy: in the case of a Twitter sentiment model, the model is following a recipe that it “learned” about positivity versus negativity in tweets, one that is based on the factors that drove sentiment in the historical tweets at hand. TL;DR: it’s following a recipe.
 
 An ML model is really only capable of making sound predictions on new data when things closely resemble the dataset it was trained on. This "generalization problem" is one of the most impactful, pervasive, and talked about constraints of AI and machine learning today. The ramifications: the importance of training datasets cannot be exaggerated. You need great datasets to develop AI tools. In our tooling-enabled world, everyone mostly has access to the same types of models. Common ones include XGBoost, a tree-based architecture for tabular data, and Transformers, a Neural Net architecture for natural language and computer vision. Both of these models are used by practically every player in enterprise data science. Interestingly, most of the state-of-the-art, truly massive models developed by the Microsofts of the world (the ones that are on the top of benchmark leaderboards such as SUPERGLUE) are **not** efficient enough in terms of latency to deploy in most commercial settings. So, even though these proprietary models may appear superior if you glance at benchmark leaderboards, they aren’t efficient enough to scale in the wild. 
 
 So, model algorithms don’t differentiate integrators of AI/ML. The leaders of AI integration are rather differentiated by their datasets (quality, scope, signal, commercial value, governance, importance/relevance to important business functions, etc.). The old adage “more data beats better models, but better data beats more data” is a core tenant of enterprise AI. For example, if you wanted to develop an AI/ML tool that predicts customer health dynamics (like churn), you’d first need to invest in the data stack that can collect such customer datasets specific to your business in the first place (see “Timing Question” above).  
 
-[X] N. Name, Title with link (Year), Source
+<br><br>
+## Citations
+---
+<br><br>
 
-[x] A. Pesah, A. Wehenkel and G. Louppe, Recurrent Machines for Likelihood-Free Inference (2018), NeurIPS 2018 Workshop on Meta-Learning
 
-[1] BCG
+[1] S. Palumbo, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">Smart Integration: Four levels of AI maturity, and why it’s OK to be at Level 3</a> (2022), Gamma – Part of BCG X
+<br>
+[2] T. Peter, M. Blake. Zero to one: notes on startups, or how to build the future (2014),  New York Crown Business (Printed Book).
+<br>
+[x] C. Kozyrkov, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/12-steps-to-applied-ai-2fdad7fdcdf3">12 Steps to Applied AI: A roadmap for every machine learning project</a> (2019), The Startup
+<br>
+[x] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
+<br>
+[x] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
 
-[2] Thiel
 
-[3] Carly
-
-[4] Cassie
