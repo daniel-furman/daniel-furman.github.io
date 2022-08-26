@@ -19,7 +19,7 @@ In his book Zero to One, Peter Thiel explores the core fundamentals that success
 
 <br><br>
 
-<p align="center"> <img src="/posts/blog_AI_image_2.jpeg"/ width = "475" height = "225"> </p>
+<p align="center"> <img src="/posts/blog_AI_image_3.jpg"/ width = "475" height = "225"> </p>
 
 <br><br>
 
