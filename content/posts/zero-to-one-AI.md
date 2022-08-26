@@ -182,13 +182,13 @@ So, model algorithms don’t differentiate integrators of AI/ML. The leaders of 
 
 
 [1] S. Palumbo, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">Smart Integration: Four levels of AI maturity, and why it’s OK to be at Level 3</a> (2022), Gamma – Part of BCG X
-<br>
-[2] T. Peter, M. Blake. Zero to one: notes on startups, or how to build the future (2014),  New York Crown Business (Printed Book).
-<br>
+<br><br>
+[2] T. Peter, M. Blake. Zero to one: notes on startups, or how to build the future (2014),  New York Crown Business (Printed Book)
+<br><br>
 [x] C. Kozyrkov, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/12-steps-to-applied-ai-2fdad7fdcdf3">12 Steps to Applied AI: A roadmap for every machine learning project</a> (2019), The Startup
-<br>
+<br><br>
 [x] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
-<br>
+<br><br>
 [x] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
 
 
