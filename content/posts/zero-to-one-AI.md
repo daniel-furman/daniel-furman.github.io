@@ -52,16 +52,17 @@ An ML model is really only capable of making sound predictions on new data when 
 
 So, model algorithms don’t differentiate integrators of AI/ML. The leaders of AI integration are rather differentiated by their datasets (quality, scope, signal, commercial value, governance, importance/relevance to important business functions, etc.). The old adage “more data beats better models, but better data beats more data” is a core tenant of AI and machine learning. For example, if you wanted to develop an AI/ML tool that predicts customer health dynamics (like churn), you’d first need to invest in the data stack that can collect such customer data to train models on in the first place (see “Timing Question” below).  
 
-With the basics under our belt, let’s dive into how startup fundamentals can help inform AI strategy (and how I’ve employed them in previous data science projects). 
+With the basics under our belt, let’s dive into how startup fundamentals can help inform AI strategy.
 
 <br><br>
 ## Mapping startup fundamentals to AI strategy
 ---
-<br><br>
 
 * Note, all italicized quotes come from Chapter 13 of Peter Thiel’s book *Zero to One*. 
 
-1 - The Engineering Question
+<br><br>
+
+**1 - The Engineering Question**
 
 “*Can you create breakthrough technology instead of incremental improvements?*”
 
@@ -77,7 +78,7 @@ The 10x magnitude improvement of the Engineering Question is in terms of value c
 
 For example, in an NLP Accelerator project I undertook last summer, we developed two MVP prototypes that were powered by AI/ML tools (Transformer models, specifically). The Engineering Question were vastly different between the two. One tool had the potential to yield “more proprietary” machine learning because we were positioned to develop models that were more accurate than any open-source solution. The second tool had the smaller potential for making models proprietary, and where we could make models proprietary, they certainly were not anywhere near a 10x improvement on open-source options. However, the second model indeed delivered over 10x value when plugged into the workstream it was developed for. These engagements benefited greatly by AI integration because it enabled the use of alternative data in a completely new way – one that gelled well with the existing offerings and consistently delivered new insights therein for every deal of this type. In contrast, the second tool does not deliver a significant improvement when plugged into the workstream that it was designed for. And, while this wasn’t too concerning (we were aiming to flesh out the code paradigms to repeat this type of model for a new problem, and were less concerned about productizing) it meant that the tool was not a 10x improvement in a value creation lens – which is the key aspect when considering whether or not your AI/ML tool is a 10x improvement in commercial settings. 
 
-2 - The Timing Question
+**2 - The Timing Question**
 
 “*Is now the right time to start your particular business?*”
 
@@ -96,7 +97,7 @@ The relevant factors of the Timing Question for AI/ML products that are subscrip
 For example, take LinkedIn’s recommendation system. This AI/ML tool is an internal tool. The underlying solution may or may not be all that unique from other technology companies’ tools – but it doesn’t matter that recommendation systems tools are widely adopted across commercial markets (i.e., it’s similar to an existing market in some senses). What matters is that LinkedIn users wanted to use the tool – and that the users were ready for it. If users weren’t ready, then the product would have flopped. The timing question here also depends on how cheap external solutions would be – and whether or not they plug into your workstream in the right way. While a great, affordable AI/ML tool for your given domain may exist externally - if it doesn’t plug into your use-case in the best possible way, then perhaps developing an internal tool (that does fit in the best way) still makes sense to do. 
 
 
-3 - The Monopoly Question
+**3 - The Monopoly Question**
 
 “*Are you starting with a big share of a small market?*”
 
@@ -118,7 +119,7 @@ In the case of internal tooling, it’s fine if your solution is not monopolizin
 
 Consider Google’s DocumentAI offering. Unfortunately, this product doesn’t quite answer the monopoly question as well as Google Search does. One of the tool’s fundamental features is legal entity extraction from contracts. 1. Research paper that enables more teams to build. If it was an internal tool. If it was an augmentation. 
 
-4 - The People Question
+**4 - The People Question**
 
 “*Do you have the right team?*”
 
@@ -131,7 +132,7 @@ Reference HBS article.
 It’s not just enough to gather a diverse array of data talent. You’re leaders and managers need to eat and breathe the right kind of execution framework – which enables your team to productize effectively. 
 Ask the right questions, get the right data, train models on the data, evaluate models on new data, productize the solution, make sure launching is a good idea, keep production system reliable over time
 
-5 - The Distribution Question
+**5 - The Distribution Question**
 
 “*Do you have a way to not just create but deliver your product.*”
 
@@ -145,7 +146,7 @@ When considering the timing question for any AI/ML product, consider the custome
 
 “You might think your technology speaks for itself, but it most probably doesn’t. You still need an effective distribution channel. Primarily a way to get close to the customer, so they can experience the superior advantage you can bring.”
 
-6 - The Durability Question
+**6 - The Durability Question**
 
 “*Will your market position be defensible 10 and 20 years into the future?*”
 “*Every entrepreneur should plan to be the last mover in her particular market.*”
@@ -153,7 +154,7 @@ When considering the timing question for any AI/ML product, consider the custome
 “*What will stop [x] from wiping out my business?*”
 
 
-7 - The Secret Question
+**7 - The Secret Question**
 
 “*Have you identified a unique opportunity that others don't see?*”
 “*Great companies have secrets: specific reasons for success that other people don’t see.*”
