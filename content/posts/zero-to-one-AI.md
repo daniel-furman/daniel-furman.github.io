@@ -114,25 +114,24 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 Reference HBS article. 
 
-It’s not just enough to gather a diverse array of data talent. You’re leaders and managers need to eat and breathe the right kind of execution framework – which enables your team to productize effectively. 
+But, it’s not just enough to gather a diverse array of data talent. You're team neads to execute. Here's how Cassie Kozyrkov, Google's Chief Decisions Officer, reccomends executing Applied AI projects [x].  
 
-Ask the right questions, get the right data, train models on the data, evaluate models on new data, productize the solution, make sure launching is a good idea, keep production system reliable over time
+"1. Ask the right questions, 2. get the right data, 3. train models on the data, 4. evaluate models on new data, 5. productize the solution, 6. make sure launching is a good idea, 7. keep production system reliable over time"
 
 <br><br>
 
 **5 - The Distribution Question**
 
-“*Do you have a way to not just create but deliver your product.*”
+“*Do you have a way to not just create but deliver your product?*”
 
 In the words of Dave McCLure of 500 Startups, “Customers don’t care about your solution. They care about their problems.” 
 
+“It is not the customer’s job to know what they want.” —Steve Jobs 
+
+
 “*Selling and delivering a product is at least as important as the product itself.*”
 
-
-When considering the timing question for any AI/ML product, consider the customer’s problem above all else. Will they have the same problems in two years? Are they ready for the solution you’re ideating? You’re AI/ML tool needs to deliver value now and in the future – after all – companies are evaluated based on potential future cash flow. 
-
-
-“You might think your technology speaks for itself, but it most probably doesn’t. You still need an effective distribution channel. Primarily a way to get close to the customer, so they can experience the superior advantage you can bring.”
+Carly T - The reality of putting something into production. When? How often? Where? What do you do with the predictions? Real-world conversations about policy because you’re building something that will be used for real. What is our policy for what we build? 
 
 <br><br>
 
@@ -145,7 +144,6 @@ When considering the timing question for any AI/ML product, consider the custome
 “*What will the world look like 10 to 20 years from now, and how will my business fit in?*”
 
 “*What will stop [x] from wiping out my business?*”
-
 
 <br><br>
 
