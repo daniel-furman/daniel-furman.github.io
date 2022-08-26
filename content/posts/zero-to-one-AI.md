@@ -88,6 +88,8 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 “*Are you starting with a big share of a small market?*”
 
+“*Monopoly is the condition of every successful business.*”
+
 “*A true innovation is one that has no competition. Exaggerating your own uniqueness is an easy way to botch the monopoly question.*"
 
 “*Trillion-dollar markets mean ruthless, bloody competition*”
