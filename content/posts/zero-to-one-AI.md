@@ -153,12 +153,16 @@ When considering the timing question for any AI/ML product, consider the custome
 **6 - The Durability Question**
 
 “*Will your market position be defensible 10 and 20 years into the future?*”
+
 “*Every entrepreneur should plan to be the last mover in her particular market.*”
+
 “*What will the world look like 10 to 20 years from now, and how will my business fit in?*”
+
 “*What will stop [x] from wiping out my business?*”
 
 
 **7 - The Secret Question**
 
 “*Have you identified a unique opportunity that others don't see?*”
+
 “*Great companies have secrets: specific reasons for success that other people don’t see.*”
