@@ -19,8 +19,9 @@ In his book Zero to One, Peter Thiel explores the core fundamentals that success
 
 <br><br>
 
-<p align="center"> <img src="/posts/blog_AI_image_3.jpg"/ width = "475" height = "225"> </p>
+<p align="center"> <img src="/posts/blog_AI_image_3.jpg"/ width = "500" height = "260"> </p>
 
+<h1 align="center">Photo by Uriel SC on unsplash: https://unsplash.com/photos/11KDtiUWRq4</h1>
 <br><br>
 
 This post will explore the similarities (and some of the differences) between technology startups and AI-powered digital transformation. The intended audience includes data practitioners (DS, DE, etc.), technologists, and business executives - as both technical and non-technical roles touch AI strategy. 
