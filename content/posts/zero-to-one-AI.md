@@ -61,6 +61,7 @@ With the basics under our belt, let’s dive into how startup fundamentals can h
 ## Mapping startup fundamentals to AI strategy
 <br>
 * Note, all italicized quotes come from Chapter 13 of Peter Thiel’s book *Zero to One*. 
+
 ---
 
 <br><br>
