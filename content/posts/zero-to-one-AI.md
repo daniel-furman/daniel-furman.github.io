@@ -54,7 +54,7 @@ For more background on AI/ML, see the appendix section.
 <br><br>
 ## Mapping startup fundamentals to AI strategy
 <br>
-* Note, all italicized quotes come from Chapter 13 of Peter Thiel’s book *Zero to One* [2]
+* Note, all italicized quotes come from Chapter 13 of Peter Thiel’s book Zero to One [2]
 
 ---
 
