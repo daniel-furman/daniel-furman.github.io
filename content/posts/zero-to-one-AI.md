@@ -7,23 +7,24 @@ katex: true
 markup: "mmark"
 ---
 
-
 # Why startup fundamentals are key to AI strategy
 
-## Using the mentality of a technology startup to integrate AI more seamlessly in commercial contexts, 7 lessons learned from AI/ML consulting projects
+## Using the “technology startup mentality” to integrate technology in commercial contexts
 ---
+
+### Blog Post Currently Under Construction 
+
+<br><br>
+
+In his book Zero to One, Peter Thiel explores the core fundamentals that successful technology startups have in common. The takeaway: startups should exude seven pivotal traits – otherwise, queue red flags. Is AI strategy analogous to new ventures in technology?
+
+<br><br>
 
 <p align="center"> <img src="/posts/blog_AI_image_2.jpeg"/ width = "475" height = "225"> </p>
 
 <br><br>
 
-## Blog Post Currently Under Construction 
-
----
-
-<br><br>
-
-In his book Zero to One, Peter Thiel explores the core fundamentals that successful technology startups have in common. The takeaway: startups should exude seven pivotal traits – otherwise, queue red flags. Here's why your data science team should also exude the mentality of a technology startup to win at AI innovation, from the perspective of a data scientist in digital strategy consulting.
+This post will explore the similarities (and some differences) between startups and AI integration/digital transformation. The audience is aimed to include both data practitioners (DS, DE, etc.) and business executives, since both technical and non-technical voices touch AI strategy. Read on for why innovation teams should exude the mentality of a technology startup to win at AI integration, from the perspective of a data scientist in strategy consulting. 
 
 <br><br>
 
@@ -32,22 +33,25 @@ In his book Zero to One, Peter Thiel explores the core fundamentals that success
 
 <br><br>
 
-The parallels between technology startups and digital transformation are numerous. In both, the overarching goal is to create value through novel applications of technology. And, today, integrating AI tools is more frequently a component of digital transformation (and, as it turns out, technology startups). According to Silvio Palumbo of BCG Gamma, companies of all shapes and sizes are posed to find a "competitive advantage" through the “Smart Integration” of AI tools in the 2020s (insert Silvio Palumbo citation). 
+The parallels between technology startups and digital transformation are numerous. In both, the overarching goal is to create value through new applications of technology. And, today, integrating AI tools is more frequently a component of digital transformation (and, as it turns out, technology startups). According to Silvio Palumbo of BCG Gamma, companies of all shapes and sizes are posed to find a "competitive advantage" through the “Smart Integration” of AI tools today (insert Silvio Palumbo citation). And, while this trend is largely enabled by improvements in the open-source and subscription AI development space, the bottom-line success of innovation continues to hinge on value creation fundamentals. 
 
-And, while this trend is largely enabled by improvements in the open-source/subscription AI development space, the bottom-line success of AI innovation continues to hinge on value creation fundamentals (like any digital transformation). Just as the "unicorn" startup in a VC fund is more valuable than all others in the fund combined, AI models plugged into the "unicorn" use-case create more value than all other potential tools/applications/solutions combined. 
+Just as the "unicorn" startup in a VC fund is more valuable than all others in the fund combined, AI and machine learning models **plugged into the "unicorn" use-case create more value than all other use-cases combined**. 
 
 The salient question becomes: What is the most promising opportunity for AI integration given the commercial context? 
 
-In this blog post, I argue that applying Thiel's startup fundamentals to AI development helps your team attend to that question early on and often throughout a project. Ultimately, developing tools with these seven fundamentals in mind results in products that have stronger and more consistent opportunities for value creation, the lifeline to success in AI innovation (and, usually, buy-in from executives).
+In this blog post, I argue that applying startup fundamentals to AI development helps your team attend to that question early on and often throughout a project. While no silver bullet, this methodology lets you frame AI innovation projects as business plans, with the hope of finding the strongest opportunities for value creation. This lets you avoid “bad luck” during development (and, usually, helps you win buy-in from executives).
+
 <br><br>
 ## A primer on AI 
 ---
 <br><br>
-First, what’s AI anyways? While you’ve probably heard of Artificial Intelligence, let’s clearly define its practical meaning in digital transformation and innovation. AI refers to computer programs that automate predictive tasks. Some common examples include: What’s the sentiment of a tweet? What’s contained in an image? What’s the meaning of a phrase in a different language? For such tasks, there often isn’t a set of pre-defined rules a computer program can use to make trusted predictions. Instead, most of today’s AI tools rely on machine learning (ML) models for prediction. AI/ML tools, in the words of Google’s Cassie Kozykrov, are essentially scalable “data labelers”. 
+First, what’s AI and machine learning anyways? While you’ve probably heard of Artificial Intelligence, let’s clearly define its practical meaning in digital transformation. AI refers to computer programs that automate predictive tasks. Some common examples include: What’s the sentiment of a tweet? What’s contained in an image? What’s the meaning of a phrase in a different language? For such tasks, there often isn’t a set of pre-defined rules a computer program can use to make good predictions. Instead, most of today’s AI tools rely on machine learning (ML) models for prediction. AI/ML tools, in the words of Google’s Cassie Kozykrov, are essentially scalable “data labelers”. 
 
-ML models make predictions based on patterns in historical data. These patterns are surfaced during the model training phase because they are more correlated to the outcome, or label, in the given observations. Cassie Kozykrov likens training a machine learning model to a chef learning a recipe. This is a great analogy: in the case of a Twitter sentiment model, the model is following a recipe that it “learned” about positivity versus negativity in tweets, one that is based on the factors that drove sentiment in the historical tweets at hand. An ML model is thus only capable of making sound predictions in the real world when things closely resemble the dataset it was trained on. This "generalization problem" is one of the most impactful, pervasive, and talked about constraints of AI and machine learning today. The ramifications: the importance of training data for AI/ML cannot be exaggerated. 
+Machine learning models make predictions based on patterns in historical data. Certain patterns become surfaced during model training because they were more correlated to the outcome in the given observations. Cassie Kozykrov likens training a machine learning model to a chef learning a recipe. This is a great analogy: in the case of a Twitter sentiment model, the model is following a recipe that it “learned” about positivity versus negativity in tweets, one that is based on the factors that drove sentiment in the historical tweets at hand. 
 
-You need great datasets to develop AI tools. In our tooling-enabled world, everyone has access to the same “near” state-of-the-art models, such as XGBoost (common architecture for tabular) and Transformers (common architecture for natural language, vision, reinforcement learning). They’re both open-sourced and used avidly across enterprise data science. The leaders of AI integration are differentiated, as a result, due to their datasets (data quality, scope, signal, commercial value, governance, importance/relevance to important business functions, etc.). The old adage “more data beats better models, but better data beats more data” is a core tenant of AI and machine learning. 
+An ML model is thus only capable of making sound predictions in the real world when things closely resemble the dataset it was trained on. This "generalization problem" is one of the most impactful, pervasive, and talked about constraints of AI and machine learning today. The ramifications: the importance of training data for AI/ML cannot be exaggerated. You need great datasets to develop AI tools. In our tooling-enabled world, everyone mostly has access to the same types of models. Common ones include XGBoost, a tree-based architecture for tabular data, and Transformers, a Neural Net architecture for natural language and computer vision. Both of these models are used by practically every player in enterprise data science.
+
+So, model algorithms don’t differentiate integrators of AI/ML. The leaders of AI integration are rather differentiated by their datasets (quality, scope, signal, commercial value, governance, importance/relevance to important business functions, etc.). The old adage “more data beats better models, but better data beats more data” is a core tenant of AI and machine learning and always has been. For example, if you wanted to develop an AI/ML tool on your customers and their health dynamics (like predicting churn), you’d first need to invest in the data stack that can collect such customer data in the first place (see “Timing Question” below).  
 
 With the basics under our belt, let’s dive into how startup fundamentals can best inform AI strategy (and how I’ve employed them in previous data science projects). 
 
@@ -56,45 +60,108 @@ With the basics under our belt, let’s dive into how startup fundamentals can b
 ---
 <br><br>
 
-“””
+* Note, all italicized quotes come from Chapter 13 of Peter Thiel’s book *Zero to One*. 
 
 1 - The Engineering Question
-It is only when you have this significant advantage in technology, that you can offer transparent superiority to the customer.
 
-"A Great technology company should have proprietary technology in order of magnitude better than its nearest substitute."
+“Can you create breakthrough technology instead of incremental improvements?”
+
+“Companies must strive for 10x better because merely incremental improvements often end up meaning no improvement at all for the end user."
+
+“Only when your product is 10x better can you offer the customer transparent superiority.”
  
-Is your solution 10 times better - in a key dimension - than anything else available?
+Executives will be far more excited about investing in your AI/ML integration if you can make breakthrough progress on important problems to the business.  
+
+In terms of the Engineering Question, developing AI/ML tools is no different from developing other types of technology: it needs to be significantly better in a key dimension than anything else available. If a simpler, more trusted, and less resource-intensive solution already exists for the problem, don’t go down the AI/ML route. AI tools in a lot of ways should be viewed as a last case scenario. Know when to take out the big AI/ML guns and when other solutions would suffice.  
+
+The 10x magnitude improvement of the Engineering Question is in terms of value creation, not model accuracy, statistical significance, or some other technical metric. You’re AI/ML tool in commercial settings is not a research project or a modeling competition. What you’re looking for is whether or not an AI/ML tool creates significant improvement (10x or more) as a plug-in within the workstream. Yes, your model needs to meet a threshold for performance given the domain. In a greenfield space of machine learning, it’s possible your technology is significantly better than any other models out there. However, a model that’s on par with other solutions can be just as valuable when plugged into a workstream that otherwise doesn’t leverage the “magic sauce” value that the AI/ML tool enables. 
+
+For example, in an NLP Accelerator project I undertook last summer, we developed two MVP prototypes that were powered by AI/ML tools (Transformer models, specifically). The Engineering Question were vastly different between the two. One tool had the potential to yield “more proprietary” machine learning because we were positioned to develop models that were more accurate than any open-source solution. The second tool had the smaller potential for making models proprietary, and where we could make models proprietary, they certainly were not anywhere near a 10x improvement on open-source options. However, the second model indeed delivered over 10x value when plugged into the workstream it was developed for. These engagements benefited greatly by AI integration because it enabled the use of alternative data in a completely new way – one that gelled well with the existing offerings and consistently delivered new insights therein for every deal of this type. In contrast, the second tool does not deliver a significant improvement when plugged into the workstream that it was designed for. And, while this wasn’t too concerning (we were aiming to flesh out the code paradigms to repeat this type of model for a new problem, and were less concerned about productizing) it meant that the tool was not a 10x improvement in a value creation lens – which is the key aspect when considering whether or not your AI/ML tool is a 10x improvement in commercial settings. 
 
 2 - The Timing Question
-Are you entering an existing market with the product? Is it a slow moving market, or a fast moving one? Cleantech compared itself to the silicon chip industry of the 70’s, but failed to appreciate the speed at which that market was moving - it was expanding exponentially with Moore’s law - whereas the cleantech industry had no such advancement. There was no explosion in growth, and the industry lagged. Facebook launched at a time when broadband infrastructure was rapidly expanding, and it exploded when mobile devices and smart phones became ubiquitous. Infrastructure readiness, social norms, government regulations, established platforms and ecosystems all play a role in the timing question.
+
+“Is now the right time to start your particular business?”
+
+“Entering a slow-moving market can be a good strategy, but only if you have a definite and realistic plan to take it over.”
+
+Infrastructure readiness, social norms, government regulations, established platforms and ecosystems all play a role in the timing question.
+
+Timing with infrastructure readiness re above
+
+In the case of an internal tool, it may not matter whether or not you’re entering an existing market. Perhaps there is a strong value proposition in serving the tool internally with no external subscription cost. The timing question here more depends on whether people internally are ready to use the solution (in the case of a human-centered tool) or whether or not users would benefit from the modeling predictions (in the case of an automation tool). 
+
+For an AI/ML tool that augments an existing offering, the Timing Question revolves less around the AI/ML solution itself and more around the offering it’s attaching to. Imagine you’re a consulting firm that sells a lot of engagements of “Workstream A”. Here, the Timing Question of adding AI/ML components to Workstream A depends on whether consultants working on these engagements are ready to add a new feature. Is there buy-in from the folks who are using the tool in the wild? 
+
+The relevant factors of the Timing Question for AI/ML products that are subscription-based is most similar to the factors of a technology startup. This is in no small part because many technology companies are SaaS, which is essentially what a subscription AI tool is as well. Here, the saturation of the market, speed at which it’s moving, 
+
+For example, take LinkedIn’s recommendation system. This AI/ML tool is an internal tool. The underlying solution may or may not be all that unique from other technology companies’ tools – but it doesn’t matter that recommendation systems tools are widely adopted across commercial markets (i.e., it’s similar to an existing market in some senses). What matters is that LinkedIn users wanted to use the tool – and that the users were ready for it. If users weren’t ready, then the product would have flopped. The timing question here also depends on how cheap external solutions would be – and whether or not they plug into your workstream in the right way. While a great, affordable AI/ML tool for your given domain may exist externally - if it doesn’t plug into your use-case in the best possible way, then perhaps developing an internal tool (that does fit in the best way) still makes sense to do. 
+
 
 3 - The Monopoly Question
-Don’t overestimate how unique your product actually is - be realistic to the competitive threats. A true innovation is one that has no competition. It has a 10X technology advancement, and is therefore clearly distinct in its space.
-"Exaggerating your own uniqueness is an easy way to botch the monopoly question."
+
+“Are you starting with a big share of a small market?”
+
+“A true innovation is one that has no competition. Exaggerating your own uniqueness is an easy way to botch the monopoly question."
+
+“Trillion-dollar markets mean ruthless, bloody competition”
+
+“Customers won’t care about any particular technology unless it solves a particular problem in a superior way.”
+
+“If you can’t monopolize a unique solution for a small market, you’ll be stuck with vicious competition”
+
+“Exaggerating your own uniqueness is an easy way to botch the monopoly question”
+
+“You can’t dominate a submarket if it’s fictional, and huge markets are highly competitive, not highly attainable. 
+
+The monopoly question is critical when productizing subscription services. This is why I believe that developing AI/ML as internal tools or augmentation tools is easier than subscription services, and it comes down to how much you need to worry about the Monopoly Question. 
+
+In the case of internal tooling, it’s fine if your solution is not monopolizing in nature, so long as it’s more effective or cheaper than other options. Ditto in the case of offering augmentation, your solution is already attached to existing business (an offering which ideally is itself a monopoly). In these cases, the goal is to monopolize the application of AI/ML in your business workstream, not necessarily develop AI/ML tools that have “monopoly potential”.
+
+Consider Google’s DocumentAI offering. Unfortunately, this product doesn’t quite answer the monopoly question as well as Google Search does. One of the tool’s fundamental features is legal entity extraction from contracts. 1. Research paper that enables more teams to build. If it was an internal tool. If it was an augmentation. 
 
 4 - The People Question
-So much of innovation is about the quality of people and culture you have. And finding a technical advancement which is 10X better, means having engineers and technical people to do it. Cleantech is a perfect example, and where you find cleantech companies you would expect to find engineers running them (compare Solyndra CEO Brian Harrison and Tesla CEO Elon Musk) - but Thiel found this not to be the case. So many of the companies that pitched cleantech to him, were led by men in suits.
-“This was a huge red flag, because real technologists wear T-shirts and jeans. So we instituted a blanket rule: pass on any company whose founders dressed up for pitch meetings.”
- 
-More broadly, you need to ask yourself if you really have the right people capable of working on real product innovations? And, do you have the best people on the team to pursue the product to market? A technical intrapreneur can lead and sell a product better than many sales people can.
+
+“Do you have the right team?”
+
+“Real technologists wear T-shirts and jeans [not suits]”
+
+“So much of innovation is about the quality of people and culture you have. And finding a technical advancement which is 10X better, means having engineers and technical people to do it.” 
+
+Reference HBS article. 
+
+It’s not just enough to gather a diverse array of data talent. You’re leaders and managers need to eat and breathe the right kind of execution framework – which enables your team to productize effectively. 
+Ask the right questions, get the right data, train models on the data, evaluate models on new data, productize the solution, make sure launching is a good idea, keep production system reliable over time
 
 5 - The Distribution Question
-You might think your technology speaks for itself, but it most probably doesn’t. You still need an effective distribution channel. Primarily a way to get close to the customer, so they can experience the superior advantage you can bring.
-"Cleantech companies effectively courted government and investors, but they often forgot about customers. They learned the hard way that the world is not a laboratory."
-Better Place, an electric vehicle startup had the technology, but failed to market it to customers in a clear way. People were confused whether they were buying a regular car like a Renault, with added electric, or a Better Place car. It wasn’t clear what the offering actually was. The company bombed, and in 2013 when selling off the assets, they admitted they overcame the technical obstacles, but failed in the distribution ones.
+
+“Do you have a way to not just create but deliver your product”
+
+In the words of Dave McCLure of 500 Startups, “Customers don’t care about your solution. They care about their problems.” 
+
+“Selling and delivering a product is at least as important as the product itself.”
+
+
+
+When considering the timing question for any AI/ML product, consider the customer’s problem above all else. Will they have the same problems in two years? Are they ready for the solution you’re ideating? You’re AI/ML tool needs to deliver value now and in the future – after all – companies are evaluated based on potential future cash flow. 
+
+
+“You might think your technology speaks for itself, but it most probably doesn’t. You still need an effective distribution channel. Primarily a way to get close to the customer, so they can experience the superior advantage you can bring.”
+
+DevOps
 
 6 - The Durability Question
-You should plan to be the last mover in your market. What does the market look like in 10 and 20 years time? And how will your solution dominate the space? What possible competition could you face - can China make it cheaper, is the customer still ready to pay for your solution when circumstances change? You need to be asking these questions to see how durable your future is.
-Cleantech relied on government subsidies and backing, which is not necessarily a durable path. It was also relying on the premise that fossil fuels were peaking as an energy source - however the rise of fracking in the mid 2000’s changed the picture, more than doubling the fracking oil industry. China became the bogeyman for US solar companies, with Abound Solar blaming “aggressive pricing actions from Chinese solar panel competitors” when it went bankrupt. Also upon going bankrupt Energy Conversion Devices filed a $950 million lawsuit against Chinese competitors for their aggressive competition.
-A simple question the cleantech companies might have asked: what will stop China from wiping out our business? If there’s no good answer, perhaps the durability question was a problem.
-Tesla had a head start in its field, and its design and technology is moving faster than anybody else - its lead is widening all the time. It also has a distinct and trustworthy brand, which has consumer envy. Given that buying a car is one of the biggest purchasing decisions people make, having trust in a brand is a hard thing to win - Tesla has that trust where others don’t. Similarly Apple has that brand trust, which is very hard to displace.
+
+“Will your market position be defensible 10 and 20 years into the future?”
+
+Parallels to the monopoly question. AI/ML open-source. Focus on how the tool durably plugs into your use-case 
 
 7 - The Secret Question
-All great companies are built upon finding answers to secrets, this is the heart of innovation. Secrets are problems which have an answer, but nobody has figured it out yet. Pythagoras discovered the secrets of the triangle, Newton discovered the secrets to gravity, and NASA figured out how to land humans on the moon. These are big secrets, but every great company and product solves a problem for the customer in a new way, previously unknown. Think Airbnb and Uber.
-"Great companies have secrets: specific reasons for success that other people don’t see."
-Does your innovation uncover a secret, which solves a fundamental problem for the customer?
-So there it is, the seven questions Peter Thiel recommends you ask yourselves. They are not easy to completely satisfy - but neither is innovation.
+
+“Have you identified a unique opportunity that others don't see?”
+
+“All great companies are built upon finding answers to secrets, this is the heart of innovation. Secrets are problems which have an answer, but nobody has figured it out yet. Great companies have secrets: specific reasons for success that other people don’t see. Does your innovation uncover a secret, which solves a fundamental problem for the customer?”
+
+Proprietary datasets are great for secrets. Attaching AI/ML to existing offerings in a unique way – secret sauce others (without the existing offering) can’t duplicate. 
 
 
-“””
 
