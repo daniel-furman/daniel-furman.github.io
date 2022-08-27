@@ -97,10 +97,17 @@ It’s up to you and your innovation team to find opportunities to create breakt
  
 Executives will be far more excited about investing in your AI/ML integration if you can make 10x technology – just like startup VCs. 
 
+<br><br>
+
+**4 - The Secret Question**
+
+“*Have you identified a unique opportunity that others don't see?*”
+
+“*Great companies have secrets: specific reasons for success that other people don’t see.*”
 
 <br><br>
 
-**4 - The Timing Question**
+**5 - The Timing Question**
 
 “*Is now the right time to start your particular business?*”
 
@@ -112,7 +119,7 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 <br><br>
 
-**5 - The Monopoly Question**
+**6 - The Monopoly Question**
 
 “*Are you starting with a big share of a small market?*”
 
@@ -141,7 +148,7 @@ Infrastructure readiness, social norms, government regulations, established plat
 <br><br>
 
 
-**6 - The Durability Question**
+**7 - The Durability Question**
 
 “*Will your market position be defensible 10 and 20 years into the future?*”
 
@@ -151,13 +158,6 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 “*What will stop [x] from wiping out my business?*”
 
-<br><br>
-
-**7 - The Secret Question**
-
-“*Have you identified a unique opportunity that others don't see?*”
-
-“*Great companies have secrets: specific reasons for success that other people don’t see.*”
 
 
 <br><br>
