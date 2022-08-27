@@ -62,7 +62,39 @@ For more background on AI/ML, see the appendix section.
 
 <br><br>
 
-**1 - The Engineering Question**
+**1 - The People Question**
+
+“*Do you have the right team?*”
+
+“*Real technologists wear T-shirts and jeans [not suits]*”
+
+“So much of innovation is about the quality of people and culture you have. And finding a technical advancement which is 10X better, means having engineers and technical people to do it.” 
+
+Reference HBS article. 
+
+But, it’s not just enough to gather a diverse array of data talent. You're team neads to execute. Here's how Cassie Kozyrkov, Google's Chief Decisions Officer, reccomends executing Applied AI projects [x].  
+
+"1. Ask the right questions, 2. get the right data, 3. train models on the data, 4. evaluate models on new data, 5. productize the solution, 6. make sure launching is a good idea, 7. keep production system reliable over time"
+
+
+<br><br>
+
+**2 - The Distribution Question**
+
+“*Do you have a way to not just create but deliver your product?*”
+
+In the words of Dave McCLure of 500 Startups, “Customers don’t care about your solution. They care about their problems.” 
+
+“It is not the customer’s job to know what they want.” —Steve Jobs 
+
+
+“*Selling and delivering a product is at least as important as the product itself.*”
+
+Carly T - The reality of putting something into production. When? How often? Where? What do you do with the predictions? Real-world conversations about policy because you’re building something that will be used for real. What is our policy for what we build? 
+
+<br><br>
+
+**3 - The Engineering Question**
 
 “*Can you create breakthrough technology instead of incremental improvements?*”
 
@@ -74,7 +106,7 @@ Executives will be far more excited about investing in your AI/ML integration if
 
 <br><br>
 
-**2 - The Timing Question**
+**4 - The Timing Question**
 
 “*Is now the right time to start your particular business?*”
 
@@ -82,9 +114,11 @@ Executives will be far more excited about investing in your AI/ML integration if
 
 Infrastructure readiness, social norms, government regulations, established platforms and ecosystems all play a role in the timing question.
 
+AI pyramid -> DE lecture slide
+
 <br><br>
 
-**3 - The Monopoly Question**
+**5 - The Monopoly Question**
 
 “*Are you starting with a big share of a small market?*”
 
@@ -104,36 +138,6 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 <br><br>
 
-**4 - The People Question**
-
-“*Do you have the right team?*”
-
-“*Real technologists wear T-shirts and jeans [not suits]*”
-
-“So much of innovation is about the quality of people and culture you have. And finding a technical advancement which is 10X better, means having engineers and technical people to do it.” 
-
-Reference HBS article. 
-
-But, it’s not just enough to gather a diverse array of data talent. You're team neads to execute. Here's how Cassie Kozyrkov, Google's Chief Decisions Officer, reccomends executing Applied AI projects [x].  
-
-"1. Ask the right questions, 2. get the right data, 3. train models on the data, 4. evaluate models on new data, 5. productize the solution, 6. make sure launching is a good idea, 7. keep production system reliable over time"
-
-<br><br>
-
-**5 - The Distribution Question**
-
-“*Do you have a way to not just create but deliver your product?*”
-
-In the words of Dave McCLure of 500 Startups, “Customers don’t care about your solution. They care about their problems.” 
-
-“It is not the customer’s job to know what they want.” —Steve Jobs 
-
-
-“*Selling and delivering a product is at least as important as the product itself.*”
-
-Carly T - The reality of putting something into production. When? How often? Where? What do you do with the predictions? Real-world conversations about policy because you’re building something that will be used for real. What is our policy for what we build? 
-
-<br><br>
 
 **6 - The Durability Question**
 
