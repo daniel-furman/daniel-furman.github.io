@@ -15,7 +15,7 @@ markup: "mmark"
 
 <br><br>
 
-In his book Zero to One, Peter Thiel explores the core fundamentals that successful technology startups have in common. The takeaway: startups should exude seven pivotal traits – otherwise, queue red flags. Here's why great AI innovation also exhibits the qualities of successful technology startups, from the perspective of a Bay Area data scientist working in digital strategy consulting.  
+In his book Zero to One, Peter Thiel explores the core fundamentals that successful technology startups have in common. The takeaway: startups should exude seven pivotal traits – otherwise, queue red flags. Here's why great AI innovation projects also exhibit the business fundamentals of successful technology startups, from the perspective of a Bay Area data scientist working in digital strategy consulting.  
 
 <br><br>
 
@@ -27,7 +27,7 @@ In his book Zero to One, Peter Thiel explores the core fundamentals that success
 
 <br><br>
 
-This post will explore the similarities (and some of the differences) between technology startups and digital transformation, with a focus on applied AI. The intended audience includes data practitioners (DS, DE, etc.), technologists, and business executives - as both technical and non-technical folks touch AI integration. 
+This post will explore the similarities (and some of the differences) between technology startups and digital transformation, with a focus on applied AI. The intended audience includes data practitioners (DS, DE, etc.), technologists, and business executives - as both technical and non-technical folks closely touch AI integration. 
 
 **TL;DR: Your applied AI project should adequately answer seven questions about its commercial viability, just like technology startups.** 
 
@@ -65,16 +65,13 @@ For more background on AI/ML, see the appendix section.
 
 “*Do you have the right team?*”
 
+Assembling an effective applied AI team takes **the right mindset**. While engineering chops are certainly necessary to develop smart AI tools, it’s equally important to ensure that the team can **easily communicate results to business stakeholders, in the terms that executives care about** [3]. 
+
+First, assign an empowered stakeholder, or project manager, that is closely connected with senior leadership. In a small company, perhaps this project manager is in fact a part of senior leadership. This stakeholder’s job is to act as the anchor for the innovation team, ensuring that development doesn’t stray from business lanes. Second, assemble a diversity of talents within a data science team. This way, ideas can cross-pollinate and tasks are executed by the best hands for the given job. More likely than not, your best communicator, designer, data scientist, and data engineer aren’t one person. In addition to the cross-pollination of talents and ideas, ensure that the team is seamlessly collaborating. No hand-offs between groups. Perhaps this level of collaboration is easiest when working in the same room, but maybe not (remote work can be effective too, in my opinion). Either way, lead with a unified “real team” strategy even if talents are spread across different groups. 
+
 “*Real technologists wear T-shirts and jeans [not suits]*”
 
-“So much of innovation is about the quality of people and culture you have. And finding a technical advancement which is 10X better, means having engineers and technical people to do it.” 
-
-Reference HBS article. 
-
-But, it’s not just enough to gather a diverse array of data talent. You're team neads to execute. Here's how Cassie Kozyrkov, Google's Chief Decisions Officer, reccomends executing Applied AI projects [x].  
-
-"1. Ask the right questions, 2. get the right data, 3. train models on the data, 4. evaluate models on new data, 5. productize the solution, 6. make sure launching is a good idea, 7. keep production system reliable over time"
-
+Just as in technology startups, be wary of data science teams that don’t fit the “tech vibe”. This trend holds even in a more traditionally formal industry such as management consulting. Guaranteed that any data science group within a consulting firm presents differently than the normal business analysts (particularly if the group is in tech hubs, such as the Bay Area or Seattle). Walk into my firm's San Francisco office and chat with the data science team, odds are that these folks will remind you of technologists much more than business analysts in the New York City or Chicago offices will.  
 
 <br><br>
 
@@ -85,6 +82,11 @@ But, it’s not just enough to gather a diverse array of data talent. You're tea
 In the words of Dave McCLure of 500 Startups, “Customers don’t care about your solution. They care about their problems.” 
 
 “It is not the customer’s job to know what they want.” —Steve Jobs 
+
+
+But, it’s not just enough to gather a diverse array of data talent. You're team neads to execute. Here's how Cassie Kozyrkov, Google's Chief Decisions Officer, reccomends executing Applied AI projects [x].  
+
+"1. Ask the right questions, 2. get the right data, 3. train models on the data, 4. evaluate models on new data, 5. productize the solution, 6. make sure launching is a good idea, 7. keep production system reliable over time"
 
 
 “*Selling and delivering a product is at least as important as the product itself.*”
@@ -194,11 +196,11 @@ Model algorithms don’t differentiate integrators of AI/ML. The leaders of AI i
 <br><br>
 [2] T. Peter, M. Blake. Zero to one: notes on startups, or how to build the future (2014),  New York Crown Business (Printed Book)
 <br><br>
+[3] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
+<br><br>
 [x] C. Kozyrkov, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/12-steps-to-applied-ai-2fdad7fdcdf3">12 Steps to Applied AI: A roadmap for every machine learning project</a> (2019), The Startup
 <br><br>
 [x] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
-<br><br>
-[x] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
 <br><br>
 [x] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
 
