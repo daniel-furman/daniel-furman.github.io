@@ -193,4 +193,6 @@ Model algorithms don’t differentiate integrators of AI/ML. The leaders of AI i
 [x] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
 <br><br>
 [x] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
+<br><br>
+[x] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
 
