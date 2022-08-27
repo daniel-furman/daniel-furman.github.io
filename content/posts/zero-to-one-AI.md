@@ -139,7 +139,6 @@ If you’re an executive, talk to your technical people about blogs like Rogati�
 
 
 
-
 <br><br>
 
 <p align="center"> <img src="/posts/monopoly.jpg"/ width = "500" height = "300"> </p>
@@ -148,15 +147,17 @@ If you’re an executive, talk to your technical people about blogs like Rogati�
 <body align="center">Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@rwlinder">Robert Linder</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/photos/xDgwGGBuPdc">Unsplash</a> </body>
 </p>
 
+The first thought that comes to mind on (real business) monopolies for me: <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/">Google Search</a>. Search is monopolized by Google, it serves as the de-facto verb for searching for information online. If you look up Search’s worldwide market share for all search engines (by Googling it) you’ll see that it’s over 90%. A 90% dominance of an entire market is a monopoly. And, if you’re Google, it makes perfect sense to deploy their most R&D resources to improve Search, for example, through the integration of AI/ML tools within the product. Let's focus on one thread (among a massive list) of applied AI integrations within Google Search today: BERT. In 2017, Google researchers published “Attention Is All You Need”, which introduced the Transformer architecture of neural network models. Fast forward to 2019, and a Google Blog exclaims that the integration of BERT models, a natural language iteration of the Transformer model, resulted in “the biggest leap forward in the past five years, and one of the biggest leaps forward in the history of Search” [7]. The lesson to learn? Attach great AI/ML tools within the strongest part of your business, the offering that hopefully monopolizes a real, sizeable marketplace. In this instance, copy Google’s approach to AI strategy. 
+
+Now, let’s look at another Google product: <a target="_blank" rel="noopener noreferrer" href="https://cloud.google.com/solutions/contract-doc-ai">Contract DocAI </a>. This digital AI/ML tool enables subscribers to better understand information in their contracts. Features include legal entity extraction (automatically recovering important contract information from files) and Optical Character Recognition. In fact, Gartner crowned Google the market leader in the “Forrester Wave: Document-Oriented Text Analytics Platforms, Q2 2022”. Do you think that Google Contract DocAI team should communicate to executives that they’ve monopolized the product’s market? 
+
+Let’s first ask ourselves what the relevant global market is for this technology. Is it Forrester’s identified “Document-Oriented Text Analytics Platforms”? Amazon and Microsoft are both direct competitors with very similar solutions. Is it any and all software tools for contract files? It turns out that there are massive sister industries for Contracts AI, such as Contract Lifecycle Management, digital tools with AI/ML features for understanding contracts. See the DocuSign CLM offering, for example. Is it any and all NLP tools in the field of applied AI? All AI/ML tooling? As you see, it’s tougher to define the global marketplace for this product. Remember, “*Exaggerating your own uniqueness is an easy way to botch the monopoly question.*” Ask yourself what your relevant global market is – oh, and if you do, perhaps you’ll stumble upon an extremely valuable opportunity (a potential monopoly). 
+
 <br><br>
 
 **7 - The Durability Question**
 
 “*Will your market position be defensible 10 and 20 years into the future?*”
-
-“*Every entrepreneur should plan to be the last mover in her particular market.*”
-
-“*What will the world look like 10 to 20 years from now, and how will my business fit in?*”
 
 “*What will stop [x] from wiping out my business?*”
 
@@ -195,3 +196,5 @@ An ML model is really only capable of making sound predictions on new data when 
 [5] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
 <br><br>
 [6] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
+[7] P. Nayak, <a target="_blank" rel="noopener noreferrer" href="https://blog.google/products/search/search-language-understanding-bert/"> Understanding searches better than ever before</a> (2019), The Keyword. 
+ 
