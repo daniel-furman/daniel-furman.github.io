@@ -79,31 +79,24 @@ Just as in technology startups, be wary of data science teams that don’t fit t
 
 “*Do you have a way to not just create but deliver your product?*”
 
-In the words of Dave McCLure of 500 Startups, “Customers don’t care about your solution. They care about their problems.” 
-
-“It is not the customer’s job to know what they want.” —Steve Jobs 
-
-
-But, it’s not just enough to gather a diverse array of data talent. You're team neads to execute. Here's how Cassie Kozyrkov, Google's Chief Decisions Officer, reccomends executing Applied AI projects [x].  
-
-"1. Ask the right questions, 2. get the right data, 3. train models on the data, 4. evaluate models on new data, 5. productize the solution, 6. make sure launching is a good idea, 7. keep production system reliable over time"
-
+But, it’s not just enough to gather a diverse array of data talent. Your team needs to execute. Here's how Cassie Kozyrkov, Google's Chief Decisions Officer, ensures that applied AI projects consider delivery throughout [3]. Firstly, at the beginning of a project, make sure you “reality check” and “define your objectives”. While it’s a little weird to think about delivery at the beginning of a project, it’s perhaps the easiest way to ideate solutions with valuable commercial value. Imagine that the system is in production and outputs are being generated. How are people benefiting from the predictions? What’s the value proposition? You’ll also want to ask yourself reality-check questions: like whether or not simpler solutions worked, data is available to learn from, hardware and tech are in place to deploy, etc. When defining objectives, consider the operational system in the product once again. What objectives need to be met to reach project success for the product? Make sure to clearly define objectives **in business terms that executives care about**. 
 
 “*Selling and delivering a product is at least as important as the product itself.*”
 
-Carly T - The reality of putting something into production. When? How often? Where? What do you do with the predictions? Real-world conversations about policy because you’re building something that will be used for real. What is our policy for what we build? 
+After ideating and creating a product, a product that was based on sound business objectives and passed the reality check, you’re ready to consider putting something into production. For AI/ML putting models into production is the delivery. For productized models making predictions, Carly Taylor of Activision ML advises considering the following: “When? How often? Where? What do you do with the predictions? … you’re building something that will be used for real. What is our [deployment] policy for what we build?”. [4] Answering these questions even at the beginning of a project, when setting objectives, is a great way to focus on the delivery of the product, which is how models actually create value in the first place. 
 
 <br><br>
 
 **3 - The Engineering Question**
 
-“*Can you create breakthrough technology instead of incremental improvements?*”
-
 “*Companies must strive for 10x better because merely incremental improvements often end up meaning no improvement at all for the end user.*"
+
+It’s up to you and your innovation team to find opportunities to create breakthrough technology, technology that help customers with their real problems in a substantial way. Make sure AI/ML tooling can seriously deliver value to the end-user. In the words of Cassie Kozyrkov, applied AI tools are “not for one-offs” [x] – they should deliver value to important, frequent workstreams that need “an impressive number of items labeled”. 
 
 “*Only when your product is 10x better can you offer the customer transparent superiority.*”
  
-Executives will be far more excited about investing in your AI/ML integration if you can make breakthrough progress on important problems for the business.  
+Executives will be far more excited about investing in your AI/ML integration if you can make 10x technology – just like startup VCs. 
+
 
 <br><br>
 
@@ -198,9 +191,8 @@ Model algorithms don’t differentiate integrators of AI/ML. The leaders of AI i
 <br><br>
 [3] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
 <br><br>
-[x] C. Kozyrkov, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/12-steps-to-applied-ai-2fdad7fdcdf3">12 Steps to Applied AI: A roadmap for every machine learning project</a> (2019), The Startup
+[4] C. Kozyrkov, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/12-steps-to-applied-ai-2fdad7fdcdf3">12 Steps to Applied AI: A roadmap for every machine learning project</a> (2019), The Startup
 <br><br>
-[x] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
+[5] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
 <br><br>
-[x] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
-
+[6] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
