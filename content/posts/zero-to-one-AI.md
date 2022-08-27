@@ -121,32 +121,24 @@ Model algorithms aren’t usually the secrets that differentiate leaders of AI/M
 
 Monica Rogati’s blog on Hackernoon, “The AI Hierarchy of Needs”, is perhaps the most well-known piece on AI strategy timing [6]. It’s been ready nearly 200,000 times. 
 
-AI and deep learning are positioned at the very tip of the “hierarchy of needs” pyramid. For AI innovation teams, it’s helpful to think of your deep learning models as the tip of an iceberg, sitting on top of a large mass of data engineering, data governance, infrastructure, and data analytics. Know when your AI integration project is premature. Near the end of the article, Rogati speaks about how you can bring the “Minimum Viable Product” ethos to applied AI, while still respecting your AI readiness. 
+AI and deep learning are positioned at the very tip of the “hierarchy of needs” pyramid. For AI innovation teams, it’s helpful to think of your deep learning models as the tip of an iceberg, sitting on top of a large mass of data engineering, data governance, infrastructure, and data analytics. Know when your AI integration project is premature. And, near the end of the article, Rogati touches on how you can bring the “Minimum Viable Product” (MVP) ethos to applied AI, while still respecting your timing and readiness. 
 
 > “The data science hierarchy of needs is not an excuse to build disconnected, over-engineered infrastructure for a year. Just like when building a traditional MVP (minimally viable product), you start with a small, vertical section of your product and you make it work well end-to-end. You can build its pyramid, then grow it horizontally. … We did not build an all-encompassing infrastructure without ever putting it to work end-to-end.” [6].
 
-Indeed, many AI projects take a smaller mass of existing resources to get started – for example, where open-source datasets can be used to get started. If you’re an executive, talk to your technical people about blogs like Rogati’s. Get really smart at project ideation given your business’s readiness for AI, as well as the relevant timing concerns in the world (governmental policy changes, privacy regulations, customer feedback, market saturation, etc.). 
+For MVP development with tight resources or low executive buy-in, consider AI/ML solutions that take a smaller mass of resources to get started – for example, where open-source datasets can be used (think things like sentiment analysis). To convince stakeholders, it’s sometimes useful to pitch the project with an MVP in your back pocket. Consider creating a baseline model and deploying it in a sandbox (so that stakeholders can see its potential at their fingertips). 
 
+If you’re an executive, talk to your technical people about blogs like Rogati’s. Get really smart at project ideation given your business’s readiness for AI, your appetite for investment in tools, and relevant timing concerns in the world at large (governmental policy changes, privacy regulations, customer feedback, market saturation, etc.). 
 
 <br><br>
 
 **6 - The Monopoly Question**
 
-“*Are you starting with a big share of a small market?*”
-
 “*Monopoly is the condition of every successful business.*”
 
-“*A true innovation is one that has no competition. Exaggerating your own uniqueness is an easy way to botch the monopoly question.*"
+“*You can’t dominate a submarket if it’s fictional, and huge markets are highly competitive, not highly attainable. … Exaggerating your own uniqueness is an easy way to botch the monopoly question.*”
 
-“*Trillion-dollar markets mean ruthless, bloody competition*”
 
-“*Customers won’t care about any particular technology unless it solves a particular problem in a superior way.*”
 
-“*If you can’t monopolize a unique solution for a small market, you’ll be stuck with vicious competition.*”
-
-“*Exaggerating your own uniqueness is an easy way to botch the monopoly question.*”
-
-“*You can’t dominate a submarket if it’s fictional, and huge markets are highly competitive, not highly attainable.*” 
 
 <br><br>
 
