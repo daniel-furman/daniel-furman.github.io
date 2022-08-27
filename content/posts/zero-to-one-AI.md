@@ -55,7 +55,7 @@ For more background on AI/ML, see the appendix section.
 <br><br>
 ## Mapping startup fundamentals to AI strategy
 <br>
-* Note, all italicized quotes come from Chapter 13 of Peter Thiel’s book Zero to One [2]
+* Note, all italicized quotes come from Chapter 13 of Peter Thiel’s book Zero to One [2].
 
 ---
 
@@ -85,7 +85,7 @@ You’ll also want to ask yourself reality-check questions: like whether or not 
 
 “*Selling and delivering a product is at least as important as the product itself.*”
 
-Delivery for AI/ML comes down to the deployment of models in production, which make predictions at scale. In most cases, there are many factors to deployment beyond the actual model predictions (the user interface, analytics wrappers, visualization wrappers, real-time active learning, “human-in-the-loop” decision-making, monitoring, unit testing, latency requirements, hardware requirements, systems requirements, etc.). Carly Taylor of Activision ML advises practitioners consider the following questions of deployment predictions: “When? How often? Where? What do you do with the predictions? … You’re building something that will be used for real. What is our [systems-level] policy for what we build?”. [5] Attending to these questions before, during, and after development helps projects actually create value in the first place. 
+Delivery for AI/ML comes down to the deployment of models in production, which make predictions at scale. In most cases, there are many factors to deployment beyond the actual model predictions (the user interface, analytics wrappers, visualization wrappers, real-time active learning, “human-in-the-loop” decision-making, monitoring, unit testing, latency requirements, hardware requirements, systems requirements, etc.). Carly Taylor of Activision ML advises practitioners consider the following questions of deployment predictions: “When? How often? Where? What do you do with the predictions? … You’re building something that will be used for real. What is our [systems-level] policy for what we build?” [5]. Attending to these questions before, during, and after development helps projects actually create value in the first place. 
 
 <br><br>
 
@@ -119,11 +119,14 @@ Model algorithms aren’t usually the secrets that differentiate leaders of AI/M
 
 “*Is now the right time to start your particular business?*”
 
-“*Entering a slow-moving market can be a good strategy, but only if you have a definite and realistic plan to take it over.*”
+Monica Rogati’s blog on Hackernoon, “The AI Hierarchy of Needs”, is perhaps the most well-known piece on AI strategy timing [6]. It’s been ready nearly 200,000 times. 
 
-Infrastructure readiness, social norms, government regulations, established platforms and ecosystems all play a role in the timing question.
+AI and deep learning are positioned at the very tip of the “hierarchy of needs” pyramid. For AI innovation teams, it’s helpful to think of your deep learning models as the tip of an iceberg, sitting on top of a large mass of data engineering, data governance, infrastructure, and data analytics. Know when your AI integration project is premature. Near the end of the article, Rogati speaks about how you can bring the “Minimum Viable Product” ethos to applied AI, while still respecting your AI readiness. 
 
-* AI pyramid -> DE lecture slide
+> “The data science hierarchy of needs is not an excuse to build disconnected, over-engineered infrastructure for a year. Just like when building a traditional MVP (minimally viable product), you start with a small, vertical section of your product and you make it work well end-to-end. You can build its pyramid, then grow it horizontally. … We did not build an all-encompassing infrastructure without ever putting it to work end-to-end.” [6].
+
+Indeed, many AI projects take a smaller mass of existing resources to get started – for example, where open-source datasets can be used to get started. If you’re an executive, talk to your technical people about blogs like Rogati’s. Get really smart at project ideation given your business’s readiness for AI, as well as the relevant timing concerns in the world (governmental policy changes, privacy regulations, customer feedback, market saturation, etc.). 
+
 
 <br><br>
 
