@@ -95,7 +95,7 @@ It’s up to you and your innovation team to find opportunities to create breakt
 
 “*Only when your product is 10x better can you offer the customer transparent superiority.*”
  
-Executives will be far more excited about investing in your AI/ML integration if you can make 10x technology – just like startup VCs. 
+Executives will be far more excited about investing in your AI/ML integration if you create technology with 10x innovation potential – just like VC investors in technology. 
 
 <br><br>
 
