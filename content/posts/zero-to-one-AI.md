@@ -155,7 +155,6 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 <br><br>
 
-
 **7 - The Durability Question**
 
 “*Will your market position be defensible 10 and 20 years into the future?*”
@@ -165,8 +164,6 @@ Infrastructure readiness, social norms, government regulations, established plat
 “*What will the world look like 10 to 20 years from now, and how will my business fit in?*”
 
 “*What will stop [x] from wiping out my business?*”
-
-
 
 <br><br>
 ## Conclusion 
