@@ -83,7 +83,7 @@ But, it’s not just enough to gather a diverse array of data talent. Your team 
 
 “*Selling and delivering a product is at least as important as the product itself.*”
 
-After ideating and creating a product, a product that was based on sound business objectives and passed the reality check, you’re ready to consider putting something into production. For AI/ML putting models into production is the delivery. For productized models making predictions, Carly Taylor of Activision ML advises considering the following: “When? How often? Where? What do you do with the predictions? … you’re building something that will be used for real. What is our [deployment] policy for what we build?”. [5] Answering these questions even at the beginning of a project, when setting objectives, is a great way to focus on the delivery of the product, which is how models actually create value in the first place. 
+After ideating and creating a product, a product that was based on sound business objectives and passed the reality check, you’re ready to consider putting something into production. For AI/ML putting models into production is the delivery. Carly Taylor of Activision ML advises considering the following for productized models busy making predictions: “When? How often? Where? What do you do with the predictions? … you’re building something that will be used for real. What is our [deployment] policy for what we build?”. [5] Answering these questions even at the beginning of a project, when setting objectives, is a great way to focus on the delivery of the product, which is how models actually create value in the first place. 
 
 <br><br>
 
