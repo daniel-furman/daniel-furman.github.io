@@ -25,7 +25,6 @@ In his book Zero to One, Peter Thiel explores the core fundamentals that success
 <body align="center">Photo by <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/@urielsc26">Uriel SC</a> on <a target="_blank" rel="noopener noreferrer" href="https://unsplash.com/photos/11KDtiUWRq4">Unsplash</a> </body>
 </p>
 
-
 <br><br>
 
 This post will explore the similarities (and some of the differences) between technology startups and AI-powered digital transformation. The intended audience includes data practitioners (DS, DE, etc.), technologists, and business executives - as both technical and non-technical roles touch AI strategy. 
@@ -135,6 +134,8 @@ AI pyramid -> DE lecture slide
 “*Exaggerating your own uniqueness is an easy way to botch the monopoly question.*”
 
 “*You can’t dominate a submarket if it’s fictional, and huge markets are highly competitive, not highly attainable.*” 
+
+* Add image of monopoly
 
 <br><br>
 
