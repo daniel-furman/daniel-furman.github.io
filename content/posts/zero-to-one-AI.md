@@ -113,7 +113,7 @@ Executives will be far more excited about investing in your AI/ML integration if
 
 Infrastructure readiness, social norms, government regulations, established platforms and ecosystems all play a role in the timing question.
 
-AI pyramid -> DE lecture slide
+* AI pyramid -> DE lecture slide
 
 <br><br>
 
@@ -193,5 +193,4 @@ Model algorithms don’t differentiate integrators of AI/ML. The leaders of AI i
 [x] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
 <br><br>
 [x] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
-
 
