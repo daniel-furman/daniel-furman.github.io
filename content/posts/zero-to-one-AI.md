@@ -29,7 +29,7 @@ In his book Zero to One, Peter Thiel explores the core fundamentals that success
 
 This post will explore the similarities (and some of the differences) between technology startups and digital transformation, with a focus on applied AI. The intended audience includes data practitioners (DS, DE, etc.), technologists, and business executives - as both technical and non-technical folks touch AI integration. 
 
-
+**TL;DR: Your applied AI project should adequately answer seven questions about its commercial viability, just like technology startups.** 
 
 <br><br>
 ## Introduction
