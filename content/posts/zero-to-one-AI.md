@@ -135,6 +135,8 @@ Infrastructure readiness, social norms, government regulations, established plat
 
 “*You can’t dominate a submarket if it’s fictional, and huge markets are highly competitive, not highly attainable.*” 
 
+<br><br>
+
 <p align="center"> <img src="/posts/monopoly.jpg"/ width = "500" height = "300"> </p>
 
 <p align="center">
