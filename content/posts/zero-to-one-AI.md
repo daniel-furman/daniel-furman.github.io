@@ -161,7 +161,7 @@ Let’s first ask ourselves what the relevant global market is for this technolo
 
 “*What will stop [x] from wiping out my business?*”
 
-The seventh and final startup fundamental is short and sweet. The “Durability Question” for applied AI boils down to ideas that are very similar for startups. The “outsized returns” on your AI integration are very tied to their ability to deliver value in the future. After all, companies are valued on their future cash flows. In the field of applied AI, tooling moves rapidly. There’s no way to ensure any one solution will “*be defensible 10 and 20 years into the future?* in a field where the boundaries of state-of-the-art seem to expand every few months, it’s more important to phrase the “Durability Question” in terms of your AI strategy itself. Following a sound high-level strategy on these value creation fundamentals and business planning exercises (with the right in-house team in place, or the right data science consultants contracted for specific projects), in the long run, ensures the durability of your AI/ML integration venture. 
+The seventh and final startup fundamental is the “Durability Question”. The “outsized returns” on your AI integration are tied to their ability to deliver value in the future. After all, companies are valued on their future cash flows. In the field of applied AI, tooling moves rapidly. There’s no way to ensure any one solution will “*be defensible 10 and 20 years into the future* in a field where the boundaries of state-of-the-art seem to expand every few months, it’s more important to phrase the “Durability Question” in terms of your AI strategy itself. Following a sound high-level strategy on value creation fundamentals and strong business planning, in the long run, ensures the durability of your AI/ML integration venture. And, as the “People Question” indicates, you’ll need the right in-house team of data scientists, or the right data science consultants contracted, to pull off AI/ML now and in the future. The quality of your data science team is in it of itself a factor of the “Durability Question” and how differentiated your AI integration could become. 
 
 <br><br>
 ## Conclusion 
@@ -200,3 +200,4 @@ An ML model is really only capable of making sound predictions on new data when 
 [6] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
 [7] P. Nayak, <a target="_blank" rel="noopener noreferrer" href="https://blog.google/products/search/search-language-understanding-bert/"> Understanding searches better than ever before</a> (2019), The Keyword. 
  
+
