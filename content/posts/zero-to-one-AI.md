@@ -11,8 +11,6 @@ markup: "mmark"
 ## Using the “technology startup mentality” to integrate technology in commercial contexts
 ---
 
-### Blog Post Currently Under Construction 
-
 <br><br>
 
 In his book Zero to One, Peter Thiel explores the core fundamentals that successful technology startups have in common. The takeaway: startups should exude seven pivotal traits – otherwise, queue red flags. Here's why great AI innovation projects also exhibit the business fundamentals of successful technology startups, from the perspective of a Bay Area data scientist working in digital strategy consulting.  
