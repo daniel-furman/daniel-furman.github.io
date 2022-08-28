@@ -123,7 +123,7 @@ Monica Rogati’s blog on Hackernoon, “The AI Hierarchy of Needs”, is perhap
 
 > “The data science hierarchy of needs is not an excuse to build disconnected, over-engineered infrastructure for a year. Just like when building a traditional MVP (minimally viable product), you start with a small, vertical section of your product and you make it work well end-to-end. You can build its pyramid, then grow it horizontally. … We did not build an all-encompassing infrastructure without ever putting it to work end-to-end.” [6].
 
-For MVP development with tight resources or low executive buy-in, consider AI/ML solutions that take a smaller mass of resources to get started – for example, where open-source datasets can be used (think things like sentiment analysis). To convince stakeholders, it’s sometimes useful to pitch the project with an MVP in your back pocket. Consider creating a baseline model and deploying it in a sandbox (so that stakeholders can see its potential at their fingertips). 
+And, consider AI/ML solutions that take a smaller mass of resources to get started for MVP development with tight resources or low executive buy-in, – for example, where open-source datasets can be used (think things like sentiment analysis). To convince stakeholders, it’s sometimes useful to pitch the project with an MVP in your back pocket. Consider creating a baseline model and deploying it in a sandbox (so that stakeholders can see its potential at their fingertips). 
 
 If you’re an executive, talk to your technical people about blogs like Rogati’s. Get really smart at project ideation given your business’s readiness for AI, your appetite for investment in tools, and relevant timing concerns in the world at large (governmental policy changes, privacy regulations, customer feedback, market saturation, etc.). 
 
@@ -195,5 +195,4 @@ An ML model is really only capable of making sound predictions on new data when 
 [6] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
 [7] P. Nayak, <a target="_blank" rel="noopener noreferrer" href="https://blog.google/products/search/search-language-understanding-bert/"> Understanding searches better than ever before</a> (2019), The Keyword. 
  
-
 
