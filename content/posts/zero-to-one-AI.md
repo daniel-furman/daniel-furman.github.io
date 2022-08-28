@@ -164,7 +164,7 @@ The seventh and final startup fundamental is the “Durability Question”. The 
 ---
 <br><br>
 
-And that’s why I think AI strategy mimics technology startup ventures. For more reading on AI strategy, see Cassie Kozyrkov’s post on the Applied AI roadmap [4], Silvio Palumbo’s blog on AI integration [1], and all the resources linked in the citations. It’s never been a more exciting time to be part of the data science and AI community! Thanks for reading. 
+Data scientists and executives alike need to be thinking in terms of value creation before, during, and after AI/ML project development. Keeping the technology startup mentality in mind throughout the development process is essential for delivering that unicorn value, and in this way, data scientists and business executives can learn from new technology ventures. For more reading on AI strategy, see Cassie Kozyrkov’s post on the Applied AI roadmap [4], Silvio Palumbo’s blog on AI integration [1], and all the resources linked in the citations. It’s an exciting time to be part of the AI/ML community! Thanks for reading. 
 
 <br><br>
 ## Appendix: AI/ML Background 
