@@ -161,6 +161,8 @@ Let’s first ask ourselves what the relevant global market is for this technolo
 
 “*What will stop [x] from wiping out my business?*”
 
+The seventh and final startup fundamental is short and sweet. The “Durability Question” for applied AI boils down to ideas that are very similar for startups. The “outsized returns” on your AI integration are very tied to their ability to deliver value in the future. After all, companies are valued on their future cash flows. In the field of applied AI, tooling moves rapidly. There’s no way to ensure any one solution will “*be defensible 10 and 20 years into the future?* in a field where the boundaries of state-of-the-art seem to expand every few months, it’s more important to phrase the “Durability Question” in terms of your AI strategy itself. Following a sound high-level strategy on these value creation fundamentals and business planning exercises (with the right in-house team in place, or the right data science consultants contracted for specific projects), in the long run, ensures the durability of your AI/ML integration venture. 
+
 <br><br>
 ## Conclusion 
 ---
