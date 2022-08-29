@@ -182,7 +182,7 @@ An ML model is really only capable of making sound predictions on new data when 
 
 [1] S. Palumbo, <a target="_blank" rel="noopener noreferrer" href="https://medium.com/bcggamma/smart-integration-four-levels-of-ai-maturity-and-why-its-ok-to-be-at-level-3-2af0c94c9614">Smart Integration: Four levels of AI maturity, and why it’s OK to be at Level 3</a> (2022), Gamma – Part of BCG X
 <br><br>
-[2] T. Peter, M. Blake. Zero to one: notes on startups, or how to build the future (2014),  New York Crown Business (Printed Book)
+[2] T. Peter, M. Blake. Zero to one: notes on startups, or how to build the future (2014), New York Crown Business (Printed Book)
 <br><br>
 [3] S. Berinato, <a target="_blank" rel="noopener noreferrer" href="https://hbr.org/2019/01/data-science-and-the-art-of-persuasion">Data Science and the Art of Persuasion: Organizations struggle to communicate the insights in all the information they’ve amassed. Here’s why, and how to fix it.</a>  (2019), Harvard Business Review
 <br><br>
