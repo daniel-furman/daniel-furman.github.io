@@ -191,6 +191,7 @@ An ML model is really only capable of making sound predictions on new data when 
 [5] C. Taylor, D. Liu, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=JkXgLyzqJg0">Using ML to tackle disruptive behaviors in gaming - Carly Taylor - the data scientist show 045</a> (2021), The Data Scientist Show
 <br><br>
 [6] M. Rogati, <a target="_blank" rel="noopener noreferrer" href="https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007">The AI Hierarchy of Needs</a> (2017), Hackernoon
+<br><br>
 [7] P. Nayak, <a target="_blank" rel="noopener noreferrer" href="https://blog.google/products/search/search-language-understanding-bert/"> Understanding searches better than ever before</a> (2019), The Keyword. 
  
 
