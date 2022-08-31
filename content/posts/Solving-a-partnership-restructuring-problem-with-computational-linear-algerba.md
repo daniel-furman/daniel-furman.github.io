@@ -1,11 +1,11 @@
 ---
-title: "Solving a Partnership Restructuring Problem with a Markov Model."
+title: "Solving a Partnership Restructuring Problem with a Search Model."
 date: 2021-04-20T21:22:42-07:00
 katex: true
 markup: "mmark"
 ---
 
-## Solving a Partnership Restructuring Problem with a Markov Model.
+## Solving a Partnership Restructuring Problem with a Search Model.
 
 ---
 
@@ -13,25 +13,25 @@ markup: "mmark"
 
 Consider a partnership restructuring its assets into majority ownerships among N partners, who previously shared M assets unevenly (debt + value). The asset structure directly reflects the partners' differing ownership stakes in the business. Here, I aimed to re-distribute the assets into majority ownerships without altering the partnership stakes, minimizing potential restructuring taxes levied if the asset ownerships changed significantly between partners.  
 
-In application, I used a Markov model to exhaustively search for solutions to a three partner vs. eleven asset case, testing over 200 million potential restructuring states in Python. The optimal solution incurred a 2.9mm cumulative stake change against 159mm in total business assets, an acceptably small magnitude of change (<2%) that allows the client to effectively avoid significant restructuring taxes.
+In application, I used a model to exhaustively search for solutions to a three partner vs. eleven asset case, testing over 200 million potential restructuring states in Python. The optimal solution incurred a 2.9mm cumulative stake change against 159mm in total business assets, an acceptably small magnitude of change (<2%) that allows the client to effectively avoid significant restructuring taxes.
 
-### Markov Algorithm
+### Search Algorithm
 
-I explored restructuring scenarios by transforming the problem into a system of matrix operations, using computational methods to permute across majority ownership scenarios. First, I took an NxM matrix encoding the restructured shares; for example, partner N1 gets 100% of asset M1, 0% of asset M2, and so on. I ran the Markov model over several of these initial splits, attempting to locate a optimal state near the global stake change minimum. Each row in this matrix represents a partner, whereas each column represents an asset. As expected, each column sums to one, hence the matrix is a Markov matrix.
+I explored restructuring scenarios by transforming the problem into a system of matrix operations, using computational methods to permute across majority ownership scenarios. First, I took an NxM matrix encoding the restructured shares; for example, partner N1 gets 100% of asset M1, 0% of asset M2, and so on. I ran the  model over several of these initial splits, attempting to locate a optimal state near the global stake change minimum. Each row in this matrix represents a partner, whereas each column represents an asset. As expected, each column sums to one.
 
 I then multiplied this NxM probability matrix with an Mx2 matrix encoding each asset's total value and debt. I subtracted the result from the current ownership stakes (a Nx2 matrix), ensuring that the rows matched up to the correct partner in the NxM probability matrix. Finally, I took the absolute values of the difference matrix (direction of change wasn't important) and summed the entries. Our result encoded the cumulative difference between the restructured partnership and the original structure. The for loop then iterated through all possible scenarios by shuffling the columns, recording cumulative stake changes across the M! potential restructurings. The best option occured at the minimum stake change, which turned up more than once because permutation repeats existed. 
 
 <br><br>
 <div>$$sum(abs(\left[\begin{array}{cccccc}1 & 0 & 0 & 1 & 0 & 0 \\0 & 1 & 0 & 0 & 1 & 0\\0 & 0 & 1 & 0 & 0 & 1\end{array}\right]\left[\begin{array}{cc}val_1 & debt_1 \\val_2 & debt_2 \\val_3 & debt_3 \\val_4 & debt_4 \\val_5 & debt_5 \\val_6 & debt_6\end{array}\right]-\left[\begin{array}{cc}N_{1val} & N_{1debt}  \\N_{2val} & N_{2debt} \\N_{3val} & N_{3debt}\end{array}\right]))$$</div>
 <br>
-**Figure 1**. System of matrix operations for a partnership with 6 assets and 3 partners. The first matrix is the probability Markov matrix, the second is the values/debts of each asset, and the third is the partner's total current ownership values/debts.   
+**Figure 1**. System of matrix operations for a partnership with 6 assets and 3 partners. The first matrix is the probability matrix, the second is the values/debts of each asset, and the third is the partner's total current ownership values/debts.   
 <br><br>
 
 ### Model Flexibility
 
-The Markov model approach is by nature a brute force method, as I was testing across a massive number of possible scenarios. The for loops decompose to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf), yet the runtime can become because the program looped over M! states. Furthermore, the model is certainly not flexible to any scenario. For example, consider a simplified case: two partners share three assets evenly yet the assets' values (and debts) are equivalent. Therefore, there is no way to split up the assets into majority ownerships with minimal stake change.
+The search model approach is by nature a brute force method, as I was testing across a massive number of possible scenarios. The for loops decompose to a [O(n) time complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf), yet the runtime can become because the program looped over M! states. Furthermore, the model is certainly not flexible to any scenario. For example, consider a simplified case: two partners share three assets evenly yet the assets' values (and debts) are equivalent. Therefore, there is no way to split up the assets into majority ownerships with minimal stake change.
 
-For the real-world application, I ran our Markov model across several initial ownership scenarios, changing the total number of assets each partner recieved. For example, the optimal state was found by giving 4 properties to partner 1, 3 to partner 2, and 4 to partner 3, which was the fifth such scenario tested.
+For the real-world application, I ran our search model across several initial ownership scenarios, changing the total number of assets each partner recieved. For example, the optimal state was found by giving 4 properties to partner 1, 3 to partner 2, and 4 to partner 3, which was the fifth such scenario tested.
 
 $$runtime \propto n^{0.966}$$
 
@@ -70,7 +70,7 @@ results = np.zeros(n_factorial)
 for iter in np.arange(0, n_factorial):
   # shuffle columns
   probabilities_looped = restructure_probabilities[:, permutations[iter,:]]
-  # Markov multiplication
+  # mat multiplication
   results_lopped = np.matmul(probabilities_looped, assets_value_debt)
   # difference between partnership states
   final_differences = np.abs(results_lopped - previous_stake)
