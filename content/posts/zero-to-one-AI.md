@@ -11,6 +11,7 @@ markup: "mmark"
 ## Using the “technology startup mentality” to integrate technology in commercial contexts
 ---
 
+[Published in Towards Data Science](https://towardsdatascience.com/why-startup-fundamentals-are-key-to-ai-strategy-76e5a59d9b96)
 <br><br>
 
 In his book Zero to One, Peter Thiel explores the core fundamentals that successful technology startups have in common. The takeaway: startups should embrace seven pivotal traits — otherwise, queue red flags. Here’s why great AI innovation projects also exhibit the fundamentals of successful technology startups, from the perspective of a Bay Area data scientist working in digital strategy consulting.
