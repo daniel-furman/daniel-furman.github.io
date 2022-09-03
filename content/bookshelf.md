@@ -6,7 +6,7 @@ Title = "Bookshelf"
 
 Book | Author | Finished | Quotes
 -----|-------|-------|-------
-<a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/18050143-zero-to-one">There are places in the world where rules are less important than kindness</a> | Carlo Rovelli | 2022 | "Everything exists only through dependence on something else."
+<a target="_blank" rel="noopener noreferrer" href="https://books.google.com/books/about/There_Are_Places_in_the_World_Where_Rule.html?id=fkDNDwAAQBAJ&source=kp_book_description">There are places in the world where rules are less important than kindness</a> | Carlo Rovelli | 2022 | "Everything exists only through dependence on something else."
 <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/18050143-zero-to-one">Zero to One: Notes on Startups, or How to Build the Future</a> | Peter Thiel| 2022 | "Monopoly is the condition of every successful business."
 <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/books/edition/Becoming_Wild/O3CVDwAAQBAJ?hl=en&gbpv=1&printsec=frontcover">Becoming Wild: How Animal Cultures Raise Families, Create Beauty, and Achieve Peace</a> | Carl Safina | 2022 | "The philosopher Immanuel Kant asserted, "Man is the only being who needs education." But if he'd said, "not the only being," he'd have been correct."
 <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/165206463X/ref=cm_sw_PHC7JT1PJEDM834AGJYE">Data Science in Production: Building Scalable Model Pipelines with Python</a> | Ben Weber | 2021 | "Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization."
@@ -28,4 +28,5 @@ Book | Author | Finished | Quotes
 <a target="_blank" rel="noopener noreferrer" href="https://books.google.com/books/about/The_Hidden_Life_of_Trees.html?id=WEn4DAAAQBAJ">The Hidden Life of Trees: What They Feel, How They Communicate – Discoveries from a Secret World</a> | Peter Wohlleben | 2017| "If we want to use forests as a weapon in the fight against climate change, then we must allow them to grow old, which is exactly what large conservation groups are asking us to do."
 <a target="_blank" rel="noopener noreferrer" href="https://books.google.com/books/about/Surf_Is_Where_You_Find_It.html?id=_jBJyQEACAAJ">Surf Is Where You Find It</a> | Gerry Lopez | 2017 | "One thing that you learn from surfing is how to operate in the present. It is really what the surf experience is all about."
 <a target="_blank" rel="noopener noreferrer" href="https://books.google.com/books/about/Beyond_Words.html?id=qMK8jwEACAAJ">Beyond Words: What Animals Think and Feel</a> | Carl Safina | 2017 | "We look at the world through our own eyes, naturally. But by looking from the inside out, we see an inside-out world."
+
 
