@@ -33,7 +33,7 @@ Year | Education
 2023 | University of California, Berkeley, MS Information Management & Systems.
 2020 | University of Pennsylvania, BA with Distinction in Earth Science.
 
-Year | Experience
+Year | Work Experience
 -----|-------
 2022 | Data Science @<a href="https://www.westmonroe.com/services/digital/analytics-artificial-intelligence" target="_blank" rel="noopener noreferrer">West Monroe</a>.
 2021-2022 | Machine Learning Engineering @<a href="https://www.understory.ai" target="_blank" rel="noopener noreferrer">Understory.ai</a>.
