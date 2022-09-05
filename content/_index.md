@@ -30,8 +30,8 @@ I’m a data scientist developing commercial analytics and machine learning solu
 
 Year | Education
 -----|-------
-2021-2023 | MS Information Management & Systems, **University of California, Berkeley**. Focus: Data Science. 
-2016-2020 | BA with Distinction in Earth Science, **University of Pennsylvania**. Minor: Mathematics.
+2023 | University of California, Berkeley, MS Information Management & Systems.
+2020 | University of Pennsylvania, BA with Distinction in Earth Science.
 
 Year | Experience
 -----|-------
@@ -39,7 +39,7 @@ Year | Experience
 2021-2022 | Machine Learning Engineering @<a href="https://www.understory.ai" target="_blank" rel="noopener noreferrer">Understory.ai</a>.
 2021 | Graduate TA, Data Mining @<a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business</a>.
 2017-2020 | Geophysics Research @<a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania</a>. 
-Summer 2019 | Data Science Research @<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College</a>.
+2019 | Data Science Research @<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College</a>.
 
 ---
 
