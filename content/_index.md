@@ -37,7 +37,7 @@ Year | Experience
 -----|-------
 2022 | Data Science @<a href="https://www.westmonroe.com/services/digital/analytics-artificial-intelligence" target="_blank" rel="noopener noreferrer">West Monroe</a>.
 2021-2022 | Machine Learning Engineering @<a href="https://www.understory.ai" target="_blank" rel="noopener noreferrer">Understory.ai</a>.
-2021 | Graduate TA, Data Mining @<a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business/a>.
+2021 | Graduate TA, Data Mining @<a href="https://daniel-furman.github.io/research-outputs/Syllabus_MBA247.pdf" target="_blank" rel="noopener noreferrer">Haas School of Business</a>.
 2017-2020 | Geophysics Research @<a href="https://web.sas.upenn.edu/dgoldsby/" target="_blank" rel="noopener noreferrer">University of Pennsylvania</a>. 
 Summer 2019 | Data Science Research @<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757952" target="_blank" rel="noopener noreferrer">Harvey Mudd College</a>.
 
