@@ -30,8 +30,8 @@ I’m a data scientist developing commercial analytics and machine learning solu
 
 Year | Education
 -----|-------
-2021-2023 | MS Information Management & Systems, University of California, Berkeley. Specialization: Applied Data Science. 
-2016-2020 | BA with Distinction in Earth Science, University of Pennsylvania. Minor: Mathematics.
+2021-2023 | MS Information Management & Systems, **University of California, Berkeley**. Focus: Data Science. 
+2016-2020 | BA with Distinction in Earth Science, **University of Pennsylvania**. Minor: Mathematics.
 
 Year | Experience
 -----|-------
@@ -45,9 +45,9 @@ Summer 2019 | Data Science Research at <a href="https://www.nsf.gov/awardsearch/
 
 ## <ins>Research Outputs</ins>
 
-* Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. 
 * Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
 * Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in Proceedings of the Society for Integrative and Comparative Biology Meeting (SICB), 2021. 
+* Daniel R Furman,  [EcoRisk Forecasting: California](https://datartathon.com/projects/2021-daniel-ecorisk-california), in Proceedings of the DAT/Artathon Risk Analytics Meeting, 2021. 
 * Daniel R Furman and Sarah K Halvorsen, [Species distribution modeling of *Xantusia vigilis* lizards](https://daniel-furman.github.io//research-outputs/SCCUR-2019-presentation.pdf), in Proceedings of the Southern California Conference for Undergraduate Research Meeting (SCCUR), 2019.
 
 ---
