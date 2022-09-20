@@ -19,7 +19,7 @@ Skills & Interests:<br>
 💡 Ethos: "More data over better models, better data over more data, 80:20 rule"<br>
 
 Fun Fact:<br>
-⛳️ Co-captain of my high school golf team and member of Penn’s D1 golf team<br>
+⛳️ Former co-captain @Harvard-Westlake golf, teammate @UPenn golf<br>
 
 Connect with me on:<br>
 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
