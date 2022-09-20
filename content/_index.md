@@ -9,8 +9,8 @@ title = "About"
 # Hi there. I'm Daniel 👋 
 
 Connect with me on:<br>
-[[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
-[[GitHub](https://github.com/daniel-furman)] <br>
+- [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
+- [[GitHub](https://github.com/daniel-furman)] <br>
 
 ## <ins>Bio </ins>
 
