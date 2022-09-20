@@ -8,10 +8,6 @@ title = "About"
 
 # Hi there. I'm Daniel 👋 
 
-Connect with me on:<br>
-- [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
-- [[GitHub](https://github.com/daniel-furman)] <br>
-
 ## <ins>Bio </ins>
 
 I'm a Data Scientist with experience in digital strategy consulting and technology startups, looking to delve deeper into AI/ML integration in commercial use-cases. Proficient with "full stack" Data Science including building data pipelines, productizing machine learning models, defining analytics/metrics, and visualizing data.
