@@ -12,14 +12,14 @@ title = "About"
 
 I'm a Data Scientist with experience in the digital strategy consulting and technology startup industries, looking to delve deeper into AI/ML integration in commercial use-cases. Proficient with "full stack" Data Science including building data pipelines, productizing machine learning models, defining analytics/metrics, and visualizing data.
 
-Skills & Interests:
-👨‍💻 Deep understanding of software dev tools such as Python, AWS, Git, R, SQL
-🚀 Excited about building MVPs collaboratively (system design, reproducibility)
-🌱 Fascinated by geospatial data, natural language, and digital transformation
-💡 Ethos: "More data over better models, better data over more data, 80:20 rule"
+Skills & Interests:<br>
+👨‍💻 Deep understanding of software dev tools such as Python, AWS, Git, R, SQL<br>
+🚀 Excited about building MVPs collaboratively (system design, reproducibility)<br>
+🌱 Fascinated by geospatial data, natural language, and digital transformation<br>
+💡 Ethos: "More data over better models, better data over more data, 80:20 rule"<br>
 
-Fun Fact:
-⛳️ Co-captain of my high school golf team and member of Penn’s D1 golf team
+Fun Fact:<br>
+⛳️ Co-captain of my high school golf team and member of Penn’s D1 golf team<br>
 
 **Connect with me on:** <br>
 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
