@@ -6,7 +6,7 @@ title = "About"
 
 ---
 
-# Hi there. I'm Daniel 👋 
+# Hi there, I'm Daniel 👋 
 
 ## <ins>Bio </ins>
 
