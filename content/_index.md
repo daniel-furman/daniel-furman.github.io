@@ -10,7 +10,7 @@ title = "About"
 
 ## <ins>Bio </ins>
 
-I'm a Data Scientist with experience in the digital strategy consulting and technology startup industries, looking to delve deeper into AI/ML integration in commercial use-cases. Proficient with "full stack" Data Science including building data pipelines, productizing machine learning models, defining analytics/metrics, and visualizing data.
+I'm a Data Scientist with experience in digital strategy consulting and technology startups, looking to delve deeper into AI/ML integration in commercial use-cases. Proficient with "full stack" Data Science including building data pipelines, productizing machine learning models, defining analytics/metrics, and visualizing data.
 
 Skills & Interests:<br>
 👨‍💻 Deep understanding of software dev tools such as Python, AWS, Git, R, SQL<br>
