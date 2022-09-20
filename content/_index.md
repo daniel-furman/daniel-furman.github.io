@@ -21,7 +21,7 @@ Skills & Interests:<br>
 Fun Fact:<br>
 ⛳️ Co-captain of my high school golf team and member of Penn’s D1 golf team<br>
 
-**Connect with me on:** <br>
+Connect with me on:<br>
 🏢 [[LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)] <br>
 ⭐️ [[GitHub](https://github.com/daniel-furman)] <br>
 
