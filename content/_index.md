@@ -19,7 +19,7 @@ Skills & Interests:<br>
 💡 Ethos: "More data over better models, better data over more data, 80:20 rule"<br>
 
 Fun Fact:<br>
-⛳️ Former co-captain @Harvard-Westlake golf, teammate @UPenn golf<br>
+⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf<br>
 
 ---
 
