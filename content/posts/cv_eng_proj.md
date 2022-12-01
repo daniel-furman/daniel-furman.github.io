@@ -5,9 +5,6 @@ katex: true
 markup: "mmark"
 ---
 
-
-# Default Hugging Face models are probably all you need for “vanilla” image classification
-
 ## Exploring pre-trained image models on the Hugging Face hub as feature extractors and transfer learners in a land cover classification task
 ---
 
