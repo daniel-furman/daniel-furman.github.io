@@ -4,4 +4,4 @@ title = "Resume"
 
 # Resume
 
-Contact me for my Resume. 
+Contact me for my Resume
