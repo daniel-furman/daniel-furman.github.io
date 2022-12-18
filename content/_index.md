@@ -45,6 +45,6 @@ Year | Work Experience
 
 ---
 
-> "The world represented in your training data is the only world you can expect to succeed in." Cassie Kozyrkov. Making Friends with Machine Learning, Google.  <br>
-> “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.” <br>
+> "The world represented in your training data is the only world you can expect to succeed in." Cassie Kozyrkov. Making Friends with Machine Learning, Google.<br><br>  
+> “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”<br><br>
 > “Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization.” Ben Weber, Data Science in Production.
