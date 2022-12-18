@@ -23,10 +23,10 @@ Fun Fact:<br>
 
 ### <ins>Links</ins>
 
-🚀 [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)
-🦾 [Github](https://github.com/daniel-furman)
-✏️ [Medium](https://medium.com/@daniel_furman)
-🎓 [Google Scholar](https://scholar.google.com/citations?hl=en&user=phb-R4cAAAAJ&view_op=list_works&gmla=AJsN-F6C1I4RZCwFP0WBF5h-biY9pV7x9aQJIB87G7h5gMouD2Ete0h1f5pDotAJRBXdSmHzHkrTm7eLuYeyHvyFHjZJJuzx-0lDQbpwQtptKyY09iydNy4)
+🚀 [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
+🦾 [GitHub](https://github.com/daniel-furman)<br>
+✏️ [Medium](https://medium.com/@daniel_furman)<br>
+🎓 [Google Scholar](https://scholar.google.com/citations?hl=en&user=phb-R4cAAAAJ&view_op=list_works&gmla=AJsN-F6C1I4RZCwFP0WBF5h-biY9pV7x9aQJIB87G7h5gMouD2Ete0h1f5pDotAJRBXdSmHzHkrTm7eLuYeyHvyFHjZJJuzx-0lDQbpwQtptKyY09iydNy4)<br>
 
 ---
 
