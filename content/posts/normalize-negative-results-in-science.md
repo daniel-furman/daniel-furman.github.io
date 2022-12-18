@@ -1,13 +1,13 @@
 ---
-title: "Benchmarking hyperspectral DRL: a mostly negative reult."
-date: 2022-11-30
+title: "Normalize negative results in science (pun intended)."
+date: 2022-17-30
 katex: true
 markup: "mmark"
 ---
 
 ## HyperSpectralDRL
 
-Final project for CS285, Deep RL, UC Berkeley F22. 
+Final project for [CS285](https://rail.eecs.berkeley.edu/deeprlcourse/), Deep RL, UC Berkeley F22. 
 
 "Benchmarking deep reinforcement learning algorithms for unsupervised hyperspectral band selection."
 
