@@ -1,6 +1,6 @@
 ---
 title: "Normalize negative results in science (pun intended)."
-date: 2022-17-30
+date: 2022-10-17
 katex: true
 markup: "mmark"
 ---
