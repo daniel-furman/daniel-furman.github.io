@@ -10,15 +10,17 @@ title = "About"
 
 ## <ins>Bio </ins>
 
-I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
+I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. <br><br>
+
+My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
 
 Fun Fact:<br>
 ⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf <br><br>
 
 Links:<br>
-🖇 [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/),
-🦾 [GitHub](https://github.com/daniel-furman), 
-✏️ [Medium](https://medium.com/@daniel_furman), 
+🖇 [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
+🦾 [GitHub](https://github.com/daniel-furman)<br> 
+✏️ [Medium](https://medium.com/@daniel_furman)<br>
 🎓 [Google Scholar](https://scholar.google.com/citations?hl=en&user=phb-R4cAAAAJ&view_op=list_works&gmla=AJsN-F6C1I4RZCwFP0WBF5h-biY9pV7x9aQJIB87G7h5gMouD2Ete0h1f5pDotAJRBXdSmHzHkrTm7eLuYeyHvyFHjZJJuzx-0lDQbpwQtptKyY09iydNy4)<br>
 
 ---
