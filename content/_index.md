@@ -10,16 +10,19 @@ title = "About"
 
 ## <ins>Bio </ins>
 
-I'm a Data Scientist with experience in digital strategy consulting and technology startups, looking to delve deeper into AI/ML integration in commercial use-cases. Proficient with "full stack" Data Science including the development of data pipelines, machine learning models, back-end servers, and data analytics/visualizations.
-
-
-Skills & Interests:<br>
-🚀 Deep understanding of software dev tools such as Python, AWS, Git, R, SQL<br>
-🌱 Fascinated by geospatial data, natural language, and digital transformation<br>
-💡 Ethos: "More data over better models, better data over more data, 80:20 rule"<br>
-
-Fun Fact:<br>
-⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf<br>
+I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. 
+<br>
+Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. 
+<br>
+My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I am looking to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. 
+<br>
+Fun Fact:
+⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf
+<br>
+Links:
+🌎 [linkedin.com/daniel-ryan-furman](https://www.linkedin.com/in/daniel-ryan-furman/)
+🦾 [github.com/daniel-furman](https://github.com/daniel-furman)<br>
+🖊 [medium.com/@daniel_furman](https://medium.com/@daniel_furman)
 
 ---
 
