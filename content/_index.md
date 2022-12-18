@@ -6,13 +6,9 @@ title = "About"
 
 ---
 
-# Hi there, I'm Daniel 👋 
-
 ## <ins>Bio </ins>
 
-I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. <br><br>
-
-My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
+I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
 
 Fun Fact:<br>
 ⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf <br><br>
