@@ -6,9 +6,11 @@ title = "About"
 
 ---
 
-## <ins>Bio </ins>
+# <ins>Bio</ins>
 
-I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
+I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. <br><br> 
+
+My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
 
 Fun Fact:<br>
 ⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf <br><br>
@@ -21,7 +23,7 @@ Links:<br>
 
 ---
 
-## <ins>Timeline</ins>
+# <ins>Timeline</ins>
 
 Year | Education
 -----|-------
@@ -38,12 +40,14 @@ Year | Work Experience
 
 ---
 
-## <ins>Research</ins>
+# <ins>Research</ins>
 
 * Daniel Furman and David Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
 * Daniel Furman, Sarah Halvorsen, and Stephen Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in *Proceedings of the Society for Integrative and Comparative Biology Meeting*, 2021. 
 
 ---
+
+# <ins>Favorite Quotes</ins>
 
 > "The world represented in your training data is the only world you can expect to succeed in." Cassie Kozyrkov. Making Friends with Machine Learning, Google.<br><br>  
 > “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”<br><br>
