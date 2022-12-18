@@ -8,7 +8,9 @@ title = "About"
 
 # <ins>Bio</ins>
 
-I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. <br><br> 
+I am a Data Scientist at West Monroe, leading a team of technologists to accelerate high-ROI applications of natural language processing (NLP) in business consulting. <br><br> 
+
+Proficient with "full stack" Data Science development including data pipelines, applied analytics, data visualization, machine learning, and containerized applications. <br><br> 
 
 My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
 
@@ -49,6 +51,6 @@ Year | Work Experience
 
 # <ins>Favorite Quotes</ins>
 
-> "The world represented in your training data is the only world you can expect to succeed in." Cassie Kozyrkov. Making Friends with Machine Learning, Google.<br><br>  
-> “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”<br><br>
-> “Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization.” Ben Weber, Data Science in Production.
+* "The world represented in your training data is the only world you can expect to succeed in." Cassie Kozyrkov. Making Friends with Machine Learning, Google.
+* “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”
+* “Putting predictive models into production is one of the most direct ways that data scientists can add value to an organization.” Ben Weber, Data Science in Production.
