@@ -1,5 +1,5 @@
 ---
-title: "Normalize negative results in science (pun intended)."
+title: "Normalize negative results in science."
 date: 2022-10-17
 katex: true
 markup: "mmark"
@@ -11,10 +11,10 @@ Final project for [CS285](https://rail.eecs.berkeley.edu/deeprlcourse/), Deep RL
 
 "Benchmarking deep reinforcement learning algorithms for unsupervised hyperspectral band selection."
 
-[Link](https://daniel-furman.github.io//research-outputs/Deep_RL_Final_Project.pdf) to tge write up.
+[Link](https://daniel-furman.github.io//research-outputs/Deep_RL_Final_Project.pdf) to the write up.
 
 ### Intro
-A team of two colleagues and myself spent a month implementing a final project for our deep RL course at UCB in fall '22. We were interested in pursuing research directions in a niche field, with two studies to date. These papers suggest that applying deep RL agents to this task (unsupervised hyperspectral band selection) was advantageous; however, here we show that we can get comparable results with random samples across four types of deep RL agents. 
+Results of a final project for deep RL at UCB in fall '22. Our team was interested in pursuing research directions in a niche field of computer vision / remote sensing with two studies to date. These papers suggest that applying deep RL agents to hyperspectral band selection was advantageous; however, here we show that we can get comparable results with random samples across four types of deep RL agents. 
 
 ### Conclusion
 The project aims at exploring different DRL algorithms for hyper-spectral band selection. Overall, we find that for
