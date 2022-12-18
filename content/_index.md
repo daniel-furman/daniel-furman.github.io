@@ -17,16 +17,13 @@ Proficient with "full stack" Data Science development including data pipelines, 
 My unique skillset brings a mix of software, product, and business know-how. These were honed through experience in digital strategy consulting, technology startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in commercial settings as well as digital transformation and AI strategy more generally. <br><br>
 
 Fun Fact:<br>
-⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf
+⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf <br><br>
 
----
-
-### <ins>Links</ins>
-
-🚀 [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
-🦾 [GitHub](https://github.com/daniel-furman)<br>
-✏️ [Medium](https://medium.com/@daniel_furman)<br>
-🎓 [Google Scholar](https://scholar.google.com/citations?hl=en&user=phb-R4cAAAAJ&view_op=list_works&gmla=AJsN-F6C1I4RZCwFP0WBF5h-biY9pV7x9aQJIB87G7h5gMouD2Ete0h1f5pDotAJRBXdSmHzHkrTm7eLuYeyHvyFHjZJJuzx-0lDQbpwQtptKyY09iydNy4)<br>
+Links:<br>
+🚀 [linkedin.com/daniel-furman](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
+🦾 [github.com/daniel-furman](https://github.com/daniel-furman)<br>
+✏️ [medium.com/daniel-furman](https://medium.com/@daniel_furman)<br>
+🎓 [scholar.google/daniel-furman](https://scholar.google.com/citations?hl=en&user=phb-R4cAAAAJ&view_op=list_works&gmla=AJsN-F6C1I4RZCwFP0WBF5h-biY9pV7x9aQJIB87G7h5gMouD2Ete0h1f5pDotAJRBXdSmHzHkrTm7eLuYeyHvyFHjZJJuzx-0lDQbpwQtptKyY09iydNy4)<br>
 
 ---
 
