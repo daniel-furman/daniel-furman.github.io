@@ -40,8 +40,8 @@ Year | Work Experience
 
 ## <ins>Research</ins>
 
-* Daniel R Furman and David L Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
-* Daniel R Furman, Sarah K Halvorsen, and Stephen C Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in *Proceedings of the Society for Integrative and Comparative Biology Meeting*, 2021. 
+* Daniel Furman and David Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
+* Daniel Furman, Sarah Halvorsen, and Stephen Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in *Proceedings of the Society for Integrative and Comparative Biology Meeting*, 2021. 
 
 ---
 
