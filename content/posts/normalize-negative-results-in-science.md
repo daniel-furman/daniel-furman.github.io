@@ -7,14 +7,14 @@ markup: "mmark"
 
 ## HyperSpectralDRL
 
-Final project for [CS285](https://rail.eecs.berkeley.edu/deeprlcourse/), Deep RL, UC Berkeley F22. 
+[Link](https://daniel-furman.github.io//research-outputs/Deep_RL_Final_Project.pdf) to the write up.
 
 "Benchmarking deep reinforcement learning algorithms for unsupervised hyperspectral band selection."
 
-[Link](https://daniel-furman.github.io//research-outputs/Deep_RL_Final_Project.pdf) to the write up.
+Final project for [CS285](https://rail.eecs.berkeley.edu/deeprlcourse/), Deep RL, UC Berkeley F22. 
 
 ### Intro
-Results of a final project for deep RL at UCB in fall '22. Our team was interested in pursuing research directions in a niche field of computer vision / remote sensing with two studies to date. These papers suggest that applying deep RL agents to hyperspectral band selection was advantageous; however, here we show that we can get comparable results with random samples across four types of deep RL agents. 
+Results of a final project for deep RL. Our team focused on unsupervised band selection, a niche field of applied RL in computer vision / remote sensing with two main studies in the literature to date. These papers suggest that applying deep RL agents to unsupervised band selection was advantageous; however, here we show in our study that random samples can yield comparable results against tests across four types of deep RL agents. A fine example of the so-called "negative" result - which is all too important in modern science. 
 
 ### Conclusion
 The project aims at exploring different DRL algorithms for hyper-spectral band selection. Overall, we find that for
