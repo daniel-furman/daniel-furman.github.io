@@ -8,7 +8,7 @@ markup: "mmark"
 ## HyperSpectralDRL
 
 ### Intro
-Results of a final project for deep RL. Our team focused on unsupervised band selection, a niche field of applied RL in computer vision / remote sensing with two main studies in the literature to date. These papers suggest that applying deep RL agents to unsupervised band selection was advantageous; however, here we show in our study that random samples can yield comparable results against tests across four types of deep RL agents. A fine example of the so-called "negative" result - which is all too important in modern science. 
+Results of a final project for deep RL (CS285) at UC Berkeley during fall semester of 2022. Our team focused on unsupervised band selection, a niche field of applied RL in computer vision / remote sensing with two main studies in the literature to date. These papers suggest that applying deep RL agents to unsupervised band selection was advantageous; however, here we show in our study that random samples can yield comparable results against tests across four types of deep RL agents. A fine example of the so-called "negative" result - which is all too important in modern science. 
 
 ### Conclusion
 The project aims at exploring different DRL algorithms for hyper-spectral band selection. Overall, we find that for
