@@ -8,10 +8,7 @@ markup: "mmark"
 ## HyperSpectralDRL
 
 ### Intro
-Results of a final project for deep RL (CS285) at UC Berkeley during fall semester of 2022. Our team focused on unsupervised band selection, a niche field of applied RL in computer vision / remote sensing with two main studies in the literature to date. These papers suggest that applying deep RL agents to unsupervised band selection was advantageous; however, here we show in our study that random samples can yield comparable results against tests across four types of deep RL agents. A fine example of the so-called "negative" result - which is all too important in modern science. 
-
-### Conclusion
-The project aims at exploring different DRL algorithms for hyper-spectral band selection. Overall, we find that for
+The project aims at exploring different Deep Reinforcement Learning (DRL) algorithms for hyper-spectral band selection. Overall, we find that for
 this type of task Actor-Critic methods such as Actor-Critic and Soft Actor-Critic outperform traditional Q-Learning
 methods such as DQN and DDQN in terms of correlation and in many classification tasks. While we found that the
 agent is able to learn a valid representation of the search space, the effort and complexity of DRL (and most of the other
@@ -22,4 +19,4 @@ search space.
 
 Full paper [link](https://daniel-furman.github.io//research-outputs/Deep_RL_Final_Project.pdf): "Benchmarking deep reinforcement learning algorithms for unsupervised hyperspectral band selection."
 
-Final project for [CS285](https://rail.eecs.berkeley.edu/deeprlcourse/), Deep RL, UC Berkeley F22. 
+Final project for [CS285](https://rail.eecs.berkeley.edu/deeprlcourse/), Deep RL, UC Berkeley Fall '22. 
