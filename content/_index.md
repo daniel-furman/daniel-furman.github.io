@@ -8,8 +8,7 @@ title = "About"
 
 # <ins>Bio</ins>
 
-I am a data scientist at West Monroe, where I spearhead a team of technology consultants applying natural language processing (NLP) methods in commercial analytics. My skillset brings a blend of software engineering, data analytics, and business know-how. It was honed through a diversity of work experience in strategy consulting firms, tech startups, and academic research labs. Proficient with “full stack” data science development across data pipelines, applied analytics, data visualizations, machine learning, and containerized applications. Going forward, I intend to delve deeper into analytics enablement in digital transformation contexts. 
-
+I am a data scientist at West Monroe, where I spearhead a team of technology consultants applying natural language processing methods in commercial analytics. My skillset brings a blend of engineering and business know-how. It was honed through experience in strategy consulting, tech startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in digital transformation. 
 
 Fun Fact:<br>
 ⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf <br><br>
