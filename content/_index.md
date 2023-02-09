@@ -12,6 +12,8 @@ I'm a data scientist, living in San Francisco. Other than software development, 
 
 Follow me on [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/), [GitHub](https://github.com/daniel-furman) and [Medium](https://medium.com/@daniel_furman).
 
+<br><br>
+
 ---
 
 # Timeline
