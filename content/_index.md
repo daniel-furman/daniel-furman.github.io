@@ -9,13 +9,13 @@ title = "About"
 # Hi 👋 I'm Daniel
 
 I'm a data scientist, living in San Francisco. Other than software development, my passion would be surfing. 
-
+<br>
 Follow me on: <br>
 🖇️ [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
 🦾 [GitHub](https://github.com/daniel-furman)<br>
 💡 [Medium](https://medium.com/@daniel_furman)
 
-<br><br>
+<br>
 
 ---
 
