@@ -8,7 +8,7 @@ title = "About"
 
 # <ins>Bio</ins>
 
-I am a data scientist focusing on commercial analytics. Overall, my skillset brings a unique blend of engineering and analytics know-how. I honed these skills through experience in strategy consulting, tech startups, and academic research. Going forward, I intend to delve deeper into analytics enablement in digital transformation. 
+I'm a data scientist, living in San Francisco. Other than software development, my passion would be surfing. 
 
 Fun Fact:<br>
 ⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf <br><br>
