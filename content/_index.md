@@ -6,22 +6,15 @@ title = "About"
 
 ---
 
-# <ins>Bio</ins>
+# Hi 👋 I'm Daniel
 
 I'm a data scientist, living in San Francisco. Other than software development, my passion would be surfing. 
 
-Fun Fact:<br>
-⛳️ Former co-captain @Harvard-Westlake golf, teammate @Penn golf <br><br>
-
-Links:<br>
-🖇 [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
-🦾 [GitHub](https://github.com/daniel-furman)<br> 
-✏️ [Medium](https://medium.com/@daniel_furman)<br>
-🎓 [Google Scholar](https://scholar.google.com/citations?hl=en&user=phb-R4cAAAAJ&view_op=list_works&gmla=AJsN-F6C1I4RZCwFP0WBF5h-biY9pV7x9aQJIB87G7h5gMouD2Ete0h1f5pDotAJRBXdSmHzHkrTm7eLuYeyHvyFHjZJJuzx-0lDQbpwQtptKyY09iydNy4)<br>
+Follow me on [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/), [GitHub](https://github.com/daniel-furman) and [Medium](https://medium.com/@daniel_furman).
 
 ---
 
-# <ins>Timeline</ins>
+# Timeline
 
 Year | Education
 -----|-------
@@ -38,14 +31,14 @@ Year | Work Experience
 
 ---
 
-# <ins>Research</ins>
+# Research
 
 * Daniel Furman and David Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
 * Daniel Furman, Sarah Halvorsen, and Stephen Adolph, [Assessing climate change impacts on *Xantusia vigilis* lizards and their Joshua tree habitats](https://daniel-furman.github.io//research-outputs/SICB-poster-final.jpg), in *Proceedings of the Society for Integrative and Comparative Biology Meeting*, 2021. 
 
 ---
 
-# <ins>Favorite Quotes</ins>
+# Favorite Quotes
 
 * "The world represented in your training data is the only world you can expect to succeed in." Cassie Kozyrkov. Making Friends with Machine Learning, Google.
 * “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”
