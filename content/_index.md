@@ -8,7 +8,7 @@ title = "About"
 
 # Hi 👋 I'm Daniel
 
-I'm a data scientist, living in San Francisco. Fan of data insights. Beyond coding and software development, my passions include surfing and cooking. 
+I'm a data scientist, living in San Francisco. Beyond coding and software development, my passions include surfing and cooking.
 
 <br><br>
 Follow me on: <br>
