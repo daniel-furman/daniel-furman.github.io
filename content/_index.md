@@ -10,6 +10,8 @@ title = "About"
 
 Great data science is about developing effective tools that solve core business problems. My specialty is driving scalable, innovative data science solutions powered by AI/ML. I'm passionate about building tools that increase operational efficiencies and enable smarter decision-making.
 
+<br>
+
 Fun Facts:<br>
 - Former co-captain @Harvard-Westlake golf<br>
 - Avid surfer and nature enthusiast
