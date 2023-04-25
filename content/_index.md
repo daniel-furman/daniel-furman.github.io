@@ -13,8 +13,7 @@ Great data science is about developing effective tools that solve core business 
 Fun Facts:<br>
 ⛳️ Former co-captain @Harvard-Westlake golf<br>
 🌊 Avid surfer and nature enthusiast
-
-<br><br>
+<br>
 Follow me on: <br>
 🖇️ [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
 🦾 [GitHub](https://github.com/daniel-furman)<br>
