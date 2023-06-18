@@ -21,6 +21,7 @@ Fun Facts:<br>
 Follow me on: <br>
 - [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
 - [GitHub](https://github.com/daniel-furman)<br>
+- [HuggingFace](https://huggingface.co/dfurman)<br>
 - [Medium](https://medium.com/@daniel_furman)
 
 <br>
