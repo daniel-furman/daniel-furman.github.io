@@ -1,4 +1,4 @@
-e---
+---
 title: "Deep Reinforcement Learning for hyperspectral band selection."
 date: 2022-12-17
 katex: true
