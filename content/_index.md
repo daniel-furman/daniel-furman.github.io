@@ -8,21 +8,28 @@ title = "About"
 
 # Hi 👋 I'm Daniel
 
-Bio: Great data science is about developing effective tools that solve core business problems. My specialty is driving scalable, innovative data science solutions powered by machine learning. I'm passionate about building tools that increase operational efficiencies and enable smarter decision-making.
+I'm a member of the `analytics` team at West Monroe Partners, expanding what's possible with data science in strategy consulting. I have an MS in data science from UC Berkeley 🐻 and have applied ML to several modalities (text, image, geospatial, time-based signals) and industries (PE, software, construction, beauty).
 
-<br>
+Follow me @ [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/), [Medium](https://medium.com/@daniel_furman), and [Hugging Face](https://huggingface.co/dfurman).
 
-Fun Facts:<br>
-- Former co-captain @Harvard-Westlake golf<br>
-- Avid surfer and nature enthusiast
+Here are a few interesting open projects and publications I've been part of:
 
-<br>
+🤖 Projects
+* [Lightweight demos for sft of instruction LLMs](https://github.com/daniel-furman/sft_demos)
+* [Chatbot built on top of up-to-date M&A news](https://github.com/daniel-furman/All-In-Copilot)
+* [Mini reasoning quiz for LLMs](https://github.com/daniel-furman/LLM-reasoning-pop-quiz)
+* [Are foundation language models polyglots?](https://github.com/daniel-furman/Polyglot-or-Not)
+* [HyperSpectral deep reinforcement learning](https://github.com/daniel-furman/HyperSpectralDRL)
+* [CV feature engineering experiments](https://github.com/daniel-furman/CV-feature-eng-experiments)
+* [Text classification dataset mixing for domain adaptation](https://github.com/daniel-furman/NLP-dataset-mixing-experiments)
+* [Bayesian MCMC parameter space sampling](https://github.com/daniel-furman/lwMCMC)
 
-Follow me on: <br>
-- [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/)<br>
-- [GitHub](https://github.com/daniel-furman)<br>
-- [HuggingFace](https://huggingface.co/dfurman)<br>
-- [Medium](https://medium.com/@daniel_furman)
+👨‍💻 Articles
+* [Why Startup fundamentals are key to AI strategy"](https://medium.com/towards-data-science/why-startup-fundamentals-are-key-to-ai-strategy-76e5a59d9b96)
+* [Default HF models are probably all you need](https://medium.com/towards-data-science/default-hugging-face-models-are-probably-all-you-need-for-vanilla-image-classification-9d0ee19c85fa)
+* [Species distribution modeling tutorial in Python](https://daniel-furman.github.io/Python-species-distribution-modeling/)
+
+Feel free to reach out using the contacts on this profile.
 
 <br>
 
