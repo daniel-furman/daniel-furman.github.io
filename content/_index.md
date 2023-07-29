@@ -6,7 +6,7 @@ title = "About"
 
 ---
 
-# Hi 👋 I'm Daniel
+## Hello there 👋
 
 I'm a member of the `analytics` team at West Monroe Partners, expanding what's possible with data science in strategy consulting. I have an MS in data science from UC Berkeley 🐻 and have applied ML to several modalities (text, image, geospatial, time-based signals) and industries (PE, software, construction, beauty).
 
