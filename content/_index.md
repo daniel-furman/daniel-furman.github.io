@@ -10,7 +10,7 @@ title = "About"
 
 I'm a member of the `analytics` team at West Monroe, expanding what's possible with data science in strategy consulting. I have an MS in data science from UC Berkeley and a BA from UPenn. I enjoy applying ML across modalities (natural language, vision, geospatial) and industries (software, M&A, IT).
 
-Follow me on [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/), [Medium](https://medium.com/@daniel_furman), [Hugging Face](https://huggingface.co/dfurman), and <a href="https://github.com/daniel-furman" target="_blank" rel="noopener noreferrer">GitHub</a>.
+Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://medium.com/@daniel_furman" target="_blank" rel="noopener noreferrer">Medium</a>, <a href="https://huggingface.co/dfurman" target="_blank" rel="noopener noreferrer">Hugging Face</a>, and <a href="https://github.com/daniel-furman" target="_blank" rel="noopener noreferrer">GitHub</a>.
 
 Here are a few open projects I've been a part of:
 
