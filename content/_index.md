@@ -8,11 +8,11 @@ title = "About"
 
 ## Hello there 👋
 
-I'm a member of the `analytics` team at West Monroe Partners, expanding what's possible with data science in strategy consulting. I have an MS in data science from UC Berkeley 🐻 and have applied ML to several modalities (text, image, geospatial, time-based signals) and industries (PE, software).
+I'm a member of the analytics team at West Monroe Partners, expanding what's possible with data science in strategy consulting. I have a Master's in data science from UC Berkeley 🐻 and experience applying ML across various modalities (e.g., natural language, vision, geospatial) and industries (e.g., software, M&A, IT).
 
 Follow me @ [LinkedIn](https://www.linkedin.com/in/daniel-ryan-furman/), [Medium](https://medium.com/@daniel_furman), and [Hugging Face](https://huggingface.co/dfurman).
 
-Here are a few interesting open projects and publications I've been part of:
+Here are a few open projects I've been a part of:
 
 🤖 Projects
 * [Lightweight demos for sft of instruction LLMs](https://github.com/daniel-furman/sft_demos)
@@ -28,8 +28,6 @@ Here are a few interesting open projects and publications I've been part of:
 * [Why Startup fundamentals are key to AI strategy"](https://medium.com/towards-data-science/why-startup-fundamentals-are-key-to-ai-strategy-76e5a59d9b96)
 * [Default HF models are probably all you need](https://medium.com/towards-data-science/default-hugging-face-models-are-probably-all-you-need-for-vanilla-image-classification-9d0ee19c85fa)
 * [Species distribution modeling tutorial in Python](https://daniel-furman.github.io/Python-species-distribution-modeling/)
-
-Feel free to reach out using the contacts on this profile.
 
 <br>
 
