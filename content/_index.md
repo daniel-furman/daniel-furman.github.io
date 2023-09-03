@@ -15,6 +15,7 @@ Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_
 Here are a few open projects I've been a part of:
 
 🤖 Projects
+* [Text clustering: HDBSCAN is probably all you need](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering)
 * [Lightweight demos for sft of instruction LLMs](https://github.com/daniel-furman/sft_demos)
 * [Chatbot built on top of up-to-date M&A news](https://github.com/daniel-furman/All-In-Copilot)
 * [Mini reasoning quiz for LLMs](https://github.com/daniel-furman/LLM-reasoning-pop-quiz)
