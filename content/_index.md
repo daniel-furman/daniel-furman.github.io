@@ -14,16 +14,14 @@ Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_
 
 Here are a few open projects I've been a part of:
 
-🤖 Projects
+🦾 Projects
 * [Text clustering: HDBSCAN is probably all you need](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering)
 * [Lightweight demos for sft of instruction LLMs](https://github.com/daniel-furman/sft_demos)
+* [Are foundation language models polyglots?](https://github.com/daniel-furman/Polyglot-or-Not)
 * [Chatbot built on top of up-to-date M&A news](https://github.com/daniel-furman/All-In-Copilot)
 * [Mini reasoning quiz for LLMs](https://github.com/daniel-furman/LLM-reasoning-pop-quiz)
-* [Are foundation language models polyglots?](https://github.com/daniel-furman/Polyglot-or-Not)
 * [HyperSpectral deep reinforcement learning](https://github.com/daniel-furman/HyperSpectralDRL)
 * [CV feature engineering experiments](https://github.com/daniel-furman/CV-feature-eng-experiments)
-* [Text classification dataset mixing for domain adaptation](https://github.com/daniel-furman/NLP-dataset-mixing-experiments)
-* [Bayesian MCMC parameter space sampling](https://github.com/daniel-furman/lwMCMC)
 
 👨‍💻 Articles
 * [Why Startup fundamentals are key to AI strategy](https://medium.com/towards-data-science/why-startup-fundamentals-are-key-to-ai-strategy-76e5a59d9b96)
