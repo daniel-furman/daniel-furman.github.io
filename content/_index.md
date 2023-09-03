@@ -12,7 +12,7 @@ I'm a member of the `analytics` team at West Monroe, expanding what's possible w
 
 Here are a few open-source projects I've been a part of:
 
-🦾 Projects
+🦾 Code
 * [Text clustering: HDBSCAN is probably all you need](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering)
 * [Lightweight demos for sft of instruction LLMs](https://github.com/daniel-furman/sft_demos)
 * [Are foundation language models polyglots?](https://github.com/daniel-furman/Polyglot-or-Not)
