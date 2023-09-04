@@ -34,8 +34,6 @@ Here are a few of the open-source projects I've been a part of:
 * [Default HF models are probably all you need](https://medium.com/towards-data-science/default-hugging-face-models-are-probably-all-you-need-for-vanilla-image-classification-9d0ee19c85fa)
 * [Species distribution modeling tutorial in Python](https://daniel-furman.github.io/Python-species-distribution-modeling/)
 
-<br>
-
 ---
 
 ## Timeline
