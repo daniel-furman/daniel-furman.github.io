@@ -8,9 +8,17 @@ title = "About"
 
 ## Hello there 👋
 
-I'm a member of the `analytics` team at West Monroe, expanding what's possible with data science in strategy consulting. I have an MS in data science from UC Berkeley and a BA from UPenn. I enjoy applying ML across modalities (natural language, vision, geospatial) and industries (software, M&A, IT). Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://medium.com/@daniel_furman" target="_blank" rel="noopener noreferrer">Medium</a>, <a href="https://huggingface.co/dfurman" target="_blank" rel="noopener noreferrer">Hugging Face</a>, and <a href="https://github.com/daniel-furman" target="_blank" rel="noopener noreferrer">GitHub</a>.
+Great data science is about developing effective tools that solve core business problems. I'm passionate about building systems that increase operational efficiencies and enable smarter decision-making. 
 
-Here are a few open-source projects I've been a part of:
+At present, I'm a member of the `analytics` team at West Monroe, expanding what’s possible with data science in strategy consulting. I have an MS in data science from UC Berkeley and a BA from UPenn. I enjoy applying ML across modalities (natural language, vision, geospatial) and industries (high-tech & software, M&A, IT strategy).
+
+Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://medium.com/@daniel_furman" target="_blank" rel="noopener noreferrer">Medium</a>, <a href="https://huggingface.co/dfurman" target="_blank" rel="noopener noreferrer">Hugging Face</a>, and <a href="https://github.com/daniel-furman" target="_blank" rel="noopener noreferrer">GitHub</a>.
+
+---
+
+# Projects
+
+Here are a few of the open-source projects I've been a part of:
 
 🦾 Code
 * [Text clustering: HDBSCAN is probably all you need](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering)
@@ -47,7 +55,7 @@ Year | Education
 
 ---
 
-# Academic Research
+# Research
 
 * Daniel Furman, Tim Schott, Shreshta Bhat, [Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://arxiv.org/abs/2305.13675). arXiv preprint arXiv:2305.13675, 2023. 
 * Daniel Furman and David Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
