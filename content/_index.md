@@ -16,7 +16,7 @@ Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_
 
 ---
 
-# Projects
+## Projects
 
 Here are a few of the open-source projects I've been a part of:
 
@@ -38,7 +38,7 @@ Here are a few of the open-source projects I've been a part of:
 
 ---
 
-# Timeline
+## Timeline
 
 Year | Work Experience
 -----|-------
@@ -55,7 +55,7 @@ Year | Education
 
 ---
 
-# Research
+## Research
 
 * Daniel Furman, Tim Schott, Shreshta Bhat, [Polyglot or Not? Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://arxiv.org/abs/2305.13675). arXiv preprint arXiv:2305.13675, 2023. 
 * Daniel Furman and David Goldsby, [The Rheological Behavior of Firn: Experimental Observations of Dislocation Creep via Grain Boundary Sliding](https://daniel-furman.github.io//research-outputs/Furman-and-Goldsby-2021.pdf), *Penn Science*, 19(2), 34-42, 2021.
@@ -63,7 +63,7 @@ Year | Education
 
 ---
 
-# Favorite Quotes
+## Favorite Quotes
 
 * "The world represented in your training data is the only world you can expect to succeed in." Cassie Kozyrkov. Making Friends with Machine Learning, Google.
 * “More data beats better models, better data beats more data, and eighty percent of the outcomes result from twenty percent of the inputs.”
