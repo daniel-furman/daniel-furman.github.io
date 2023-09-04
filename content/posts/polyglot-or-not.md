@@ -14,8 +14,6 @@ Post corresponds to the README from this [repo](https://github.com/daniel-furman
 
 ---
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/LICENSE) [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
-
 This is the repository for the following paper: [Polyglot or Not?: Measuring Multilingual Encyclopedic Knowledge Retrieval from Foundation Language Models](https://arxiv.org/abs/2305.13675). It contains several research artifacts, including:
 
 1. The [code][cka_run_main] for running the fact-completion test
