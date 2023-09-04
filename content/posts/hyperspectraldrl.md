@@ -1,5 +1,5 @@
 ---
-title: "Deep Reinforcement Learning for hyperspectral band selection."
+title: "Deep reinforcement learning for hyperspectral band selection."
 date: 2022-12-17
 katex: true
 markup: "mmark"

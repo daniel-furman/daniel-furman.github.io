@@ -1,11 +1,11 @@
 ---
-title: "Solving a Partnership Restructuring Problem with a Search Model."
+title: "Solving a partnership restructuring with computational mathematics."
 date: 2021-04-20T21:22:42-07:00
 katex: true
 markup: "mmark"
 ---
 
-## Solving a Partnership Restructuring Problem with a Search Model.
+## Solving a partnership restructuring with computational mathematics
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "HF models are all you need for “vanilla” image classification."
+title: "Hugging Face models are all you need for CV classification."
 date: 2022-11-30
 katex: true
 markup: "mmark"
