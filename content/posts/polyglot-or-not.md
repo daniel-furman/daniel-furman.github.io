@@ -95,7 +95,7 @@ The factual associations were originally sourced from English-language Wikidata 
  | [mt5-xl](https://huggingface.co/google/mt5-xl) |  **59.96** (+/- 0.59) | 3.7B | - |
  | Random Baseline | 50   | - | - |
  
- **Table 2**: Monolingual test leaderboard. **Accuracy** represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available. Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), Llamas of varying sizes emerge as the front-runners.
+ **Table 2**: Monolingual test leaderboard. **Accuracy** represents performance on English-only data. The uncertainty estimates are 95% confidence intervals computed from 10000 bootstrap iterations. **Params** and ***n* tokens** record each model’s number of parameters and number of dataset tokens, respectively (when such data is available). Consistent with the trends in Table [1](https://github.com/daniel-furman/Polyglot-or-Not#multilingual-leaderboard), Llamas of varying sizes emerge as the front-runners.
  
  &nbsp;
 
