@@ -1,5 +1,5 @@
 ---
-title: "Why startup fundamentals are key to AI strategy."
+title: "Why startup fundamentals are key to AI strategy"
 date: 2022-08-16
 katex: true
 markup: "mmark"

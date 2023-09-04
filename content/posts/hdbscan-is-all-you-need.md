@@ -1,5 +1,5 @@
 ---
-title: "Text clustering: HDBSCAN is probably all you need."
+title: "Text clustering: HDBSCAN is probably all you need"
 date: 2023-09-04
 katex: true
 markup: "mmark"

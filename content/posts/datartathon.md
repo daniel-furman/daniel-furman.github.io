@@ -1,11 +1,11 @@
 ---
-title: "DAT/Artathon EcoRisk Forecasts - California DataViz."
+title: "DAT/Artathon risk forecasts for keystone California species"
 date: 2021-08-09
 katex: true
 markup: "mmark"
 ---
 
-# DAT/Artathon EcoRisk Forecasts - California DataViz
+# DAT/Artathon risk forecasts for keystone California species
 
 As featured in D/A's gallery: [https://datartathon.com/projects/2021-daniel-ecorisk-california](https://datartathon.com/projects/2021-daniel-ecorisk-california)
 
