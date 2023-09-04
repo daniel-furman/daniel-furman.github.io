@@ -16,26 +16,6 @@ Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_
 
 ---
 
-## Projects
-
-Here are a few of the open-source projects I've been a part of:
-
-🦾 Code
-* [Text clustering: HDBSCAN is probably all you need](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering)
-* [Lightweight demos for sft of instruction LLMs](https://github.com/daniel-furman/sft_demos)
-* [Are foundation language models polyglots?](https://github.com/daniel-furman/Polyglot-or-Not)
-* [Chatbot built on top of up-to-date M&A news](https://github.com/daniel-furman/All-In-Copilot)
-* [Mini reasoning quiz for LLMs](https://github.com/daniel-furman/LLM-reasoning-pop-quiz)
-* [HyperSpectral deep reinforcement learning](https://github.com/daniel-furman/HyperSpectralDRL)
-* [CV feature engineering experiments](https://github.com/daniel-furman/CV-feature-eng-experiments)
-
-👨‍💻 Articles
-* [Why Startup fundamentals are key to AI strategy](https://medium.com/towards-data-science/why-startup-fundamentals-are-key-to-ai-strategy-76e5a59d9b96)
-* [Default HF models are probably all you need](https://medium.com/towards-data-science/default-hugging-face-models-are-probably-all-you-need-for-vanilla-image-classification-9d0ee19c85fa)
-* [Species distribution modeling tutorial in Python](https://daniel-furman.github.io/Python-species-distribution-modeling/)
-
----
-
 ## Timeline
 
 Year | Work Experience
