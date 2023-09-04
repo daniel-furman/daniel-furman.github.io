@@ -1,5 +1,5 @@
 ---
-title: "Using numerical mathematics to approximate the golden ratio."
+title: "Using numerical mathematics to approximate the golden ratio"
 date: 2021-05-10
 katex: true
 markup: "mmark"
