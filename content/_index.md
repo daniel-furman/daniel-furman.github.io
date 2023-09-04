@@ -28,8 +28,8 @@ Year | Work Experience
 
 Year | Education
 -----|-------
-2021-2023 | University of California, Berkeley, Masters of Information Management & Systems.
-2016-2020 | University of Pennsylvania, Bachelors with Distinction in Earth Science.
+2023 | University of California, Berkeley, Masters of Information Management & Systems
+2020 | University of Pennsylvania, Bachelors with Distinction in Earth Science
 
 ---
 
