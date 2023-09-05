@@ -59,7 +59,7 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 ![](/posts/hdbscan-assets/exemplars_viz_2.png)
 
-**Figure 3**. Additional clustering is conducted around the exemplars to identify sub-topics in the dataset. The cases in each sub-cluster then serve as context for the LLM calls below.
+**Figure 3**. Additional clustering is conducted around the exemplars to identify sub-topics in the dataset. The cases in each sub-cluster then serve as context for the LLM theme summarization calls below.
 
 ![](/posts/hdbscan-assets/cluster0_subcluster0.png)
 
