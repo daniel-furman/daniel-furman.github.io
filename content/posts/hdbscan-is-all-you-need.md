@@ -76,10 +76,6 @@ These figures correspond to [`experiments/02_09_2023_16_54_32`](https://github.c
 
 These figures correspond to [`experiments/04_09_2023_03_02_25`](https://github.com/daniel-furman/awesome-chatgpt-prompts-clustering/tree/main/experiments/04_09_2023_03_02_25)
 
-<a target="_blank" href="https://colab.research.google.com/github/daniel-furman/awesome-chatgpt-prompts-clustering/blob/main/notebooks/stable-diffusion-prompts-clustering.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
 ---
 
 HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusion-prompts](https://huggingface.co/datasets/Gustavosta/Stable-Diffusion-Prompts) into 78 clusters with 25,019 (33%) of the dataset represented. The remaining 48,699 (66%) were filtered out as outliers/noise. The 5 largest clusters cover 9.5% of the dataset - these are the segments we will examine for drift below. 
@@ -105,7 +101,7 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 
 <br>
 
-<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/aspens_runway.jpeg"/ width = "550" height = "366"> </p>
+<p align="center"> <img src="/posts/hdbscan-assets/aspens_runway.jpeg"/ width = "550" height = "366"> </p>
 
 **Prompt**: "*Beautiful painting of an Aspen forest at sunset, digital art, award winning illustration, golden hour, smooth, sharp lines, concept art, trending on artstation*" <br>
 **Model**: [Runway Gen-2](https://app.runwayml.com/video-tools/teams/dryanfurman/ai-tools/text-to-image) (accessed by Daniel Furman on Sep 4, 2023) <br>
@@ -113,13 +109,13 @@ HDBSCAN splits the 73,718 text to image prompts from [gustavosta/stable-diffusio
 
 <br>
 
-<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/batman_midjourney.png"/ width = "375" height = "375"> </p>
+<p align="center"> <img src="/posts/hdbscan-assets/batman_midjourney.png"/ width = "375" height = "375"> </p>
 
 **Prompt**: "*Futuristic batman, brush strokes, oil painting, greg rutkowski*" <br>
 **Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed by Daniel Furman on Sep 4, 2023) <br>
 **Theme**: Art and portraits of Batman characters (cluster id: 41)<br>
 
-<p align="center"> <img src="experiments/04_09_2023_03_02_25/assets/futuristic_car_midjourney.png"/ width = "500" height = "384"> </p>
+<p align="center"> <img src="/posts/hdbscan-assets/futuristic_car_midjourney.png"/ width = "500" height = "384"> </p>
 
 **Prompt**: "*Futuristic Porsche designed by Apple, a detailed matte painting by Kitagawa Utamaro, cgsociety, octane render, highly detailed, matte painting, concept art, sci-fi*" <br>
 **Model**: [Midjourney V5.2](https://www.midjourney.com/app/) (accessed by Daniel Furman on Sep 4, 2023) <br>
