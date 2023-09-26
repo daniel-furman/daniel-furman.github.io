@@ -15,6 +15,16 @@ Post corresponds to the README from this [repo](https://github.com/daniel-furman
 
 This repo contains demos for supervised finetuning (sft) of large language models, like Meta's [llama-2](https://huggingface.co/meta-llama/Llama-2-7b-hf). In particular, we focus on tuning for short-form instruction following capabilities.
 
+## Table of contents
+
+1. [Instruction tuning background](https://github.com/daniel-furman/sft-demos#instruction-tuning-background)
+2. [Code assets](https://github.com/daniel-furman/sft-demos#code-assets)
+3. [Base models and datasets](https://github.com/daniel-furman/sft-demos#base-models-and-datasets)
+4. [Finetuned models](https://github.com/daniel-furman/sft-demos#finetuned-models)
+5. [Basic usage of peft models](https://github.com/daniel-furman/sft-demos#basic-usage-of-peft-models)
+
+---
+
 ## Instruction tuning background
 
  In recent years, there has been a growing interest in building models that can follow natural language instructions to perform a wide range of tasks. These models, known as "instruction-tuned" language models, have demonstrated the ability to generalize to new tasks.
@@ -25,7 +35,7 @@ This repo contains demos for supervised finetuning (sft) of large language model
 * Do language modeling on this data, nothing changes algorithmically from pretraining. 
 * After training we get an SFT model which can be deployed as assistants (and it works to some extent).
 
-![training_pipeline](https://raw.githubusercontent.com/daniel-furman/sft-demos/main/assets/assistant_training_pipeline.png)
+![training_pipeline](assets/assistant_training_pipeline.png)
 
 For more background, see any number of excellent papers on the subject, including [Self-Instruct](https://arxiv.org/pdf/2212.10560.pdf) (2023), [Orca](https://arxiv.org/pdf/2306.02707.pdf) (2023), and [InstructGPT](https://arxiv.org/pdf/2203.02155.pdf) (2022). 
 
@@ -55,7 +65,7 @@ We test the following datasets. Each is open-source and licensed for commercial 
 
 <br>
 
-### 1. [`falcon-180b-instruct-peft`](https://huggingface.co/dfurman/falcon-180b-instruct-peft) 
+## 1. [falcon-180b-instruct-peft](https://huggingface.co/dfurman/falcon-180b-instruct-peft) 
 
 * Dataset(s): 50% ehartford/dolphin & 50% garage-bAInd/Open-Platypus
 
@@ -73,14 +83,14 @@ This instruction model was built via parameter-efficient QLoRA finetuning of [fa
 
 ### Helpful links
 
-* Model license: [Falcon-180B TII License](https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/LICENSE.txt)
+ * Model license: [Falcon-180B TII License](https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/LICENSE.txt)
  * Basic usage: [here](https://github.com/daniel-furman/sft-demos/blob/main/src/sft/multi_gpus/falcon/postprocessing-falcon-180b-instruct-peft.ipynb)
  * Finetuning code: [here](https://github.com/daniel-furman/sft-demos/blob/main/src/sft/multi_gpus/falcon/sft-falcon-180b-instruct-peft.py)
  * Runtime stats: [here](https://github.com/daniel-furman/sft-demos#runtime-tests)
 
 ### Loss curve
 
-![loss_curves](https://raw.githubusercontent.com/daniel-furman/sft-demos/main/assets/sep_12_23_9_20_00_log_loss_curves_falcon-180b-instruct.png)
+![loss_curves](assets/sep_12_23_9_20_00_log_loss_curves_falcon-180b-instruct.png)
 
 The above loss curve was generated from the run's private wandb.ai log.  
 
@@ -160,9 +170,9 @@ Example 3:
 > 8. Bake for 45-55 minutes, or until a toothpick inserted into the center of the loaf comes out clean.
 > 9. Allow the banana bread to cool in the pan for 10 minutes before transferring it to a wire rack to cool completely.
 > 10. Slice and serve warm or at room temperature. Enjoy!
-> 
+>
 > Note: You can also use whole wheat flour or a gluten-free flour blend in place of all-purpose flour. Adjust the baking time accordingly, as whole wheat flour or gluten-free flour may require a longer baking time.
-> 
+>
 > Optional variations:
 > - Add 1/2 cup of chopped nuts (walnuts, pecans, or almonds) or chocolate chips to the batter for extra flavor and texture.
   
@@ -176,7 +186,7 @@ Example 3:
 
 <br>
 
-### 2. [`llama-2-70b-dolphin-peft`](https://huggingface.co/dfurman/llama-2-70b-dolphin-peft) 
+## 2. [llama-2-70b-dolphin-peft](https://huggingface.co/dfurman/llama-2-70b-dolphin-peft)
 
 * Dataset(s): 100% ehartford/dolphin
 
@@ -201,7 +211,7 @@ This instruction model was built via parameter-efficient QLoRA finetuning of [ll
 
 ### Loss curve
 
-![loss_curves](https://raw.githubusercontent.com/daniel-furman/sft-demos/main/assets/jul_24_23_1_14_00_log_loss_curves_llama-2-70b-dolphin.png)
+![loss_curves](assets/jul_24_23_1_14_00_log_loss_curves_llama-2-70b-dolphin.png)
 
 The above loss curve was generated from the run's private wandb.ai log.  
 
@@ -291,3 +301,72 @@ Example 3:
 | 4.50                        | 1x H100 (80 GB PCIe)  | torch               | nf4    | 39                    | 
 
 <br>
+
+## Basic usage of peft models
+
+```python
+!pip install -q -U huggingface_hub peft transformers torch accelerate
+```
+
+```python
+from huggingface_hub import notebook_login
+import torch
+from peft import PeftModel, PeftConfig
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    BitsAndBytesConfig,
+    pipeline,
+)
+
+notebook_login()
+```
+
+```python
+peft_model_id = "dfurman/falcon-180b-instruct-peft"
+config = PeftConfig.from_pretrained(peft_model_id)
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.bfloat16,
+)
+
+model = AutoModelForCausalLM.from_pretrained(
+    config.base_model_name_or_path,
+    quantization_config=bnb_config,
+    use_auth_token=True,
+    device_map="auto",
+)
+
+tokenizer = AutoTokenizer.from_pretrained(config.base_model_name_or_path, use_fast=True)
+tokenizer.pad_token = tokenizer.eos_token
+
+model = PeftModel.from_pretrained(model, peft_model_id)
+
+format_template = "You are a helpful assistant. {query}\n"
+```
+
+```python
+# First, format the prompt
+query = "Tell me a recipe for vegan banana bread."
+prompt = format_template.format(query=query)
+
+# Inference can be done using model.generate
+print("\n\n*** Generate:")
+
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
+with torch.autocast("cuda", dtype=torch.bfloat16):
+    output = model.generate(
+        input_ids=input_ids,
+        max_new_tokens=512,
+        do_sample=True,
+        temperature=0.7,
+        return_dict_in_generate=True,
+        eos_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.pad_token_id,
+        repetition_penalty=1.2,
+    )
+
+print(tokenizer.decode(output["sequences"][0], skip_special_tokens=True))
+```
