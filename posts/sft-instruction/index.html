@@ -55,7 +55,6 @@ Your Name</p></blockquote><blockquote><p>P.S. Please let me know if you have any
 </span><span class=lnt>19
 </span><span class=lnt>20
 </span><span class=lnt>21
-</span><span class=lnt>22
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>peft_model_id</span> <span class=o>=</span> <span class=s2>&#34;dfurman/mistral-7b-instruct-peft&#34;</span>
 </span></span><span class=line><span class=cl><span class=n>config</span> <span class=o>=</span> <span class=n>PeftConfig</span><span class=o>.</span><span class=n>from_pretrained</span><span class=p>(</span><span class=n>peft_model_id</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
@@ -68,7 +67,6 @@ Your Name</p></blockquote><blockquote><p>P.S. Please let me know if you have any
 </span></span><span class=line><span class=cl><span class=n>model</span> <span class=o>=</span> <span class=n>AutoModelForCausalLM</span><span class=o>.</span><span class=n>from_pretrained</span><span class=p>(</span>
 </span></span><span class=line><span class=cl>    <span class=n>config</span><span class=o>.</span><span class=n>base_model_name_or_path</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>    <span class=n>quantization_config</span><span class=o>=</span><span class=n>bnb_config</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>use_auth_token</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>    <span class=n>device_map</span><span class=o>=</span><span class=s2>&#34;auto&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl><span class=p>)</span>
 </span></span><span class=line><span class=cl>
