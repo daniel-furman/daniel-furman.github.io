@@ -8,7 +8,7 @@ title = "About"
 
 ## Hello there 👋
 
-Great data science is about developing effective tools that solve core business problems. I'm passionate about building such systems, particularly those that increase operational efficiencies and enable smarter decision-making.
+Great data science is about developing effective solutions to core business problems. I'm passionate about building such systems, particularly those that increase operational efficiencies and enable smarter decision-making.
 
 I'm currently a member of the analytics team at West Monroe, expanding what’s possible with data science in strategy consulting. I have an MS in data science from UC Berkeley and a BA in earth science & mathematics from UPenn. I enjoy applying ML across modalities (tabular, natural language, vision, geospatial) and industries (high-tech & software, M&A, IT strategy).
 
