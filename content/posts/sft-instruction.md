@@ -1,6 +1,6 @@
 ---
-title: "Supervised finetuning of instruction-following LLMs"
-date: 2023-07-15
+title: "Demos for supervised finetuning of instruction-following LLMs"
+date: 2023-11-13
 katex: true
 markup: "mmark"
 ---
