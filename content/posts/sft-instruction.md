@@ -25,9 +25,9 @@ This repo contains demos for supervised finetuning (sft) of large language model
 
 ---
 
-## Instruction tuning background
+## Instruction-tuning background
 
- In recent years, there has been a growing interest in building models that can follow natural language instructions to perform a wide range of tasks. These models, known as "instruction-tuned" language models, have demonstrated the ability to generalize to new tasks.
+ As of late, there has been a growing interest in building models that can follow natural language instructions to perform a wide range of tasks. These models, known as "instruction-tuned" language models, have demonstrated the ability to generalize to new tasks.
  
  The below was captured from the "[State of GPTs](https://www.youtube.com/watch?v=bZQun8Y4L2A)" talk by Andrej Karpathy. The key points illustrated for SFT:
 
@@ -39,22 +39,17 @@ This repo contains demos for supervised finetuning (sft) of large language model
 
 For more background, see any number of excellent papers on the subject, including [Self-Instruct](https://arxiv.org/pdf/2212.10560.pdf) (2023), [Orca](https://arxiv.org/pdf/2306.02707.pdf) (2023), and [InstructGPT](https://arxiv.org/pdf/2203.02155.pdf) (2022). 
 
-## Code assets
+## Favorites from this repo
 
-* See the `src/sft` folder for sft examples.
-
-## Favorite sft llms
-
-1. [dfurman/llama-2-70b-instruct-v0.1](https://huggingface.co/dfurman/llama-2-70b-dolphin-v0.1)
-    *  *Note*: This model was ranked 6th on the Open LLM Leaderboard on Aug 10, 2023.
-2. [dfurman/Yi-6B-instruct-v0.1](https://huggingface.co/dfurman/Yi-6B-instruct-v0.1) 
-3. [dfurman/mistral-7b-instruct-v0.1](https://huggingface.co/dfurman/mistral-7b-instruct-v0.1) 
-4. [dfurman/falcon-180b-instruct-v0.1](https://huggingface.co/dfurman/falcon-180b-instruct-v0.1) 
-
+1. [dfurman/Llama-2-70B-Instruct-v0.1](https://huggingface.co/dfurman/llama-2-70b-dolphin-v0.1)
+    *  *Note*: This model was ranked 6th on 🤗's Open LLM Leaderboard in Aug 2023
+2. [dfurman/Yi-6B-Instruct-v0.1](https://huggingface.co/dfurman/Yi-6B-Instruct-v0.1) 
+3. [dfurman/Mistral-7B-Instruct-v0.1](https://huggingface.co/dfurman/Mistral-7B-Instruct-v0.1) 
+4. [dfurman/Falcon-180B-Instruct-v0.1](https://huggingface.co/dfurman/Falcon-180B-Instruct-v0.1) 
 
 ## Basic usage
 
-*Note* Executed on a Google Colab notebook with 1x A100 40 GB (SXM) GPU. 
+*Note*: Use the code below to get started with the sft models herein, as ran on 1x A100.  
 
 ```python
 !pip install -q -U transformers peft torch accelerate bitsandbytes einops sentencepiece
@@ -69,38 +64,49 @@ from transformers import (
 ```
 
 ```python
-peft_model_id = "dfurman/mistral-7b-instruct-v0.1"
+peft_model_id = "dfurman/Yi-6B-instruct-v0.1"
 config = PeftConfig.from_pretrained(peft_model_id)
 
+tokenizer = AutoTokenizer.from_pretrained(
+    peft_model_id,
+    use_fast=True,
+    trust_remote_code=True,
+)
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.bfloat16,
+)
 model = AutoModelForCausalLM.from_pretrained(
     config.base_model_name_or_path,
-    torch_dtype=torch.bfloat16,
+    quantization_config=bnb_config,
     device_map="auto",
     trust_remote_code=True,
 )
-
-tokenizer = AutoTokenizer.from_pretrained(
-    config.base_model_name_or_path,
-    use_fast=True, 
-    trust_remote_code=True,
+model = PeftModel.from_pretrained(
+    model, 
+    peft_model_id
 )
-
-model = PeftModel.from_pretrained(model, peft_model_id)
-
-format_template = "You are a helpful assistant. Write a response that appropriately completes the request. {query}\n"
 ```
 
 ```python
-query = "Write a short email inviting my friends to a dinner party on Friday. Respond succinctly."
-prompt = format_template.format(query=query)
+messages = [
+    {"role": "system", "content": "You are a helpful assistant. Respond as briefly as possible."},    
+    {"role": "user", "content": "Tell me a recipe for a mai tai."},
+]
 
+print("\n\n*** Prompt:")
+prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+print(prompt)
+
+print("\n\n*** Generate:")
 input_ids = tokenizer(prompt, return_tensors="pt").input_ids.cuda()
 with torch.autocast("cuda", dtype=torch.bfloat16):
     output = model.generate(
         input_ids=input_ids,
-        max_new_tokens=512,
+        max_new_tokens=1024,
         do_sample=True,
-        temperature=0.1,
+        temperature=0.7,
         return_dict_in_generate=True,
         eos_token_id=tokenizer.eos_token_id,
         pad_token_id=tokenizer.pad_token_id,
@@ -108,30 +114,30 @@ with torch.autocast("cuda", dtype=torch.bfloat16):
         no_repeat_ngram_size=5,
     )
 
-print("\n\n*** Generate:")
-print(tokenizer.decode(output["sequences"][0][len(input_ids[0]):], skip_special_tokens=True))
+response = tokenizer.decode(
+    output["sequences"][0][len(input_ids[0]):], 
+    skip_special_tokens=True
+)
+print(response)
 ```
 
 <details>
 
 <summary>Output</summary>
 
-**Prompt**: Write a short email inviting my friends to a dinner party on Friday. Respond succinctly.
+**Prompt**: <|im_start|>system
+You are a helpful assistant. Respond as briefly as possible.<|im_end|>
+<|im_start|>user
+Tell me a recipe for a mai tai.<|im_end|>
+<|im_start|>assistant
 
-**Generation**: The invitation should be brief and to-the-point, so it's best to use simple language and avoid unnecessary details or long explanations. Here is an example of a concise invitation:
+**Generation**: Here's one simple version of the classic Mai Tai cocktail:
 
-Dear Friends,
+1 oz White Rum (Bacardi, Don Papa, etc.) ➕ ½ oz Coconut Cream Liqueur (Malibu or Coco Lopez)
+2 tsp Simple Syrup ➕ Dash Orange Bitters
+3-4 Ice Cubes
 
-I hope you can join me for a fun evening at my place this Friday! We'll have delicious food, great conversation, and maybe even some games if we feel like it. Please RSVP by Wednesday night so I know who will be there. 
-
-Looking forward to seeing you all soon!
-
-Best regards,
-Your Name
-
-This message clearly communicates the essential information about the event while maintaining a friendly tone. It also includes a specific date (Friday) and timeframe (evening), as well as a clear call to action (RSVP). The closing line adds a personal touch and expresses excitement for the gathering. Overall, this invitation strikes a good balance between being informative and engaging without overwhelming the reader with too much text.
-
-Remember, when writing emails, always keep in mind your audience and their preferences. If they prefer more detailed information or additional context, adjust accordingly. However, try not to make the invitation overly complicated or lengthy – simplicity often makes for a better experience. Happy emailing!
+Shake all ingredients in a shaker filled with ice until well chilled and strain into an old fashioned glass over fresh crushed ice. Garnish with mint leaves if desired. Enjoy!
 
 </details>
 
@@ -148,6 +154,7 @@ We finetune off of the following base models in this repo:
 We use the following datasets in this repo:
 
 * [ehartford/dolphin](https://huggingface.co/datasets/ehartford/dolphin)
+* [jondurbin/airoboros-2.2.1](https://huggingface.co/datasets/jondurbin/airoboros-2.2.1)
 * [garage-bAInd/Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus)
 * [timdettmers/openassistant-guanaco](https://huggingface.co/datasets/timdettmers/openassistant-guanaco)
 
