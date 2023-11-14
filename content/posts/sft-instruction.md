@@ -5,7 +5,7 @@ katex: true
 markup: "mmark"
 ---
 
-# Supervised finetuning of instruction-following LLMs
+# Supervised finetuning of instruction-following Large Language Models (LLMs)
 
 ---
 
@@ -13,27 +13,29 @@ Post corresponds to the README from this [repo](https://github.com/daniel-furman
 
 ---
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/daniel-furman/Polyglot-or-Not/blob/main/LICENSE) 
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
+
 This repo contains demos for supervised finetuning (sft) of large language models, like Meta's [llama-2](https://huggingface.co/meta-llama/Llama-2-7b-hf). In particular, we focus on tuning for short-form instruction following capabilities.
 
 ## Table of contents
 
-1. [Instruction tuning background](https://github.com/daniel-furman/sft-demos#instruction-tuning-background)
-2. [Code assets](https://github.com/daniel-furman/sft-demos#code-assets)
-3. [Base models and datasets](https://github.com/daniel-furman/sft-demos#base-models-and-datasets)
-4. [Finetuned models](https://github.com/daniel-furman/sft-demos#finetuned-models)
-5. [Basic usage of peft models](https://github.com/daniel-furman/sft-demos#basic-usage-of-peft-models)
+1. [Background](https://github.com/daniel-furman/sft-demos#instruction-tuning-background)
+2. [Finetuned models](https://github.com/daniel-furman/sft-demos#favorites-from-this-repo)
+3. [Basic usage](https://github.com/daniel-furman/sft-demos#basic-usage)
+4. [Base models and datasets](https://github.com/daniel-furman/sft-demos#base-models-and-datasets)
+
 
 ---
 
 ## Instruction-tuning background
 
- As of late, there has been a growing interest in building models that can follow natural language instructions to perform a wide range of tasks. These models, known as "instruction-tuned" language models, have demonstrated the ability to generalize to new tasks.
- 
- The below was captured from the "[State of GPTs](https://www.youtube.com/watch?v=bZQun8Y4L2A)" talk by Andrej Karpathy. The key points illustrated for SFT:
+The goal of instruction-tuning is to build LLMs that are capable of following natural language instructions to perform a wide range of tasks. The below was captured from the "[State of GPTs](https://www.youtube.com/watch?v=bZQun8Y4L2A)" talk by Andrej Karpathy. The key points illustrated for sft:
 
-* Collect small but high-quality datasets in the form of "prompt" and "ideal responses". 
+* Collect small but high-quality datasets in the form of prompt and ideal responses. 
 * Do language modeling on this data, nothing changes algorithmically from pretraining. 
-* After training we get an SFT model which can be deployed as assistants (and it works to some extent).
+* After training we get an sft model which can be deployed as assistants (and it works to some extent).
 
 ![training_pipeline](https://raw.githubusercontent.com/daniel-furman/sft-demos/main/assets/assistant_training_pipeline.png)
 
