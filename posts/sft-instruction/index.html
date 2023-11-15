@@ -7,23 +7,19 @@
 </a><span class="nav-item navbar-text mx-1">/</span>
 <a class="nav-item nav-link" href=/resume>Resume
 </a><span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/contact>Contact</a></div></nav></div><hr><div id=content><div class=container><h1 id=supervised-finetuning-of-instruction-following-large-language-models-llms>Supervised finetuning of instruction-following Large Language Models (LLMs)</h1><hr><p>Post corresponds to the README from this <a href=https://github.com/daniel-furman/sft-demos>repo</a>.</p><hr><p>This repo contains demos for supervised finetuning (sft) of large language models, like Meta&rsquo;s <a href=https://huggingface.co/meta-llama/Llama-2-7b-hf>llama-2</a>. In particular, we focus on tuning for short-form instruction following capabilities.</p><h2 id=table-of-contents>Table of contents</h2><ol><li><a href=https://github.com/daniel-furman/sft-demos#instruction-tuning-background>Background</a></li><li><a href=https://github.com/daniel-furman/sft-demos#favorites-from-this-repo>Finetuned models</a></li><li><a href=https://github.com/daniel-furman/sft-demos#basic-usage>Basic usage</a></li><li><a href=https://github.com/daniel-furman/sft-demos#base-models-and-datasets>Base models and datasets</a></li></ol><hr><h2 id=instruction-tuning-background>Instruction-tuning background</h2><p>The goal of instruction-tuning is to build LLMs that are capable of following natural language instructions to perform a wide range of tasks. The below was captured from the &ldquo;<a href="https://www.youtube.com/watch?v=bZQun8Y4L2A">State of GPTs</a>&rdquo; talk by Andrej Karpathy. The key points illustrated for sft:</p><ul><li>Collect small but high-quality datasets in the form of prompt and ideal responses.</li><li>Do language modeling on this data, nothing changes algorithmically from pretraining.</li><li>After training we get an sft model which can be deployed as assistants (and it works to some extent).</li></ul><p><img src=https://raw.githubusercontent.com/daniel-furman/sft-demos/main/assets/assistant_training_pipeline.png alt=training_pipeline></p><p>For more background, see any number of excellent papers on the subject, including <a href=https://arxiv.org/pdf/2212.10560.pdf>Self-Instruct</a> (2023), <a href=https://arxiv.org/pdf/2306.02707.pdf>Orca</a> (2023), and <a href=https://arxiv.org/pdf/2203.02155.pdf>InstructGPT</a> (2022).</p><h2 id=favorites-from-this-repo>Favorites from this repo</h2><ol><li><a href=https://huggingface.co/dfurman/llama-2-70b-dolphin-v0.1>dfurman/Llama-2-70B-Instruct-v0.1</a><ul><li><em>Note</em>: This model was ranked 6th on 🤗&rsquo;s Open LLM Leaderboard in Aug 2023</li></ul></li><li><a href=https://huggingface.co/dfurman/Yi-6B-Instruct-v0.1>dfurman/Yi-6B-Instruct-v0.1</a></li><li><a href=https://huggingface.co/dfurman/Mistral-7B-Instruct-v0.1>dfurman/Mistral-7B-Instruct-v0.1</a></li><li><a href=https://huggingface.co/dfurman/Falcon-180B-Instruct-v0.1>dfurman/Falcon-180B-Instruct-v0.1</a></li></ol><h2 id=basic-usage>Basic usage</h2><p><em>Note</em>: Use the code below to get started with the sft models herein, as ran on 1x A100.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+<a class="nav-item nav-link" href=/contact>Contact</a></div></nav></div><hr><div id=content><div class=container><h1 id=supervised-finetuning-of-instruction-following-large-language-models-llms>Supervised finetuning of instruction-following Large Language Models (LLMs)</h1><hr><p>This blog post corresponds to the README from <a href=https://github.com/daniel-furman/sft-demos>here</a>.</p><hr><p>This repo contains demos for supervised finetuning (sft) of large language models, like Meta&rsquo;s <a href=https://huggingface.co/meta-llama/Llama-2-7b-hf>llama-2</a>. In particular, we focus on tuning for short-form instruction following capabilities.</p><h2 id=table-of-contents>Table of contents</h2><ol><li><a href=https://github.com/daniel-furman/sft-demos#instruction-tuning-background>Background</a></li><li><a href=https://github.com/daniel-furman/sft-demos#favorites-from-this-repo>Finetuned models</a></li><li><a href=https://github.com/daniel-furman/sft-demos#basic-usage>Basic usage</a></li><li><a href=https://github.com/daniel-furman/sft-demos#base-models-and-datasets>Base models and datasets</a></li></ol><hr><h2 id=instruction-tuning-background>Instruction-tuning background</h2><p>The goal of instruction-tuning is to build LLMs that are capable of following natural language instructions to perform a wide range of tasks. The below was captured from the &ldquo;<a href="https://www.youtube.com/watch?v=bZQun8Y4L2A">State of GPTs</a>&rdquo; talk by Andrej Karpathy. The key points illustrated for sft:</p><ul><li>Collect small but high-quality datasets in the form of prompt and ideal responses.</li><li>Do language modeling on this data, nothing changes algorithmically from pretraining.</li><li>After training we get an sft model which can be deployed as assistants (and it works to some extent).</li></ul><p><img src=https://raw.githubusercontent.com/daniel-furman/sft-demos/main/assets/assistant_training_pipeline.png alt=training_pipeline></p><p>For more background, see any number of excellent papers on the subject, including <a href=https://arxiv.org/pdf/2212.10560.pdf>Self-Instruct</a> (2023), <a href=https://arxiv.org/pdf/2306.02707.pdf>Orca</a> (2023), and <a href=https://arxiv.org/pdf/2203.02155.pdf>InstructGPT</a> (2022).</p><h2 id=favorites-from-this-repo>Favorites from this repo</h2><ol><li><a href=https://huggingface.co/dfurman/Llama-2-70B-Instruct-v0.1>dfurman/Llama-2-70B-Instruct-v0.1</a><ul><li><em>Note</em>: This model was ranked 6th on 🤗&rsquo;s Open LLM Leaderboard in Aug 2023</li></ul></li><li><a href=https://huggingface.co/dfurman/Yi-6B-Instruct-v0.1>dfurman/Yi-6B-Instruct-v0.1</a></li><li><a href=https://huggingface.co/dfurman/Mistral-7B-Instruct-v0.1>dfurman/Mistral-7B-Instruct-v0.1</a></li><li><a href=https://huggingface.co/dfurman/Falcon-180B-Instruct-v0.1>dfurman/Falcon-180B-Instruct-v0.1</a></li></ol><h2 id=basic-usage>Basic usage</h2><p><em>Note</em>: Use the code below to get started with the sft models herein, as ran on 1x A100.</p><p><strong>dfurman/Mistral-7B-Instruct-v0.1</strong></p><details><summary>Setup</summary><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=err>!</span><span class=n>pip</span> <span class=n>install</span> <span class=o>-</span><span class=n>q</span> <span class=o>-</span><span class=n>U</span> <span class=n>transformers</span> <span class=n>peft</span> <span class=n>torch</span> <span class=n>accelerate</span> <span class=n>einops</span> <span class=n>sentencepiece</span>
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3
 </span><span class=lnt>4
 </span><span class=lnt>5
 </span><span class=lnt>6
-</span><span class=lnt>7
-</span><span class=lnt>8
-</span><span class=lnt>9
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=err>!</span><span class=n>pip</span> <span class=n>install</span> <span class=o>-</span><span class=n>q</span> <span class=o>-</span><span class=n>U</span> <span class=n>transformers</span> <span class=n>peft</span> <span class=n>torch</span> <span class=n>accelerate</span> <span class=n>bitsandbytes</span> <span class=n>einops</span> <span class=n>sentencepiece</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>torch</span>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>torch</span>
 </span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>peft</span> <span class=kn>import</span> <span class=n>PeftModel</span><span class=p>,</span> <span class=n>PeftConfig</span>
 </span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>transformers</span> <span class=kn>import</span> <span class=p>(</span>
 </span></span><span class=line><span class=cl>    <span class=n>AutoModelForCausalLM</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>    <span class=n>AutoTokenizer</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>BitsAndBytesConfig</span><span class=p>,</span>
 </span></span><span class=line><span class=cl><span class=p>)</span>
 </span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
@@ -45,10 +41,7 @@
 </span><span class=lnt>18
 </span><span class=lnt>19
 </span><span class=lnt>20
-</span><span class=lnt>21
-</span><span class=lnt>22
-</span><span class=lnt>23
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>peft_model_id</span> <span class=o>=</span> <span class=s2>&#34;dfurman/Yi-6B-instruct-v0.1&#34;</span>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>peft_model_id</span> <span class=o>=</span> <span class=s2>&#34;dfurman/Mistral-7B-Instruct-v0.1&#34;</span>
 </span></span><span class=line><span class=cl><span class=n>config</span> <span class=o>=</span> <span class=n>PeftConfig</span><span class=o>.</span><span class=n>from_pretrained</span><span class=p>(</span><span class=n>peft_model_id</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=n>tokenizer</span> <span class=o>=</span> <span class=n>AutoTokenizer</span><span class=o>.</span><span class=n>from_pretrained</span><span class=p>(</span>
@@ -56,22 +49,43 @@
 </span></span><span class=line><span class=cl>    <span class=n>use_fast</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>    <span class=n>trust_remote_code</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span>
 </span></span><span class=line><span class=cl><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>bnb_config</span> <span class=o>=</span> <span class=n>BitsAndBytesConfig</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>    <span class=n>load_in_4bit</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>bnb_4bit_quant_type</span><span class=o>=</span><span class=s2>&#34;nf4&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>bnb_4bit_compute_dtype</span><span class=o>=</span><span class=n>torch</span><span class=o>.</span><span class=n>bfloat16</span><span class=p>,</span>
-</span></span><span class=line><span class=cl><span class=p>)</span>
+</span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=n>model</span> <span class=o>=</span> <span class=n>AutoModelForCausalLM</span><span class=o>.</span><span class=n>from_pretrained</span><span class=p>(</span>
 </span></span><span class=line><span class=cl>    <span class=n>config</span><span class=o>.</span><span class=n>base_model_name_or_path</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>quantization_config</span><span class=o>=</span><span class=n>bnb_config</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>torch_dtype</span><span class=o>=</span><span class=n>torch</span><span class=o>.</span><span class=n>float16</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>    <span class=n>device_map</span><span class=o>=</span><span class=s2>&#34;auto&#34;</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>    <span class=n>trust_remote_code</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span>
 </span></span><span class=line><span class=cl><span class=p>)</span>
+</span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=n>model</span> <span class=o>=</span> <span class=n>PeftModel</span><span class=o>.</span><span class=n>from_pretrained</span><span class=p>(</span>
 </span></span><span class=line><span class=cl>    <span class=n>model</span><span class=p>,</span> 
 </span></span><span class=line><span class=cl>    <span class=n>peft_model_id</span>
 </span></span><span class=line><span class=cl><span class=p>)</span>
-</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span></span></code></pre></td></tr></table></div></div></details><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>messages</span> <span class=o>=</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>    <span class=p>{</span><span class=s2>&#34;role&#34;</span><span class=p>:</span> <span class=s2>&#34;user&#34;</span><span class=p>,</span> <span class=s2>&#34;content&#34;</span><span class=p>:</span> <span class=s2>&#34;Tell me a recipe for a mai tai.&#34;</span><span class=p>},</span>
+</span></span><span class=line><span class=cl><span class=p>]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\n\n</span><span class=s2>*** Prompt:&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>input_ids</span> <span class=o>=</span> <span class=n>tokenizer</span><span class=o>.</span><span class=n>apply_chat_template</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>    <span class=n>messages</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>tokenize</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=n>return_tensors</span><span class=o>=</span><span class=s2>&#34;pt&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>tokenizer</span><span class=o>.</span><span class=n>decode</span><span class=p>(</span><span class=n>input_ids</span><span class=p>[</span><span class=mi>0</span><span class=p>]))</span>
+</span></span></code></pre></td></tr></table></div></div><details><summary>Prompt</summary><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=s2>&#34;&lt;s&gt; [INST] Tell me a recipe for a mai tai. [/INST]&#34;</span>
+</span></span></code></pre></td></tr></table></div></div></details><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
@@ -90,30 +104,10 @@
 </span><span class=lnt>17
 </span><span class=lnt>18
 </span><span class=lnt>19
-</span><span class=lnt>20
-</span><span class=lnt>21
-</span><span class=lnt>22
-</span><span class=lnt>23
-</span><span class=lnt>24
-</span><span class=lnt>25
-</span><span class=lnt>26
-</span><span class=lnt>27
-</span><span class=lnt>28
-</span><span class=lnt>29
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>messages</span> <span class=o>=</span> <span class=p>[</span>
-</span></span><span class=line><span class=cl>    <span class=p>{</span><span class=s2>&#34;role&#34;</span><span class=p>:</span> <span class=s2>&#34;system&#34;</span><span class=p>,</span> <span class=s2>&#34;content&#34;</span><span class=p>:</span> <span class=s2>&#34;You are a helpful assistant. Respond as briefly as possible.&#34;</span><span class=p>},</span>    
-</span></span><span class=line><span class=cl>    <span class=p>{</span><span class=s2>&#34;role&#34;</span><span class=p>:</span> <span class=s2>&#34;user&#34;</span><span class=p>,</span> <span class=s2>&#34;content&#34;</span><span class=p>:</span> <span class=s2>&#34;Tell me a recipe for a mai tai.&#34;</span><span class=p>},</span>
-</span></span><span class=line><span class=cl><span class=p>]</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\n\n</span><span class=s2>*** Prompt:&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>prompt</span> <span class=o>=</span> <span class=n>tokenizer</span><span class=o>.</span><span class=n>apply_chat_template</span><span class=p>(</span><span class=n>messages</span><span class=p>,</span> <span class=n>tokenize</span><span class=o>=</span><span class=kc>False</span><span class=p>,</span> <span class=n>add_generation_prompt</span><span class=o>=</span><span class=kc>True</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>prompt</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\n\n</span><span class=s2>*** Generate:&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>input_ids</span> <span class=o>=</span> <span class=n>tokenizer</span><span class=p>(</span><span class=n>prompt</span><span class=p>,</span> <span class=n>return_tensors</span><span class=o>=</span><span class=s2>&#34;pt&#34;</span><span class=p>)</span><span class=o>.</span><span class=n>input_ids</span><span class=o>.</span><span class=n>cuda</span><span class=p>()</span>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\n\n</span><span class=s2>*** Generate:&#34;</span><span class=p>)</span>
 </span></span><span class=line><span class=cl><span class=k>with</span> <span class=n>torch</span><span class=o>.</span><span class=n>autocast</span><span class=p>(</span><span class=s2>&#34;cuda&#34;</span><span class=p>,</span> <span class=n>dtype</span><span class=o>=</span><span class=n>torch</span><span class=o>.</span><span class=n>bfloat16</span><span class=p>):</span>
 </span></span><span class=line><span class=cl>    <span class=n>output</span> <span class=o>=</span> <span class=n>model</span><span class=o>.</span><span class=n>generate</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>        <span class=n>input_ids</span><span class=o>=</span><span class=n>input_ids</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>        <span class=n>input_ids</span><span class=o>=</span><span class=n>input_ids</span><span class=o>.</span><span class=n>cuda</span><span class=p>(),</span>
 </span></span><span class=line><span class=cl>        <span class=n>max_new_tokens</span><span class=o>=</span><span class=mi>1024</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>        <span class=n>do_sample</span><span class=o>=</span><span class=kc>True</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>        <span class=n>temperature</span><span class=o>=</span><span class=mf>0.7</span><span class=p>,</span>
@@ -129,10 +123,24 @@
 </span></span><span class=line><span class=cl>    <span class=n>skip_special_tokens</span><span class=o>=</span><span class=kc>True</span>
 </span></span><span class=line><span class=cl><span class=p>)</span>
 </span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>response</span><span class=p>)</span>
-</span></span></code></pre></td></tr></table></div></div><details><summary>Output</summary><p><strong>Prompt</strong>: &lt;|im_start|>system
-You are a helpful assistant. Respond as briefly as possible.&lt;|im_end|>
-&lt;|im_start|>user
-Tell me a recipe for a mai tai.&lt;|im_end|>
-&lt;|im_start|>assistant</p><p><strong>Generation</strong>: Here&rsquo;s one simple version of the classic Mai Tai cocktail:</p><p>1 oz White Rum (Bacardi, Don Papa, etc.) ➕ ½ oz Coconut Cream Liqueur (Malibu or Coco Lopez)
-2 tsp Simple Syrup ➕ Dash Orange Bitters
-3-4 Ice Cubes</p><p>Shake all ingredients in a shaker filled with ice until well chilled and strain into an old fashioned glass over fresh crushed ice. Garnish with mint leaves if desired. Enjoy!</p></details><h2 id=base-models-and-datasets>Base models and datasets</h2><p>We finetune off of the following base models in this repo:</p><ul><li><a href=https://huggingface.co/01-ai>yi</a></li><li><a href=https://huggingface.co/mistralai/Mistral-7B-v0.1>mistral</a></li><li><a href=https://huggingface.co/meta-llama/Llama-2-70b-hf>llama-2</a></li><li><a href=https://huggingface.co/tiiuae/falcon-180B>falcon</a></li><li><a href=https://huggingface.co/mosaicml/mpt-7b>mpt</a></li></ul><p>We use the following datasets in this repo:</p><ul><li><a href=https://huggingface.co/datasets/ehartford/dolphin>ehartford/dolphin</a></li><li><a href=https://huggingface.co/datasets/jondurbin/airoboros-2.2.1>jondurbin/airoboros-2.2.1</a></li><li><a href=https://huggingface.co/datasets/garage-bAInd/Open-Platypus>garage-bAInd/Open-Platypus</a></li><li><a href=https://huggingface.co/datasets/timdettmers/openassistant-guanaco>timdettmers/openassistant-guanaco</a></li></ul><hr></div></div><html><body><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://daniel-furman.github.io/><small>By Daniel Furman</small></a></div></div></body><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css integrity=sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js integrity=sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O crossorigin=anonymous></script></html></body></html>
+</span></span></code></pre></td></tr></table></div></div><details><summary>Generation</summary><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=s2>&#34;&#34;&#34;1 oz light rum
+</span></span></span><span class=line><span class=cl><span class=s2>½ oz dark rum
+</span></span></span><span class=line><span class=cl><span class=s2>¼ oz orange curaçao
+</span></span></span><span class=line><span class=cl><span class=s2>2 oz pineapple juice
+</span></span></span><span class=line><span class=cl><span class=s2>¾ oz lime juice
+</span></span></span><span class=line><span class=cl><span class=s2>Dash of orgeat syrup (optional)
+</span></span></span><span class=line><span class=cl><span class=s2>Splash of grenadine (for garnish, optional)
+</span></span></span><span class=line><span class=cl><span class=s2>Lime wheel and cherry garnishes (optional)
+</span></span></span><span class=line><span class=cl><span class=s2>
+</span></span></span><span class=line><span class=cl><span class=s2>Shake all ingredients except the splash of grenadine in a cocktail shaker over ice. Strain into an old-fashioned glass filled with fresh ice cubes. Gently pour the splash of grenadine down the side of the glass so that it sinks to the bottom. Add garnishes as desired.&#34;&#34;&#34;</span>
+</span></span></code></pre></td></tr></table></div></div></details><h2 id=base-models-and-datasets>Base models and datasets</h2><p>We finetune off of the following base models in this repo:</p><ul><li><a href=https://huggingface.co/01-ai>yi</a></li><li><a href=https://huggingface.co/mistralai/Mistral-7B-v0.1>mistral</a></li><li><a href=https://huggingface.co/meta-llama/Llama-2-70b-hf>llama-2</a></li><li><a href=https://huggingface.co/tiiuae/falcon-180B>falcon</a></li><li><a href=https://huggingface.co/mosaicml/mpt-7b>mpt</a></li></ul><p>We use the following datasets in this repo:</p><ul><li><a href=https://huggingface.co/datasets/ehartford/dolphin>ehartford/dolphin</a></li><li><a href=https://huggingface.co/datasets/jondurbin/airoboros-2.2.1>jondurbin/airoboros-2.2.1</a></li><li><a href=https://huggingface.co/datasets/garage-bAInd/Open-Platypus>garage-bAInd/Open-Platypus</a></li><li><a href=https://huggingface.co/datasets/timdettmers/openassistant-guanaco>timdettmers/openassistant-guanaco</a></li></ul><hr></div></div><html><body><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://daniel-furman.github.io/><small>By Daniel Furman</small></a></div></div></body><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css integrity=sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js integrity=sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O crossorigin=anonymous></script></html></body></html>
