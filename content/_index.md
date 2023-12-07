@@ -8,7 +8,7 @@ title = "About"
 
 ## Hello there 👋
 
-I am currently a Data Scientist at West Monroe Partners, expanding what’s possible with data in business consulting. I completed my Master's in Information Management & Systems at UC Berkeley and my Bachelor's in Mathematics at Penn. I have applied machine learning across modalities (tabular, natural language, images, geospatial) and industries (high-tech & software, M&A, IT strategy).
+I am currently a Data Scientist at West Monroe, expanding what’s possible with data in business consulting. I completed my Master's in Information Management & Systems at UC Berkeley and my Bachelor's in Mathematics at Penn. Throughout my career, I have applied machine learning across modalities (tabular, text, images, geospatial) and verticals (high-tech & software, M&A, IT strategy).
 
 Follow me on <a href="https://www.linkedin.com/in/daniel-ryan-furman/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://medium.com/@daniel_furman" target="_blank" rel="noopener noreferrer">Medium</a>, <a href="https://huggingface.co/dfurman" target="_blank" rel="noopener noreferrer">Hugging Face</a>, and <a href="https://github.com/daniel-furman" target="_blank" rel="noopener noreferrer">GitHub</a>.
 
